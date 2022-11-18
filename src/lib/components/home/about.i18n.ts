@@ -25,7 +25,7 @@ export default {
 	},
 	proof_of_stake_v3: {
 		zh: '权益证明3.0' /*Chinese*/,
-		es: 'PRUEBA DE ESTACA 3.0' /*Spanish*/,
+		es: 'PRUEBA DE PARTICIPACIÓN 3.0' /*Spanish*/,
 		en: 'PROOF OF STAKE 3.0' /*English*/,
 		hi: 'केक का प्रमाण 3.0' /*Hindi*/,
 		ar: 'إثبات الرهان 3.0' /*Arabic - Right-to-left*/,
@@ -49,7 +49,7 @@ export default {
 	},
 	users_who_stake: {
 		zh: '通过放样打开钱包以保护网络安全的用户每年将获得1％到8％的奖励（根据网络权重的不同而不同）。 ' /*Chinese*/,
-		es: 'Los usuarios que mantengan su billetera abierta para asegurar la red a través del staking obtendrán recompensas del 1% al 8% por año (varía según el peso de la red). ' /*Spanish*/,
+		es: 'Los usuarios que mantengan su billetera abierta para asegurar la red a través del "staking" obtendrán recompensas del 1% al 8% al año (varía según el peso de la red). ' /*Spanish*/,
 		en: 'Users who keep their wallet open to secure the network via staking will get from 1% to 8% rewards per year (varies according to network weight). ' /*English*/,
 		hi: 'वे उपयोगकर्ता जो स्टेकिंग के माध्यम से नेटवर्क को सुरक्षित करने के लिए अपने बटुए को खुले रखते हैं, उन्हें प्रति वर्ष 1% से 8% पुरस्कार (नेटवर्क वजन के अनुसार भिन्न होता है) मिलेगा। ' /*Hindi*/,
 		ar: 'سيحصل المستخدمون الذين يبقون محفظتهم مفتوحة لتأمين الشبكة عبر Staking على مكافآت تتراوح من 1٪ إلى 8٪ سنويًا (تختلف وفقًا لوزن الشبكة). ' /*Arabic - Right-to-left*/,
@@ -73,7 +73,7 @@ export default {
 	},
 	read_more: {
 		zh: '阅读更多...' /*Chinese*/,
-		es: 'Lee mas...' /*Spanish*/,
+		es: 'Leer mas...' /*Spanish*/,
 		en: 'Read More...' /*English*/,
 		hi: 'अधिक पढ़ें...' /*Hindi*/,
 		ar: 'اقرأ أكثر...' /*Arabic - Right-to-left*/,
@@ -97,7 +97,7 @@ export default {
 	},
 	eco_friendly: {
 		zh: '环保的' /*Chinese*/,
-		es: 'RESPETUOSO DEL MEDIO AMBIENTE' /*Spanish*/,
+		es: 'RESPETUOSO CON EL MEDIO AMBIENTE' /*Spanish*/,
 		en: 'ECO-FRIENDLY' /*English*/,
 		hi: 'पर्यावरण के अनुकूल' /*Hindi*/,
 		ar: 'صديقة للبيئة' /*Arabic - Right-to-left*/,
@@ -116,12 +116,12 @@ export default {
 		vi: 'THÂN THIỆN VỚI MÔI TRƯỜNG' /*Vietnamese*/,
 		ur: 'ماحول دوست' /*Urdu - Right-to-left*/,
 		nl: 'MILIEUVRIENDELIJK' /*Dutch*/,
-		it: 'ECOLOGICO' /*Italian*/,
+		it: 'ECOLOGICO' /*Italian*/,        
 		hr: 'EKO-PRIJATELJSKI' /*Croatian*/
 	},
 	no_mining: {
 		zh: '基于权益证明。不再需要耗电的采矿硬件。' /*Chinese*/,
-		es: 'Basado en prueba de participación. No más hardware de minería que consume mucha energía.' /*Spanish*/,
+		es: 'Basado en prueba de participación. No más hardware de minería hambriento de energía.' /*Spanish*/,
 		en: 'Based on Proof-of-Stake. No more power hungry mining hardware.' /*English*/,
 		hi: 'प्रूफ ऑफ स्टेक के आधार पर। कोई और अधिक बिजली भूखा खनन हार्डवेयर।' /*Hindi*/,
 		ar: 'بناء على إثبات الحصة. لا مزيد من أجهزة التعدين المتعطشة للطاقة.' /*Arabic - Right-to-left*/,
@@ -145,7 +145,7 @@ export default {
 	},
 	transparent_ledger: {
 		zh: '透明LEDGER' /*Chinese*/,
-		es: 'LEDGER TRANSPARENTE' /*Spanish*/,
+		es: 'LIBRO CONTABLE TRANSPARENTE' /*Spanish*/,
 		en: 'TRANSPARENT LEDGER' /*English*/,
 		hi: 'पारदर्शी LEDGER' /*Hindi*/,
 		ar: 'ليدجر شفاف' /*Arabic - Right-to-left*/,
@@ -169,7 +169,7 @@ export default {
 	},
 	entirely_transparent: {
 		zh: '每个人都共享分类帐历史，因此它是完全透明的。' /*Chinese*/,
-		es: 'Todos comparten el historial del libro mayor, por lo que es completamente transparente.' /*Spanish*/,
+		es: 'Todos comparten el historial del libro contable, por lo que es completamente transparente.' /*Spanish*/,
 		en: "Everyone shares the ledger history, so it's entirely transparent." /*English*/,
 		hi: 'हर कोई खाता बही का इतिहास साझा करता है, इसलिए यह पूरी तरह से पारदर्शी है।' /*Hindi*/,
 		ar: 'يشارك الجميع تاريخ دفتر الأستاذ ، لذا فهو شفاف تمامًا.' /*Arabic - Right-to-left*/,
@@ -217,7 +217,7 @@ export default {
 	},
 	can_be_audited: {
 		zh: '该软件（钱包）是开源的，因此可以对其安全性进行审核。' /*Chinese*/,
-		es: 'El software (billetera) es de código abierto, por lo que se puede auditar su seguridad.' /*Spanish*/,
+		es: 'El software (billetera) es de código abierto, por lo que su seguridad es auditable .' /*Spanish*/,
 		en: 'The software (wallet) is open source, so its safety can be audited.' /*English*/,
 		hi: 'सॉफ्टवेयर (वॉलेट) खुला स्रोत है, इसलिए इसकी सुरक्षा का ऑडिट किया जा सकता है।' /*Hindi*/,
 		ar: 'البرنامج (المحفظة) مفتوح المصدر ، لذا يمكن تدقيق سلامته.' /*Arabic - Right-to-left*/,
@@ -265,7 +265,7 @@ export default {
 	},
 	to_anyone_in_seconds: {
 		zh: '速度非常快，您可以在几秒钟内将钱汇给世界上任何人。' /*Chinese*/,
-		es: 'Es extremadamente rápido, puede enviar dinero a cualquier persona en el mundo en segundos.' /*Spanish*/,
+		es: 'Es extremadamente rápido, en segundos, podes enviar dinero a cualquier persona en el mundo.' /*Spanish*/,
 		en: 'It is extremely fast, you can send money to anyone in the world within seconds.' /*English*/,
 		hi: 'यह बहुत तेज है, आप सेकंड के भीतर दुनिया में किसी को भी पैसा भेज सकते हैं।' /*Hindi*/,
 		ar: 'إنه سريع للغاية ، يمكنك إرسال الأموال إلى أي شخص في العالم في غضون ثوانٍ.' /*Arabic - Right-to-left*/,
