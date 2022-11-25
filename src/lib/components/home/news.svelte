@@ -18,7 +18,7 @@
 	<br />
 	<div class="newsBox">
 		<div class="title">
-			<h2>{i18n(newsI18n, 'latest_news', lang)}</h2>
+			<h2>{i18n(newsI18n, 'latest', lang)}</h2>
 		</div>
 		<ul class="innerBox">
 			<li>
@@ -41,7 +41,7 @@
 		padding: 0;
 	}
 	h2 {
-		margin-left: 1rem;
+		margin-left: 0rem;
 		font-size: 13px;
 		font-weight: 900;
 		align-self: center;
