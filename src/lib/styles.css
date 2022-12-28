@@ -79,9 +79,6 @@ header span {
 	font-size: xx-large;
 	margin-left: 6vw;
 }
-.slot-container {
-	padding-top: 5rem;
-}
 .row {
 	display: flex;
 	flex-flow: row wrap;

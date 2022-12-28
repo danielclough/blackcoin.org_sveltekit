@@ -46,6 +46,7 @@
 	}
 	h1 {
 		text-align: center;
+		padding-top: 6rem;
 	}
 	.grid {
 		display: grid;

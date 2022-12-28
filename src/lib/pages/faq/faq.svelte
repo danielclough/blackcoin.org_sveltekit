@@ -49,6 +49,9 @@
 
 
 <style>
+	h1 {
+		padding-top: 6rem;
+	}
 	h1, h2 {
 		text-align: center;
 	}

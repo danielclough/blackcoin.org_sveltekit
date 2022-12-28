@@ -6,12 +6,13 @@
 	import MenuItems from './menu-items.svelte';
 
 	export let lang;
-
+	export let y = 0;
 	$: open = false;
 </script>
 
+<svelte:window bind:scrollY={y}/>
 <nav id="navbar">
-	<div class="bar">
+	<div class="bar" style={y !== 0 ? "background-image: linear-gradient(#222, #111, #000, #000, transparent);" : "background: transparent"}>
 		<a id="nav-logo" href="/{i18n(navI18n, 'locale', lang)}/">
 			<picture>
 				<source srcset="/images/blkb.webp" type="image/webp" />
@@ -55,9 +56,9 @@ a {
 #navbar {
 	width: 100%;
 	position: fixed;
+	top: 0;
 	z-index: 100;
 	height: auto;
-	background-color: #000;
 	margin-top: 0;
 	display: flex;
 	justify-content: space-around;
@@ -77,7 +78,6 @@ a {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-image: linear-gradient(#222, #111, #000, #000, transparent);
 }
 
 .btns {
