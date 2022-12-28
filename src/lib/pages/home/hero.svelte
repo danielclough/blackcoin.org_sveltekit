@@ -69,6 +69,7 @@
 	}
 	.hero .content-wrapper .content {
 		text-align: center;
+		padding-top: 4rem;
 	}
 	.hero {
 		color: #ececec;
