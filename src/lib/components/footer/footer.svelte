@@ -35,7 +35,7 @@
 		margin: .75rem;
 	}
 	.copyright {
-		width: 50%;
+		text-align: center;
 	}
 	/* @media (min-aspect-ratio: 17/10) {}
 	@media (min-width: 1080px) {}

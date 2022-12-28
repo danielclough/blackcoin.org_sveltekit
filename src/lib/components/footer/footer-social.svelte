@@ -25,7 +25,8 @@
 			/* display: inline-flex;
 			justify-content: center;
 			flex-wrap: wrap; */
-			width: 85%;
+			width: 70%;
+			margin-left: 15%;
 		}
 	}
 </style>
