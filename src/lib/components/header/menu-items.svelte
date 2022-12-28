@@ -1,6 +1,7 @@
 <script>
 	export let lang;
 	export let open;
+	export let y;
 	$: markets = false;
 	$: links = false;
 	const linkArr = [
@@ -39,12 +40,15 @@
 	];
 	import i18n from '$lib/i18n';
 	import navI18n from './nav.i18n';
+	const openClose = () => {
+		!!links ? (links = false) : (links = true);
+		y === 0 ? y = 1 : null;
+	}
 </script>
 
 <ul id="main-menu">
 	<li>
 		<a
-			on:click={() => (!!open ? (open = false) : (open = true))}
 			href="/{i18n(navI18n, 'locale', lang)}/#about"
 		>
 			{i18n(navI18n, 'about', lang)}
@@ -52,7 +56,6 @@
 	</li>
 	<li>
 		<a
-			on:click={() => (!!open ? (open = false) : (open = true))}
 			href="/{i18n(navI18n, 'locale', lang)}/#downloads"
 		>
 			{i18n(navI18n, 'download', lang)}
@@ -60,7 +63,6 @@
 	</li>
 	<li>
 		<a
-			on:click={() => (!!open ? (open = false) : (open = true))}
 			href="/{i18n(navI18n, 'locale', lang)}/donations"
 		>
 			{i18n(navI18n, 'donations', lang)}
@@ -68,7 +70,6 @@
 	</li>
 	<li id="faq">
 		<a
-			on:click={() => (!!open ? (open = false) : (open = true))}
 			href="/{i18n(navI18n, 'locale', lang)}/faq"
 		>
 			<span>
@@ -92,7 +93,7 @@
         </ul>
     </li>
 	 -->
-	<li id="linksBtn" on:click={() => (!!links ? (links = false) : (links = true))}>
+	<li id="linksBtn" on:click={() => openClose()}>
 		{i18n(navI18n, 'links', lang)}
 
 		<ul id="links" style="display:{!!links ? 'flex' : 'none'};">
@@ -155,23 +156,6 @@ li {
 #navbar ul.nav-menu > li > ul > li ul {
 	left: 0%;
 	top: 0px;
-}
-
-#markets {
-	position: fixed !important;
-	left: 0;
-	background-color: rgb(17, 17, 17);
-	width: 100%;
-	align-content: center;
-	display: flex;
-	justify-content: space-around;
-	height: 30vh;
-	overflow-y: scroll;
-	-ms-overflow-style: none;
-	/* IE and Edge */
-	scrollbar-width: none;
-	/* Firefox */
-	z-index: 10;
 }
 
 #navbar ul li ul {

@@ -4,11 +4,17 @@
 	import SELECT_LANGUAGE from './lang-select.i18n';
 	import HiddenLinks from './hidden-links.svelte';
 	export let lang;
+	export let y;
 	$: menuOpen = false;
+
+	const openClose = () => {
+		!!menuOpen ? (menuOpen = false) : (menuOpen = true);
+		y === 0 ? y = 1 : null;
+	}
 </script>
 
 <ul id="lang-select">
-	<button id="menuOpener" on:click={() => (!!menuOpen ? (menuOpen = false) : (menuOpen = true))}
+	<button id="menuOpener" on:click={() => openClose()}
 		>{SELECT_LANGUAGE[lang] || SELECT_LANGUAGE['en']}</button
 	>
 	<ul id="menu-locale" style="display: {!!menuOpen ? 'flex' : 'none'};">

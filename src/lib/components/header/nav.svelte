@@ -22,14 +22,14 @@
 		</a>
 
 		{#if open}
-			<MenuItems {lang} bind:open />
+			<MenuItems {lang} bind:y bind:open />
 		{/if}
 		<div class="display-fullscreen">
-			<MenuItems {lang} {open} />
+			<MenuItems {lang} bind:y {open} />
 		</div>
 
 		<div class="btns">
-			<LangSelect {lang} />
+			<LangSelect {lang} bind:y />
 			<div id="burger">
 				<Hamburger bind:open --type="spin" --color="white" />
 			</div>
