@@ -117,7 +117,7 @@
 			line-height: 1.5rem;
 		}
 		.content, .date {
-			font-size: 20px;
+			font-size: 17.5px;
 		}
 		.newsBox {
 			height: 4rem;
