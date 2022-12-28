@@ -9,6 +9,7 @@
 
 	const openClose = () => {
 		!!menuOpen ? (menuOpen = false) : (menuOpen = true);
+		// move y pos down in order to make navbar black
 		y === 0 ? y = 1 : null;
 	}
 </script>

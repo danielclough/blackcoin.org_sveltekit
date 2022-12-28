@@ -42,6 +42,7 @@
 	import navI18n from './nav.i18n';
 	const openClose = () => {
 		!!links ? (links = false) : (links = true);
+		// move y pos down in order to make navbar black
 		y === 0 ? y = 1 : null;
 	}
 </script>
