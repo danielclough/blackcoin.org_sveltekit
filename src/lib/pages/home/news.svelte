@@ -110,7 +110,7 @@
 	}
 	@media (min-width: 1080px) {
 		.title {
-			width: 22%;
+			width: 25%;
 		}
 		h2 {
 			font-size: 1.5rem;
