@@ -33,10 +33,11 @@
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: center;
+		margin-left: -1rem;
 	}
 	li {
 		width: 30%;
-		margin: 1%;
+		margin: .5%;
 	}
 
 	@media (min-width: 700px) {
