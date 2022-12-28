@@ -62,7 +62,7 @@
 	overflow-x: hidden;
 	position: absolute;
 	right: 0;
-	top: 6rem;
+	top: 5rem;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: space-around;
@@ -88,10 +88,6 @@
 }
 
 @media (min-width: 700px) {
-	#menu-locale {
-		top: 7.5rem;
-	}
-
 	#menu-locale a {
 		font-size: x-large;
 	}
@@ -104,7 +100,6 @@
 
 @media (min-width: 1080px) {
 	#menu-locale {
-		top: 5rem;
 		background-color: #000;
 	}
 
