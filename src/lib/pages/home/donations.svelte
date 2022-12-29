@@ -13,12 +13,12 @@
 	<div class="bg-overlay">
 		<div class="container">
 			<center>
+				<h2 class="golden">
+					{i18n(donationsI18n, 'donations', lang)}
+				</h2>
 				<h3 id="support">
 					<span style="color: #ffffff;">{i18n(donationsI18n, 'support_blackcoin', lang)}</span>
 				</h3>
-				<h4 class="golden">
-					{i18n(donationsI18n, 'donations', lang)}
-				</h4>
 			</center>
 			<center>
 				<p>
@@ -45,9 +45,6 @@
 <style>
 	p {
 		font-size: 1.5rem;
-	}
-	h3 {
-		font-size: 3vw;
 	}
 	.addr {
 		font-size: 1.7rem;
