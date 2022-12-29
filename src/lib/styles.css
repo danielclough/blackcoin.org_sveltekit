@@ -33,7 +33,15 @@ button {
 	letter-spacing: 0.1vw;
 	text-transform: uppercase;
 }
-
+h2 {
+	font-size: 0.8rem;
+	font-weight: 500;
+	align-self: center;
+	text-align: center;
+	background: -webkit-linear-gradient(#fff, #fea, #fd6);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 p,
 h3,
 span {

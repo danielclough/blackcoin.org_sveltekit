@@ -46,15 +46,6 @@
 		flex-direction: row;
 		align-content: center;
 	}
-	h2 {
-		font-size: 0.8rem;
-		font-weight: 500;
-		align-self: center;
-		text-align: center;
-		background: -webkit-linear-gradient(#fff, #fea, #fd6);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-	}
 	.content {
 		font-size: 12px;
 		font-weight: 300;
