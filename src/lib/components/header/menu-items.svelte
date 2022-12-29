@@ -50,6 +50,7 @@
 <ul id="main-menu">
 	<li>
 		<a
+			on:click={() => open = !open}
 			href="/{i18n(navI18n, 'locale', lang)}/#about"
 		>
 			{i18n(navI18n, 'about', lang)}
@@ -57,6 +58,7 @@
 	</li>
 	<li>
 		<a
+			on:click={() => open = !open}
 			href="/{i18n(navI18n, 'locale', lang)}/#downloads"
 		>
 			{i18n(navI18n, 'download', lang)}
@@ -64,6 +66,7 @@
 	</li>
 	<li>
 		<a
+			on:click={() => open = !open}
 			href="/{i18n(navI18n, 'locale', lang)}/donations"
 		>
 			{i18n(navI18n, 'donations', lang)}
@@ -71,6 +74,7 @@
 	</li>
 	<li id="faq">
 		<a
+			on:click={() => open = !open}
 			href="/{i18n(navI18n, 'locale', lang)}/faq"
 		>
 			<span>
@@ -100,7 +104,8 @@
 		<ul id="links" style="display:{!!links ? 'flex' : 'none'};">
 			<button class="x">X</button>
 			{#each linkArr as l}
-				<li>
+				<li
+					on:click={() => open = !open}>
 					<a rel="noopener" target="_blank noreferer" href={l.url}>
 						{l.title}
 					</a>
