@@ -37,7 +37,7 @@ button {
 p,
 h3,
 span {
-	font-family: Palatino, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+	font-family: sans-serif, Apple Color Emoji, Segoe UI Emoji;
 	letter-spacing: 0.1vw;
 }
 ul {
@@ -45,7 +45,7 @@ ul {
 }
 
 li {
-	font-family: Palatino, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+	font-family: sans-serif, Apple Color Emoji, Segoe UI Emoji;
 	font-weight: 300;
 	letter-spacing: 0.1vw;
 	list-style-type: none;

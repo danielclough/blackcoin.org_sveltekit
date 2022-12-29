@@ -100,13 +100,13 @@
 		}
 		span {
 			letter-spacing: 0.15rem;
-		}
-		.content, .date {
 			font-size: 15px;
 		}
-		.date {
+		/* .content, .date {
+		} */
+		/* .date {
 			font-size: 13px;
-		}
+		} */
 	}
 	@media (min-width: 1080px) {
 		.title {
