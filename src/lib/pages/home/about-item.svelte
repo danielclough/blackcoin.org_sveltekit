@@ -28,7 +28,7 @@
 			<i class="icon">{icon}</i>
 		</div>
 	</div>
-	<hr class="hide-on-desktop" id="hr-text" data-content={!!down ? "🞁" : "🞃"}>
+	<hr class="hide-on-desktop" id="hr-text" data-content={!!down ? "" : "..."}>
 
 	{#if down === true || desktop}
 		<p>
