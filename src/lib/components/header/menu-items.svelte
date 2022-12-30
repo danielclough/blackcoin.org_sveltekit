@@ -21,16 +21,16 @@
 			url: 'https://blackcoin.nl',
 			title: 'BlackcoinNL'
 		},
-		{
-			url: 'https://node.blackcoin.io/insight/',
-			title: `Blacksight ${i18n(navI18n, 'explorer', lang)}`
-		},
+		// {
+		// 	url: 'https://node.blackcoin.io/insight/',
+		// 	title: `Blacksight ${i18n(navI18n, 'explorer', lang)}`
+		// },
 		{
 			url: 'https://bitinfocharts.com/blackcoin/',
 			title: `Bitinfocharts ${i18n(navI18n, 'explorer', lang)}`
 		},
 		{
-			url: 'https://gihub.com/coinblack/',
+			url: 'https://github.com/coinblack/',
 			title: 'Github'
 		},
 		{

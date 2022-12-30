@@ -25,7 +25,7 @@ export default [
 		alt: 'Keybase'
 	},
 	{
-		url: 'https://discord.gg/hjNUgWD',
+		url: 'https://discord.blackcoin.nl/',
 		img: '/images/social/discord.svg',
 		alt: 'Discord'
 	},
