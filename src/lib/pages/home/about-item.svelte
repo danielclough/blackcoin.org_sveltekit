@@ -28,7 +28,7 @@
 			<i class="icon">{icon}</i>
 		</div>
 	</div>
-	<hr class="hide-on-desktop" id="hr-text" data-content={!!down ? "" : "..."}>
+	<hr class="hide-on-desktop" id="hr-text" data-content={!!down ? "" : i18n(aboutI18n, a, lang)}>
 
 	{#if down === true || desktop}
 		<p>
@@ -63,25 +63,25 @@
 		margin-top: -.5rem;
 		position: relative;
 		width: 100%;
-		font-size: xxx-large;
+		font-size: small;
 		outline: 0;
 		border: 0;
 		text-align: center;
-		/* opacity: 0.9; */
+		opacity: 0.6;
 	}
 	#hr-text:before {
 		content: '';
-		background: linear-gradient(to right, transparent, #fff, transparent);
+		background: linear-gradient(to right, transparent, #ff0, transparent);
 		position: absolute;
 		left: 0;
-		top: 50%;
+		bottom: 0;
 		width: 100%;
 		height: 1px;
 	}
 	#hr-text:after {
 		content: attr(data-content);
-		color: #fff;
-		opacity: 0.6;
+		color: #ffa;
+		opacity: 0.5;
 	}
 	
 	@media (min-width: 700px) {

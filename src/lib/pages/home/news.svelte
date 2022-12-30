@@ -46,6 +46,15 @@
 		flex-direction: row;
 		align-content: center;
 	}
+	h2 {
+		font-size: .8rem;
+	}
+	.title {
+		width: 50%;
+		top: 0;
+		background-color: #a00;
+		padding: .2rem;
+	}
 	.content {
 		font-size: 12px;
 		font-weight: 300;
@@ -73,39 +82,34 @@
 		display: grid;
 		align-content: center;
 	}
-	.title {
-		width: 55%;
-		top: 0;
-		background-color: #a00;
-		padding: .2rem;
-	}
 	.innerBox {
 		right: 0;
 		top: 0;
 	}
 
-	@media (min-width: 400px) {
+	@media (min-width: 350px) {
 		h2 {
-			font-size: 1rem;
-			line-height: 1rem;
+			font-size: 4vw;
+			line-height: 4vw;
 		}
 		span {
 			letter-spacing: 0.15rem;
 			font-size: 15px;
 		}
 		.title {
-			width: 33%;
+			width: 40%;
 		}
-		/* .content, .date {
-		} */
-		/* .date {
-			font-size: 13px;
-		} */
+	}
+	@media (min-width: 700px) {
+		h2 {
+			font-size: 1.5rem;
+			line-height: 1.5rem;
+		}
+		.title {
+			width: 30%;
+		}
 	}
 	@media (min-width: 1080px) {
-		.title {
-			width: 25%;
-		}
 		h2 {
 			font-size: 1.5rem;
 			line-height: 1.5rem;
