@@ -15,7 +15,12 @@
 		<div class="about-section">
 			{#each aboutItems as item}
 				{#if item.side === 'left'}
-					<Item {...item} {lang} />
+					<div class="show-on-mobile">
+						<Item {...item} {lang} desktop={false} />
+					</div>
+					<div class="show-on-desktop">
+						<Item {...item} {lang} desktop={true} />
+					</div>
 				{/if}
 			{/each}
 		</div>
@@ -31,7 +36,12 @@
 		<div class="about-section">
 			{#each aboutItems as item}
 				{#if item.side === 'right'}
-					<Item {...item} {lang} />
+					<div class="show-on-mobile">
+						<Item {...item} {lang} desktop={false} />
+					</div>
+					<div class="show-on-desktop">
+						<Item {...item} {lang} desktop={true} />
+					</div>
 				{/if}
 			{/each}
 		</div>
@@ -39,6 +49,12 @@
 </section>
 
 <style>
+	.show-on-desktop {
+		display: none;
+	}
+	.show-on-mobile {
+		display: flex;
+	}
 	.container {
 		display: block;
 		margin: 0 auto;
@@ -47,6 +63,11 @@
 		height: auto;
 		width: 50%;
 		margin-left: 25%;
+	}
+	.about-section {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 	@media (min-width: 300px) {
 		.about-section {
@@ -70,6 +91,12 @@
 		}
 	}
 	@media (min-width: 1080px) {
+		.show-on-desktop {
+			display: block;
+		}
+		.show-on-mobile {
+			display: none;
+		}
 		.container {
 			display: flex;
 			justify-content: center;

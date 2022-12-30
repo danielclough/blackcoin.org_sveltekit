@@ -74,7 +74,7 @@
 		align-content: center;
 	}
 	.title {
-		width: 33%;
+		width: 55%;
 		top: 0;
 		background-color: #a00;
 		padding: .2rem;
@@ -84,7 +84,7 @@
 		top: 0;
 	}
 
-	@media (min-width: 700px) {
+	@media (min-width: 400px) {
 		h2 {
 			font-size: 1rem;
 			line-height: 1rem;
@@ -92,6 +92,9 @@
 		span {
 			letter-spacing: 0.15rem;
 			font-size: 15px;
+		}
+		.title {
+			width: 33%;
 		}
 		/* .content, .date {
 		} */
