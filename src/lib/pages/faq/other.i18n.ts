@@ -26,7 +26,7 @@ export default {
 	SUBTITLE: {
 		zh: `` /*Chinese*/,
 		es: `` /*Spanish*/,
-		en: `Links and downloads.` /*English*/,
+		en: `Links and Downloads.` /*English*/,
 		hi: `` /*Hindi*/,
 		ar: `` /*Arabic - Right-to-left*/,
 		pt: `` /*Portuguese*/,
@@ -107,13 +107,13 @@ export default {
 		BOOTSTRAP: {
 			zh: `` /*Chinese*/,
 			es: `` /*Spanish*/,
-			en: `BOOTSTRAP` /*English*/,
+			en: `BOOTSTRAP (Updated Weekly)` /*English*/,
 			hi: `` /*Hindi*/,
 			ar: `` /*Arabic - Right-to-left*/,
 			pt: `` /*Portuguese*/,
 			bn: `` /*Bengal*/,
 			ru: `` /*Russian*/,
-			ja: `BOOTSTRAP` /*Japanese*/,
+			ja: `` /*Japanese*/,
 			jv: `` /*Javanese*/,
 			de: `` /*German*/,
 			ko: `` /*Korean*/,
@@ -133,12 +133,9 @@ export default {
 			es: `` /*Spanish*/,
 			en: `
 			<p>
-				<a
-					href="https://mega.nz/#!R64nQARY!o8Ovl-2OLWMF6quSfpEXPEbcsmHiLhPegSnaHQXgR6I"
-					target="_blank norefer">Bootstrap: 14 May 2017</a
-				><br />
-				<a href="https://mega.nz/#F!ru5lTJSD!3Ysa0Whk4Nyztc9xfu8pjQ" target="_blank norefer"
-					>Bootstrap: 16 December 2018</a
+
+				<a href="https://static.blackcoin.one/bootstrap.dat" target="_blank norefer"
+					>BOOTSTRAP: Updated Weekly</a
 				><br />
 			</p>
 			<p>
@@ -183,8 +180,7 @@ export default {
 			bn: `` /*Bengal*/,
 			ru: `` /*Russian*/,
 			ja: `
-			<p>ブートストラップ：2017年5月14日</p>
-			<p>ブートストラップ：2018年12月16日</p>
+			<a target="_blank norefer" href="https://static.blackcoin.one/bootstrap.dat" >BOOTSTRAP</a>
 			<p>ブートストラップを使う </p>
 			<p>1. コピー＆ペーストの方法。</p>
 			<p>a) Blackcoinウォレットを閉じます。(起動している場合)</p>
@@ -214,60 +210,60 @@ export default {
 			hr: `` /*Croatian*/
 		},
 
-		INTEGRATING_BLACKCOIN_PAYMENTS: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
-			en: `INTEGRATING BLACKCOIN PAYMENTS` /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
-			ja: `ブラックコイン・ペイメントの統合` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
-		},
-		INTEGRATING_BLACKCOIN_PAYMENTS_ANSWER: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
-			en: `
-			<p>
-				<a
-					href="/"
-					target="_blank norefer">Guide for online businesses on integrating blk payments.</a
-				><br />
-			</p>` /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
-			ja: `ブラックコイン決済の統合に関するオンラインビジネスのためのガイド。` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
-		}
+		// INTEGRATING_BLACKCOIN_PAYMENTS: {
+		// 	zh: `` /*Chinese*/,
+		// 	es: `` /*Spanish*/,
+		// 	en: `INTEGRATING BLACKCOIN PAYMENTS` /*English*/,
+		// 	hi: `` /*Hindi*/,
+		// 	ar: `` /*Arabic - Right-to-left*/,
+		// 	pt: `` /*Portuguese*/,
+		// 	bn: `` /*Bengal*/,
+		// 	ru: `` /*Russian*/,
+		// 	ja: `ブラックコイン・ペイメントの統合` /*Japanese*/,
+		// 	jv: `` /*Javanese*/,
+		// 	de: `` /*German*/,
+		// 	ko: `` /*Korean*/,
+		// 	fr: `` /*French*/,
+		// 	te: `` /*Telugu*/,
+		// 	mr: `` /*Marathi*/,
+		// 	tr: `` /*Turkish*/,
+		// 	ta: `` /*Tamil*/,
+		// 	vi: `` /*Vietnamese*/,
+		// 	ur: `` /*Urdu - Right-to-left*/,
+		// 	nl: `` /*Dutch*/,
+		// 	it: `` /*Italian*/,
+		// 	hr: `` /*Croatian*/
+		// },
+		// INTEGRATING_BLACKCOIN_PAYMENTS_ANSWER: {
+		// 	zh: `` /*Chinese*/,
+		// 	es: `` /*Spanish*/,
+		// 	en: `
+		// 	<p>
+		// 		<a
+		// 			href="/"
+		// 			target="_blank norefer">Guide for online businesses on integrating blk payments.</a
+		// 		><br />
+		// 	</p>` /*English*/,
+		// 	hi: `` /*Hindi*/,
+		// 	ar: `` /*Arabic - Right-to-left*/,
+		// 	pt: `` /*Portuguese*/,
+		// 	bn: `` /*Bengal*/,
+		// 	ru: `` /*Russian*/,
+		// 	ja: `ブラックコイン決済の統合に関するオンラインビジネスのためのガイド。` /*Japanese*/,
+		// 	jv: `` /*Javanese*/,
+		// 	de: `` /*German*/,
+		// 	ko: `` /*Korean*/,
+		// 	fr: `` /*French*/,
+		// 	te: `` /*Telugu*/,
+		// 	mr: `` /*Marathi*/,
+		// 	tr: `` /*Turkish*/,
+		// 	ta: `` /*Tamil*/,
+		// 	vi: `` /*Vietnamese*/,
+		// 	ur: `` /*Urdu - Right-to-left*/,
+		// 	nl: `` /*Dutch*/,
+		// 	it: `` /*Italian*/,
+		// 	hr: `` /*Croatian*/
+		// }
 	}
 };
 
