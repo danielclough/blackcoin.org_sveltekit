@@ -34,7 +34,7 @@
 		{#if open}
 			<MenuItems {lang} bind:y bind:open />
 		{/if}
-		<div class="display-fullscreen">
+		<div class="show-on-desktop">
 			<MenuItems {lang} bind:y {open} />
 		</div>
 
@@ -76,7 +76,7 @@
 		flex-flow: row;
 	}
 
-	.display-fullscreen {
+	.show-on-desktop {
 		display: none;
 	}
 
@@ -119,8 +119,9 @@
 			display: none;
 		}
 
-		.display-fullscreen {
-			display: block;
+		.show-on-desktop {
+			display: flex;
+
 		}
 	}
 

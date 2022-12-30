@@ -76,7 +76,7 @@
 	.newsBox {
 		text-align: left;
 		background: #151515;
-		height: 50px;
+		height: 60px;
 		border: solid 1px red;
 		overflow: hidden;
 		display: grid;
@@ -86,10 +86,9 @@
 		right: 0;
 		top: 0;
 	}
-
 	@media (min-width: 350px) {
 		h2 {
-			font-size: 4vw;
+			font-size: 3.5vw;
 			line-height: 4vw;
 		}
 		span {
@@ -100,18 +99,23 @@
 			width: 40%;
 		}
 	}
+	@media (min-width: 500px) {
+		.newsBox {
+			height: 50px;
+		}
+	}
 	@media (min-width: 700px) {
 		h2 {
-			font-size: 1.5rem;
-			line-height: 1.5rem;
+			font-size: 2.5vw;
+			line-height: 3vw;
 		}
 		.title {
-			width: 30%;
+			width: 35%;
 		}
 	}
 	@media (min-width: 1080px) {
 		h2 {
-			font-size: 1.5rem;
+			font-size: 1.3rem;
 			line-height: 1.5rem;
 		}
 		.content, .date {
