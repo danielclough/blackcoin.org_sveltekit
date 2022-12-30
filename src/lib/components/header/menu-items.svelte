@@ -126,7 +126,7 @@ li {
 	top: 5rem;
 	right: 0;
 	width: 100vw;
-	height: calc(100vh - 5rem);
+	height: fit-content;
 	display: flex;
 	flex-direction: column;
 	font-size: 1rem;
@@ -149,7 +149,6 @@ li {
 #links {
 	position: absolute;
 	top: 5rem;
-	height: calc(100vh - 8rem);
 	justify-content: space-around;
 }
 
@@ -225,6 +224,9 @@ li {
 		padding-bottom: 1.2rem !important;
 		margin: 1rem 0 0 0;
 		align-self: center;
+	}
+	.x {
+		display: none;
 	}
 }
 

@@ -56,7 +56,7 @@
 
 #menu-locale {
 	width: 100vw;
-	height: calc(100vh - 5rem);
+	height: fit-content;
 	margin-bottom: 5rem;
 	overflow-y: scroll;
 	overflow-x: hidden;
