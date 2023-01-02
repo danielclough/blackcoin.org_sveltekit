@@ -94,19 +94,23 @@
 			max-width: 90%;
 		}
 		.container {
-			padding: 5%;
+			padding: 5% 0;
 		}
 		.col-row {
 			flex-direction: row;
 		}
 		.item {
-			width: calc(25% - 2rem);
+			width: calc(50% - 2rem);
 			margin: 1rem;
 		}
 	}
 	@media (min-width: 1440px) {
 		.bg {
 			max-width: 80%;
+		}
+		.item {
+			width: calc(25% - 2rem);
+			margin: 1rem;
 		}
 	}
 	@media (min-width: 2560px) {

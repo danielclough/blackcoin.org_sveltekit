@@ -25,17 +25,17 @@ export default [
 	},
 	{
 		side: 'right',
-		icon: '🆓',
-		h3: 'open_source',
-		p: 'can_be_audited',
+		icon: '⚡',
+		h3: 'fast',
+		p: 'to_anyone_in_seconds',
 		a: 'read_more',
 		url: 'https://blackcoin.org/faq/'
 	},
 	{
 		side: 'right',
-		icon: '⚡',
-		h3: 'fast',
-		p: 'to_anyone_in_seconds',
+		icon: '🆓',
+		h3: 'open_source',
+		p: 'can_be_audited',
 		a: 'read_more',
 		url: 'https://blackcoin.org/faq/'
 	},

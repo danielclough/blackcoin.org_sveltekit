@@ -27,6 +27,8 @@
 <style>
 	.container {
 		overflow: hidden;
+		width: 90%;
+		margin: 0 auto;
 	}
 	ul {
 		display: flex;
@@ -42,7 +44,7 @@
 
 	@media (min-width: 700px) {
 		li {
-			width: 15%;
+			width: 18%;
 		}
 	}
 	@media (min-width: 1080px) {
