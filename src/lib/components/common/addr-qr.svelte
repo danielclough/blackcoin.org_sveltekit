@@ -39,7 +39,13 @@
 			}}
 		/>
 	{:else}
+	<div
+		on:click={() => {
+			qr = "";
+		}}
+	>
 		<QrCodeGen value={qr} size={width > 1080 ? width * 0.1 : width * 0.5} />
+	</div>
 	{/if}
 </div>
 
