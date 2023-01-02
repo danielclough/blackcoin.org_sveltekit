@@ -21,7 +21,7 @@
 						id="logo"
 						height="150"
 						width="150"
-						src="/images/hero/new-blk-logo-lg.svg"
+						src="/images/hero/new-blk-logo.svg"
 						alt="Blackcoin Logo"
 					/>
 				<h1 class="title">
