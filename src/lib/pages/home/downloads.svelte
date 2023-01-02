@@ -46,6 +46,10 @@
 </div>
 
 <style>
+	img {
+		width: 80%;
+		height: auto;
+	}
 	.bg {
 		background: url('/images/hero/tri.webp');
 		background-size: cover;
