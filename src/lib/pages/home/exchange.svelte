@@ -7,8 +7,8 @@
 
 <div class="container">
 	<center>
-		<h3 id="buy">
-			<span style="color: #FFFFFF;">{i18n(exchangeI18n, 'where_to_buy', lang)}</span>
+		<h3 id="buy" class="golden">
+			<span>{i18n(exchangeI18n, 'where_to_buy', lang)}</span>
 		</h3>
 	</center>
 	<ul>
@@ -47,13 +47,16 @@
 	img {
 		width: 200px;
 	}
+	h3 {
+		padding-top: 3rem;
+		font-size: 2rem;
+	}
 	ul {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
-		padding: 3rem 0;
 	}
 	li {
 		padding: 1rem;
