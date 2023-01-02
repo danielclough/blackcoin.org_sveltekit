@@ -17,17 +17,13 @@
 	<div class="bg-overlay">
 		<div class="content-wrapper">
 			<div class="content">
-				<picture>
-					<source srcset="/images/hero/blackcoin-logo.webp" type="image/webp" />
-					<source srcset="/images/hero/blackcoin-logo.png" type="image/png" />
 					<img
 						id="logo"
-						height="128"
-						width="111"
-						src="/images/hero/blackcoin-logo.png"
+						height="150"
+						width="150"
+						src="/images/hero/new-blk-logo-lg.svg"
 						alt="Blackcoin Logo"
 					/>
-				</picture>
 				<h1 class="title">
 					{i18n(heroI18n, 'blackcoin', lang)}
 				</h1>
@@ -75,7 +71,7 @@
 		color: #ececec;
 	}
 	#logo {
-		padding-top: 20%;
+		padding-top: 15%;
 		height: auto;
 	}
 	#large-header {
@@ -94,8 +90,14 @@
 
 	@media (min-width: 700px) {
 		#logo {
-			padding-top: 10%;
-			width: 10%;
+			padding-top: 30%;
+			width: 25%;
+		}
+	}
+	@media (min-width: 1080px) {
+		#logo {
+			padding-top: 8%;
+			width: 18%;
 		}
 	}
 </style>
