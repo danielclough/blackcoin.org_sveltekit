@@ -47,16 +47,22 @@
 
 <style>
 	img {
-		width: 80%;
+		width: 50%;
 		height: auto;
 	}
+	h3 {
+		font-size: 100%;
+	}
 	.bg {
+		max-width: 95%;
+		margin: 0 auto;
 		background: url('/images/hero/tri.webp');
 		background-size: cover;
 		background-position: 50%;
 		background-attachment: fixed;
 	}
 	.col-row {
+		width: 90%;
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
@@ -84,12 +90,28 @@
 	}
 
 	@media (min-width: 700px) {
+		.bg {
+			max-width: 90%;
+		}
+		.container {
+			padding: 5%;
+		}
 		.col-row {
 			flex-direction: row;
 		}
 		.item {
 			width: calc(25% - 2rem);
 			margin: 1rem;
+		}
+	}
+	@media (min-width: 1440px) {
+		.bg {
+			max-width: 80%;
+		}
+	}
+	@media (min-width: 2560px) {
+		.bg {
+			max-width: 70%;
 		}
 	}
 </style>

@@ -45,9 +45,14 @@
 			width: 15%;
 		}
 	}
+	@media (min-width: 1080px) {
+		li {
+			width: 8%;
+		}
+	}
 	@media (min-width: 1440px) {
 		li {
-			width: 5%;
+			width: 7%;
 		}
 	}
 </style>
