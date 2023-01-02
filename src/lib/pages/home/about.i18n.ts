@@ -242,7 +242,7 @@ export default {
 	fast: {
 		zh: '快速交易' /*Chinese*/,
 		es: 'TRANSACCIONES RÁPIDAS' /*Spanish*/,
-		en: 'FAST' /*English*/,
+		en: 'FAST TRANSACTIONS' /*English*/,
 		hi: 'तेजी से बदलाव' /*Hindi*/,
 		ar: 'معاملات سريعة' /*Arabic - Right-to-left*/,
 		pt: 'TRANSAÇÕES RÁPIDAS' /*Portuguese*/,
