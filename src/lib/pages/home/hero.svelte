@@ -47,13 +47,6 @@
 </div>
 
 <style>
-	@font-face {
-		font-family: 'cmr10';
-		font-style: normal;
-		font-weight: 500;
-		src: url('/fonts/cmr10.ttf');
-		src: local(''), url('/fonts/cmr10.ttf') format('truetype');
-	}
 	hr {
 		margin: 1.5rem;
 		color: transparent;
