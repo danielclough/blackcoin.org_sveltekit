@@ -7,7 +7,14 @@
 	import Donations from '$lib/pages/home/donations.svelte';
 
 	export let data;
-	$: lang = data.lang || 'en';
+	let lang = data.lang || 'en';
+	import { onMount } from 'svelte';
+	onMount(()=>{
+		if (lang === 'en') {
+			lang = window.navigator.languages.filter((x)=>x.length === 2)[0] || 'en';
+		}
+		console.log(lang)
+	})
 
 	export let width;
 	export let height;
