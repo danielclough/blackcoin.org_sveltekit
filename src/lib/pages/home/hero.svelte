@@ -17,17 +17,11 @@
 	<div class="bg-overlay">
 		<div class="content-wrapper">
 			<div class="content">
-					<!-- <img
-						id="logo"
-						height="150"
-						width="150"
-						src="/images/hero/new-blk-logo.svg"
-						alt="Blackcoin Logo"
-					/> -->
+<!-- Inline SVG -->
 <svg
    version="1.1"
-   width="587px"
-   height="587px"
+   width="150px"
+   height="150px"
    viewBox="0 0 587 587"
    id="svg89"
    xmlns="http://www.w3.org/2000/svg"
