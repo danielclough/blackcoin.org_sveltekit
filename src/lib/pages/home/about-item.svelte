@@ -28,7 +28,7 @@
 			<i class="icon">{icon}</i>
 		</div>
 	</div>
-	<hr class="hide-on-desktop" id="hr-text" data-content={!!down ? "" : i18n(aboutI18n, a, lang)}>
+	<hr class="hide-on-desktop" id="hr-text" style="text-align:{side === 'left' ? 'right' : 'left'};" data-content={!!down ? "" : i18n(aboutI18n, a, lang)}>
 
 	{#if down === true || desktop}
 		<p>
@@ -39,6 +39,9 @@
 	{/if}
 </div>
 <style>
+	a {
+		justify-self: start;
+	}
 	i {
 		font-size: 3rem;
 		padding: 0 1rem;
@@ -62,11 +65,10 @@
 	#hr-text {
 		margin-top: -.5rem;
 		position: relative;
-		width: 100%;
+		width: 60%;
 		font-size: small;
 		outline: 0;
 		border: 0;
-		text-align: center;
 		opacity: 0.6;
 	}
 	#hr-text:before {
