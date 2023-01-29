@@ -83,7 +83,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		border: 1px solid goldenrod;
+		border: 1px solid rgb(53, 35, 0);
 	}
 	a {
 		justify-self: center;

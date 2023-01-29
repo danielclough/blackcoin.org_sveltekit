@@ -17,13 +17,11 @@
 					{i18n(donationsI18n, 'donations', lang)}
 				</h2>
 				<h3 id="support">
-					<span style="color: #ffffff;">{i18n(donationsI18n, 'support_blackcoin', lang)}</span>
+					<span>{i18n(donationsI18n, 'support_blackcoin', lang)}</span>
 				</h3>
-			</center>
-			<center>
 				<p>
 					{i18n(donationsI18n, 'donate_to', lang)}
-					<a alt="Link to Donations Page" href="/donations"
+					<a href="/donations"
 						>{i18n(donationsI18n, 'person_project', lang)}</a
 					>.
 				</p>
@@ -56,9 +54,6 @@
 		}
 		.addr {
 			font-size: 2rem;
-		}
-		h2 {
-			font-size: 6rem;
 		}
 	}
 </style>

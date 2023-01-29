@@ -7,13 +7,12 @@
 	import Donations from '$lib/pages/home/donations.svelte';
 
 	export let data;
-	$: lang = data.lang || 'en';
+	$: lang = data.lang;
 
 	export let width;
-	export let height;
 </script>
 
-<svelte:window bind:innerWidth={width} bind:innerHeight={height} />
+<svelte:window bind:innerWidth={width} />
 
 <svelte:head>
 	<title>BlackcoinOrg</title>
@@ -22,9 +21,9 @@
 </svelte:head>
 
 <div id="home" />
-<Hero bind:lang bind:width bind:height />
-<About bind:lang />
-<Exchange bind:lang />
-<Downloads bind:lang />
-<SocialMedia bind:lang />
-<Donations bind:lang bind:width />
+<Hero {lang} bind:width />
+<About {lang} />
+<Exchange {lang} />
+<Downloads {lang} />
+<SocialMedia {lang} />
+<Donations {lang} bind:width />

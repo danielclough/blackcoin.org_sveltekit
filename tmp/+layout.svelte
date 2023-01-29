@@ -4,19 +4,10 @@
 	import '$lib/styles.css';
 
 	export let data;
-	$: lang = data.lang || 'en';
-
-	import { onMount } from 'svelte';
-	onMount(()=>{
-		if (lang === 'en') {
-			lang = window.navigator.languages.filter((x)=>x.length === 2)[0] || 'en';
-		}
-		console.log(lang)
-	})
-
+	let lang = data.lang || 'en';
 </script>
 
-<Navbar {lang} />
+<Navbar bind:lang />
 <div class="slot-container">
 	<slot />
 </div>

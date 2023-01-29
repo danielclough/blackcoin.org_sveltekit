@@ -14,8 +14,10 @@
 
 <div class="rel">
 	{address[0]}:
-	<span class="golden">{width < 1080 ? address[1].substring(0, 8) + '...' : address[1]}</span>
-	<p class="copied" style="display: {!!copied ? 'flex' : 'none'};">Copied!</p>
+	<span class="golden">
+		{width < 1080 ? address[1].substring(0, 8) + '...' : address[1]}
+		<p class="copied" style="display: {!!copied ? 'flex' : 'none'};">Copied!</p>
+	</span>
 	<br />
 	<img
 		on:click={() => {
@@ -64,10 +66,10 @@
 	}
 	.copied {
 		position: absolute;
-		right: 1rem;
-		top: 1rem;
+		right: 50%;
+		top: 25%;
 		background-color: rgba(0, 0, 0, 0.6);
-		padding: 0.25rem;
+		padding: 0.5rem;
 		box-shadow: 1px 1px 1rem black;
 		z-index: 100;
 	}
