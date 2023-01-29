@@ -1,7 +1,5 @@
 <script>
 	import { icon, config } from '@fortawesome/fontawesome-svg-core';
-	import '@fortawesome/fontawesome-svg-core/styles.css';
-	config.autoAddCss = false;
 	import i18n from '$lib/i18n';
 	import aboutI18n from './about.i18n';
 	export let lang;
