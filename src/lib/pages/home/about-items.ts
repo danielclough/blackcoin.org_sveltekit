@@ -1,3 +1,14 @@
+import { 
+	faStar,
+	faUser,
+	faEye,
+} from '@fortawesome/free-regular-svg-icons'
+import {
+	faTree,
+	faCode,
+	faBolt,
+} from '@fortawesome/free-solid-svg-icons'
+
 export default [
 	{
 		side: 'left',
@@ -5,13 +16,13 @@ export default [
 		p: 'users_who_stake',
 		a: 'read_more',
 		url: 'https://blackcoin.org/faq/',
-		icon: '🔥'
+		faIcon: faStar,
 	},
 	{
 		side: 'left',
 		h3: 'eco_friendly',
 		p: 'no_mining',
-		icon: '🌲',
+		faIcon: faTree,
 		a: 'read_more',
 		url: 'https://blackcoin.org/faq/'
 	},
@@ -19,13 +30,13 @@ export default [
 		side: 'left',
 		h3: 'transparent_ledger',
 		p: 'entirely_transparent',
-		icon: '📄',
+		faIcon: faUser,
 		a: 'read_more',
 		url: 'https://blackcoin.org/faq/'
 	},
 	{
 		side: 'right',
-		icon: '⚡',
+		faIcon: faCode,
 		h3: 'fast',
 		p: 'to_anyone_in_seconds',
 		a: 'read_more',
@@ -33,7 +44,7 @@ export default [
 	},
 	{
 		side: 'right',
-		icon: '🆓',
+		faIcon: faBolt,
 		h3: 'open_source',
 		p: 'can_be_audited',
 		a: 'read_more',
@@ -41,7 +52,7 @@ export default [
 	},
 	{
 		side: 'right',
-		icon: '👁️',
+		faIcon: faEye,
 		h3: 'anonymous',
 		p: 'no_identifying_information',
 		a: 'read_more',

@@ -1,9 +1,12 @@
 <script>
+	import { icon, config } from '@fortawesome/fontawesome-svg-core';
+	import '@fortawesome/fontawesome-svg-core/styles.css';
+	config.autoAddCss = false;
 	import i18n from '$lib/i18n';
 	import aboutI18n from './about.i18n';
 	export let lang;
 	export let h3;
-	export let icon;
+	export let faIcon;
 	export let a;
 	export let p;
 	export let url;
@@ -17,7 +20,7 @@
 >
 	<div 
 		class="container"
-		style="flex-direction:{side === 'left' ? 'row-reverse' : 'row'};"
+		style="flex-direction:{side === 'left' ? 'row' : 'row-reverse'};"
 	>
 		<div class="h3-container">
 			<h3>
@@ -25,7 +28,7 @@
 			</h3>
 		</div>
 		<div class="ft-icon">
-			<i class="icon">{icon}</i>
+			{ @html icon(faIcon).html }
 		</div>
 	</div>
 	<hr class="hide-on-desktop" id="hr-text" style="text-align:{side === 'left' ? 'right' : 'left'};" data-content={!!down ? "" : i18n(aboutI18n, a, lang)}>
@@ -42,9 +45,11 @@
 	a {
 		justify-self: start;
 	}
-	i {
-		font-size: 3rem;
+	.ft-icon {
+		justify-self: center;
+		align-self: center;
 		padding: 0 1rem;
+		font-size: 1.5em;
 	}
 	.container-container {
 		display: flex;
@@ -56,6 +61,16 @@
 	}
 	h3 {
 		margin: 1rem 0;
+		font-size: 1em;
+  		letter-spacing: 2px;
+		font-family: sans-serif;
+		font-weight: 100;
+	}
+	p {
+		font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+		font-size: 16px;
+		letter-spacing: 0.2px;
+		line-height: 1.8em;
 	}
 	.h3-container {
 		align-self: center;
@@ -93,13 +108,6 @@
 	@media (min-width: 1080px) {
 		.hide-on-desktop {
 			display: none;
-		}
-		i {
-			font-size: 6rem;
-			padding: 0 2rem;
-		}
-		h3 {
-			font-size: 200%;
 		}
 	}
 	@media (min-width: 1440px) {
