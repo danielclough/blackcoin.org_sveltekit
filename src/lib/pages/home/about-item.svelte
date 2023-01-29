@@ -49,7 +49,6 @@
 	.container-container {
 		display: flex;
 		flex-direction: column;
-		width: 100%;
 	}
 	.container {
 		display: inline-flex;
@@ -98,6 +97,20 @@
 		i {
 			font-size: 6rem;
 			padding: 0 2rem;
+		}
+		h3 {
+			font-size: 200%;
+		}
+	}
+	@media (min-width: 1440px) {
+		.container-container {
+			width: 80%;
+			margin: 0 auto;
+		}
+	}
+	@media (min-width: 2560px) {
+		.container-container {
+			width: 60%;
 		}
 	}
 </style>
