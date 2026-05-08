@@ -21,6 +21,6 @@ export default {
 		ur: 'تازہ ترین خبریں' /*Urdu - Right-to-left*/,
 		nl: 'Laatste nieuws' /*Dutch*/,
 		it: 'Ultime notizie' /*Italian*/,
-		hr: ' Najnovije vijesti' /*Croatian*/
+		hr: 'Najnovije vijesti' /*Croatian*/
 	}
 };

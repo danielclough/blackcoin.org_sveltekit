@@ -1,33 +1,66 @@
-<script type="typescript">
+<script lang="ts">
+	import { onMount, onDestroy } from 'svelte';
+	import { fly } from 'svelte/transition';
 	import newsI18n from './news.i18n';
 	import news from './news';
 	import i18n from '$lib/i18n';
 
+	export let lang;
+
 	let i = 0;
 	$: bn = news[i % news.length];
 
-	setInterval(() => {
-		i++;
-	}, 5000);
+	let containerEl: HTMLDivElement | null = null;
+	let interval: ReturnType<typeof setInterval> | null = null;
+	let observer: IntersectionObserver | null = null;
 
-	export let lang;
+	function startInterval() {
+		if (interval !== null) return;
+		interval = setInterval(() => {
+			i++;
+		}, 5000);
+	}
+
+	function stopInterval() {
+		if (interval === null) return;
+		clearInterval(interval);
+		interval = null;
+	}
+
+	onMount(() => {
+		if (!containerEl) return;
+		observer = new IntersectionObserver(
+			([entry]) => {
+				if (entry.isIntersecting) {
+					startInterval();
+				} else {
+					stopInterval();
+				}
+			},
+			{ threshold: 0.1 }
+		);
+		observer.observe(containerEl);
+	});
+
+	onDestroy(() => {
+		stopInterval();
+		observer?.disconnect();
+	});
 </script>
 
 <br />
-<div class="news-container">
+<div class="news-container" bind:this={containerEl}>
 	<br />
 	<div class="title">
 		<h2>{i18n(newsI18n, 'latest_news', lang)}</h2>
 	</div>
 	<div class="newsBox">
-		<ul class="innerBox">
-			<li>
-				<a href={bn.url}>
-					<span class="date">{bn.date}</span>
-					<span class="content">{i18n(bn, 'news', lang)}</span>
-				</a>
-			</li>
-		</ul>
+		{#key bn}
+			<a href={bn.url} class="news-link" in:fly={{ x: 16, duration: 280 }}>
+				<span class="date">{bn.date}</span>
+				<span class="content">{i18n(bn, 'news', lang)}</span>
+			</a>
+		{/key}
 	</div>
 	<br />
 </div>
@@ -38,102 +71,124 @@
 		margin: 0;
 		padding: 0;
 	}
-	li {
-		padding: .1rem;
-	}
-	a {
-		display: flex;
-		flex-direction: row;
-		align-content: center;
-	}
-	h2 {
-		font-size: .8rem;
-	}
+
+	/* Live indicator dot */
 	.title {
-		width: 50%;
-		top: 0;
-		background-color: #a00;
-		padding: .2rem;
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		padding: 0.1rem 0 0.3rem;
 	}
-	.content {
-		font-size: 12px;
+
+	.title::before {
+		content: '';
+		display: inline-block;
+		width: 7px;
+		height: 7px;
+		background: var(--news-accent);
+		border-radius: 50%;
+		flex-shrink: 0;
+		animation: pulse-dot 2s ease-in-out infinite;
+	}
+
+	@keyframes pulse-dot {
+		0%,
+		100% {
+			opacity: 1;
+			transform: scale(1);
+		}
+		50% {
+			opacity: 0.5;
+			transform: scale(0.75);
+		}
+	}
+
+	h2 {
+		font-size: clamp(0.7rem, 1.2vw, 1rem);
+		letter-spacing: 3px;
+		text-transform: uppercase;
 		font-weight: 300;
-		padding-left: 3px;
-		color: #ddb77a;
-		align-self: center;
+		line-height: 1.3;
 	}
-	.date {
-		font-size: 11px;
-		color: white;
-		font-weight: 100;
-		padding: 0 .5rem;
-	}
+
 	.news-container {
 		width: 90%;
 		max-width: 960px;
 		margin: 0 auto;
 	}
+
 	.newsBox {
-		text-align: left;
-		background: #151515;
-		height: 60px;
-		border: solid 1px red;
 		overflow: hidden;
-		display: grid;
-		align-content: center;
+		background: var(--news-bg);
+		border: solid 1px var(--news-border);
 	}
-	.innerBox {
-		right: 0;
-		top: 0;
+
+	/* Mobile: float layout — content flows beside then below the date */
+	.news-link {
+		display: block;
+		overflow: hidden; /* clearfix */
+		text-decoration: none;
+		color: inherit;
 	}
-	@media (min-width: 350px) {
-		h2 {
-			font-size: 3.5vw;
-			line-height: 4vw;
-		}
-		span {
-			letter-spacing: 0.15rem;
-			font-size: 15px;
-		}
-		.title {
-			width: 40%;
-		}
+
+	/* Date and content share identical font-size, line-height, and vertical
+	   padding so their first lines sit on the same baseline */
+	.date {
+		float: left;
+		margin: 0;
+		margin-right: 0.5rem;
+		padding: 0.2rem 0.6rem;
+		background: var(--news-accent);
+		color: #fff;
+		font-size: 0.8rem;
+		font-weight: 500;
+		line-height: 1.4;
+		letter-spacing: 0.5px;
+		white-space: nowrap;
 	}
-	@media (min-width: 500px) {
-		.newsBox {
-			height: 50px;
-		}
+
+	/* No left padding — float handles the indent for line 1;
+	   wrapped lines naturally run full-width once the float clears */
+	.content {
+		display: block;
+		margin: 0;
+		padding: 0.5rem 0.6rem;
+		color: var(--news-content);
+		font-size: 0.8rem;
+		font-weight: 300;
+		line-height: 1.4;
+		white-space: normal;
+		word-break: break-word;
 	}
+
+	/* Desktop: flex row, date stretches full height, single-line ellipsis */
 	@media (min-width: 700px) {
-		h2 {
-			font-size: 2.5vw;
-			line-height: 3vw;
-		}
-		.title {
-			width: 35%;
-		}
-	}
-	@media (min-width: 1080px) {
-		h2 {
-			font-size: 1.3rem;
-			line-height: 1.5rem;
-		}
-		.content, .date {
-			font-size: 17.5px;
-		}
 		.newsBox {
-			height: 4rem;
+			display: flex;
+			align-items: stretch;
 		}
-		.news-container {
-			width: 60vw;
+		.news-link {
+			display: flex;
+			align-items: stretch;
+			overflow: hidden;
+			width: 100%;
 		}
-		/* .title > h2 {
-			line-height: 4rem;
-		} */
-	}
-	@media (max-aspect-ratio: 5/1) and (min-width: 2560px) {
-		.content, .date {
-			font-size: 20px;
+		.date {
+			float: none;
+			display: flex;
+			align-items: center;
+			padding: 0 0.75rem;
+			font-size: clamp(0.65rem, 1vw, 0.85rem);
+			line-height: normal;
+		}
+		.content {
+			flex: 1;
+			display: flex;
+			align-items: center;
+			padding: 0 1rem;
+			font-size: clamp(0.75rem, 1.2vw, 0.95rem);
+			white-space: normal;
+			line-height: normal;
 		}
 	}
 </style>

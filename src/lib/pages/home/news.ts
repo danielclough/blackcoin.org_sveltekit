@@ -8,58 +8,37 @@ export default [
 	// },
 	{
 		url: 'https://blackcoinmore.org',
-		date: 'Nov 24, 2022',
+		date: 'December 18, 2024',
 		news: {
-			en: 'Blackcoin More v13.2.0 released. Introducing stake reward donations!'
+			en: 'Blackcoin More v26.2.0 release became available. MANDATORY UPDATE: PLEASE UPGRADE YOUR NODES BEFORE JUNE 20, 2025'
+		}
+	},
+	{
+		url: 'https://github.com/CoinBlack/electrum-blk/releases/tag/v4.5.8',
+		date: 'July 7, 2024',
+		news: {
+			en: 'The latest version of lightweight Electrum-BLK wallet v4.5.8 released.'
 		}
 	},
 	{
 		url: 'https://blackcoinmore.org',
-		date: 'Feb 24, 2022',
+		date: 'November 20, 2024',
 		news: {
-			en: 'Blackcoin More v2.13.2.9 released.'
+			en: 'Blackcoin More v26.2 beta-2 release became available.'
 		}
 	},
 	{
 		url: 'https://blackcoinmore.org',
-		date: 'Feb 24, 2021',
+		date: 'August 7, 2024',
 		news: {
-			en: 'Blackcoin More v2.13.2.8 released. Trade $BLK with Atomic Swaps!'
+			en: 'Blackcoin More v26.2 beta-1 release became available.'
 		}
 	},
 	{
-		url: 'https://blackcoinmore.org',
-		date: 'Nov 24, 2020',
+		url: 'https://github.com/CoinBlack/electrum-blk/releases/tag/v4.5.5',
+		date: 'July 7, 2024',
 		news: {
-			en: 'Blackcoin More v2.13.2.7 released. Improve dust handling.'
-		}
-	},
-	{
-		url: 'https://www.bitladon.com/blackcoin',
-		date: 'Apr 24, 2020',
-		news: {
-			en: 'Blackcoin trading on Bitladon.com'
-		}
-	},
-	{
-		url: 'https://abra.com',
-		date: 'Jan 6, 2020',
-		news: {
-			en: 'Blackcoin added on Abra multicoin wallet!'
-		}
-	},
-	{
-		url: 'https://twitter.com/BlackcoinOrg/status/1303341386348089346',
-		date: 'Sep 08, 2020',
-		news: {
-			en: 'Blackcoin and Radium Core Strategic Alliance Announcement!'
-		}
-	},
-	{
-		url: 'https://blackcoinmore.org',
-		date: 'Jul 21, 2020',
-		news: {
-			en: 'Blackcoin More update v2.13.2.6 Major Memleak Bugfix '
+			en: 'The latest version of lightweight Electrum-BLK wallet v4.5.5 released.'
 		}
 	}
 ];
