@@ -13,7 +13,7 @@
 	</header>
 	<div class="container">
 		<div class="about-section">
-			{#each aboutItems as item}
+			{#each aboutItems as item (item.h3)}
 				{#if item.side === 'left'}
 					<div class="show-on-mobile">
 						<Item {...item} {lang} desktop={false} />
@@ -34,7 +34,7 @@
 		</div>
 
 		<div class="about-section">
-			{#each aboutItems as item}
+			{#each aboutItems as item (item.h3)}
 				{#if item.side === 'right'}
 					<div class="show-on-mobile">
 						<Item {...item} {lang} desktop={false} />
