@@ -14,11 +14,11 @@ export default {
 	fr: 'Choisir la langue' /*French*/,
 	te: 'భాషను ఎంచుకోండి' /*Telugu*/,
 	mr: 'भाषा निवडा' /*Marathi*/,
-	tr: 'Ana Sayfa' /*Turkish*/,
+	tr: 'Dil seçin' /*Turkish*/,
 	ta: 'மொழியை தேர்ந்தெடுங்கள்' /*Tamil*/,
 	vi: 'Chọn ngôn ngữ' /*Vietnamese*/,
 	ur: 'زبان منتخب کریں' /*Urdu - Right-to-left*/,
 	nl: 'Selecteer taal' /*Dutch*/,
 	it: 'Seleziona la lingua' /*Italian*/,
-	hr: '' /*Croatian*/
+	hr: 'Odaberite jezik' /*Croatian*/
 };
