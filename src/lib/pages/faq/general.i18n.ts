@@ -1,84 +1,84 @@
 export default {
 	TITLE: {
-		zh: `` /*Chinese*/,
-		es: `` /*Spanish*/,
+		zh: `一般` /*Chinese*/,
+		es: `General` /*Spanish*/,
 		en: `General` /*English*/,
-		hi: `` /*Hindi*/,
-		ar: `` /*Arabic - Right-to-left*/,
-		pt: `` /*Portuguese*/,
-		bn: `` /*Bengal*/,
-		ru: `` /*Russian*/,
-		ja: `` /*Japanese*/,
-		jv: `` /*Javanese*/,
-		de: `` /*German*/,
-		ko: `` /*Korean*/,
-		fr: `` /*French*/,
-		te: `` /*Telugu*/,
-		mr: `` /*Marathi*/,
-		tr: `` /*Turkish*/,
-		ta: `` /*Tamil*/,
-		vi: `` /*Vietnamese*/,
-		ur: `` /*Urdu - Right-to-left*/,
-		nl: `` /*Dutch*/,
-		it: `` /*Italian*/,
-		hr: `` /*Croatian*/
+		hi: `सामान्य` /*Hindi*/,
+		ar: `عام` /*Arabic - Right-to-left*/,
+		pt: `Geral` /*Portuguese*/,
+		bn: `সাধারণ` /*Bengal*/,
+		ru: `Общее` /*Russian*/,
+		ja: `一般` /*Japanese*/,
+		jv: `Umum` /*Javanese*/,
+		de: `Allgemein` /*German*/,
+		ko: `일반` /*Korean*/,
+		fr: `Général` /*French*/,
+		te: `సాధారణ` /*Telugu*/,
+		mr: `सामान्य` /*Marathi*/,
+		tr: `Genel` /*Turkish*/,
+		ta: `பொதுவான` /*Tamil*/,
+		vi: `Chung` /*Vietnamese*/,
+		ur: `عام` /*Urdu - Right-to-left*/,
+		nl: `Algemeen` /*Dutch*/,
+		it: `Generale` /*Italian*/,
+		hr: `Opće` /*Croatian*/
 	},
 	SUBTITLE: {
-		zh: `` /*Chinese*/,
-		es: `` /*Spanish*/,
+		zh: `关于黑币的一般问题。` /*Chinese*/,
+		es: `Preguntas generales sobre Blackcoin.` /*Spanish*/,
 		en: `General questions about Blackcoin.` /*English*/,
-		hi: `` /*Hindi*/,
-		ar: `` /*Arabic - Right-to-left*/,
-		pt: `` /*Portuguese*/,
-		bn: `` /*Bengal*/,
-		ru: `` /*Russian*/,
-		ja: `` /*Japanese*/,
-		jv: `` /*Javanese*/,
-		de: `` /*German*/,
-		ko: `` /*Korean*/,
-		fr: `` /*French*/,
-		te: `` /*Telugu*/,
-		mr: `` /*Marathi*/,
-		tr: `` /*Turkish*/,
-		ta: `` /*Tamil*/,
-		vi: `` /*Vietnamese*/,
-		ur: `` /*Urdu - Right-to-left*/,
-		nl: `` /*Dutch*/,
-		it: `` /*Italian*/,
-		hr: `` /*Croatian*/
+		hi: `Blackcoin के बारे में सामान्य प्रश्न।` /*Hindi*/,
+		ar: `أسئلة عامة حول بلاك كوين.` /*Arabic - Right-to-left*/,
+		pt: `Questões gerais sobre o Blackcoin.` /*Portuguese*/,
+		bn: `Blackcoin সম্পর্কে সাধারণ প্রশ্ন।` /*Bengal*/,
+		ru: `Общие вопросы о Blackcoin.` /*Russian*/,
+		ja: `Blackcoinに関する一般的な質問。` /*Japanese*/,
+		jv: `Pitakon umum babagan Blackcoin.` /*Javanese*/,
+		de: `Allgemeine Fragen zu Blackcoin.` /*German*/,
+		ko: `Blackcoin에 관한 일반 질문.` /*Korean*/,
+		fr: `Questions générales sur Blackcoin.` /*French*/,
+		te: `Blackcoin గురించి సాధారణ ప్రశ్నలు.` /*Telugu*/,
+		mr: `Blackcoin बद्दल सामान्य प्रश्न.` /*Marathi*/,
+		tr: `Blackcoin hakkında genel sorular.` /*Turkish*/,
+		ta: `Blackcoin பற்றிய பொதுவான கேள்விகள்.` /*Tamil*/,
+		vi: `Câu hỏi chung về Blackcoin.` /*Vietnamese*/,
+		ur: `Blackcoin کے بارے میں عام سوالات۔` /*Urdu - Right-to-left*/,
+		nl: `Algemene vragen over Blackcoin.` /*Dutch*/,
+		it: `Domande generali su Blackcoin.` /*Italian*/,
+		hr: `Opća pitanja o Blackcoinu.` /*Croatian*/
 	},
 	qa: {
 		MORE_ABOUT_BLACKCOIN: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
+			zh: `更多关于黑币` /*Chinese*/,
+			es: `MÁS SOBRE BLACKCOIN` /*Spanish*/,
 			en: 'MORE ABOUT BLACKCOIN' /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
+			hi: `ब्लैककॉइन के बारे में अधिक` /*Hindi*/,
+			ar: `المزيد عن بلاك كوين` /*Arabic - Right-to-left*/,
+			pt: `MAIS SOBRE BLACKCOIN` /*Portuguese*/,
+			bn: `ব্ল্যাককয়েন সম্পর্কে আরও` /*Bengal*/,
+			ru: `ПОДРОБНЕЕ О BLACKCOIN` /*Russian*/,
 			ja: `ブラックコインの詳細` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
+			jv: `LUWIH BABAGAN BLACKCOIN` /*Javanese*/,
+			de: `MEHR ÜBER BLACKCOIN` /*German*/,
+			ko: `BLACKCOIN에 대해 더 알아보기` /*Korean*/,
+			fr: `EN SAVOIR PLUS SUR BLACKCOIN` /*French*/,
+			te: `BLACKCOIN గురించి మరింత` /*Telugu*/,
+			mr: `BLACKCOIN बद्दल अधिक` /*Marathi*/,
+			tr: `BLACKCOIN HAKKINDA DAHA FAZLA` /*Turkish*/,
+			ta: `BLACKCOIN பற்றி மேலும்` /*Tamil*/,
+			vi: `TÌM HIỂU THÊM VỀ BLACKCOIN` /*Vietnamese*/,
+			ur: `بلیک کوائن کے بارے میں مزید` /*Urdu - Right-to-left*/,
+			nl: `MEER OVER BLACKCOIN` /*Dutch*/,
+			it: `ALTRO SU BLACKCOIN` /*Italian*/,
+			hr: `VIŠE O BLACKCOINU` /*Croatian*/
 		},
 		MORE_ABOUT_BLACKCOIN_ANSWER1: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
+			zh: `<p>把它想象成一个<span>人民银行</span>。您的<span>账户不会被冻结</span>，完全且<span>永远免费</span>，<span>匿名</span>，比传统银行<span>更安全</span>，且<span>可在数秒内向世界任何地方付款</span>。</p><p>任何人只需下载软件即可创建账户。这家银行没有所有者，也无法关闭。因为它是<span>点对点</span>的，所以<span>完全透明</span>。代币供应有限，使其像黄金一样有价值，是良好的财富储藏手段。新代币只能通过网络的质押奖励生成。</p><p>欢迎来到<span>货币的未来！</span></p><p><span>安全、快速、可靠、匿名、令人兴奋，最重要的是——有趣！</span></p><p>其他成就与亮点：</p><p>-Blackcoin是第一个完全实现<span>100%权益证明</span>的比特币系的加密货币。<br />-它也是世界上<span>第一个拥有可运行智能合约</span>的代币。<br />-2014年初，Blackcoin是<span>第一个将POS与矿池结合</span>的代币，因其强大被称为"黑洞"。<br />-Blackcoin是<span>第一个通过众筹雇佣广告/公关机构</span>的代币。<br />-Blackcoin以<span>杰出的社区</span>著称，是加密货币领域最有奉献精神的社区之一。</p>` /*Chinese*/,
+			es: `<p>Imagínalo como un <span>banco del pueblo</span>. Tus <span>cuentas no pueden ser congeladas</span>, es completamente y <span>siempre gratis</span>, es <span>anónimo</span>, mucho <span>más seguro</span> que la banca tradicional y <span>los pagos pueden enviarse a cualquier parte del mundo en segundos</span>.</p><p>Cualquiera puede crear una cuenta simplemente descargando el software. Este banco no tiene propietarios y no puede cerrarse. Como es <span>peer-to-peer</span>, es <span>completamente transparente</span>. Hay un suministro limitado de monedas, lo que lo hace valioso como reserva de riqueza similar al oro. Las nuevas monedas solo pueden generarse mediante la recompensa de staking de la red.</p><p>¡Bienvenido al <span>futuro de la moneda!</span></p><p><span>¡Seguro, rápido, fiable, anónimo, emocionante y sobre todo divertido!</span></p><p>Otros logros destacados:</p><p>-Blackcoin fue la primera criptomoneda basada en Bitcoin en lograr el <span>100% Proof of Stake</span>.<br />-Es también la <span>primera moneda del mundo con contratos inteligentes funcionales</span>.<br />-En 2014, Blackcoin fue la <span>primera moneda en combinar PoS con un multipool</span>, tan poderosa que fue apodada "El Agujero Negro".<br />-Blackcoin fue la <span>primera en financiar colectivamente y contratar una agencia de publicidad/PR</span>.<br />-Blackcoin es conocida por tener una <span>comunidad excepcional</span>, una de las más dedicadas del espacio crypto.</p>` /*Spanish*/,
 			en: `
 			<p>
-				Think of it like a <span>peoples bank</span>. Your
-				<span>accounts cant be frozen</span>, it is completely and
+				Think of it like a <span>people's bank</span>. Your
+				<span>accounts can't be frozen</span>, it is completely and
 				<span>always free</span>, it is <span>anonymous</span>, much
 				<span>more secure</span> than traditional banking and
 				<span>payments can be sent to anyone in the world within seconds</span>.
@@ -88,27 +88,27 @@ export default {
 				and cannot be shut down. Because it is <span>peer to peer</span>, it is
 				<span>completely transparent</span>. There is a limited supply of coins making it
 				valuable and a great store of wealth like gold. New coins can only be generated by the
-				networks staking reward.
+				network's staking reward.
 			</p>
 			<p>So welcome to the <span>future of currency!</span></p>
 			<p><span>Safe, fast, secure, anonymous, exciting and most of all fun!</span></p>
 			<p>Here are some other accomplishments or honorable mentions:</p>
 			<p>
 				-Blackcoin was the first <span>Bitcoin based</span> cryptocurrency to go <span>100% Proof of Stake.</span><br />
-				-It is also the worlds <span>first coin to have working smart contracts.</span><br />
+				-It is also the world's <span>first coin to have working smart contracts.</span><br />
 				-In early 2014 Blackcoin was the <span>first coin to combine POS with a multipool.</span>
 				It was so powerful it was nicknamed the "Blackhole".<br />
 				-Blackcoin was the <span>first coin to crowdfund and hire an advertising/PR agency.</span><br/>
 				-Blackcoin is known for having an <span>outstanding community.</span>
 				Everyone is a star here at Blackcoin. They have all worked tirelessly to make this coin one
-				of actions instead of words. It is <span>one of the most active communities</span> next to
-				Dogecoin.
+				of actions instead of words. It is <span>one of the most dedicated communities</span> in the
+				cryptocurrency space.
 			</p>` /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
+			hi: `<p>इसे एक <span>जनता के बैंक</span> के रूप में सोचें। आपके <span>खाते फ्रीज नहीं हो सकते</span>, यह पूरी तरह से और <span>हमेशा मुफ्त</span> है, यह <span>गुमनाम</span> है, पारंपरिक बैंकिंग से <span>बहुत अधिक सुरक्षित</span> है और <span>भुगतान सेकंडों में दुनिया में कहीं भी भेजा जा सकता है</span>।</p><p>कोई भी सॉफ्टवेयर डाउनलोड करके खाता बना सकता है। इस बैंक का कोई मालिक नहीं है और इसे बंद नहीं किया जा सकता। क्योंकि यह <span>पीयर-टू-पीयर</span> है, यह <span>पूरी तरह पारदर्शी</span> है। सिक्कों की सीमित आपूर्ति इसे सोने की तरह मूल्यवान बनाती है। नए सिक्के केवल नेटवर्क के स्टेकिंग इनाम द्वारा उत्पन्न हो सकते हैं।</p><p>तो <span>मुद्रा के भविष्य में</span> आपका स्वागत है!</p><p><span>सुरक्षित, तेज़, विश्वसनीय, गुमनाम, रोमांचक और सबसे बढ़कर मज़ेदार!</span></p><p>अन्य उपलब्धियां:</p><p>-Blackcoin <span>100% Proof of Stake</span> हासिल करने वाली पहली Bitcoin आधारित क्रिप्टोकरेंसी थी।<br />-यह दुनिया का <span>पहला कार्यात्मक स्मार्ट कॉन्ट्रैक्ट वाला सिक्का</span> भी है।<br />-2014 में Blackcoin <span>PoS को मल्टीपूल के साथ जोड़ने वाला पहला सिक्का</span> था, इतना शक्तिशाली कि इसे "ब्लैकहोल" कहा गया।<br />-Blackcoin <span>विज्ञापन/PR एजेंसी को क्राउडफंड करने वाला पहला सिक्का</span> था।<br />-Blackcoin <span>उत्कृष्ट समुदाय</span> के लिए जाना जाता है — क्रिप्टो स्पेस में सबसे समर्पित समुदायों में से एक।</p>` /*Hindi*/,
+			ar: `<p>فكّر فيها كـ<span>مصرف الشعب</span>. <span>لا يمكن تجميد حساباتك</span>، وهي مجانية تماماً و<span>دائماً</span>، <span>مجهولة الهوية</span>، أكثر <span>أماناً</span> من البنوك التقليدية، و<span>يمكن إرسال المدفوعات إلى أي مكان في العالم خلال ثوانٍ</span>.</p><p>يمكن لأي شخص إنشاء حساب فقط بتنزيل البرنامج. هذا المصرف لا مالك له ولا يمكن إغلاقه. لأنه <span>نظير إلى نظير</span>، فهو <span>شفاف تماماً</span>. المعروض من العملات محدود مما يجعلها قيّمة كمخزن للثروة كالذهب. العملات الجديدة لا يمكن توليدها إلا عبر مكافأة التحصيص.</p><p>مرحباً بك في <span>مستقبل العملة!</span></p><p><span>آمن، سريع، موثوق، مجهول، مثير، والأهم ممتع!</span></p><p>إنجازات أخرى:</p><p>-Blackcoin أول عملة مشفرة تعتمد <span>100% Proof of Stake</span>.<br />-وأيضاً أول عملة في العالم تمتلك <span>عقوداً ذكية تعمل فعلاً</span>.<br />-في 2014 كانت أول عملة تجمع <span>PoS مع multipool</span>، وكانت قوية لدرجة أنها لُقّبت بـ"الثقب الأسود".<br />-أول عملة <span>تستأجر وكالة إعلانات/علاقات عامة عبر تمويل جماعي</span>.<br />-تُعرف Blackcoin بامتلاكها <span>مجتمعاً متميزاً</span> هو من أكثر المجتمعات تفانياً في عالم العملات المشفرة.</p>` /*Arabic - Right-to-left*/,
+			pt: `<p>Pense nisso como um <span>banco do povo</span>. Suas <span>contas não podem ser congeladas</span>, é completamente e <span>sempre gratuito</span>, é <span>anônimo</span>, muito <span>mais seguro</span> que a banca tradicional e <span>os pagamentos podem ser enviados para qualquer lugar do mundo em segundos</span>.</p><p>Qualquer pessoa pode criar uma conta apenas baixando o software. Este banco não tem proprietários e não pode ser fechado. Por ser <span>peer-to-peer</span>, é <span>completamente transparente</span>. Há um suprimento limitado de moedas, tornando-o valioso como reserva de valor como o ouro. Novas moedas só podem ser geradas pela recompensa de staking da rede.</p><p>Bem-vindo ao <span>futuro da moeda!</span></p><p><span>Seguro, rápido, confiável, anônimo, emocionante e acima de tudo divertido!</span></p><p>Outras conquistas:</p><p>-Blackcoin foi a primeira criptomoeda baseada em Bitcoin a alcançar <span>100% Proof of Stake</span>.<br />-É também a <span>primeira moeda do mundo com contratos inteligentes funcionais</span>.<br />-Em 2014, Blackcoin foi a <span>primeira moeda a combinar PoS com um multipool</span>, tão poderosa que foi apelidada de "Buraco Negro".<br />-Blackcoin foi a <span>primeira a contratar uma agência de publicidade/PR por crowdfunding</span>.<br />-Blackcoin é conhecida por ter uma <span>comunidade excepcional</span>, uma das mais dedicadas do espaço cripto.</p>` /*Portuguese*/,
+			bn: `<p>এটিকে একটি <span>জনগণের ব্যাংক</span> হিসেবে ভাবুন। আপনার <span>অ্যাকাউন্ট ফ্রিজ করা যাবে না</span>, এটি সম্পূর্ণভাবে এবং <span>সবসময় বিনামূল্যে</span>, এটি <span>বেনামী</span>, ঐতিহ্যবাহী ব্যাংকিং থেকে <span>অনেক বেশি নিরাপদ</span> এবং <span>মুহূর্তের মধ্যে বিশ্বের যেকোনো জায়গায় পেমেন্ট পাঠানো যায়</span>।</p><p>যে কেউ শুধু সফটওয়্যার ডাউনলোড করে অ্যাকাউন্ট খুলতে পারেন। এই ব্যাংকের কোনো মালিক নেই এবং এটি বন্ধ করা যাবে না। কারণ এটি <span>পিয়ার-টু-পিয়ার</span>, এটি <span>সম্পূর্ণ স্বচ্ছ</span>। কয়েনের সীমিত সরবরাহ এটিকে সোনার মতো মূল্যবান করে তোলে। নেটওয়ার্কের স্টেকিং পুরস্কারের মাধ্যমেই কেবল নতুন কয়েন তৈরি হতে পারে।</p><p>তাহলে <span>মুদ্রার ভবিষ্যতে</span> স্বাগতম!</p><p><span>নিরাপদ, দ্রুত, নির্ভরযোগ্য, বেনামী, উত্তেজনাপূর্ণ এবং সর্বোপরি মজাদার!</span></p><p>অন্যান্য অর্জন:</p><p>-Blackcoin <span>100% Proof of Stake</span> অর্জনকারী প্রথম Bitcoin-ভিত্তিক ক্রিপ্টোকারেন্সি।<br />-এটি বিশ্বের <span>প্রথম কার্যকর স্মার্ট কন্ট্র্যাক্ট সহ কয়েন</span>।<br />-2014 সালে Blackcoin <span>PoS এবং multipool একত্রিত করা প্রথম কয়েন</span>, এতটাই শক্তিশালী যে একে "ব্ল্যাকহোল" বলা হতো।<br />-Blackcoin <span>ক্রাউডফান্ডিংয়ে বিজ্ঞাপন সংস্থা নিয়োগ করা প্রথম কয়েন</span>।<br />-Blackcoin <span>অসাধারণ সম্প্রদায়</span> এর জন্য পরিচিত — ক্রিপ্টো স্পেসের সবচেয়ে নিবেদিত সম্প্রদায়গুলির মধ্যে একটি।</p>` /*Bengal*/,
+			ru: `<p>Представьте это как <span>народный банк</span>. Ваши <span>счета нельзя заморозить</span>, он полностью и <span>всегда бесплатен</span>, <span>анонимен</span>, гораздо <span>надёжнее</span> традиционного банкинга, и <span>платежи отправляются куда угодно в мире за секунды</span>.</p><p>Любой может открыть счёт, просто скачав программу. У этого банка нет владельцев, его нельзя закрыть. Поскольку он <span>одноранговый</span>, он <span>полностью прозрачен</span>. Ограниченное предложение монет делает их ценными, как золото. Новые монеты генерируются только через стейкинговое вознаграждение сети.</p><p>Добро пожаловать в <span>будущее валюты!</span></p><p><span>Безопасный, быстрый, надёжный, анонимный, захватывающий и прежде всего весёлый!</span></p><p>Другие достижения:</p><p>-Blackcoin — первая криптовалюта на базе Bitcoin, перешедшая на <span>100% Proof of Stake</span>.<br />-Также первая монета в мире с <span>работающими смарт-контрактами</span>.<br />-В 2014 году Blackcoin стала <span>первой монетой, объединившей PoS с мультипулом</span>, настолько мощной, что её прозвали «Чёрной дырой».<br />-Первая монета, <span>нанявшая рекламное/PR-агентство через краудфандинг</span>.<br />-Blackcoin известна <span>выдающимся сообществом</span> — одним из самых преданных в криптопространстве.</p>` /*Russian*/,
 			ja: `<p>Blackcoin(ブラックコイン)のシステム、これは、個人銀行のようなものだと思ってください。簡単に口座は凍結される事無く、安心完全かつ常に無料で、匿名性が高く、従来の銀行よりもはるかに安全で、送金は世界中の誰にでも数秒で安全に送ることができます。</p>
 			<p>ソフトウェアをダウンロードするだけで、誰でもアカウントを作成することができます。この銀行には所有者がおらず、閉鎖することもできません。ピア・ツー・ピアの為に高い透明性を有します。またブラックコインの発行枚数は有限です。その為ゴールドのように価値を維持し、富の保存場所としても最適です。新規発行されるBlackcoinは、ネットワークの1％の報酬によってのみ生成されます。</p>
 			<p>未来の通貨へようこそ‼︎</p>
@@ -121,48 +121,48 @@ export default {
 			<p>-Blackcoinは、クラウドファンディング上で広告・PR代理店のマックス・ブールジュを雇った最初のコインです。</p>
 			<p>-古くからBlackcoinは優れたコミュニティを持つことで知られているます。このBlackcoinコミュニティでは、みんながリーダーです。コミュニティの皆さんは、このコインを言葉ではなく行動のコインにするために、日々、たゆまぬ努力を続けています。Dogecoinに次いで最も活発なコミュニティの一つでも有ります。</p>
 			` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
+			jv: `<p>Bayangake kaya <span>bank rakyat</span>. <span>Akun sampeyan ora bisa dibekukan</span>, iki lengkap lan <span>tansah gratis</span>, iki <span>anonim</span>, luwih <span>aman</span> tinimbang perbankan tradisional lan <span>pembayaran bisa dikirim menyang ngendi wae ing donya sajrone detik</span>.</p><p>Sapa wae bisa gawe akun mung karo ndownload software. Bank iki ora duwe pemilik lan ora bisa ditutup. Amarga iku <span>peer-to-peer</span>, iku <span>transparan banget</span>. Suplai koin kang winates ndadekake iku berharga kaya emas. Koin anyar mung bisa digawe liwat hadiah staking jaringan.</p><p>Sugeng rawuh ing <span>masa depan mata uang!</span></p><p><span>Aman, cepet, dipercaya, anonim, nyenengake, lan sing paling penting menyenangkan!</span></p><p>Prestasi liyane:</p><p>-Blackcoin koin pertama sing nggayuh <span>100% Proof of Stake</span>.<br />-Uga koin pertama ing donya sing duwe <span>kontrak cerdas sing bisa digunakake</span>.<br />-Ing 2014, Blackcoin koin pertama sing nggabungake <span>PoS karo multipool</span>, disebut "Blackhole".<br />-Koin pertama sing <span>ngrekrut agensi iklan/PR liwat crowdfunding</span>.<br />-Blackcoin misuwur duwe <span>komunitas sing apik banget</span>.</p>` /*Javanese*/,
+			de: `<p>Stellen Sie es sich wie eine <span>Volksbank</span> vor. Ihre <span>Konten können nicht eingefroren werden</span>, es ist vollständig und <span>immer kostenlos</span>, <span>anonym</span>, viel <span>sicherer</span> als traditionelles Banking und <span>Zahlungen können in Sekunden weltweit gesendet werden</span>.</p><p>Jeder kann ein Konto erstellen, indem er einfach die Software herunterlädt. Diese Bank hat keine Eigentümer und kann nicht abgeschaltet werden. Da sie <span>Peer-to-Peer</span> ist, ist sie <span>vollständig transparent</span>. Das begrenzte Angebot an Münzen macht sie wertvoll als Wertaufbewahrungsmittel wie Gold. Neue Münzen können nur durch die Staking-Belohnung des Netzwerks erzeugt werden.</p><p>Willkommen in der <span>Zukunft der Währung!</span></p><p><span>Sicher, schnell, zuverlässig, anonym, aufregend und vor allem Spaß!</span></p><p>Weitere Errungenschaften:</p><p>-Blackcoin war die erste Bitcoin-basierte Kryptowährung, die <span>100% Proof of Stake</span> erreichte.<br />-Auch die <span>erste Münze weltweit mit funktionierenden Smart Contracts</span>.<br />-2014 war sie die <span>erste Münze, die PoS mit einem Multipool kombinierte</span>, so mächtig, dass sie "Schwarzes Loch" genannt wurde.<br />-Die <span>erste Münze, die per Crowdfunding eine Werbe-/PR-Agentur engagierte</span>.<br />-Blackcoin ist bekannt für eine <span>herausragende Community</span> — eine der engagiertesten im Krypto-Bereich.</p>` /*German*/,
+			ko: `<p>이것을 <span>국민 은행</span>처럼 생각하세요. 당신의 <span>계정은 동결될 수 없고</span>, 완전히 그리고 <span>항상 무료이며</span>, <span>익명이고</span>, 전통적 뱅킹보다 <span>훨씬 안전하며</span>, <span>몇 초 내에 세계 어디로나 결제를 보낼 수 있습니다</span>.</p><p>누구나 소프트웨어를 다운로드하기만 하면 계정을 만들 수 있습니다. 이 은행에는 소유자가 없으며 폐쇄될 수 없습니다. <span>피어-투-피어</span>이기 때문에 <span>완전히 투명합니다</span>. 제한된 공급으로 금처럼 가치 있는 자산이 됩니다. 새 코인은 네트워크의 스테이킹 보상으로만 생성됩니다.</p><p><span>화폐의 미래</span>에 오신 것을 환영합니다!</p><p><span>안전하고, 빠르고, 신뢰할 수 있고, 익명이며, 흥미롭고 무엇보다 재미있습니다!</span></p><p>기타 주요 성과:</p><p>-Blackcoin은 <span>100% Proof of Stake</span>를 달성한 최초의 Bitcoin 기반 암호화폐입니다.<br />-또한 세계 최초로 <span>작동하는 스마트 컨트랙트</span>를 가진 코인입니다.<br />-2014년에 <span>PoS와 멀티풀을 결합한 최초의 코인</span>으로 "블랙홀"이라 불릴 만큼 강력했습니다.<br /><span>크라우드펀딩으로 광고/PR 대행사를 고용한 최초의 코인</span>입니다.<br />-Blackcoin은 <span>뛰어난 커뮤니티</span>로 유명하며, 크립토 분야에서 가장 헌신적인 커뮤니티 중 하나입니다.</p>` /*Korean*/,
+			fr: `<p>Imaginez cela comme une <span>banque du peuple</span>. Vos <span>comptes ne peuvent pas être gelés</span>, c'est complètement et <span>toujours gratuit</span>, c'est <span>anonyme</span>, bien <span>plus sécurisé</span> que la banque traditionnelle, et <span>les paiements peuvent être envoyés partout dans le monde en quelques secondes</span>.</p><p>N'importe qui peut créer un compte en téléchargeant simplement le logiciel. Cette banque n'a pas de propriétaires et ne peut pas être fermée. Parce qu'elle est <span>pair-à-pair</span>, elle est <span>totalement transparente</span>. L'offre limitée de pièces la rend précieuse comme réserve de valeur, telle que l'or. Les nouvelles pièces ne peuvent être générées que par la récompense de staking du réseau.</p><p>Bienvenue dans le <span>futur de la monnaie !</span></p><p><span>Sûr, rapide, fiable, anonyme, passionnant et surtout amusant !</span></p><p>Autres réalisations notables :</p><p>-Blackcoin a été la première cryptomonnaie basée sur Bitcoin à atteindre le <span>100% Proof of Stake</span>.<br />-C'est aussi la première monnaie au monde à avoir des <span>contrats intelligents fonctionnels</span>.<br />-En 2014, Blackcoin fut la <span>première monnaie à combiner PoS avec un multipool</span>, si puissante qu'elle fut surnommée "le Trou Noir".<br />-La <span>première à recruter une agence de publicité/RP par crowdfunding</span>.<br />-Blackcoin est reconnue pour avoir une <span>communauté exceptionnelle</span>, l'une des plus dévouées de l'espace crypto.</p>` /*French*/,
+			te: `<p>దీన్ని ఒక <span>ప్రజల బ్యాంకు</span>గా భావించండి. మీ <span>ఖాతాలు స్తంభింపజేయడం అసాధ్యం</span>, ఇది పూర్తిగా మరియు <span>ఎల్లప్పుడూ ఉచితం</span>, <span>అనామకంగా</span> ఉంటుంది, సాంప్రదాయ బ్యాంకింగ్ కంటే <span>చాలా సురక్షితం</span> మరియు <span>సెకన్లలో ప్రపంచంలో ఎక్కడికైనా చెల్లింపులు పంపవచ్చు</span>.</p><p>ఎవరైనా సాఫ్ట్‌వేర్ డౌన్‌లోడ్ చేసుకోవడం ద్వారా ఖాతా సృష్టించవచ్చు. ఈ బ్యాంకుకు యజమానులు లేరు మరియు మూసివేయడం సాధ్యం కాదు. ఇది <span>పీర్-టు-పీర్</span> కావడం వల్ల <span>పూర్తిగా పారదర్శకంగా</span> ఉంటుంది. పరిమిత కాయిన్ సరఫరా దీన్ని బంగారం వలె విలువైనదిగా చేస్తుంది. నెట్‌వర్క్ స్టేకింగ్ రివార్డ్ ద్వారా మాత్రమే కొత్త కాయిన్‌లు రూపొందించబడతాయి.</p><p><span>కరెన్సీ భవిష్యత్తుకు</span> స్వాగతం!</p><p><span>సురక్షితం, వేగంగా, నమ్మదగినది, అనామకంగా, ఉత్తేజకరంగా మరియు అన్నిటికంటే మించి సరదాగా!</span></p><p>ఇతర విజయాలు:</p><p>-Blackcoin <span>100% Proof of Stake</span> సాధించిన మొదటి Bitcoin ఆధారిత క్రిప్టోకరెన్సీ.<br />-ప్రపంచంలో <span>పని చేసే స్మార్ట్ కాంట్రాక్టులు కలిగిన మొదటి కాయిన్</span> కూడా.<br />-2014లో <span>PoS ను multipool తో కలిపిన మొదటి కాయిన్</span>, చాలా శక్తివంతంగా ఉండి "Blackhole" అని పిలుచుకున్నారు.<br />-<span>క్రౌడ్‌ఫండింగ్ ద్వారా వికర్తన/PR సంస్థను నియమించిన మొదటి కాయిన్</span>.<br />-Blackcoin <span>అత్యుత్తమ సమాజం</span> కోసం ప్రసిద్ధి — క్రిప్టో స్పేస్‌లో అత్యంత అంకితమైన సమాజాలలో ఒకటి.</p>` /*Telugu*/,
+			mr: `<p>हे एखाद्या <span>लोकांच्या बँके</span>सारखे समजा. तुमचे <span>खाते गोठवता येत नाही</span>, हे पूर्णपणे आणि <span>नेहमी मोफत</span> आहे, <span>अनामिक</span> आहे, पारंपरिक बँकिंगपेक्षा <span>अधिक सुरक्षित</span> आहे आणि <span>जगात कुठेही सेकंदात पैसे पाठवता येतात</span>.</p><p>कोणीही फक्त सॉफ्टवेअर डाउनलोड करून खाते तयार करू शकतो. या बँकेचे कोणतेही मालक नाहीत आणि ती बंद करता येत नाही. <span>पीयर-टू-पीयर</span> असल्याने ती <span>पूर्णपणे पारदर्शक</span> आहे. नाण्यांचा मर्यादित पुरवठा त्याला सोन्यासारखे मूल्यवान बनवतो. नवीन नाणी फक्त नेटवर्कच्या स्टेकिंग बक्षिसाने निर्माण होऊ शकतात.</p><p><span>चलनाच्या भविष्यात</span> आपले स्वागत आहे!</p><p><span>सुरक्षित, जलद, विश्वासार्ह, अनामिक, रोमांचक आणि सर्वात महत्त्वाचे म्हणजे मजेदार!</span></p><p>इतर उपलब्धी:</p><p>-Blackcoin <span>100% Proof of Stake</span> साध्य करणारी पहिली Bitcoin-आधारित क्रिप्टोकरन्सी होती.<br />-जगातील <span>पहिले कार्यशील स्मार्ट कॉन्ट्रॅक्ट असलेले नाणे</span> देखील.<br />-2014 मध्ये <span>PoS आणि multipool एकत्र केलेले पहिले नाणे</span>, इतके शक्तिशाली की त्याला "ब्लॅकहोल" म्हटले गेले.<br />-<span>क्राउडफंडिंगद्वारे जाहिरात/PR एजन्सी नेमणारे पहिले नाणे</span>.<br />-Blackcoin <span>उत्कृष्ट समुदाय</span>साठी ओळखले जाते — क्रिप्टो विश्वातील सर्वात समर्पित समुदायांपैकी एक.</p>` /*Marathi*/,
+			tr: `<p>Bunu bir <span>halk bankası</span> olarak düşünün. <span>Hesaplarınız dondurulamaz</span>, tamamen ve <span>her zaman ücretsizdir</span>, <span>anonimdir</span>, geleneksel bankacılıktan çok <span>daha güvenlidir</span> ve <span>ödemeler saniyeler içinde dünyanın her yerine gönderilebilir</span>.</p><p>Herkes sadece yazılımı indirerek hesap açabilir. Bu bankanın sahipleri yoktur ve kapatılamaz. <span>Eşten eşe</span> olduğundan <span>tamamen şeffaftır</span>. Sınırlı coin arzı onu altın gibi değerli bir servet deposu yapar. Yeni coinler yalnızca ağın staking ödülüyle üretilebilir.</p><p><span>Para biriminin geleceğine</span> hoş geldiniz!</p><p><span>Güvenli, hızlı, güvenilir, anonim, heyecan verici ve hepsinden önemlisi eğlenceli!</span></p><p>Diğer başarılar:</p><p>-Blackcoin <span>%100 Proof of Stake</span>'e geçen ilk Bitcoin tabanlı kripto paradır.<br />-Aynı zamanda dünyada <span>çalışan akıllı sözleşmelere sahip ilk coin</span>.<br />-2014'te <span>PoS'u multipool ile birleştiren ilk coin</span>; bu kadar güçlüydü ki "Kara Delik" lakabıyla anıldı.<br />-<span>Kitle fonlamasıyla reklam/PR ajansı tutan ilk coin</span>.<br />-Blackcoin <span>olağanüstü topluluğu</span> ile bilinir — kripto alanının en fedakâr topluluklarından biri.</p>` /*Turkish*/,
+			ta: `<p>இதை ஒரு <span>மக்கள் வங்கி</span> என்று நினைத்துக்கொள்ளுங்கள். உங்கள் <span>கணக்குகளை முடக்க முடியாது</span>, இது முழுமையாக மற்றும் <span>எப்போதும் இலவசம்</span>, <span>அடையாளமற்றது</span>, பாரம்பரிய வங்கியை விட மிகவும் <span>பாதுகாப்பானது</span> மற்றும் <span>உலகில் எங்கும் நொடிகளில் பணம் அனுப்பலாம்</span>.</p><p>யாரும் மென்பொருளை பதிவிறக்கம் செய்வதன் மூலம் கணக்கு திறக்கலாம். இந்த வங்கிக்கு உரிமையாளர்கள் இல்லை மற்றும் மூட முடியாது. இது <span>சமகக்கு-சமகம்</span> என்பதால் <span>முற்றிலும் வெளிப்படையானது</span>. நாணயங்களின் வரையறுக்கப்பட்ட வழங்கல் அதை தங்கம் போல் மதிப்புமிக்கதாக ஆக்குகிறது. புதிய நாணயங்கள் நெட்வொர்க் ஸ்டேக்கிங் வெகுமதி மூலம் மட்டுமே உருவாக்கப்படலாம்.</p><p><span>நாணயத்தின் எதிர்காலத்திற்கு</span> வரவேற்கிறோம்!</p><p><span>பாதுகாப்பானது, வேகமானது, நம்பகமானது, அடையாளமற்றது, உற்சாகமானது மற்றும் எல்லாவற்றிற்கும் மேலாக வேடிக்கையானது!</span></p><p>மற்ற சாதனைகள்:</p><p>-Blackcoin <span>100% Proof of Stake</span> அடைந்த முதல் Bitcoin அடிப்படையிலான கிரிப்டோகரன்சி.<br />-உலகின் <span>செயல்படும் ஸ்மார்ட் ஒப்பந்தங்களை கொண்ட முதல் நாணயம்</span> கூட.<br />-2014ல் <span>PoS-ஐ multipool உடன் இணைத்த முதல் நாணயம்</span>; "கருந்துளை" என்று அழைக்கப்பட்டது.<br />-<span>கூட்டு நிதியில் விளம்பர/PR நிறுவனம் நியமித்த முதல் நாணயம்</span>.<br />-Blackcoin <span>சிறந்த சமூகம்</span> கொண்டதாக அறியப்படுகிறது.</p>` /*Tamil*/,
+			vi: `<p>Hãy nghĩ về nó như một <span>ngân hàng của nhân dân</span>. <span>Tài khoản của bạn không thể bị đóng băng</span>, hoàn toàn và <span>luôn luôn miễn phí</span>, <span>ẩn danh</span>, <span>an toàn hơn nhiều</span> so với ngân hàng truyền thống và <span>thanh toán có thể gửi đến bất kỳ đâu trên thế giới trong vài giây</span>.</p><p>Bất kỳ ai cũng có thể tạo tài khoản chỉ bằng cách tải phần mềm. Ngân hàng này không có chủ sở hữu và không thể bị đóng cửa. Vì nó là <span>ngang hàng</span>, nó <span>hoàn toàn minh bạch</span>. Nguồn cung coin hạn chế làm cho nó có giá trị như vàng. Coin mới chỉ có thể được tạo ra thông qua phần thưởng staking của mạng.</p><p>Chào mừng đến với <span>tương lai của tiền tệ!</span></p><p><span>An toàn, nhanh chóng, đáng tin cậy, ẩn danh, thú vị và trên hết là vui!</span></p><p>Các thành tích khác:</p><p>-Blackcoin là đồng tiền mã hóa dựa trên Bitcoin đầu tiên đạt <span>100% Proof of Stake</span>.<br />-Cũng là đồng coin đầu tiên trên thế giới có <span>hợp đồng thông minh hoạt động được</span>.<br />-Năm 2014, Blackcoin là <span>coin đầu tiên kết hợp PoS với multipool</span>, mạnh đến mức được gọi là "Hố đen".<br />-<span>Coin đầu tiên huy động vốn cộng đồng để thuê agency quảng cáo/PR</span>.<br />-Blackcoin nổi tiếng với <span>cộng đồng xuất sắc</span> — một trong những cộng đồng tận tâm nhất trong không gian crypto.</p>` /*Vietnamese*/,
+			ur: `<p>اسے ایک <span>عوامی بینک</span> کے طور پر سوچیں۔ آپ کے <span>اکاؤنٹس منجمد نہیں ہو سکتے</span>، یہ مکمل طور پر اور <span>ہمیشہ مفت</span> ہے، <span>گمنام</span> ہے، روایتی بینکنگ سے <span>بہت زیادہ محفوظ</span> ہے اور <span>ادائیگیاں سیکنڈوں میں دنیا میں کہیں بھی بھیجی جا سکتی ہیں</span>۔</p><p>کوئی بھی صرف سافٹ ویئر ڈاؤن لوڈ کر کے اکاؤنٹ بنا سکتا ہے۔ اس بینک کا کوئی مالک نہیں اور اسے بند نہیں کیا جا سکتا۔ <span>پیر-ٹو-پیر</span> ہونے کی وجہ سے یہ <span>مکمل طور پر شفاف</span> ہے۔ سکوں کی محدود سپلائی اسے سونے کی طرح قیمتی بناتی ہے۔ نئے سکے صرف نیٹ ورک کے اسٹیکنگ انعام سے ہی بن سکتے ہیں۔</p><p><span>کرنسی کے مستقبل</span> میں خوش آمدید!</p><p><span>محفوظ، تیز، قابل اعتماد، گمنام، دلچسپ اور سب سے بڑھ کر مزیدار!</span></p><p>دیگر کامیابیاں:</p><p>-Blackcoin <span>100% Proof of Stake</span> حاصل کرنے والی پہلی Bitcoin بنیاد کریپٹو کرنسی۔<br />-دنیا میں <span>کام کرنے والے سمارٹ کانٹریکٹس رکھنے والا پہلا سکہ</span> بھی۔<br />-2014 میں <span>PoS کو multipool کے ساتھ جوڑنے والا پہلا سکہ</span>، اتنا طاقتور کہ "بلیک ہول" کہلایا۔<br />-<span>کراؤڈ فنڈنگ سے اشتہاری/PR ایجنسی نیمنے والا پہلا سکہ</span>۔<br />-Blackcoin <span>شاندار کمیونٹی</span> کے لیے جانا جاتا ہے — کریپٹو دنیا کی سب سے وقف کمیونٹیوں میں سے ایک۔</p>` /*Urdu - Right-to-left*/,
+			nl: `<p>Zie het als een <span>volksbank</span>. Uw <span>rekeningen kunnen niet worden bevroren</span>, het is volledig en <span>altijd gratis</span>, het is <span>anoniem</span>, veel <span>veiliger</span> dan traditioneel bankieren en <span>betalingen kunnen binnen seconden overal ter wereld worden verzonden</span>.</p><p>Iedereen kan een rekening aanmaken door simpelweg de software te downloaden. Deze bank heeft geen eigenaren en kan niet worden gesloten. Omdat het <span>peer-to-peer</span> is, is het <span>volledig transparant</span>. Het beperkte aanbod van munten maakt ze waardevol als goudachtige spaarmiddel. Nieuwe munten kunnen alleen worden gegenereerd via de staking-beloning van het netwerk.</p><p>Welkom in de <span>toekomst van valuta!</span></p><p><span>Veilig, snel, betrouwbaar, anoniem, spannend en bovenal leuk!</span></p><p>Andere verwezenlijkingen:</p><p>-Blackcoin was de eerste Bitcoin-gebaseerde cryptomunt die <span>100% Proof of Stake</span> bereikte.<br />-Ook de eerste munt ter wereld met <span>werkende slimme contracten</span>.<br />-In 2014 de <span>eerste munt die PoS combineerde met een multipool</span>, zo krachtig dat het "het Zwarte Gat" werd genannt.<br />-De <span>eerste munt die crowdfunding gebruikte om een reclame-/PR-bureau in te huren</span>.<br />-Blackcoin staat bekend om zijn <span>uitstekende community</span> — een van de meest toegewijde in de crypto-wereld.</p>` /*Dutch*/,
+			it: `<p>Immaginate come una <span>banca del popolo</span>. I vostri <span>conti non possono essere congelati</span>, è completamente e <span>sempre gratuita</span>, è <span>anonima</span>, molto <span>più sicura</span> del banking tradizionale e <span>i pagamenti possono essere inviati ovunque nel mondo in pochi secondi</span>.</p><p>Chiunque può creare un account semplicemente scaricando il software. Questa banca non ha proprietari e non può essere chiusa. Poiché è <span>peer-to-peer</span>, è <span>completamente trasparente</span>. L'offerta limitata di monete la rende preziosa come riserva di valore come l'oro. Le nuove monete possono essere generate solo attraverso la ricompensa di staking della rete.</p><p>Benvenuti nel <span>futuro della moneta!</span></p><p><span>Sicuro, veloce, affidabile, anonimo, entusiasmante e soprattutto divertente!</span></p><p>Altri traguardi:</p><p>-Blackcoin è stata la prima criptovaluta basata su Bitcoin a raggiungere il <span>100% Proof of Stake</span>.<br />-È anche la prima moneta al mondo con <span>smart contract funzionanti</span>.<br />-Nel 2014, la <span>prima moneta a combinare PoS con un multipool</span>, così potente da essere soprannominata "Buco Nero".<br />-La <span>prima a finanziare collettivamente e assumere un'agenzia di pubblicità/PR</span>.<br />-Blackcoin è nota per avere una <span>community eccezionale</span> — una delle più dedicate nell'ecosistema crypto.</p>` /*Italian*/,
+			hr: `<p>Zamislite to kao <span>banku naroda</span>. Vaši <span>računi ne mogu biti zamrznuti</span>, potpuno je i <span>uvijek besplatno</span>, <span>anonimno</span>, puno <span>sigurnije</span> od tradicionalnog bankarstva i <span>plaćanja se mogu poslati bilo gdje u svijetu za sekunde</span>.</p><p>Svi mogu stvoriti račun jednostavnim preuzimanjem softvera. Ova banka nema vlasnika i ne može se zatvoriti. Budući da je <span>peer-to-peer</span>, potpuno je <span>transparentna</span>. Ograničena ponuda novčića čini je vrijednom kao zlato. Novi novčići mogu se generirati samo nagradom za staking mreže.</p><p>Dobrodošli u <span>budućnost valute!</span></p><p><span>Sigurno, brzo, pouzdano, anonimno, uzbudljivo i iznad svega zabavno!</span></p><p>Ostala postignuća:</p><p>-Blackcoin je bila prva kriptovaluta temeljena na Bitcoinu koja je postigla <span>100% Proof of Stake</span>.<br />-Također je prva moneta na svijetu s <span>funkcionalnim pametnim ugovorima</span>.<br />-2014. bila je <span>prva moneta koja je kombinirala PoS s multipoolom</span>, toliko moćna da je nazvana "Crnom rupom".<br />-<span>Prva moneta koja je crowdfundingom unajmila agenciju za oglašavanje/PR</span>.<br />-Blackcoin je poznata po <span>izvrsnoj zajednici</span> — jednoj od najpredanijih u kripto prostoru.</p>` /*Croatian*/
 		},
 
 		HOW_DOES_IT_WORK: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
+			zh: `它是如何工作的？` /*Chinese*/,
+			es: `¿CÓMO FUNCIONA?` /*Spanish*/,
 			en: 'HOW DOES IT WORK?' /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
+			hi: `यह कैसे काम करता है?` /*Hindi*/,
+			ar: `كيف تعمل؟` /*Arabic - Right-to-left*/,
+			pt: `COMO FUNCIONA?` /*Portuguese*/,
+			bn: `এটি কীভাবে কাজ করে?` /*Bengal*/,
+			ru: `КАК ЭТО РАБОТАЕТ?` /*Russian*/,
 			ja: `ブラックコインの仕組み` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
+			jv: `CARANE KERJANE?` /*Javanese*/,
+			de: `WIE FUNKTIONIERT ES?` /*German*/,
+			ko: `어떻게 작동하나요?` /*Korean*/,
+			fr: `COMMENT ÇA MARCHE?` /*French*/,
+			te: `ఇది ఎలా పని చేస్తుంది?` /*Telugu*/,
+			mr: `हे कसे कार्य करते?` /*Marathi*/,
+			tr: `NASIL ÇALIŞIR?` /*Turkish*/,
+			ta: `இது எப்படி வேலை செய்கிறது?` /*Tamil*/,
+			vi: `NÓ HOẠT ĐỘNG NHƯ THẾ NÀO?` /*Vietnamese*/,
+			ur: `یہ کیسے کام کرتا ہے؟` /*Urdu - Right-to-left*/,
+			nl: `HOE WERKT HET?` /*Dutch*/,
+			it: `COME FUNZIONA?` /*Italian*/,
+			hr: `KAKO TO FUNKCIONIRA?` /*Croatian*/
 		},
 		HOW_DOES_IT_WORK_ANSWER1: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
+			zh: `<p>许多人认为智能合约是未来的方向！这就像互联网诞生的黎明。<span>金钱将永远改变</span>。那么这是如何运作的呢？</p><p>管理交易和发行额外BlackCoin的能力完全由使用BlackCoin的用户网络处理。<br />这意味着<span>您就是银行家</span>。因为<span>BlackCoin网络由持有BlackCoin的人们运营</span>，他们通过一个称为质押的过程<span>保障网络安全</span>。<br />网络每约64秒发行1.5 BLK，<span>全年新增约1.2%的总供应量</span>作为稳定、可预测的排放。由于任何时刻只有部分BLK在活跃质押，<span>主动质押者每年赚取4%至8%</span>——质押的代币越少，个人收益率越高。<br />BlackCoin也是<span>开源</span>的，这意味着使其运行的软件完全公开可供审查，让您放心。<span>没有人拥有BlackCoin</span>，它不是单一实体；<span>任何人都可以参与</span>。交易历史也称为"区块链"，由所有人共享。因此当您下载程序时，您保存了历史的副本并分享它！此外，软件运行期间您将进行质押，确保交易历史安全。因此<span>无法伪造</span>。您的账户是一组密钥，您可以用这些密钥签署交易甚至合约！世界上没有其他人拥有这些密钥的副本，只有您。因此<span>无法伪造您的数字签名</span>。</p><p>总结：</p><p>&#8211;<span>每个人都通过保护网络安全获得报酬</span><br />-每个人共享交易历史，所以<span>它是透明的</span><br />-软件是开源的，所以您知道<span>它是安全的</span><br />&#8211;<span>它是匿名的</span>，任何人都可以开户<br />&#8211;<span>它极其快速</span>，您可以在几分钟内向世界任何地方汇款<br />&#8211;<span>它</span>将永远是<span>免费的。</span></p>` /*Chinese*/,
+			es: `<p>¡Mucha gente cree que los contratos inteligentes son el futuro! Esto es como el amanecer de internet. <span>El dinero nunca volverá a ser el mismo</span>. ¿Cómo funciona esto?</p><p>La capacidad de gestionar transacciones y emitir BlackCoins adicionales es manejada completamente por la red de usuarios de BlackCoin.<br />Esto significa que <span>TÚ eres el banquero</span>. Porque la <span>red de BlackCoin está gestionada por personas</span>, los poseedores de BlackCoin, <span>que aseguran la red a través del staking</span>.<br />La red emite 1,5 BLK cada ~64 segundos, añadiendo <span>~1,2% al suministro total por año</span> como emisión estable y predecible. Como solo una fracción de BLK está activamente en staking en cualquier momento, <span>los stakers activos ganan entre 4% y 8% anualmente</span>.<br />BlackCoin es también de <span>código abierto</span>, lo que significa que el software es públicamente auditable. <span>Nadie posee BlackCoin</span>; <span>cualquiera puede participar</span>. El historial de transacciones también se llama "Blockchain", compartido por todos. Tu cuenta es un conjunto de claves criptográficas. <span>Es imposible falsificar</span> la cadena ni <span>tu firma digital</span>.</p><p>En resumen:</p><p>&#8211;<span>Todos ganan por mantener la red segura</span><br />-Todos comparten el historial, por lo que <span>es transparente</span><br />-El software es abierto, así que sabes que <span>es seguro</span><br />&#8211;<span>Es anónimo</span> y cualquiera puede abrir una cuenta<br />&#8211;<span>Es extremadamente rápido</span>, puedes enviar dinero a cualquier parte en minutos<br />&#8211;<span>Es</span> y siempre será <span>GRATIS.</span></p>` /*Spanish*/,
 			en: `
 				<p>
 					Did you know that in the United States that cryptocurrency is considered a commodity? So
@@ -176,8 +176,13 @@ export default {
 					The ability to manage transactions and issue additional BlackCoins is all handled by the
 					network of users utilizing BlackCoin. <br />
 					So this means <span>YOU are the banker</span>. Because the
-					<span>BlackCoin network is run by the people</span>, holders of BlackCoin,
-					<span>who receive a 1% yearly reward through a process called staking</span>.<br />
+					<span>BlackCoin network is run by the people</span> — holders of BlackCoin
+					<span>who secure the network through a process called staking</span>.<br />
+					The network issues 1.5 BLK every ~64 seconds, adding roughly
+					<span>1.2% to the total supply per year</span> as a steady, predictable emission.
+					Because only a fraction of all BLK is actively staked at any time,
+					<span>active stakers earn between 4% and 8% annually</span> on the coins they put
+					to work — the smaller the share of coins staking, the higher the individual yield.<br />
 					BlackCoin is <span>open-source</span> too, meaning that the software that makes it
 					function is completely available for public scrutiny giving you peace of mind.
 					<span>No one owns BlackCoin</span>, it is not a single entity;
@@ -186,26 +191,26 @@ export default {
 					the history and share it! In addition you will stake while the software is running and
 					make sure the bank history is secure. So it is <span>impossible to counterfeit</span>.
 					Your account is a collection of keys. You can use those keys to sign transactions and
-					evencontracts! Nobody else in the world has a copy of those keys, only you. So it is
+					even contracts! Nobody else in the world has a copy of those keys, only you. So it is
 					<span>impossible to forge your digital signature</span>. Thanks to the brilliant
 					combination of digital signatures and torrents, cryptocurrency has risen to popularity.
 				</p>
 				<p>So to summarize:</p>
 				<p>
 					&#8211;<span>Everyone gets paid to keep the network secure</span><br />
-					-Everyone shares the bank history, so <span>its transparent</span><br />
-					-The software is open source so you know <span>its safe</span><br />
+					-Everyone shares the bank history, so <span>it's transparent</span><br />
+					-The software is open source so you know <span>it's safe</span><br />
 					&#8211;<span>It is anonymous</span> and anyone can open an account<br />
 					&#8211;<span>It is extremely fast</span>, you can send money to anyone in the world
 					within minutes<br />
 					&#8211;<span>It is</span> and will always BE
 					<span>FREE.</span>
 				</p>` /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
+			hi: `<p>बहुत से लोग सोचते हैं कि स्मार्ट कॉन्ट्रैक्ट भविष्य हैं! यह इंटरनेट के उदय जैसा है। <span>पैसा अब पहले जैसा नहीं रहेगा</span>। तो यह कैसे काम करता है?</p><p>लेनदेन प्रबंधित करने और अतिरिक्त BlackCoin जारी करने की क्षमता BlackCoin उपयोगकर्ताओं के नेटवर्क द्वारा संभाली जाती है।<br />इसका मतलब है कि <span>आप बैंकर हैं</span>। क्योंकि <span>BlackCoin नेटवर्क लोगों द्वारा चलाया जाता है</span>, BlackCoin के धारक, जो <span>स्टेकिंग के माध्यम से नेटवर्क को सुरक्षित करते हैं</span>।<br />नेटवर्क प्रत्येक ~64 सेकंड में 1.5 BLK जारी करता है, <span>प्रति वर्ष कुल आपूर्ति में ~1.2% जोड़ता है</span>। चूंकि किसी भी समय केवल एक अंश BLK सक्रिय रूप से स्टेक हो रहा है, <span>सक्रिय स्टेकर्स वार्षिक 4% से 8% कमाते हैं</span>।<br />BlackCoin <span>ओपन-सोर्स</span> भी है। <span>कोई भी BlackCoin का मालिक नहीं है</span>; <span>कोई भी भाग ले सकता है</span>। लेनदेन इतिहास "ब्लॉकचेन" कहलाता है। आपका खाता क्रिप्टोग्राफिक कुंजियों का एक संग्रह है। <span>नकल करना असंभव है</span> और <span>आपके डिजिटल हस्ताक्षर जाली नहीं किए जा सकते</span>।</p><p>सारांश:</p><p>&#8211;<span>सभी नेटवर्क सुरक्षित रखने के लिए भुगतान पाते हैं</span><br />-सभी लेनदेन इतिहास साझा करते हैं, इसलिए <span>यह पारदर्शी है</span><br />-सॉफ्टवेयर ओपन सोर्स है, इसलिए <span>यह सुरक्षित है</span><br />&#8211;<span>यह गुमनाम है</span> और कोई भी खाता खोल सकता है<br />&#8211;<span>यह अत्यंत तेज़ है</span>, आप मिनटों में दुनिया में कहीं भी पैसे भेज सकते हैं<br />&#8211;<span>यह</span> हमेशा <span>मुफ्त रहेगा।</span></p>` /*Hindi*/,
+			ar: `<p>يعتقد كثيرون أن العقود الذكية هي مستقبل العالم! هذا كفجر الإنترنت. <span>لن يكون المال كما كان أبداً</span>. إذن كيف يعمل هذا؟</p><p>تدار القدرة على إدارة المعاملات وإصدار BlackCoins إضافية بالكامل من قبل شبكة مستخدمي BlackCoin.<br />هذا يعني أن <span>أنت المصرفي</span>. لأن <span>شبكة BlackCoin يديرها الناس</span>، أصحاب BlackCoin، <span>الذين يحمونها عبر التحصيص</span>.<br />تصدر الشبكة 1.5 BLK كل ~64 ثانية، مضيفةً <span>~1.2% إلى إجمالي المعروض سنوياً</span>. ونظراً لأن جزءاً فقط من BLK محصّص في أي وقت، <span>يحصل المحصّصون النشطون على 4%–8% سنوياً</span>.<br />BlackCoin أيضاً <span>مفتوح المصدر</span>. <span>لا أحد يملك BlackCoin</span>؛ <span>يمكن لأي شخص المشاركة</span>. سجل المعاملات يسمى "بلوكشين". حسابك مجموعة من المفاتيح التشفيرية. <span>من المستحيل التزوير</span> أو <span>تزييف توقيعك الرقمي</span>.</p><p>الملخص:</p><p>&#8211;<span>الجميع يُكافأ على تأمين الشبكة</span><br />-الجميع يشارك السجل، لذا <span>هو شفاف</span><br />-البرنامج مفتوح المصدر، لذا تعلم <span>أنه آمن</span><br />&#8211;<span>هو مجهول الهوية</span> ويمكن لأي شخص فتح حساب<br />&#8211;<span>هو سريع للغاية</span>، يمكن إرسال المال لأي مكان في دقائق<br />&#8211;<span>هو</span> وسيظل دائماً <span>مجانياً.</span></p>` /*Arabic - Right-to-left*/,
+			pt: `<p>Muitas pessoas acreditam que os contratos inteligentes são o futuro! Isso é como o amanhecer da internet. <span>O dinheiro nunca mais será o mesmo</span>. Como isso funciona?</p><p>A capacidade de gerenciar transações e emitir BlackCoins adicionais é totalmente tratada pela rede de usuários do BlackCoin.<br />Isso significa que <span>VOCÊ é o banqueiro</span>. Porque a <span>rede BlackCoin é gerida pelas pessoas</span>, os detentores de BlackCoin, <span>que protegem a rede por meio do staking</span>.<br />A rede emite 1,5 BLK a cada ~64 segundos, adicionando <span>~1,2% ao suprimento total por ano</span>. Como apenas uma fração do BLK está sendo ativamente apostada a qualquer momento, <span>os stakers ativos ganham entre 4% e 8% anualmente</span>.<br />BlackCoin também é de <span>código aberto</span>. <span>Ninguém possui o BlackCoin</span>; <span>qualquer pessoa pode participar</span>. O histórico de transações também é chamado de "Blockchain". Sua conta é um conjunto de chaves criptográficas. É <span>impossível contrafazer</span> a cadeia ou <span>forjar sua assinatura digital</span>.</p><p>Em resumo:</p><p>&#8211;<span>Todos são pagos para manter a rede segura</span><br />-Todos compartilham o histórico, então <span>é transparente</span><br />-O software é aberto, então você sabe que <span>é seguro</span><br />&#8211;<span>É anônimo</span> e qualquer um pode abrir uma conta<br />&#8211;<span>É extremamente rápido</span>, você pode enviar dinheiro para qualquer lugar em minutos<br />&#8211;<span>É</span> e sempre será <span>GRATUITO.</span></p>` /*Portuguese*/,
+			bn: `<p>অনেকে মনে করেন স্মার্ট কন্ট্র্যাক্টই ভবিষ্যৎ! এটা যেন ইন্টারনেটের ভোরের মতো। <span>অর্থ আর কখনো আগের মতো থাকবে না</span>। তাহলে এটা কীভাবে কাজ করে?</p><p>লেনদেন পরিচালনা এবং অতিরিক্ত BlackCoin ইস্যু করার ক্ষমতা সম্পূর্ণভাবে BlackCoin ব্যবহারকারীদের নেটওয়ার্ক দ্বারা পরিচালিত।<br />এর মানে <span>আপনি ব্যাংকার</span>। কারণ <span>BlackCoin নেটওয়ার্ক মানুষদের দ্বারা চালিত হয়</span>, BlackCoin ধারকরা, যারা <span>স্টেকিংয়ের মাধ্যমে নেটওয়ার্ক সুরক্ষিত করেন</span>।<br />নেটওয়ার্ক প্রতি ~৬৪ সেকেন্ডে ১.৫ BLK ইস্যু করে, বছরে মোট সরবরাহে <span>~১.২% যোগ করে</span>। যেহেতু যেকোনো সময়ে শুধুমাত্র একটি অংশ BLK সক্রিয়ভাবে স্টেক হচ্ছে, <span>সক্রিয় স্টেকাররা বার্ষিক ৪%–৮% আয় করেন</span>।<br />BlackCoin <span>ওপেন-সোর্স</span>ও। <span>কেউই BlackCoin-এর মালিক নয়</span>; <span>যে কেউ অংশগ্রহণ করতে পারে</span>। লেনদেনের ইতিহাসকে "ব্লকচেইন" বলা হয়। আপনার অ্যাকাউন্ট ক্রিপ্টোগ্রাফিক চাবির সংগ্রহ। <span>জাল করা অসম্ভব</span> এবং <span>ডিজিটাল স্বাক্ষর নকল করা যায় না</span>।</p><p>সারসংক্ষেপ:</p><p>&#8211;<span>সবাই নেটওয়ার্ক সুরক্ষিত রাখার জন্য পারিশ্রমিক পান</span><br />-সবাই ইতিহাস ভাগ করে, তাই <span>এটি স্বচ্ছ</span><br />-সফটওয়্যার ওপেন সোর্স, তাই <span>এটি নিরাপদ</span><br />&#8211;<span>এটি বেনামী</span> এবং যে কেউ অ্যাকাউন্ট খুলতে পারে<br />&#8211;<span>এটি অত্যন্ত দ্রুত</span>, মিনিটের মধ্যে বিশ্বের যেকোনো জায়গায় অর্থ পাঠানো যায়<br />&#8211;<span>এটি</span> সবসময়ই <span>বিনামূল্যে থাকবে।</span></p>` /*Bengal*/,
+			ru: `<p>Многие считают смарт-контракты будущим! Это похоже на рассвет эпохи интернета. <span>Деньги никогда не будут прежними</span>. Так как же это работает?</p><p>Возможность управлять транзакциями и выпускать дополнительные BlackCoin полностью обеспечивается сетью пользователей BlackCoin.<br />Это означает, что <span>ВЫ — банкир</span>. Потому что <span>сеть BlackCoin управляется людьми</span>, держателями BlackCoin, которые <span>защищают её через стейкинг</span>.<br />Сеть выпускает 1,5 BLK каждые ~64 секунды, добавляя <span>~1,2% к общему предложению в год</span>. Поскольку лишь часть BLK активно стейкается в любой момент, <span>активные стейкеры зарабатывают от 4% до 8% ежегодно</span>.<br />BlackCoin также <span>с открытым исходным кодом</span>. <span>Никто не владеет BlackCoin</span>; <span>любой может участвовать</span>. История транзакций называется «Блокчейн». Ваш аккаунт — набор криптографических ключей. <span>Подделать невозможно</span>, так же как и <span>вашу цифровую подпись</span>.</p><p>Итого:</p><p>&#8211;<span>Все получают вознаграждение за поддержку безопасности сети</span><br />-Все делятся историей транзакций, поэтому она <span>прозрачна</span><br />-ПО открытое, поэтому вы знаете, что <span>оно безопасно</span><br />&#8211;<span>Это анонимно</span>, и любой может открыть счёт<br />&#8211;<span>Это чрезвычайно быстро</span>, деньги можно отправить куда угодно за минуты<br />&#8211;<span>Это</span> и всегда будет <span>БЕСПЛАТНО.</span></p>` /*Russian*/,
 			ja: `
 				<p>取引管理やBlackCoinを新規発行する機能は、すべてBlackCoinを利用するユーザーネットワークが補います。</p>
 				<p>つまり、BlackCoinを所有する、あなた自身が銀行家の役割を行えます。その意味は、BlackCoinのネットワークは、ステークと呼ばれるプロセスを通じて年に1％の報酬を受け取るBlackCoinの保有者である人々によって運営されている為です。</p>
@@ -218,47 +223,47 @@ export default {
 				<p>-誰でも簡単にアカウントを開設できます。</p>
 				<p>-匿名性高く非常に高速で、数分以内に世界中の誰にでもお金を送ることができます。</p>
 				<p>-今も昔もずーっと無料で使えます。</p>` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
+			jv: `<p>Akeh wong percaya yen smart contract iku masa depan! Iki kaya fajar internet. <span>Dhuwit ora bakal padha maneh</span>. Dadi kepiye carane iki nyambut gawe?</p><p>Kemampuan ngatur transaksi lan nerbitake BlackCoin tambahan ditangani kabeh dening jaringan pengguna BlackCoin.<br />Iki tegese <span>SAMPEYAN iku bankir</span>. Amarga <span>jaringan BlackCoin dijalanake dening wong-wong</span>, pemegang BlackCoin, sing <span>ngamanake jaringan liwat staking</span>.<br />Jaringan nerbitake 1,5 BLK saben ~64 detik, nambahake <span>~1,2% saka total suplai per taun</span>. Amarga mung sebagian BLK sing aktif distaking, <span>staker aktif entuk 4%–8% saben taun</span>.<br />BlackCoin uga <span>open-source</span>. <span>Ora ana sing duwe BlackCoin</span>; <span>sapa wae bisa melu</span>. Riwayat transaksi diarani "Blockchain". Akun sampeyan koleksi kunci kriptografi. <span>Ora bisa dipalsukan</span> lan <span>tanda tangan digital sampeyan uga ora bisa dipalsu</span>.</p><p>Ringkasan:</p><p>&#8211;<span>Kabeh dibayar kanggo njaga keamanan jaringan</span><br />-Kabeh nuduhake riwayat, dadi <span>iku transparan</span><br />-Software open source, dadi sampeyan ngerti <span>iku aman</span><br />&#8211;<span>Iku anonim</span> lan sapa wae bisa mbukak akun<br />&#8211;<span>Iku cepet banget</span>, sampeyan bisa ngirim dhuwit menyang ngendi wae sajrone menit<br />&#8211;<span>Iku</span> lan tansah bakal <span>GRATIS.</span></p>` /*Javanese*/,
+			de: `<p>Viele Menschen glauben, dass Smart Contracts die Zukunft sind! Das ist wie die Morgendämmerung des Internets. <span>Geld wird nie wieder dasselbe sein</span>. Wie funktioniert das?</p><p>Die Möglichkeit, Transaktionen zu verwalten und zusätzliche BlackCoins auszugeben, wird vollständig vom Netzwerk der BlackCoin-Nutzer übernommen.<br />Das bedeutet: <span>SIE sind der Banker</span>. Weil das <span>BlackCoin-Netzwerk von den Menschen betrieben wird</span>, den BlackCoin-Inhabern, die <span>es durch Staking sichern</span>.<br />Das Netzwerk gibt alle ~64 Sekunden 1,5 BLK aus und fügt <span>~1,2% des Gesamtangebots pro Jahr</span> hinzu. Da immer nur ein Bruchteil des BLK aktiv gestakt wird, <span>verdienen aktive Staker jährlich 4–8%</span>.<br />BlackCoin ist auch <span>Open-Source</span>. <span>Niemand besitzt BlackCoin</span>; <span>jeder kann mitmachen</span>. Die Transaktionshistorie heißt "Blockchain". Ihr Konto ist eine Sammlung kryptografischer Schlüssel. <span>Fälschung ist unmöglich</span>, ebenso wie <span>Ihre digitale Signatur</span>.</p><p>Zusammenfassung:</p><p>&#8211;<span>Alle werden für die Netzwerksicherung bezahlt</span><br />-Alle teilen die Historie, also <span>ist sie transparent</span><br />-Die Software ist Open-Source, also wissen Sie, dass sie <span>sicher ist</span><br />&#8211;<span>Es ist anonym</span> und jeder kann ein Konto eröffnen<br />&#8211;<span>Es ist extrem schnell</span>, Geld kann in Minuten weltweit gesendet werden<br />&#8211;<span>Es ist</span> und wird immer <span>KOSTENLOS sein.</span></p>` /*German*/,
+			ko: `<p>많은 사람들이 스마트 컨트랙트가 미래라고 생각합니다! 이것은 인터넷 초창기와 같습니다. <span>돈은 더 이상 예전과 같지 않을 것입니다</span>. 어떻게 작동할까요?</p><p>거래 관리 및 추가 BlackCoin 발행 능력은 모두 BlackCoin 사용자 네트워크에 의해 처리됩니다.<br />이는 <span>당신이 은행가</span>라는 의미입니다. <span>BlackCoin 네트워크는 사람들이 운영</span>하며, BlackCoin 보유자들이 <span>스테이킹을 통해 네트워크를 보호합니다</span>.<br />네트워크는 ~64초마다 1.5 BLK를 발행하여 <span>연간 총 공급량의 ~1.2%를 추가</span>합니다. 언제나 BLK의 일부만 활성 스테이킹 중이기 때문에, <span>활성 스테이커는 연간 4%–8%를 벌 수 있습니다</span>.<br />BlackCoin은 <span>오픈소스</span>이기도 합니다. <span>아무도 BlackCoin을 소유하지 않습니다</span>; <span>누구나 참여할 수 있습니다</span>. 거래 기록은 "블록체인"이라 불립니다. 계정은 암호화 키 모음입니다. <span>위조는 불가능</span>하며 <span>디지털 서명도 마찬가지입니다</span>.</p><p>요약:</p><p>&#8211;<span>모두 네트워크 보안 유지로 보상을 받습니다</span><br />-모두 거래 기록을 공유하므로 <span>투명합니다</span><br />-소프트웨어가 오픈소스여서 <span>안전하다는 것을 알 수 있습니다</span><br />&#8211;<span>익명성이 있으며</span> 누구나 계정을 만들 수 있습니다<br />&#8211;<span>매우 빠르며</span> 분 안에 전 세계 어디로나 돈을 보낼 수 있습니다<br />&#8211;<span>항상</span> <span>무료입니다.</span></p>` /*Korean*/,
+			fr: `<p>Beaucoup de gens pensent que les contrats intelligents sont l'avenir ! C'est comme l'aube d'internet. <span>L'argent ne sera plus jamais le même</span>. Comment ça marche ?</p><p>La gestion des transactions et l'émission de BlackCoins supplémentaires est entièrement gérée par le réseau d'utilisateurs BlackCoin.<br />Cela signifie que <span>VOUS êtes le banquier</span>. Parce que le <span>réseau BlackCoin est géré par les gens</span>, les détenteurs de BlackCoin, qui <span>sécurisent le réseau par le staking</span>.<br />Le réseau émet 1,5 BLK toutes les ~64 secondes, ajoutant <span>~1,2% à l'offre totale par an</span>. Puisque seulement une fraction de BLK est activement stakée à tout moment, <span>les stakers actifs gagnent entre 4% et 8% annuellement</span>.<br />BlackCoin est aussi en <span>code ouvert</span>. <span>Personne ne possède BlackCoin</span> ; <span>tout le monde peut y participer</span>. L'historique des transactions s'appelle "Blockchain". Votre compte est un ensemble de clés cryptographiques. Il est <span>impossible de contrefaire</span> ou de <span>falsifier votre signature numérique</span>.</p><p>En résumé :</p><p>&#8211;<span>Tout le monde est rémunéré pour sécuriser le réseau</span><br />-Tout le monde partage l'historique, donc <span>il est transparent</span><br />-Le logiciel est open source, vous savez donc qu'<span>il est sécurisé</span><br />&#8211;<span>C'est anonyme</span> et tout le monde peut ouvrir un compte<br />&#8211;<span>C'est extrêmement rapide</span>, vous pouvez envoyer de l'argent n'importe où dans le monde en minutes<br />&#8211;<span>C'est</span> et sera toujours <span>GRATUIT.</span></p>` /*French*/,
+			te: `<p>చాలా మంది స్మార్ట్ కాంట్రాక్టులు భవిష్యత్తు అని నమ్ముతారు! ఇది ఇంటర్నెట్ ఉదయంలాంటిది. <span>డబ్బు ఇక పూర్వంలా ఉండదు</span>. ఇది ఎలా పనిచేస్తుంది?</p><p>లావాదేవీలు నిర్వహించే మరియు అదనపు BlackCoin జారీ చేసే సామర్థ్యం పూర్తిగా BlackCoin వినియోగదారుల నెట్‌వర్క్ చేత నిర్వహించబడుతుంది.<br />ఇదంటే <span>మీరే బ్యాంకర్</span>. ఎందుకంటే <span>BlackCoin నెట్‌వర్క్ ప్రజలచే నడపబడుతుంది</span>, BlackCoin ధారకులు, వారు <span>స్టేకింగ్ ద్వారా నెట్‌వర్క్‌ను సురక్షితంగా ఉంచుతారు</span>.<br />నెట్‌వర్క్ ప్రతి ~64 సెకన్లకు 1.5 BLK జారీ చేస్తుంది, <span>సంవత్సరానికి మొత్తం సరఫరాలో ~1.2% చేరుస్తుంది</span>. ఎప్పుడూ BLK లో కేవలం ఒక భాగమే చురుగ్గా స్టేక్ అవుతుంది కాబట్టి, <span>చురుకైన స్టేకర్లు వార్షికంగా 4%–8% సంపాదిస్తారు</span>.<br />BlackCoin <span>ఓపెన్-సోర్స్</span> కూడా. <span>ఎవరూ BlackCoin ని కలిగి ఉండరు</span>; <span>ఎవరైనా పాల్గొనవచ్చు</span>. లావాదేవీ చరిత్రను "బ్లాక్‌చైన్" అంటారు. మీ ఖాతా క్రిప్టోగ్రాఫిక్ కీల సంగ్రహం. <span>నకిలీ చేయడం అసాధ్యం</span>, అదేవిధంగా <span>మీ డిజిటల్ సంతకం కూడా</span>.</p><p>సారాంశంలో:</p><p>&#8211;<span>నెట్‌వర్క్ సురక్షితంగా ఉంచినందుకు అందరూ చెల్లింపు పొందుతారు</span><br />-అందరూ చరిత్ర పంచుకుంటారు, కాబట్టి <span>ఇది పారదర్శకంగా ఉంటుంది</span><br />-సాఫ్ట్‌వేర్ ఓపెన్ సోర్స్ కాబట్టి <span>ఇది సురక్షితం అని తెలుసు</span><br />&#8211;<span>ఇది అనామకంగా ఉంటుంది</span> మరియు ఎవరైనా ఖాతా తెరవగలరు<br />&#8211;<span>ఇది అత్యంత వేగంగా ఉంటుంది</span>, నిమిషాలలో ప్రపంచంలో ఎక్కడికైనా డబ్బు పంపవచ్చు<br />&#8211;<span>ఇది</span> ఎల్లప్పుడూ <span>ఉచితంగా ఉంటుంది.</span></p>` /*Telugu*/,
+			mr: `<p>अनेक लोकांना वाटते की स्मार्ट कॉन्ट्रॅक्ट्स हे भविष्य आहेत! हे इंटरनेटच्या उषःकालासारखे आहे. <span>पैसा यापुढे कधीही तसाच राहणार नाही</span>. हे कसे काम करते?</p><p>व्यवहार व्यवस्थापित करण्याची आणि अतिरिक्त BlackCoin जारी करण्याची क्षमता BlackCoin वापरकर्त्यांच्या नेटवर्कद्वारे पूर्णपणे हाताळली जाते.<br />याचा अर्थ <span>तुम्ही बँकर आहात</span>. कारण <span>BlackCoin नेटवर्क लोकांद्वारे चालवले जाते</span>, BlackCoin धारक, जे <span>स्टेकिंगद्वारे नेटवर्क सुरक्षित करतात</span>.<br />नेटवर्क दर ~64 सेकंदांनी 1.5 BLK जारी करते, <span>वर्षाला एकूण पुरवठ्यात ~1.2% जोडते</span>. कोणत्याही वेळी BLK चा फक्त एक भाग सक्रियपणे स्टेक केला जातो, म्हणून <span>सक्रिय स्टेकर्स वार्षिक 4%–8% मिळवतात</span>.<br />BlackCoin <span>ओपन-सोर्स</span> देखील आहे. <span>BlackCoin चा कोणीही मालक नाही</span>; <span>कोणीही सहभागी होऊ शकतो</span>. व्यवहार इतिहासाला "ब्लॉकचेन" म्हणतात. तुमचे खाते क्रिप्टोग्राफिक चाव्यांचा संग्रह आहे. <span>बनावट बनवणे अशक्य आहे</span> आणि <span>तुमची डिजिटल स्वाक्षरी देखील</span>.</p><p>थोडक्यात:</p><p>&#8211;<span>सगळ्यांना नेटवर्क सुरक्षित ठेवण्यासाठी पैसे मिळतात</span><br />-सगळे इतिहास सामायिक करतात, म्हणून <span>ते पारदर्शक आहे</span><br />-सॉफ्टवेअर ओपन सोर्स आहे, त्यामुळे तुम्हाला माहीत आहे की <span>ते सुरक्षित आहे</span><br />&#8211;<span>ते अनामिक आहे</span> आणि कोणीही खाते उघडू शकतो<br />&#8211;<span>ते अत्यंत वेगवान आहे</span>, मिनिटांत जगात कुठेही पैसे पाठवता येतात<br />&#8211;<span>ते</span> नेहमीच <span>मोफत राहील.</span></p>` /*Marathi*/,
+			tr: `<p>Pek çok kişi akıllı sözleşmelerin geleceği olduğunu düşünüyor! Bu internetin şafağı gibi. <span>Para artık hiç eskisi gibi olmayacak</span>. Peki bu nasıl çalışıyor?</p><p>Transaksiyonları yönetme ve ek BlackCoin çıkarma yeteneği tamamen BlackCoin kullanıcılarının ağı tarafından yönetilir.<br />Bu şu anlama geliyor: <span>SİZ bankersınız</span>. Çünkü <span>BlackCoin ağı insanlar tarafından yönetiliyor</span>, BlackCoin sahipleri, <span>staking yoluyla ağı güvence altına alıyorlar</span>.<br />Ağ her ~64 saniyede bir 1,5 BLK çıkararak <span>yılda toplam arzın ~%1,2'sini</span> ekliyor. Herhangi bir anda yalnızca bir kısım BLK aktif olarak stake edildiğinden, <span>aktif staker'lar yıllık %4–8 kazanır</span>.<br />BlackCoin ayrıca <span>açık kaynaklıdır</span>. <span>BlackCoin'e kimse sahip değil</span>; <span>herkes katılabilir</span>. İşlem geçmişine "Blockchain" denir. Hesabınız kriptografik anahtarların bir koleksiyonudur. <span>Sahtecilik imkânsızdır</span> ve <span>dijital imzanızı da taklit etmek mümkün değildir</span>.</p><p>Özet:</p><p>&#8211;<span>Herkes ağı güvende tutmak için ödüllendirilir</span><br />-Herkes geçmişi paylaşır, bu yüzden <span>şeffaftır</span><br />-Yazılım açık kaynaklıdır, bu yüzden <span>güvenli olduğunu bilirsiniz</span><br />&#8211;<span>Anonimdir</span> ve herkes hesap açabilir<br />&#8211;<span>Son derece hızlıdır</span>, dakikalar içinde dünyanın herhangi bir yerine para gönderilebilir<br />&#8211;<span>Daima</span> <span>ÜCRETSİZ olacak.</span></p>` /*Turkish*/,
+			ta: `<p>பலர் ஸ்மார்ட் கான்ட்ராக்ட்கள் எதிர்காலம் என்று நம்புகிறார்கள்! இது இணையத்தின் விடியல் காலம் போன்றது. <span>பணம் இனி ஒருபோதும் முன்போல் இருக்காது</span>. இது எப்படி வேலை செய்கிறது?</p><p>பரிவர்த்தனைகளை நிர்வகிக்கும் மற்றும் கூடுதல் BlackCoin வழங்கும் திறன் BlackCoin பயனர்களின் நெட்வொர்க்கால் முழுமையாக கையாளப்படுகிறது.<br />இதன் பொருள் <span>நீங்கள் வங்கியாளர்</span>. ஏனெனில் <span>BlackCoin நெட்வொர்க் மக்களால் இயக்கப்படுகிறது</span>, BlackCoin வைத்திருப்பவர்கள், <span>ஸ்டேக்கிங் மூலம் நெட்வொர்க்கை பாதுகாக்கிறார்கள்</span>.<br />நெட்வொர்க் ஒவ்வொரு ~64 விநாடிகளுக்கும் 1.5 BLK வழங்குகிறது, <span>ஆண்டுக்கு மொத்த வழங்கலில் ~1.2% சேர்க்கிறது</span>. எந்த நேரத்திலும் BLK-ன் ஒரு சிறிய பகுதி மட்டுமே ஸ்டேக்கிங்கில் இருப்பதால், <span>செயலில் உள்ள ஸ்டேகர்கள் ஆண்டுக்கு 4%–8% சம்பாதிக்கிறார்கள்</span>.<br />BlackCoin <span>திறந்த மூலமாகவும்</span> உள்ளது. <span>யாரும் BlackCoin-ஐ சொந்தமாக வைத்திருக்கவில்லை</span>; <span>யாரும் பங்கேற்கலாம்</span>. பரிவர்த்தனை வரலாறு "Blockchain" எனப்படுகிறது. உங்கள் கணக்கு கிரிப்டோகிராஃபிக் சாவிகளின் தொகுப்பு. <span>போலியாக்குவது இயலாது</span> மற்றும் <span>உங்கள் டிஜிட்டல் கையொப்பமும் தான்</span>.</p><p>சுருக்கமாக:</p><p>&#8211;<span>அனைவரும் நெட்வொர்க்கை பாதுகாத்ததற்கு ஊதியம் பெறுகிறார்கள்</span><br />-அனைவரும் வரலாறை பகிர்கிறார்கள், எனவே <span>இது வெளிப்படையானது</span><br />-மென்பொருள் திறந்த மூலமாக உள்ளது, எனவே <span>பாதுகாப்பானது என்று தெரிகிறது</span><br />&#8211;<span>இது அடையாளமற்றது</span> மற்றும் யாரும் கணக்கு திறக்கலாம்<br />&#8211;<span>இது மிகவும் வேகமானது</span>, நிமிடங்களில் உலகின் எங்கும் பணம் அனுப்பலாம்<br />&#8211;<span>இது</span> எப்போதும் <span>இலவசமாக இருக்கும்.</span></p>` /*Tamil*/,
+			vi: `<p>Nhiều người tin rằng hợp đồng thông minh là tương lai! Đây như bình minh của internet. <span>Tiền tệ sẽ không bao giờ như cũ</span>. Vậy điều này hoạt động như thế nào?</p><p>Khả năng quản lý giao dịch và phát hành thêm BlackCoin hoàn toàn được xử lý bởi mạng lưới người dùng BlackCoin.<br />Điều này có nghĩa là <span>BẠN là ngân hàng</span>. Vì <span>mạng BlackCoin được vận hành bởi mọi người</span>, những người nắm giữ BlackCoin, <span>những người bảo mật nó thông qua staking</span>.<br />Mạng phát hành 1,5 BLK mỗi ~64 giây, thêm <span>~1,2% vào tổng cung mỗi năm</span>. Vì chỉ một phần BLK đang được staking tích cực tại bất kỳ thời điểm nào, <span>staker tích cực kiếm được từ 4% đến 8% hàng năm</span>.<br />BlackCoin cũng là <span>mã nguồn mở</span>. <span>Không ai sở hữu BlackCoin</span>; <span>bất kỳ ai cũng có thể tham gia</span>. Lịch sử giao dịch còn được gọi là "Blockchain". Tài khoản của bạn là một tập hợp khóa mật mã. <span>Không thể làm giả</span> cũng không thể <span>giả mạo chữ ký số của bạn</span>.</p><p>Tóm lại:</p><p>&#8211;<span>Mọi người được trả công để giữ an toàn cho mạng</span><br />-Mọi người chia sẻ lịch sử, nên <span>nó minh bạch</span><br />-Phần mềm là mã nguồn mở, vì vậy bạn biết <span>nó an toàn</span><br />&#8211;<span>Nó ẩn danh</span> và bất kỳ ai cũng có thể mở tài khoản<br />&#8211;<span>Nó cực kỳ nhanh</span>, bạn có thể gửi tiền cho bất kỳ ai trên thế giới trong vài phút<br />&#8211;<span>Nó</span> và sẽ luôn luôn là <span>MIỄN PHÍ.</span></p>` /*Vietnamese*/,
+			ur: `<p>بہت سے لوگ سوچتے ہیں کہ سمارٹ کانٹریکٹس مستقبل ہیں! یہ انٹرنیٹ کی صبح جیسا ہے۔ <span>پیسہ اب کبھی پہلے جیسا نہیں رہے گا</span>۔ تو یہ کیسے کام کرتا ہے؟</p><p>لین دین کا انتظام اور اضافی BlackCoin جاری کرنے کی صلاحیت مکمل طور پر BlackCoin صارفین کے نیٹ ورک کے ذریعہ ہوتی ہے۔<br />اس کا مطلب ہے کہ <span>آپ بینکار ہیں</span>۔ کیونکہ <span>BlackCoin نیٹ ورک لوگوں کے ذریعے چلایا جاتا ہے</span>، BlackCoin کے حاملین، جو <span>اسٹیکنگ کے ذریعے نیٹ ورک کو محفوظ کرتے ہیں</span>۔<br />نیٹ ورک ہر ~64 سیکنڈ میں 1.5 BLK جاری کرتا ہے، <span>سالانہ کل سپلائی میں ~1.2% شامل کرتا ہے</span>۔ کسی بھی وقت BLK کا صرف ایک حصہ فعال طور پر اسٹیک ہوتا ہے، اس لیے <span>فعال اسٹیکرز سالانہ 4%–8% کماتے ہیں</span>۔<br />BlackCoin <span>اوپن سورس</span> بھی ہے۔ <span>کوئی بھی BlackCoin کا مالک نہیں</span>؛ <span>کوئی بھی حصہ لے سکتا ہے</span>۔ لین دین کی تاریخ کو "بلاک چین" کہتے ہیں۔ آپ کا اکاؤنٹ کرپٹوگرافک چابیوں کا مجموعہ ہے۔ <span>جعل سازی ناممکن ہے</span> اور <span>آپ کے ڈیجیٹل دستخط بھی جعلی نہیں ہو سکتے</span>۔</p><p>خلاصہ:</p><p>&#8211;<span>سبھی کو نیٹ ورک محفوظ رکھنے کے لیے ادائیگی ملتی ہے</span><br />-سبھی تاریخ شیئر کرتے ہیں، اس لیے <span>یہ شفاف ہے</span><br />-سافٹ ویئر اوپن سورس ہے، اس لیے آپ جانتے ہیں <span>یہ محفوظ ہے</span><br />&#8211;<span>یہ گمنام ہے</span> اور کوئی بھی اکاؤنٹ کھول سکتا ہے<br />&#8211;<span>یہ انتہائی تیز ہے</span>، آپ منٹوں میں دنیا میں کہیں بھی رقم بھیج سکتے ہیں<br />&#8211;<span>یہ</span> ہمیشہ <span>مفت رہے گا۔</span></p>` /*Urdu - Right-to-left*/,
+			nl: `<p>Veel mensen denken dat slimme contracten de toekomst zijn! Dit is als het ochtendgloren van het internet. <span>Geld zal nooit meer hetzelfde zijn</span>. Hoe werkt dit?</p><p>Het beheer van transacties en het uitgeven van extra BlackCoins wordt volledig afgehandeld door het netwerk van BlackCoin-gebruikers.<br />Dit betekent dat <span>U de bankier bent</span>. Omdat het <span>BlackCoin-netwerk door de mensen wordt beheerd</span>, de BlackCoin-houders, die het <span>beveiligen via staking</span>.<br />Het netwerk geeft elke ~64 seconden 1,5 BLK uit en voegt <span>~1,2% aan het totale aanbod per jaar</span> toe. Omdat slechts een deel van BLK actief wordt gestakt, <span>verdienen actieve stakers jaarlijks 4–8%</span>.<br />BlackCoin is ook <span>open-source</span>. <span>Niemand bezit BlackCoin</span>; <span>iedereen kan meedoen</span>. De transactiegeschiedenis heet "Blockchain". Uw account is een verzameling cryptografische sleutels. <span>Vervalsing is onmogelijk</span>, net als <span>uw digitale handtekening</span>.</p><p>Samengevat:</p><p>&#8211;<span>Iedereen wordt betaald om het netwerk veilig te houden</span><br />-Iedereen deelt de geschiedenis, dus <span>het is transparant</span><br />-De software is open source, dus u weet dat <span>het veilig is</span><br />&#8211;<span>Het is anoniem</span> en iedereen kan een account openen<br />&#8211;<span>Het is extreem snel</span>, u kunt geld in minuten naar iedereen ter wereld sturen<br />&#8211;<span>Het is</span> en zal altijd <span>GRATIS zijn.</span></p>` /*Dutch*/,
+			it: `<p>Molte persone pensano che i contratti intelligenti siano il futuro! Questo è come l'alba di internet. <span>Il denaro non sarà mai più lo stesso</span>. Come funziona?</p><p>La gestione delle transazioni e l'emissione di BlackCoin aggiuntivi è interamente gestita dalla rete degli utenti BlackCoin.<br />Ciò significa che <span>SIETE voi i banchieri</span>. Perché la <span>rete BlackCoin è gestita dalle persone</span>, i detentori di BlackCoin, che <span>la proteggono tramite lo staking</span>.<br />La rete emette 1,5 BLK ogni ~64 secondi, aggiungendo <span>~1,2% all'offerta totale per anno</span>. Poiché solo una frazione di BLK è attivamente in staking, <span>gli staker attivi guadagnano tra il 4% e l'8% annuo</span>.<br />BlackCoin è anche <span>open-source</span>. <span>Nessuno possiede BlackCoin</span>; <span>chiunque può partecipare</span>. Lo storico delle transazioni si chiama "Blockchain". Il vostro account è un insieme di chiavi crittografiche. È <span>impossibile falsificare</span> la catena o <span>la vostra firma digitale</span>.</p><p>In sintesi:</p><p>&#8211;<span>Tutti vengono pagati per mantenere la rete sicura</span><br />-Tutti condividono la cronologia, quindi <span>è trasparente</span><br />-Il software è open source, quindi sapete che <span>è sicuro</span><br />&#8211;<span>È anonimo</span> e chiunque può aprire un account<br />&#8211;<span>È estremamente veloce</span>, puoi inviare denaro ovunque nel mondo in minuti<br />&#8211;<span>È</span> e sarà sempre <span>GRATUITO.</span></p>` /*Italian*/,
+			hr: `<p>Mnogi misle da su pametni ugovori budućnost! To je kao zora interneta. <span>Novac nikada više neće biti isti</span>. Kako to funkcionira?</p><p>Sposobnost upravljanja transakcijama i izdavanja dodatnih BlackCoina potpuno je u rukama mreže korisnika BlackCoina.<br />To znači da ste <span>VI banker</span>. Jer <span>BlackCoin mrežu vode ljudi</span>, vlasnici BlackCoina, koji <span>je osiguravaju stakanjem</span>.<br />Mreža izdaje 1,5 BLK svakih ~64 sekunde, dodajući <span>~1,2% ukupnoj ponudi godišnje</span>. Budući da je uvijek samo dio BLK aktivno stakean, <span>aktivni stakeri zarađuju godišnje 4–8%</span>.<br />BlackCoin je i <span>otvorenog koda</span>. <span>Nitko ne posjeduje BlackCoin</span>; <span>svatko može sudjelovati</span>. Povijest transakcija zove se "Blockchain". Vaš račun je zbirka kriptografskih ključeva. <span>Krivotvorenje je nemoguće</span>, kao i <span>vaš digitalni potpis</span>.</p><p>Sažetak:</p><p>&#8211;<span>Svi su plaćeni za održavanje sigurnosti mreže</span><br />-Svi dijele povijest, pa je <span>transparentna</span><br />-Softver je otvorenog koda, pa znate da je <span>siguran</span><br />&#8211;<span>Anoniman je</span> i svaka osoba može otvoriti račun<br />&#8211;<span>Iznimno je brz</span>, novac možete poslati u minutama bilo gdje na svijetu<br />&#8211;<span>Je</span> i uvijek će biti <span>BESPLATAN.</span></p>` /*Croatian*/
 		},
 		BLACKCOIN_VS_BITCOIN: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
+			zh: `黑币 VS 比特币` /*Chinese*/,
+			es: `BLACKCOIN VS BITCOIN` /*Spanish*/,
 			en: 'BLACKCOIN VS BITCOIN' /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
+			hi: `ब्लैककॉइन बनाम बिटकॉइन` /*Hindi*/,
+			ar: `بلاك كوين مقابل بيتكوين` /*Arabic - Right-to-left*/,
+			pt: `BLACKCOIN VS BITCOIN` /*Portuguese*/,
+			bn: `ব্ল্যাককয়েন বনাম বিটকয়েন` /*Bengal*/,
+			ru: `BLACKCOIN ПРОТИВ BITCOIN` /*Russian*/,
 			ja: `ブラックコインとビットコインの比較` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
+			jv: `BLACKCOIN VS BITCOIN` /*Javanese*/,
+			de: `BLACKCOIN VS BITCOIN` /*German*/,
+			ko: `BLACKCOIN 대 BITCOIN` /*Korean*/,
+			fr: `BLACKCOIN VS BITCOIN` /*French*/,
+			te: `BLACKCOIN VS BITCOIN` /*Telugu*/,
+			mr: `BLACKCOIN VS BITCOIN` /*Marathi*/,
+			tr: `BLACKCOIN VS BITCOIN` /*Turkish*/,
+			ta: `BLACKCOIN எதிர் BITCOIN` /*Tamil*/,
+			vi: `BLACKCOIN SO VỚI BITCOIN` /*Vietnamese*/,
+			ur: `بلیک کوائن بمقابلہ بٹ کوائن` /*Urdu - Right-to-left*/,
+			nl: `BLACKCOIN VS BITCOIN` /*Dutch*/,
+			it: `BLACKCOIN VS BITCOIN` /*Italian*/,
+			hr: `BLACKCOIN VS BITCOIN` /*Croatian*/
 		},
 		BLACKCOIN_VS_BITCOIN_ANSWER1: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
+			zh: `<p>那么，<span>Blackcoin与比特币有何不同？</span></p><p>我们热爱比特币，但也力求改进。由于比特币体量巨大，人们就创新变化达成共识需要很长时间。这催生了大量替代货币，也为Blackcoin铺平了道路。<br /><span>Blackcoin</span>持续引领区块链创新。<br />这枚代币<span>被从Github分叉的次数超过世界上任何其他代币！</span>由Rat4创立，他主要专注于POS（权益证明）创新。Rat4希望证明质押比比特币<span>老式且昂贵的工作量证明更安全、更高效</span>。</p><p>社区成员将快速PoS与矿池结合以支撑市场，Blackcoin人气大幅上升。后来Rat4加入了BlackHalo的创建者David Zimbeck——一个建立在Blackcoin上的"智能合约"平台。因此，<span>Blackcoin比以太坊等其他智能合约提案早了整整一年</span>。Rat4随后将协议进一步强化，创建了<span>权益证明2.0</span>，最终发展到<span>PoS 3.1 (PoSV3)</span>——当前自2014年以来安全运行的共识引擎。此后许多开发者持续改进代码库。<span>2025年6月SegWit在主网激活</span>，为二层开发奠定基础。Blackcoin的发展势头持续，<span>每年都有更多令人兴奋的新功能加入</span>。</p><p>最好的是，如果您参与其中，您可以成为<span>互联网未来</span>所有精彩的一部分。</p>` /*Chinese*/,
+			es: `<p>¿<span>Qué hace tan diferente a Blackcoin de Bitcoin?</span></p><p>Amamos Bitcoin, pero también buscamos mejorarlo. Como Bitcoin es tan grande, lleva demasiado tiempo llegar a un acuerdo sobre cambios innovadores. Esto impulsó el auge de las criptomonedas alternativas, abriendo el camino a Blackcoin.<br /><span>Blackcoin</span> ha seguido liderando la innovación blockchain.<br />¡El coin en sí mismo <span>ha sido bifurcado desde Github más que cualquier otro en el mundo!</span> Fue iniciado por Rat4, enfocado en innovaciones PoS. Rat4 quería demostrar que el staking podía ser <span>más seguro y eficiente que el Proof of Work anticuado y costoso de Bitcoin</span>.</p><p>Varios miembros de la comunidad combinaron PoS con un pool de minería para sostener el mercado, resultando en un gran auge. Más tarde Rat4 se unió a David Zimbeck, creador de <span>BlackHalo</span> — una plataforma de "contratos inteligentes" construida sobre Blackcoin. Gracias a esto, <span>Blackcoin fue un año entero por delante de otras propuestas de contratos inteligentes como Ethereum</span>. Rat4 luego robusteció el protocolo, creando <span>Proof of Stake 2.0</span> y eventualmente <span>PoS 3.1 (PoSV3)</span>. Desde entonces muchos desarrolladores han seguido mejorando el código. <span>SegWit se activó en mainnet en junio de 2025</span>, sentando las bases para el desarrollo de capa 2. El impulso en Blackcoin continúa y <span>cada año se añaden nuevas y emocionantes características</span>.</p><p>Lo mejor es que, si te involucras, puedes ser parte de toda la emoción del <span>futuro de internet</span>.</p>` /*Spanish*/,
 			en: `
 				<p>
 					So <span>what makes Blackcoin so different from Bitcoin?</span>
@@ -276,48 +281,32 @@ export default {
 					It was started by Rat4 who worked on mostly POS(Proof of Stake) innovations. Rat4 wanted
 					to prove that staking could be
 					<span
-						>secure and more efficient than Bitcoins old fashioned and expensive Proof of Work</span
+						>secure and more efficient than Bitcoin's old-fashioned and expensive Proof of Work</span
 					>.
 				</p>
 				<p>
-					Several members of the community combined the fast POS with a mining pool to help
-					support the market price and volume by applying upward pressure and this resulted in a
-					huge rise in Blackcoins popularity. Later Rat4 was joined by David Zimbeck the sole
-					creator of
-					<span>BlackHalo</span> who was an active community member. David who was previously well
-					known in other fields such as Chess and Entertainment taught himself Python and coded a
-					'Smart Contracting' platform called BitHalo. Because he believed in Rat4 and agreed with
-					the security of Blackcoin and the Multipool innovations, David chose to debut Halo in
-					Blackcoin. Because of this,
-					<span
-						>Blackcoin was an entire year ahead of other Smart Contracting proposals such as
-						Etherium</span
-					>. Rat4 then took to making proof of stake more secure by forcing users to interact more
-					with the network and to eliminate some of the security flaws. So he created
-					<span>Proof of Stake 2.0</span>. In 2015, Rat4 has started working on a 3.0 protocol to
-					finally master the protocol. In the meantime, David released a Decentralized Marketplace
-					and Decentralized Servers and greatly improved BlackHalo giving it tons of new and
-					exciting features focused on user friendliness. All of this was to prepare the coin for
-					the arrival of a
-					<span>Decentralized Exchange built solely on Blackcoin</span>. Since then, many other
-					developers have contributed. Drunkonsound, a community member, built and sponsored the
-					exco.in exchange as well as several other Blackcoin projects. The exco.in exchange was
-					the first exchange to have live, high frequency trading and built with lots of great
-					charting and features for trading. Again Blackcoin grew and a new project, Legionairre
-					was also started by a community member, btclaw. Legionairre gives people the ability to
-					have <span>Stealth Addresses</span>. Their primary focus is your privacy. The momentum
-					in Blackcoin has been continuing and
+					Several members of the community combined fast PoS with a mining pool to support the
+					market, resulting in a huge rise in Blackcoin's popularity. Later Rat4 was joined by
+					David Zimbeck, creator of
+					<span>BlackHalo</span> — a 'Smart Contracting' platform built on Blackcoin. Because of
+					this, <span>Blackcoin was an entire year ahead of other Smart Contracting proposals
+					such as Ethereum</span>. Rat4 then hardened the protocol further, creating
+					<span>Proof of Stake 2.0</span>, and eventually <span>PoS 3.1 (PoSV3)</span> — the
+					current consensus engine, running securely since 2014. Since then, many developers have
+					continued to improve the codebase. <span>SegWit activated on mainnet in June 2025</span>,
+					laying the groundwork for layer-2 development. The momentum in Blackcoin has been
+					continuing and
 					<span>every year more new and exciting features are being added</span>.
 				</p>
 				<p>
 					The best part is, if you get involved you can be part of all of the excitement of
 					<span>the future of the internet</span>.
 				</p>` /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
+			hi: `<p>तो <span>Blackcoin को Bitcoin से क्या अलग बनाता है?</span></p><p>हम Bitcoin से प्यार करते हैं, लेकिन हम इसे बेहतर बनाने की भी कोशिश करते हैं। Bitcoin इतना बड़ा होने के कारण, अभिनव बदलावों पर सहमति बनाने में बहुत समय लगता है। इसीलिए वैकल्पिक क्रिप्टोकरेंसी की बाढ़ आई, जिसने Blackcoin के लिए रास्ता बनाया।<br /><span>Blackcoin</span> ने ब्लॉकचेन नवाचार में अग्रणी भूमिका निभाई है।<br />इस कॉइन को <span>दुनिया के किसी भी अन्य कॉइन से अधिक बार Github से fork किया गया है!</span> इसे Rat4 ने शुरू किया था जो मुख्यतः POS नवाचारों पर काम करते थे। Rat4 साबित करना चाहते थे कि स्टेकिंग <span>Bitcoin के पुराने और महंगे Proof of Work की तुलना में अधिक सुरक्षित और कुशल</span> हो सकती है।</p><p>समुदाय के सदस्यों ने तेज़ PoS को माइनिंग पूल के साथ जोड़ा जिससे Blackcoin की लोकप्रियता बढ़ी। बाद में Rat4 के साथ David Zimbeck जुड़े जो <span>BlackHalo</span> के निर्माता थे — Blackcoin पर बनाया गया एक स्मार्ट कॉन्ट्रैक्टिंग प्लेटफ़ॉर्म। इससे <span>Blackcoin Ethereum जैसे अन्य स्मार्ट कॉन्ट्रैक्ट प्रस्तावों से पूरे एक साल आगे था</span>। Rat4 ने फिर प्रोटोकॉल को और मज़बूत किया, <span>Proof of Stake 2.0</span> और अंततः <span>PoS 3.1 (PoSV3)</span> बनाया। तब से कई डेवलपर्स ने कोडबेस में सुधार जारी रखा है। <span>जून 2025 में mainnet पर SegWit सक्रिय हुआ</span>, जो लेयर-2 विकास की नींव रखता है। Blackcoin की गति जारी है और <span>हर साल नई और रोमांचक सुविधाएं जोड़ी जाती हैं</span>।</p><p>सबसे अच्छी बात यह है कि यदि आप शामिल होते हैं, तो आप <span>इंटरनेट के भविष्य</span> की सभी रोमांचक चीज़ों का हिस्सा बन सकते हैं।</p>` /*Hindi*/,
+			ar: `<p><span>ما الذي يجعل Blackcoin مختلفاً جداً عن Bitcoin؟</span></p><p>نحب Bitcoin، لكننا نسعى أيضاً لتحسينه. نظراً لضخامة Bitcoin، يستغرق الاتفاق على تغييرات مبتكرة وقتاً طويلاً. هذا أشعل موجة العملات البديلة، ومهّد الطريق لـ Blackcoin.<br /><span>Blackcoin</span> واصل ريادة الابتكار في البلوكتشين.<br />العملة ذاتها <span>تم فورك-ها من Github أكثر من أي عملة أخرى في العالم!</span> أسسها Rat4 الذي ركز على ابتكارات PoS. أراد Rat4 إثبات أن التحصيص يمكن أن يكون <span>أكثر أماناً وكفاءة من Proof of Work المكلف والقديم لـ Bitcoin</span>.</p><p>جمع أعضاء المجتمع PoS السريع مع تجمع تعدين لدعم السوق، مما أدى إلى ارتفاع كبير في شعبية Blackcoin. لاحقاً انضم David Zimbeck، مبتكر <span>BlackHalo</span> — منصة عقود ذكية مبنية على Blackcoin. بسبب هذا، <span>كانت Blackcoin متقدمة بعام كامل على مقترحات العقود الذكية الأخرى كـ Ethereum</span>. ثم عزّز Rat4 البروتوكول مزيداً، وخلق <span>Proof of Stake 2.0</span> وفي نهاية المطاف <span>PoS 3.1 (PoSV3)</span>. منذ ذلك الحين واصل كثير من المطورين تحسين قاعدة الكود. <span>تم تفعيل SegWit على الشبكة الرئيسية في يونيو 2025</span>، مما يمهد لتطوير الطبقة الثانية. تستمر زخم Blackcoin و<span>تضاف سنوياً ميزات جديدة ومثيرة</span>.</p><p>الجانب الأفضل هو أنك إذا انضممت، يمكنك أن تكون جزءاً من <span>مستقبل الإنترنت</span>.</p>` /*Arabic - Right-to-left*/,
+			pt: `<p><span>O que torna o Blackcoin tão diferente do Bitcoin?</span></p><p>Amamos o Bitcoin, mas também buscamos melhorá-lo. Como o Bitcoin é muito grande, leva muito tempo para as pessoas concordarem com mudanças inovadoras. Isso impulsionou o surgimento de moedas alternativas, abrindo caminho para o Blackcoin.<br /><span>Blackcoin</span> continuou liderando a inovação blockchain.<br />O coin em si <span>foi forkado do Github mais do que qualquer outro coin no mundo!</span> Foi iniciado por Rat4, focado principalmente em inovações PoS. Rat4 queria provar que o staking poderia ser <span>mais seguro e eficiente do que o ultrapassado e caro Proof of Work do Bitcoin</span>.</p><p>Membros da comunidade combinaram PoS com um pool de mineração para sustentar o mercado, resultando num grande aumento de popularidade. Mais tarde Rat4 foi acompanhado por David Zimbeck, criador do <span>BlackHalo</span> — uma plataforma de "contratos inteligentes" construída no Blackcoin. Por isso, <span>o Blackcoin estava um ano inteiro à frente de outras propostas de contratos inteligentes como o Ethereum</span>. Rat4 então fortaleceu o protocolo, criando <span>Proof of Stake 2.0</span> e eventualmente <span>PoS 3.1 (PoSV3)</span>. Desde então, muitos desenvolvedores continuaram melhorando o código. <span>O SegWit foi ativado na mainnet em junho de 2025</span>, preparando o terreno para o desenvolvimento de camada 2. O impulso do Blackcoin continua e <span>a cada ano novos e excitantes recursos são adicionados</span>.</p><p>O melhor é que, ao se envolver, você pode fazer parte de toda a emoção do <span>futuro da internet</span>.</p>` /*Portuguese*/,
+			bn: `<p><span>Blackcoin কে Bitcoin থেকে কী আলাদা করে?</span></p><p>আমরা Bitcoin ভালোবাসি, তবে এটিকে উন্নত করতেও চাই। Bitcoin এত বড় হওয়ার কারণে উদ্ভাবনী পরিবর্তনে সম্মত হতে অনেক সময় লাগে। এটি বিকল্প মুদ্রার জোয়ার তৈরি করেছে, Blackcoin-এর পথ খুলে দিয়েছে।<br /><span>Blackcoin</span> ব্লকচেইন উদ্ভাবনে নেতৃত্ব দিতে থেকেছে।<br />এই কয়েনটি <span>বিশ্বের যেকোনো কয়েনের চেয়ে বেশিবার Github থেকে ফর্ক হয়েছে!</span> Rat4 শুরু করেছিলেন যিনি মূলত PoS উদ্ভাবনে কাজ করতেন। Rat4 প্রমাণ করতে চেয়েছিলেন যে স্টেকিং <span>Bitcoin-এর পুরনো ও ব্যয়বহুল Proof of Work-এর চেয়ে বেশি নিরাপদ ও দক্ষ</span>।</p><p>কমিউনিটি সদস্যরা দ্রুত PoS-কে মাইনিং পুলের সাথে মিলিয়ে বাজার সমর্থন করেছিলেন, Blackcoin-এর জনপ্রিয়তা ব্যাপকভাবে বৃদ্ধি পেয়েছিল। পরে Rat4-এর সাথে যোগ দেন David Zimbeck, <span>BlackHalo</span>-র স্রষ্টা — Blackcoin-এ নির্মিত স্মার্ট কন্ট্র্যাক্টিং প্ল্যাটফর্ম। এর ফলে <span>Blackcoin Ethereum-এর মতো অন্যান্য স্মার্ট কন্ট্র্যাক্ট প্রস্তাবের চেয়ে পুরো এক বছর এগিয়ে ছিল</span>। Rat4 তারপর প্রোটোকল আরও মজবুত করেন, <span>Proof of Stake 2.0</span> এবং পরবর্তীতে <span>PoS 3.1 (PoSV3)</span> তৈরি করেন। তখন থেকে অনেক ডেভেলপার কোডবেস উন্নত করতে থাকেন। <span>জুন 2025 সালে mainnet-এ SegWit সক্রিয় হয়েছে</span>। Blackcoin-এর গতি অব্যাহত রয়েছে এবং <span>প্রতি বছর নতুন বৈশিষ্ট্য যোগ হচ্ছে</span>।</p><p>সবচেয়ে ভালো বিষয় হল, জড়িত হলে আপনি <span>ইন্টারনেটের ভবিষ্যতের</span> সব উত্তেজনার অংশ হতে পারবেন।</p>` /*Bengal*/,
+			ru: `<p><span>Что делает Blackcoin таким непохожим на Bitcoin?</span></p><p>Мы любим Bitcoin, но стремимся и совершенствовать его. Из-за огромных размеров Bitcoin согласование инновационных изменений занимает слишком много времени. Именно это породило волну альтернативных монет и открыло путь Blackcoin.<br /><span>Blackcoin</span> продолжает вести блокчейн-инновации.<br />Эта монета <span>разветвлена с Github больше, чем любая другая!</span> Её основал Rat4, занимавшийся преимущественно PoS-инновациями. Rat4 хотел доказать, что стейкинг может быть <span>безопаснее и эффективнее устаревшего и дорогостоящего Proof of Work Bitcoin</span>.</p><p>Члены сообщества объединили быстрый PoS с майнинговым пулом для поддержки рынка, и популярность Blackcoin резко возросла. Позже к Rat4 присоединился Дэвид Зимбек, создатель <span>BlackHalo</span> — платформы смарт-контрактов на базе Blackcoin. Благодаря этому <span>Blackcoin опережал Ethereum и другие предложения смарт-контрактов на целый год</span>. Затем Rat4 доработал протокол, создав <span>Proof of Stake 2.0</span> и в итоге <span>PoS 3.1 (PoSV3)</span>. С тех пор многие разработчики продолжают улучшать кодовую базу. <span>SegWit активирован в основной сети в июне 2025 года</span>, заложив основу для разработки второго уровня. Динамика Blackcoin не останавливается, и <span>ежегодно добавляются всё новые захватывающие возможности</span>.</p><p>Лучшее в том, что, присоединившись, вы можете стать частью всего захватывающего <span>будущего интернета</span>.</p>` /*Russian*/,
 			ja: `
 				<p>では、Blackcoinはビットコインと何が違うのでしょうか？</p>
 				<p>私たちはビットコインを愛していますが、同時にビットコインを改善しようとしています。ビットコインは非常に大きいので、革新的な変化に人々が同意するには時間がかかりすぎます。そのため、ここ数年で代替通貨が急増しています。これがブラックコインへの道を開いたのです。</p>
@@ -325,48 +314,48 @@ export default {
 				<p>このコイン自体が、世界のどのコインよりもGithubからフォークされています 主にPOS（Proof of Stake）のイノベーションに取り組んでいたRat4が始めたものです。Rat4は、Bitcoinの旧式で高価なProof of Workよりも、ステークが安全で効率的であることを証明したかったのです。</p>
 				<p>コミュニティの何人かのメンバーは、この高速POSとマイニングプールを組み合わせて、市場の価格と量に上昇圧力をかけてサポートし、その結果、ブラックコインの人気は大きく上昇しました。その後、Rat4には、BlackHaloの唯一の作者であり、活発なコミュニティメンバーであったDavid Zimbeckが加わりました。チェスやエンターテイメントなどの分野で有名だったデビッドは、独学でPythonを学び、BitHaloという「スマートコントラクト」プラットフォームをコーディングしました。Rat4を信じ、ブラックコインの安全性とマルチプールの革新性に賛同していたデビッドは、ブラックコインでHaloをデビューさせることを選択しました。このおかげで、ブラックコインはEtheriumなどの他のスマートコントラクト提案よりも丸1年先を行くことができました。Rat4はその後、ユーザーにネットワークとの対話を強いることでプルーフ・オブ・ステークの安全性を高め、セキュリティ上の欠陥を解消することに取り組んだ。そこで彼はProof of Stake 2.0を作成しました。2015年、Rat4は最終的にプロトコルをマスターするために、3.0のプロトコルに取り組み始めました。その間に、デビッドは分散型マーケットプレイスと分散型サーバーをリリースし、BlackHaloを大幅に改良して、ユーザーの利便性に焦点を当てた大量の新しいエキサイティングな機能を与えました。これらはすべて、ブラックコインのみで構築された分散型取引所の到来に備えたものでした。それ以来、他の多くの開発者が貢献しています。コミュニティのメンバーであるDrunkonsoundは、exco.inの取引所や他のいくつかのBlackcoinプロジェクトを構築し、後援しました。exco.inの取引所は、ライブの高頻度取引を行った最初の取引所であり、取引のための優れたチャートや機能をたくさん備えていました。再びBlackcoinが成長し、新しいプロジェクトであるLegionairreもコミュニティメンバーのbtclaw氏によって開始されました。Legionairreは、人々にステルスアドレスを提供します。彼らが最も重視しているのは、あなたのプライバシーです。ブラックコインの勢いはとどまるところを知らず、年々、新しいエキサイティングな機能が追加されています。</p>
 				<p>一番の魅力は、あなたが参加すれば、インターネットの未来の興奮のすべてに参加できるということです。</p>` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
+			jv: `<p><span>Apa sing ndadekake Blackcoin beda banget karo Bitcoin?</span></p><p>Kita suka Bitcoin, nanging uga pengin nggawe luwih apik. Amarga Bitcoin iku gedhe banget, butuh wektu suwe kanggo setuju karo owahan inovatif. Iki nyebabake lonjakan mata uang alternatif, mbukak dalan kanggo Blackcoin.<br /><span>Blackcoin</span> terus mimpin inovasi blockchain.<br />Koin iki <span>di-fork saka Github luwih akeh tinimbang koin liya ing donya!</span> Diwiwiti dening Rat4 sing nyambut gawe ing inovasi PoS. Rat4 pengin mbuktekake yen staking bisa <span>luwih aman lan efisien tinimbang PoW Bitcoin sing kuno</span>.</p><p>Anggota komunitas nggabungake PoS karo mining pool kanggo ndhukung pasar, popularity Blackcoin mundhak banget. Banjur Rat4 ditambah David Zimbeck, pencipta <span>BlackHalo</span> — platform "Smart Contracting" ing Blackcoin. Amarga iki, <span>Blackcoin setaun luwih dhisik tinimbang proposal Smart Contract liyane kaya Ethereum</span>. Rat4 banjur nguatake protokol, nggawe <span>Proof of Stake 2.0</span> lan pungkasane <span>PoS 3.1 (PoSV3)</span>. Akeh developer wis terus nggawe luwih apik. <span>SegWit diaktifake ing mainnet ing Juni 2025</span>. Momentum Blackcoin terus lan <span>saben taun fitur anyar ditambahake</span>.</p><p>Sing paling apik yaiku yen melu, sampeyan bisa dadi bagian saka <span>masa depan internet</span>.</p>` /*Javanese*/,
+			de: `<p><span>Was macht Blackcoin so anders als Bitcoin?</span></p><p>Wir lieben Bitcoin, streben aber auch nach Verbesserungen. Da Bitcoin so groß ist, dauert es zu lange, um innovativen Änderungen zuzustimmen. Dies führte zu einem Boom alternativer Währungen und ebnete den Weg für Blackcoin.<br /><span>Blackcoin</span> hat weiterhin Blockchain-Innovationen angeführt.<br />Der Coin selbst <span>wurde häufiger von Github geforkt als jeder andere Coin der Welt!</span> Er wurde von Rat4 gestartet, der vor allem an PoS-Innovationen arbeitete. Rat4 wollte beweisen, dass Staking <span>sicherer und effizienter ist als Bitcoins veraltetes Proof of Work</span>.</p><p>Mitglieder der Community kombinierten schnelles PoS mit einem Mining-Pool zur Marktunterstützung, was zu einem starken Anstieg der Bekanntheit führte. Später stieß David Zimbeck dazu, der Schöpfer von <span>BlackHalo</span> — einer Smart-Contracting-Plattform auf Blackcoin. Dadurch war <span>Blackcoin anderen Smart-Contract-Vorschlägen wie Ethereum ein ganzes Jahr voraus</span>. Rat4 festigte das Protokoll weiter und schuf <span>Proof of Stake 2.0</span> und schließlich <span>PoS 3.1 (PoSV3)</span>. Seitdem haben viele Entwickler die Codebasis verbessert. <span>SegWit wurde im Juni 2025 im Mainnet aktiviert</span>, was die Grundlage für Layer-2-Entwicklung legt. Der Schwung in Blackcoin hält an und <span>jedes Jahr werden neue und aufregende Funktionen hinzugefügt</span>.</p><p>Das Beste: Wenn Sie mitmachen, können Sie Teil der aufregenden <span>Zukunft des Internets</span> sein.</p>` /*German*/,
+			ko: `<p><span>Blackcoin이 Bitcoin과 무엇이 다른가요?</span></p><p>우리는 Bitcoin을 사랑하지만 개선하고자 합니다. Bitcoin이 너무 크기 때문에 혁신적인 변화에 합의하는 데 시간이 너무 많이 걸립니다. 이것이 대안 화폐의 급증을 야기하여 Blackcoin의 길을 열었습니다.<br /><span>Blackcoin</span>은 계속해서 블록체인 혁신을 이끌어 왔습니다.<br />이 코인 자체는 <span>세계 어느 코인보다도 Github에서 더 많이 포크되었습니다!</span> PoS 혁신에 주로 종사한 Rat4가 시작했습니다. Rat4는 스테이킹이 <span>Bitcoin의 구식이고 비싼 Proof of Work보다 더 안전하고 효율적일 수 있음</span>을 증명하고 싶었습니다.</p><p>커뮤니티 구성원들이 빠른 PoS를 마이닝 풀과 결합하여 시장을 지원하여 Blackcoin의 인기가 크게 상승했습니다. 이후 Rat4에 Blackcoin 기반의 스마트 컨트랙팅 플랫폼 <span>BlackHalo</span> 창시자 David Zimbeck이 합류했습니다. 이 덕분에 <span>Blackcoin은 Ethereum 등 다른 스마트 컨트랙트 제안보다 꼬박 1년 앞서 있었습니다</span>. Rat4는 프로토콜을 더욱 강화하여 <span>Proof of Stake 2.0</span>을 만들었고, 최종적으로 <span>PoS 3.1 (PoSV3)</span>을 완성했습니다. 이후 많은 개발자들이 코드베이스를 개선해 왔습니다. <span>SegWit이 2025년 6월 메인넷에서 활성화되어</span> 레이어-2 개발의 토대를 놓았습니다. Blackcoin의 모멘텀은 계속되고 <span>매년 새롭고 흥미로운 기능들이 추가됩니다</span>.</p><p>가장 좋은 점은, 참여하면 <span>인터넷의 미래</span>의 흥미로운 모든 것의 일부가 될 수 있다는 것입니다.</p>` /*Korean*/,
+			fr: `<p><span>Qu'est-ce qui rend Blackcoin si différent de Bitcoin ?</span></p><p>Nous aimons Bitcoin, mais nous cherchons également à l'améliorer. Comme Bitcoin est si grand, il faut trop de temps pour s'accorder sur des changements innovants. C'est pourquoi il y a eu un essor des monnaies alternatives, ouvrant la voie à Blackcoin.<br /><span>Blackcoin</span> a continué à mener l'innovation blockchain.<br />Le coin lui-même <span>a été forké depuis Github plus que tout autre coin au monde !</span> Il a été lancé par Rat4, qui travaillait principalement sur les innovations PoS. Rat4 voulait prouver que le staking pouvait être <span>plus sûr et plus efficace que le Proof of Work dépassé et coûteux de Bitcoin</span>.</p><p>Des membres de la communauté ont combiné le PoS rapide avec un pool de minage pour soutenir le marché, entraînant une hausse de la popularité. Plus tard, Rat4 a été rejoint par David Zimbeck, créateur de <span>BlackHalo</span> — une plateforme de "contrats intelligents" construite sur Blackcoin. Grâce à cela, <span>Blackcoin avait une année d'avance sur d'autres propositions de contrats intelligents comme Ethereum</span>. Rat4 a ensuite renforcé le protocole, créant <span>Proof of Stake 2.0</span> et finalement <span>PoS 3.1 (PoSV3)</span>. Depuis, de nombreux développeurs ont continué à améliorer la base de code. <span>SegWit a été activé sur le mainnet en juin 2025</span>, posant les bases du développement layer-2. L'élan de Blackcoin se poursuit et <span>chaque année de nouvelles fonctionnalités passionnantes sont ajoutées</span>.</p><p>Le mieux, c'est que si vous vous impliquez, vous pouvez faire partie de l'excitation du <span>futur d'internet</span>.</p>` /*French*/,
+			te: `<p><span>Blackcoin ని Bitcoin కంటే ఏది వేరుగా చేస్తుంది?</span></p><p>మేము Bitcoin ను ప్రేమిస్తాం, కానీ దాన్ని మెరుగుపరచడానికి కూడా ప్రయత్నిస్తాం. Bitcoin చాలా పెద్దది కాబట్టి ఆవిష్కరణాత్మక మార్పులపై అంగీకరించడానికి చాలా సమయం పడుతుంది. ఇది ప్రత్యామ్నాయ కరెన్సీల వృద్ధిని రేకెత్తించి Blackcoin కు దారి తెరిచింది.<br /><span>Blackcoin</span> బ్లాక్‌చైన్ ఆవిష్కరణలో ముందున్నది.<br />ఈ కాయిన్ <span>ప్రపంచంలో ఏ ఇతర కాయిన్ కంటే ఎక్కువసార్లు Github నుండి fork చేయబడింది!</span> PoS ఆవిష్కరణలపై పని చేసిన Rat4 దీన్ని ప్రారంభించాడు. <span>Bitcoin యొక్క పాత, ఖరీదైన Proof of Work కంటే స్టేకింగ్ మరింత సురక్షితంగా మరియు సమర్థంగా ఉంటుందని</span> నిరూపించాలని Rat4 కోరుకున్నాడు.</p><p>సమాజ సభ్యులు వేగవంతమైన PoS ని మైనింగ్ పూల్‌తో కలిపి మార్కెట్‌కు మద్దతు ఇచ్చారు, Blackcoin ప్రసిద్ధి గణనీయంగా పెరిగింది. తర్వాత David Zimbeck జతయ్యారు, Blackcoin పై నిర్మించిన స్మార్ట్ కాంట్రాక్టింగ్ ప్లాట్‌ఫారమ్ <span>BlackHalo</span> సృష్టికర్త. దీని వలన, <span>Blackcoin Ethereum వంటి ఇతర స్మార్ట్ కాంట్రాక్ట్ ప్రతిపాదనల కంటే పూర్తి సంవత్సరం ముందు ఉండేది</span>. Rat4 తర్వాత ప్రోటోకాల్‌ను మరింత పటిష్టపరిచి <span>Proof of Stake 2.0</span> మరియు చివరికి <span>PoS 3.1 (PoSV3)</span> ను సృష్టించాడు. అప్పటి నుండి చాలా మంది డెవలపర్లు కోడ్‌బేస్‌ను మెరుగుపరుస్తూనే ఉన్నారు. <span>జూన్ 2025లో mainnet పై SegWit సక్రియమైంది</span>, లేయర్-2 అభివృద్ధికి పునాది వేస్తుంది. Blackcoin వేగం కొనసాగుతోంది మరియు <span>ప్రతి సంవత్సరం కొత్త సువిధలు జోడించబడుతున్నాయి</span>.</p><p>అతి మంచి విషయం ఏమిటంటే, మీరు భాగస్వాములైతే <span>ఇంటర్నెట్ భవిష్యత్తు</span>లో భాగం కావచ్చు.</p>` /*Telugu*/,
+			mr: `<p><span>Blackcoin Bitcoin पेक्षा कशामुळे वेगळे आहे?</span></p><p>आम्हाला Bitcoin आवडते, पण आम्ही ते सुधारण्याचाही प्रयत्न करतो. Bitcoin इतके मोठे असल्याने, अभिनव बदलांवर सहमत होण्यास जास्त वेळ लागतो. यामुळे पर्यायी चलनांचा उदय झाला आणि Blackcoin साठी मार्ग मोकळा झाला.<br /><span>Blackcoin</span> ने blockchain नवकल्पनेत आघाडी कायम ठेवली आहे.<br />हे नाणे <span>जगातील इतर कोणत्याही नाण्यापेक्षा जास्त वेळा Github वरून fork केले गेले आहे!</span> Rat4 ने ते सुरू केले जे मुख्यतः PoS नवकल्पनांवर काम करत होते. <span>Bitcoin च्या जुन्या आणि महाग Proof of Work पेक्षा staking अधिक सुरक्षित आणि कार्यक्षम असू शकते</span> हे सिद्ध करायचे होते.</p><p>समुदायाच्या सदस्यांनी जलद PoS आणि mining pool एकत्र केले, Blackcoin ची लोकप्रियता मोठ्या प्रमाणात वाढली. नंतर David Zimbeck आले, <span>BlackHalo</span> चे निर्माते — Blackcoin वर बांधलेले स्मार्ट कॉन्ट्रॅक्टिंग प्लॅटफॉर्म. यामुळे <span>Blackcoin Ethereum सारख्या इतर Smart Contract प्रस्तावांपेक्षा पूर्ण एक वर्ष आघाडीवर होते</span>. Rat4 ने नंतर प्रोटोकॉल आणखी मजबूत केला, <span>Proof of Stake 2.0</span> आणि अखेरीस <span>PoS 3.1 (PoSV3)</span> तयार केले. तेव्हापासून अनेक developers ने codebase सुधारत आहेत. <span>जून 2025 मध्ये mainnet वर SegWit सक्रिय झाला</span>. Blackcoin ची गती सुरू आहे आणि <span>दरवर्षी नवीन आणि रोमांचक वैशिष्ट्ये जोडली जातात</span>.</p><p>सर्वोत्तम गोष्ट म्हणजे, सहभागी झाल्यास तुम्ही <span>इंटरनेटच्या भविष्याचा</span> भाग होऊ शकता.</p>` /*Marathi*/,
+			tr: `<p><span>Blackcoin'i Bitcoin'den bu kadar farklı kılan nedir?</span></p><p>Bitcoin'i seviyoruz, ancak onu geliştirmeye de çalışıyoruz. Bitcoin çok büyük olduğundan, yenilikçi değişiklikler üzerinde uzlaşmak çok zaman alıyor. Bu durum alternatif para birimlerinde büyük bir artışa yol açtı ve Blackcoin'e zemin hazırladı.<br /><span>Blackcoin</span>, blok zinciri inovasyonunda öncülüğünü sürdürdü.<br />Coin'in kendisi <span>dünyada herhangi bir coindan daha fazla Github'dan fork edilmiştir!</span> PoS inovasyonlarına odaklanan Rat4 tarafından başlatıldı. Rat4, stake etmenin <span>Bitcoin'in eski moda ve pahalı Proof of Work'ünden daha güvenli ve verimli olabileceğini</span> kanıtlamak istedi.</p><p>Topluluk üyeleri hızlı PoS'u bir madencilik havuzuyla birleştirerek piyasayı destekledi ve Blackcoin'in popülaritesi büyük ölçüde arttı. Daha sonra Rat4'e Blackcoin üzerine kurulu bir "Akıllı Sözleşme" platformu olan <span>BlackHalo</span>'nun yaratıcısı David Zimbeck katıldı. Bu sayede <span>Blackcoin, Ethereum gibi diğer akıllı sözleşme önerilerinden tam bir yıl önde oldu</span>. Rat4 daha sonra protokolü güçlendirerek <span>Proof of Stake 2.0</span> ve nihayetinde <span>PoS 3.1 (PoSV3)</span>'i oluşturdu. O zamandan beri birçok geliştirici kod tabanını geliştirmeye devam etti. <span>SegWit, Haziran 2025'te mainnet'te etkinleştirildi</span>. Blackcoin'deki momentum devam ediyor ve <span>her yıl yeni ve heyecan verici özellikler ekleniyor</span>.</p><p>En güzel yanı şu: katılırsanız <span>internetin geleceğinin</span> bir parçası olabilirsiniz.</p>` /*Turkish*/,
+			ta: `<p><span>Blackcoin-ஐ Bitcoin-ஐ விட வேறுபடுத்துவது என்ன?</span></p><p>நாங்கள் Bitcoin-ஐ நேசிக்கிறோம், ஆனால் அதை மேம்படுத்தவும் விரும்புகிறோம். Bitcoin மிகவும் பெரியதாக இருப்பதால், புதுமையான மாற்றங்களுக்கு ஒப்புக்கொள்ள மிக நேரம் பிடிக்கிறது. இது மாற்று நாணயங்களின் எழுச்சிக்கு வழிவகுத்தது, Blackcoin-க்கு வழி திறந்தது.<br /><span>Blackcoin</span> தொடர்ந்து blockchain புதுமையை வழிநடத்தி வருகிறது.<br />இந்த நாணயம் <span>உலகில் வேறு எந்த நாணயத்தையும் விட அதிகமாக Github-இலிருந்து fork செய்யப்பட்டது!</span> PoS புதுமைகளில் பணிபுரிந்த Rat4 தொடங்கினார். <span>Bitcoin-ன் பழைய, விலையுயர்ந்த Proof of Work-ஐ விட staking மிகவும் பாதுகாப்பானது மற்றும் திறமையானது</span> என்பதை நிரூபிக்க விரும்பினார்.</p><p>சமூக உறுப்பினர்கள் வேகமான PoS-ஐ mining pool-உடன் இணைத்து சந்தையை ஆதரித்தனர், Blackcoin-ன் பிரபலம் பெரிதும் அதிகரித்தது. பின்னர் <span>BlackHalo</span>-வின் படைப்பாளி David Zimbeck இணைந்தார் — Blackcoin-ல் கட்டப்பட்ட Smart Contracting தளம். இதனால், <span>Blackcoin Ethereum போன்ற மற்ற Smart Contract திட்டங்களை விட முழு ஒரு வருடம் முன்னே இருந்தது</span>. Rat4 பிறகு நெறிமுறையை மேலும் வலுப்படுத்தி <span>Proof of Stake 2.0</span> மற்றும் இறுதியில் <span>PoS 3.1 (PoSV3)</span> உருவாக்கினார். அதிலிருந்து பல டெவலப்பர்கள் code base-ஐ மேம்படுத்தினர். <span>2025 ஜூன் மாதம் mainnet-ல் SegWit செயல்பாட்டுக்கு வந்தது</span>. Blackcoin-ன் வேகம் தொடர்கிறது மற்றும் <span>ஆண்டுதோறும் புதிய அம்சங்கள் சேர்க்கப்படுகின்றன</span>.</p><p>மிகச் சிறந்த விஷயம் என்னவென்றால், நீங்கள் ஈடுபட்டால் <span>இணையத்தின் எதிர்காலத்தின்</span> பங்காளியாக இருக்கலாம்.</p>` /*Tamil*/,
+			vi: `<p><span>Điều gì khiến Blackcoin khác với Bitcoin đến vậy?</span></p><p>Chúng tôi yêu thích Bitcoin nhưng cũng muốn cải thiện nó. Vì Bitcoin quá lớn, việc thống nhất các thay đổi đổi mới mất quá nhiều thời gian. Điều này tạo ra làn sóng tiền tệ thay thế, mở đường cho Blackcoin.<br /><span>Blackcoin</span> tiếp tục dẫn đầu trong đổi mới blockchain.<br />Bản thân coin này <span>đã được fork từ Github nhiều hơn bất kỳ coin nào khác trên thế giới!</span> Được khởi xướng bởi Rat4, người chủ yếu làm việc về đổi mới PoS. Rat4 muốn chứng minh rằng staking có thể <span>an toàn hơn và hiệu quả hơn Proof of Work lỗi thời và tốn kém của Bitcoin</span>.</p><p>Các thành viên cộng đồng kết hợp PoS nhanh với mining pool để hỗ trợ thị trường, dẫn đến sự tăng trưởng lớn của Blackcoin. Sau đó Rat4 được David Zimbeck, người tạo ra <span>BlackHalo</span> — nền tảng hợp đồng thông minh xây dựng trên Blackcoin — tham gia. Nhờ đó, <span>Blackcoin đi trước các đề xuất hợp đồng thông minh khác như Ethereum một năm</span>. Rat4 sau đó củng cố giao thức, tạo ra <span>Proof of Stake 2.0</span> và cuối cùng là <span>PoS 3.1 (PoSV3)</span>. Kể từ đó, nhiều nhà phát triển tiếp tục cải thiện codebase. <span>SegWit được kích hoạt trên mainnet vào tháng 6 năm 2025</span>, đặt nền tảng cho phát triển layer-2. Đà phát triển của Blackcoin tiếp tục và <span>mỗi năm các tính năng mới thú vị được bổ sung</span>.</p><p>Điều tuyệt nhất là nếu tham gia, bạn có thể là một phần của sự hứng khởi về <span>tương lai của internet</span>.</p>` /*Vietnamese*/,
+			ur: `<p><span>Blackcoin کو Bitcoin سے اتنا مختلف کیا بناتا ہے؟</span></p><p>ہم Bitcoin سے محبت کرتے ہیں لیکن اسے بہتر بنانے کی بھی کوشش کرتے ہیں۔ Bitcoin کی بڑی سائز کی وجہ سے اختراعی تبدیلیوں پر اتفاق رائے میں بہت وقت لگتا ہے۔ اس نے متبادل کرنسیوں کی لہر پیدا کی اور Blackcoin کے لیے راستہ کھولا۔<br /><span>Blackcoin</span> نے بلاک چین اختراع میں قیادت جاری رکھی ہے۔<br />اس کوائن کو <span>دنیا کے کسی بھی دوسرے کوائن سے زیادہ Github سے fork کیا گیا ہے!</span> Rat4 نے شروع کیا جو بنیادی طور پر PoS اختراعات پر کام کرتے تھے۔ <span>Bitcoin کے پرانے اور مہنگے Proof of Work سے زیادہ محفوظ اور موثر</span> ہونا ثابت کرنا چاہتے تھے۔</p><p>کمیونٹی کے اراکین نے تیز PoS کو mining pool کے ساتھ ملایا اور Blackcoin کی مقبولیت بہت بڑھ گئی۔ بعد میں David Zimbeck شامل ہوئے، <span>BlackHalo</span> کے خالق — Blackcoin پر بنا Smart Contracting پلیٹ فارم۔ اس کی وجہ سے <span>Blackcoin Ethereum جیسی دیگر Smart Contract تجاویز سے پورا ایک سال آگے تھا</span>۔ Rat4 نے پھر پروٹوکول کو مزید مستحکم کیا، <span>Proof of Stake 2.0</span> اور آخرکار <span>PoS 3.1 (PoSV3)</span> بنایا۔ اس کے بعد سے کئی ڈویلپرز کوڈ بیس کو بہتر بناتے رہے ہیں۔ <span>جون 2025 میں mainnet پر SegWit فعال ہوا</span>۔ Blackcoin کی رفتار جاری ہے اور <span>ہر سال نئی دلچسپ سہولتیں شامل ہوتی ہیں</span>۔</p><p>سب سے اچھی بات یہ ہے کہ اگر آپ حصہ لیں تو <span>انٹرنیٹ کے مستقبل</span> کا حصہ بن سکتے ہیں۔</p>` /*Urdu - Right-to-left*/,
+			nl: `<p><span>Wat maakt Blackcoin zo anders dan Bitcoin?</span></p><p>We houden van Bitcoin, maar proberen het ook te verbeteren. Omdat Bitcoin zo groot is, kost het te veel tijd om innovatieve veranderingen goed te keuren. Dit zorgde voor een toename van alternatieve valuta's en maakte de weg vrij voor Blackcoin.<br /><span>Blackcoin</span> heeft blockchain-innovatie blijven leiden.<br />De coin zelf is <span>vaker geforkt van Github dan welke andere coin ter wereld ook!</span> Gestart door Rat4, die voornamelijk aan PoS-innovaties werkte. Rat4 wilde bewijzen dat staking <span>veiliger en efficiënter kan zijn dan Bitcoins ouderwetse en dure Proof of Work</span>.</p><p>Leden van de community combineerden snel PoS met een mining pool om de markt te ondersteunen, wat resulteerde in een grote stijging van Blackcoins populariteit. Later sloot David Zimbeck zich aan, de maker van <span>BlackHalo</span> — een Smart Contracting-platform gebouwd op Blackcoin. Daardoor was <span>Blackcoin een heel jaar voor op andere Smart Contract-voorstellen zoals Ethereum</span>. Rat4 verstevigde het protocol verder, creëerde <span>Proof of Stake 2.0</span> en uiteindelijk <span>PoS 3.1 (PoSV3)</span>. Sindsdien hebben veel ontwikkelaars de codebase verbeterd. <span>SegWit werd geactiveerd op het mainnet in juni 2025</span>, wat de basis legt voor layer-2-ontwikkeling. De dynamiek in Blackcoin gaat door en <span>elk jaar worden nieuwe, spannende functies toegevoegd</span>.</p><p>Het beste is: als u meedoet, kunt u deel uitmaken van de opwinding over de <span>toekomst van internet</span>.</p>` /*Dutch*/,
+			it: `<p><span>Cosa rende Blackcoin così diverso da Bitcoin?</span></p><p>Amiamo Bitcoin, ma cerchiamo anche di migliorarlo. Poiché Bitcoin è così grande, ci vuole troppo tempo per concordare i cambiamenti innovativi. Questo ha portato a un'impennata di valute alternative, aprendo la strada a Blackcoin.<br /><span>Blackcoin</span> ha continuato a guidare l'innovazione blockchain.<br />La coin stessa <span>è stata forkkata da Github più di qualsiasi altra coin al mondo!</span> Avviata da Rat4, che lavorava principalmente alle innovazioni PoS. Rat4 voleva dimostrare che lo staking poteva essere <span>più sicuro ed efficiente del Proof of Work antiquato e costoso di Bitcoin</span>.</p><p>Membri della community hanno combinato il PoS veloce con un pool di mining per sostenere il mercato, portando a una grande crescita di Blackcoin. In seguito si unì David Zimbeck, creatore di <span>BlackHalo</span> — una piattaforma di "Smart Contracting" costruita su Blackcoin. Grazie a ciò, <span>Blackcoin era un anno intero avanti rispetto ad altre proposte di contratti intelligenti come Ethereum</span>. Rat4 poi ha ulteriormente consolidato il protocollo, creando <span>Proof of Stake 2.0</span> e infine <span>PoS 3.1 (PoSV3)</span>. Da allora molti sviluppatori hanno continuato a migliorare il codebase. <span>SegWit è stato attivato sul mainnet a giugno 2025</span>, ponendo le basi per lo sviluppo layer-2. Il momentum di Blackcoin continua e <span>ogni anno vengono aggiunte nuove entusiasmanti funzionalità</span>.</p><p>La cosa migliore è che, partecipando, puoi far parte di tutta l'eccitazione del <span>futuro di internet</span>.</p>` /*Italian*/,
+			hr: `<p><span>Što čini Blackcoin toliko drukčijim od Bitcoina?</span></p><p>Volimo Bitcoin, ali nastojimo ga i poboljšati. Budući da je Bitcoin tako velik, dogovaranje o inovativnim promjenama traje predugo. To je dovelo do procvata alternativnih valuta i otvorilo put za Blackcoin.<br /><span>Blackcoin</span> je nastavio predvoditi blockchain inovacije.<br />Sama moneta <span>forkana je s Githuba više nego bilo koja druga moneta na svijetu!</span> Pokrenuo ju je Rat4 koji je radio uglavnom na PoS inovacijama. Rat4 je htio dokazati da staking može biti <span>sigurniji i učinkovitiji od Bitcoinovog zastarjelog i skupog Proof of Worka</span>.</p><p>Članovi zajednice kombinirali su brzi PoS s mining poolom za podršku tržištu, što je rezultiralo velikim rastom popularnosti Blackcoina. Kasnije se pridružio David Zimbeck, tvorac <span>BlackHalo</span> — platforme za "pametne ugovore" izgrađene na Blackcoinu. Zahvaljujući tome, <span>Blackcoin je bio godinu dana ispred drugih prijedloga pametnih ugovora poput Ethereuma</span>. Rat4 je zatim ojačao protokol, stvorivši <span>Proof of Stake 2.0</span> i na kraju <span>PoS 3.1 (PoSV3)</span>. Od tada mnogi programeri nastavljaju poboljšavati kod. <span>SegWit je aktiviran na mainnettu u lipnju 2025.</span>, postavljajući temelje za layer-2 razvoj. Zamah Blackcoina se nastavlja i <span>svake se godine dodaju nove i uzbudljive značajke</span>.</p><p>Najljepše je da, ako se uključite, možete biti dio uzbuđenja <span>budućnosti interneta</span>.</p>` /*Croatian*/
 		},
 
 		PROOF_OF_STAKE_VS_PROOF_OF_WORK: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
+			zh: `权益证明 VS 工作量证明` /*Chinese*/,
+			es: `PRUEBA DE PARTICIPACIÓN VS PRUEBA DE TRABAJO` /*Spanish*/,
 			en: 'PROOF OF STAKE VS PROOF OF WORK' /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
+			hi: `प्रूफ ऑफ स्टेक बनाम प्रूफ ऑफ वर्क` /*Hindi*/,
+			ar: `إثبات الحصة مقابل إثبات العمل` /*Arabic - Right-to-left*/,
+			pt: `PROVA DE PARTICIPAÇÃO VS PROVA DE TRABALHO` /*Portuguese*/,
+			bn: `প্রুফ অফ স্টেক বনাম প্রুফ অফ ওয়ার্ক` /*Bengal*/,
+			ru: `PROOF OF STAKE VS PROOF OF WORK` /*Russian*/,
 			ja: `POSとPOWの比較` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
+			jv: `PROOF OF STAKE VS PROOF OF WORK` /*Javanese*/,
+			de: `PROOF OF STAKE VS PROOF OF WORK` /*German*/,
+			ko: `PROOF OF STAKE 대 PROOF OF WORK` /*Korean*/,
+			fr: `PREUVE D'ENJEU VS PREUVE DE TRAVAIL` /*French*/,
+			te: `PROOF OF STAKE VS PROOF OF WORK` /*Telugu*/,
+			mr: `PROOF OF STAKE VS PROOF OF WORK` /*Marathi*/,
+			tr: `PROOF OF STAKE VS PROOF OF WORK` /*Turkish*/,
+			ta: `PROOF OF STAKE எதிர் PROOF OF WORK` /*Tamil*/,
+			vi: `PROOF OF STAKE VS PROOF OF WORK` /*Vietnamese*/,
+			ur: `پروف آف اسٹیک بمقابلہ پروف آف ورک` /*Urdu - Right-to-left*/,
+			nl: `PROOF OF STAKE VS PROOF OF WORK` /*Dutch*/,
+			it: `PROOF OF STAKE VS PROOF OF WORK` /*Italian*/,
+			hr: `PROOF OF STAKE VS PROOF OF WORK` /*Croatian*/
 		},
 		PROOF_OF_STAKE_VS_PROOF_OF_WORK_ANSWER1: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
+			zh: `<p>工作量证明（PoW）是一项伟大的创新，构成了原始比特币协议的基础。其原理是：通过解决一道计算密集型数学难题，证明所做的工作以保障网络安全。这就是区块链生成的方式，而这种计算所需的努力贡献于代币的稀缺性和价值。</p><p>然而，<span>工作量证明最终会变成一个极其昂贵的系统</span>。</p><p><span>权益证明以一种非常优雅的方式解决了这个问题</span>。它不依赖计算机算力这种稀缺资源来产生安全性，而是利用代币本身的稀缺性。用户可以选择将其代币"质押"以生成链上的下一个区块，其获得机会基本上与其代币权重成正比。</p><p>BlackCoin是第一个采用工作量证明创世周期、随后完全过渡到权益证明的代币。<br /><span>权益证明环保且高效，避免了基于PoW网络的巨大能源浪费和硬件开销</span>。<br />随着时间推移，Blackcoin的核心协议不断改进，从PoS 2.0演进至当前的<span>PoS 3.1 (PoSV3)</span>。</p>` /*Chinese*/,
+			es: `<p>La Prueba de Trabajo fue una innovación fantástica que formó la columna vertebral del protocolo original de Bitcoin. La idea es que al resolver un problema matemático computacionalmente intenso, se puede demostrar el esfuerzo realizado para asegurar el protocolo. Así es como se genera una blockchain, y el esfuerzo de estas computaciones contribuye a la escasez y el valor de una moneda.</p><p>Sin embargo, <span>la Prueba de Trabajo eventualmente se convierte en un sistema extraordinariamente caro</span>.</p><p><span>La Prueba de Participación resuelve este problema de una manera muy elegante</span>. En lugar de utilizar el poder computacional como recurso escaso, usa la escasez de la propia moneda. Un usuario puede elegir "apostar" sus monedas para generar el siguiente bloque, y su probabilidad es proporcional al peso de sus monedas.</p><p>BlackCoin fue el primer coin en usar un ciclo de creación PoW seguido de una transición completa a Proof-of-Stake.<br /><span>La Prueba de Participación es ecológica y eficiente, y evita el enorme desperdicio de energía del PoW</span>.<br />Con el tiempo, el protocolo de Blackcoin ha evolucionado desde PoS 2.0 hasta el actual <span>PoS 3.1 (PoSV3)</span>.</p>` /*Spanish*/,
 			en: `
 				<p>
 					Proof-of-Work was a fantastic innovation that formed the backbone of the original
@@ -394,14 +383,15 @@ export default {
 						>Proof-of-Stake is eco-friendly and efficient, and avoids the vast waste of energy and
 						hardware overhead of Proof-of-Work based networks</span
 					>.<br />
-					Over time, BlackCoin's core protocol has made industry-leading improvements to Proof-of-Stake
-					security and general functionality (PoS 2.0 and PoS 3.0).
+					Over time, Blackcoin's core protocol has made industry-leading improvements to Proof-of-Stake
+					security and general functionality, evolving through PoS 2.0 to the current
+					<span>PoS 3.1 (PoSV3)</span>.
 				</p>` /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
+			hi: `<p>Proof-of-Work एक शानदार नवाचार था जो मूल Bitcoin प्रोटोकॉल की रीढ़ बनी। विचार यह है कि एक गहन गणनीय गणित समस्या को हल करके, प्रोटोकॉल को सुरक्षित करने के लिए किए गए प्रयास को साबित किया जा सकता है।</p><p>हालांकि, <span>Proof-of-Work अंततः एक अत्यधिक महंगी प्रणाली बन जाती है</span>।</p><p><span>Proof of Stake इस समस्या को बहुत सुरुचिपूर्ण तरीके से हल करता है</span>। सुरक्षा उत्पन्न करने के लिए दुर्लभ संसाधन के रूप में कंप्यूटर शक्ति का उपयोग करने की बजाय, Proof of Stake सिक्के की अपनी दुर्लभता का उपयोग करता है। उपयोगकर्ता श्रृंखला में अगला ब्लॉक उत्पन्न करने के लिए अपने सिक्कों को "स्टेक" कर सकता है।</p><p>BlackCoin पहला सिक्का था जिसने Proof-of-Work से पूर्ण Proof-of-Stake में संक्रमण किया।<br /><span>Proof-of-Stake पारिस्थितिक और कुशल है, PoW की ऊर्जा बर्बादी से बचाता है</span>।<br />समय के साथ, Blackcoin का प्रोटोकॉल PoS 2.0 से वर्तमान <span>PoS 3.1 (PoSV3)</span> तक विकसित हुआ है।</p>` /*Hindi*/,
+			ar: `<p>كان Proof-of-Work ابتكاراً رائعاً شكّل العمود الفقري لبروتوكول Bitcoin الأصلي. الفكرة هي أنه بحل مسألة رياضية مكثفة حسابياً، يمكن إثبات الجهد المبذول لتأمين البروتوكول.</p><p>غير أن <span>Proof-of-Work يصبح في نهاية المطاف نظاماً باهظ التكلفة</span>.</p><p><span>يحل Proof of Stake هذه المشكلة بطريقة أنيقة</span>. بدلاً من استخدام طاقة الحاسوب كمورد نادر، يستخدم ندرة العملة ذاتها. يمكن للمستخدم اختيار "تحصيص" عملاته لتوليد الكتلة التالية في السلسلة.</p><p>كان BlackCoin أول عملة تستخدم دورة إنشاء PoW ثم تنتقل إلى Proof-of-Stake الكامل.<br /><span>Proof-of-Stake صديق للبيئة وكفء، ويتجنب الهدر الهائل للطاقة في شبكات PoW</span>.<br />طوّر Blackcoin بروتوكوله من PoS 2.0 إلى <span>PoS 3.1 (PoSV3)</span> الحالي.</p>` /*Arabic - Right-to-left*/,
+			pt: `<p>O Proof-of-Work foi uma inovação fantástica que formou a espinha dorsal do protocolo original do Bitcoin. A ideia é que ao resolver um problema matemático computacionalmente intenso, pode-se provar o esforço feito para proteger o protocolo.</p><p>No entanto, <span>o Proof-of-Work eventualmente se torna um sistema extraordinariamente caro</span>.</p><p><span>O Proof of Stake resolve esse problema de uma forma muito elegante</span>. Em vez de usar o poder computacional como recurso escasso, usa a escassez da própria moeda. Um usuário pode escolher "apostar" suas moedas para gerar o próximo bloco na cadeia.</p><p>O BlackCoin foi o primeiro coin a usar um ciclo de criação PoW seguido de transição completa para Proof-of-Stake.<br /><span>O Proof-of-Stake é ecológico e eficiente, e evita o enorme desperdício de energia das redes PoW</span>.<br />Com o tempo, o protocolo do Blackcoin evoluiu do PoS 2.0 para o atual <span>PoS 3.1 (PoSV3)</span>.</p>` /*Portuguese*/,
+			bn: `<p>Proof-of-Work একটি দুর্দান্ত উদ্ভাবন ছিল যা মূল Bitcoin প্রোটোকলের মেরুদণ্ড গঠন করেছিল। ধারণাটি হল যে একটি গণনামূলক নিবিড় গণিত সমস্যা সমাধান করে নেটওয়ার্ক সুরক্ষিত করার প্রচেষ্টা প্রমাণ করা যায়।</p><p>তবে, <span>Proof-of-Work শেষ পর্যন্ত একটি অত্যন্ত ব্যয়বহুল সিস্টেম হয়ে ওঠে</span>।</p><p><span>Proof of Stake এই সমস্যাটি একটি খুব মার্জিত উপায়ে সমাধান করে</span>। নিরাপত্তা তৈরিতে কম্পিউটার শক্তির পরিবর্তে কয়েনের নিজস্ব দুর্লভতা ব্যবহার করে। ব্যবহারকারী চেইনে পরবর্তী ব্লক তৈরি করতে তার কয়েন "স্টেক" করতে পারেন।</p><p>BlackCoin প্রথম কয়েন যা PoW সৃষ্টি চক্র ব্যবহার করে সম্পূর্ণ Proof-of-Stake-এ রূপান্তরিত হয়।<br /><span>Proof-of-Stake পরিবেশবান্ধব ও দক্ষ, PoW নেটওয়ার্কের বিশাল শক্তি অপচয় এড়ায়</span>।<br />সময়ের সাথে, Blackcoin-এর প্রোটোকল PoS 2.0 থেকে বর্তমান <span>PoS 3.1 (PoSV3)</span>-এ বিকশিত হয়েছে।</p>` /*Bengal*/,
+			ru: `<p>Proof-of-Work — выдающееся нововведение, ставшее основой оригинального протокола Bitcoin. Идея в том, что решая вычислительно сложную математическую задачу, можно доказать усилия по защите сети.</p><p>Однако <span>Proof-of-Work в конечном счёте становится чрезвычайно дорогостоящей системой</span>.</p><p><span>Proof of Stake решает эту проблему очень элегантно</span>. Вместо компьютерной мощности как дефицитного ресурса используется дефицитность самой монеты. Пользователь может «застейкать» свои монеты для генерации следующего блока в цепи.</p><p>BlackCoin стал первой монетой, использовавшей цикл создания PoW с последующим переходом к полному Proof-of-Stake.<br /><span>Proof-of-Stake экологичен и эффективен, избегает огромных энергетических затрат PoW-сетей</span>.<br />Со временем протокол Blackcoin эволюционировал от PoS 2.0 до нынешнего <span>PoS 3.1 (PoSV3)</span>.</p>` /*Russian*/,
 			ja: `
 			<p>Proof-of-Workは、オリジナルのBitcoinプロトコルのバックボーンを形成する素晴らしいイノベーションでした。計算量の多い数学の問題を解くことで、プロトコルの安全性を確保するために行った努力を証明することができるというものです。このようにしてブロックチェーンが生成され、この計算を行うために必要な労力がコインの希少性と価値に貢献します。</p>
 		<p>しかし、Proof-of-Workは最終的に余計なコストがかかるシステムになってしまいます。</p>
@@ -409,180 +399,180 @@ export default {
 		<p>BlackCoinは、Proof-of-Workの生成サイクルを採用した最初のコインであり、その後、完全なProof-of-Stakeに移行したことで注目を集めました。</p>
 		<p>Proof-of-Stakeは環境に優しく効率的であり、Proof-of-Workベースのネットワークで発生する膨大なエネルギーの浪費やハードウェアのオーバーヘッドを回避することができます。</p>
 		<p>BlackCoinのコアプロトコルは、Proof-of-Stakeのセキュリティと一般的な機能性について、時間をかけて業界をリードする改善を行ってきました（PoS 2.0およびPoS 3.0）。</p>` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
+			jv: `<p>Proof-of-Work iku inovasi sing apik banget sing dadi tulang punggung protokol Bitcoin asli. Ideane yaiku kanthi ngrampungake masalah matematika sing butuh komputasi dhuwur, bisa mbuktekake usaha kanggo ngamanake protokol.</p><p>Nanging, <span>Proof-of-Work banjur dadi sistem sing larang banget</span>.</p><p><span>Proof of Stake ngrampungake masalah iki kanthi cara sing apik</span>. Tinimbang nggunakake daya komputer minangka sumber daya langka, Proof of Stake nggunakake kelangkaan koin iku dhewe. Pangguna bisa milih "staking" koine kanggo nggawe blok sabanjure.</p><p>BlackCoin koin pertama sing nggunakake siklus pembuatan PoW banjur transisi menyang Proof-of-Stake penuh.<br /><span>Proof-of-Stake ramah lingkungan lan efisien, ngindari pemborosan energi jaringan PoW</span>.<br />Saka wektu menyang wektu, protokol Blackcoin wis berkembang saka PoS 2.0 nganti <span>PoS 3.1 (PoSV3)</span>.</p>` /*Javanese*/,
+			de: `<p>Proof-of-Work war eine großartige Innovation, die das Rückgrat des ursprünglichen Bitcoin-Protokolls bildete. Die Idee ist, durch das Lösen eines rechenintensiven mathematischen Problems den geleisteten Aufwand zur Sicherung des Protokolls zu beweisen.</p><p>Jedoch <span>wird Proof-of-Work letztendlich zu einem außerordentlich teuren System</span>.</p><p><span>Proof of Stake löst dieses Problem auf sehr elegante Weise</span>. Anstatt Rechenleistung als knappes Gut zu nutzen, verwendet es die Knappheit der Münze selbst. Ein Nutzer kann seine Münzen "staken", um den nächsten Block zu erzeugen.</p><p>BlackCoin war die erste Münze, die einen PoW-Entstehungszyklus nutzte und dann vollständig zu Proof-of-Stake wechselte.<br /><span>Proof-of-Stake ist umweltfreundlich und effizient und vermeidet den riesigen Energieverbrauch von PoW-Netzwerken</span>.<br />Im Laufe der Zeit hat sich das Protokoll von PoS 2.0 zum aktuellen <span>PoS 3.1 (PoSV3)</span> weiterentwickelt.</p>` /*German*/,
+			ko: `<p>Proof-of-Work는 원래 Bitcoin 프로토콜의 근간을 이루는 훌륭한 혁신이었습니다. 계산 집약적인 수학 문제를 풀어 네트워크 보안을 위한 노력을 증명한다는 아이디어입니다.</p><p>그러나 <span>Proof-of-Work는 결국 엄청나게 비싼 시스템이 됩니다</span>.</p><p><span>Proof of Stake는 이 문제를 매우 우아하게 해결합니다</span>. 컴퓨터 연산 능력 대신 코인 자체의 희소성을 사용합니다. 사용자는 코인을 "스테이킹"하여 다음 블록을 생성할 수 있습니다.</p><p>BlackCoin은 PoW 생성 주기를 사용한 후 완전한 Proof-of-Stake로 전환한 최초의 코인입니다.<br /><span>Proof-of-Stake는 친환경적이고 효율적이며, PoW 네트워크의 막대한 에너지 낭비를 방지합니다</span>.<br />시간이 지남에 따라 Blackcoin 프로토콜은 PoS 2.0에서 현재의 <span>PoS 3.1 (PoSV3)</span>으로 발전했습니다.</p>` /*Korean*/,
+			fr: `<p>La Preuve de Travail était une innovation fantastique qui a formé l'épine dorsale du protocole Bitcoin original. L'idée est qu'en résolvant un problème mathématique intensif, on peut prouver l'effort accompli pour sécuriser le protocole.</p><p>Cependant, <span>la Preuve de Travail devient finalement un système extraordinairement coûteux</span>.</p><p><span>La Preuve d'Enjeu résout ce problème de manière très élégante</span>. Plutôt que d'utiliser la puissance informatique comme ressource rare, elle utilise la rareté de la monnaie elle-même. Un utilisateur peut choisir de "staker" ses pièces pour générer le prochain bloc.</p><p>BlackCoin a été le premier coin à utiliser un cycle de création PoW suivi d'une transition complète vers Proof-of-Stake.<br /><span>Proof-of-Stake est écologique et efficace, évitant le gaspillage énergétique des réseaux PoW</span>.<br />Au fil du temps, le protocole de Blackcoin a évolué de PoS 2.0 vers l'actuel <span>PoS 3.1 (PoSV3)</span>.</p>` /*French*/,
+			te: `<p>Proof-of-Work అనేది ఒక అద్భుతమైన ఆవిష్కరణ, ఇది Bitcoin యొక్క మూల ప్రోటోకాల్‌కు వెన్నెముకగా నిలిచింది. గణనపరంగా కష్టతరమైన గణిత సమస్యను పరిష్కరించడం ద్వారా నెట్‌వర్క్‌ను సురక్షితంగా ఉంచే ప్రయత్నాన్ని నిరూపించవచ్చు.</p><p>అయితే, <span>Proof-of-Work చివరికి అత్యంత ఖరీదైన వ్యవస్థగా మారుతుంది</span>.</p><p><span>Proof of Stake ఈ సమస్యను చాలా సుందరమైన పద్ధతిలో పరిష్కరిస్తుంది</span>. కంప్యూటర్ శక్తి బదులు కాయిన్ యొక్క స్వంత కొరతను ఉపయోగిస్తుంది. వినియోగదారుడు తదుపరి బ్లాక్ రూపొందించేందుకు కాయిన్‌లను "స్టేక్" చేయవచ్చు.</p><p>BlackCoin PoW సృష్టి చక్రాన్ని ఉపయోగించి తర్వాత పూర్తిగా Proof-of-Stake కి మారిన మొదటి కాయిన్.<br /><span>Proof-of-Stake పర్యావరణ అనుకూలంగా ఉండి, PoW నెట్‌వర్క్‌ల భారీ శక్తి వ్యర్థాన్ని నివారిస్తుంది</span>.<br />కాలక్రమంలో Blackcoin ప్రోటోకాల్ PoS 2.0 నుండి ప్రస్తుత <span>PoS 3.1 (PoSV3)</span> వరకు అభివృద్ధి చెందింది.</p>` /*Telugu*/,
+			mr: `<p>Proof-of-Work हे एक उत्कृष्ट नवकल्पना होते जे मूळ Bitcoin प्रोटोकॉलचा कणा होते. संगणकीयदृष्ट्या कठीण गणिताची समस्या सोडवून नेटवर्क सुरक्षित करण्यासाठी केलेले प्रयत्न सिद्ध करता येतात.</p><p>तथापि, <span>Proof-of-Work अखेरीस अत्यंत महाग प्रणाली बनते</span>.</p><p><span>Proof of Stake ही समस्या अतिशय सुंदरपणे सोडवतो</span>. संगणक शक्तीऐवजी नाण्याची स्वतःची दुर्मिळता वापरतो. वापरकर्ता पुढील ब्लॉक तयार करण्यासाठी आपली नाणी "स्टेक" करू शकतो.</p><p>BlackCoin हे PoW निर्मिती चक्र वापरून नंतर पूर्णपणे Proof-of-Stake मध्ये बदललेले पहिले नाणे होते.<br /><span>Proof-of-Stake पर्यावरणपूरक आणि कार्यक्षम आहे, PoW नेटवर्कचा प्रचंड ऊर्जा अपव्यय टाळतो</span>.<br />कालांतराने Blackcoin चा प्रोटोकॉल PoS 2.0 पासून सध्याच्या <span>PoS 3.1 (PoSV3)</span>पर्यंत विकसित झाला.</p>` /*Marathi*/,
+			tr: `<p>Proof-of-Work, orijinal Bitcoin protokolünün bel kemiğini oluşturan harika bir yenilikti. Fikir, hesaplama açısından yoğun bir matematik problemini çözerek protokolü güvence altına alma çabalarını kanıtlamaktır.</p><p>Ancak <span>Proof-of-Work sonunda inanılmaz derecede pahalı bir sistem haline gelir</span>.</p><p><span>Proof of Stake bu sorunu çok zarif bir şekilde çözer</span>. Bilgisayar gücü yerine madeni paranın kendi kıtlığını kullanır. Kullanıcı, zincirdeki bir sonraki bloğu oluşturmak için paralarını "stake" etmeyi seçebilir.</p><p>BlackCoin, PoW oluşturma döngüsü kullandıktan sonra tam Proof-of-Stake'e geçen ilk kripto paraydı.<br /><span>Proof-of-Stake çevre dostudur ve PoW ağlarının büyük enerji israfını önler</span>.<br />Zamanla Blackcoin'in protokolü PoS 2.0'dan mevcut <span>PoS 3.1 (PoSV3)</span>'e kadar evrildi.</p>` /*Turkish*/,
+			ta: `<p>Proof-of-Work என்பது Bitcoin-ன் அசல் நெறிமுறையின் முதுகெலும்பை உருவாக்கிய ஒரு அருமையான கண்டுபிடிப்பு. கணினி தீவிர கணித சிக்கலை தீர்ப்பதன் மூலம் நெட்வொர்க்கை பாதுகாக்கும் முயற்சியை நிரூபிக்கலாம்.</p><p>இருப்பினும், <span>Proof-of-Work இறுதியில் மிகவும் விலையுயர்ந்த முறையாக மாறுகிறது</span>.</p><p><span>Proof of Stake இந்த சிக்கலை மிகவும் நேர்த்தியாக தீர்க்கிறது</span>. கணினி சக்தியை பயன்படுத்துவதற்கு பதிலாக நாணயத்தின் சொந்த குறைப்பை பயன்படுத்துகிறது. ஒரு பயனர் தொடர்ச்சியில் அடுத்த தொகுதியை உருவாக்க தனது நாணயங்களை "ஸ்டேக்" செய்யலாம்.</p><p>BlackCoin PoW உருவாக்கு சுழற்சியை பயன்படுத்தி முழு Proof-of-Stake-க்கு மாறிய முதல் நாணயம்.<br /><span>Proof-of-Stake சுற்றுச்சூழலுக்கு உகந்தது மற்றும் திறமையானது, PoW நெட்வொர்க்குகளின் மிகுந்த ஆற்றல் விரயத்தை தவிர்க்கிறது</span>.<br />காலப்போக்கில் Blackcoin-ன் நெறிமுறை PoS 2.0 இலிருந்து தற்போதைய <span>PoS 3.1 (PoSV3)</span> வரை வளர்ந்துள்ளது.</p>` /*Tamil*/,
+			vi: `<p>Proof-of-Work là một đổi mới tuyệt vời tạo nên xương sống của giao thức Bitcoin gốc. Ý tưởng là bằng cách giải một bài toán toán học tính toán chuyên sâu, người ta có thể chứng minh nỗ lực bảo mật giao thức.</p><p>Tuy nhiên, <span>Proof-of-Work cuối cùng trở thành một hệ thống cực kỳ tốn kém</span>.</p><p><span>Proof of Stake giải quyết vấn đề này một cách rất thanh lịch</span>. Thay vì sử dụng sức mạnh máy tính, nó sử dụng sự khan hiếm của đồng coin. Người dùng có thể "stake" coin để tạo khối tiếp theo.</p><p>BlackCoin là coin đầu tiên sử dụng chu kỳ tạo PoW rồi chuyển hoàn toàn sang Proof-of-Stake.<br /><span>Proof-of-Stake thân thiện với môi trường và hiệu quả, tránh lãng phí năng lượng khổng lồ của mạng PoW</span>.<br />Theo thời gian, giao thức của Blackcoin đã phát triển từ PoS 2.0 đến <span>PoS 3.1 (PoSV3)</span> hiện tại.</p>` /*Vietnamese*/,
+			ur: `<p>Proof-of-Work ایک شاندار اختراع تھی جو اصل Bitcoin پروٹوکول کی ریڑھ کی ہڈی بنی۔ خیال یہ ہے کہ ایک گنجلک ریاضی مسئلہ حل کر کے نیٹ ورک کی حفاظت کا ثبوت دیا جائے۔</p><p>تاہم، <span>Proof-of-Work بالآخر ایک انتہائی مہنگا نظام بن جاتا ہے</span>۔</p><p><span>Proof of Stake اس مسئلے کو بہت خوبصورتی سے حل کرتا ہے</span>۔ کمپیوٹر پاور کی بجائے سکے کی اپنی ندرت استعمال کرتا ہے۔ صارف اگلا بلاک بنانے کے لیے اپنے سکے "اسٹیک" کر سکتا ہے۔</p><p>BlackCoin پہلا سکہ تھا جس نے PoW تخلیق سائیکل استعمال کر کے مکمل Proof-of-Stake میں منتقلی کی۔<br /><span>Proof-of-Stake ماحول دوست اور موثر ہے، PoW نیٹ ورکس کے بھاری توانائی کے ضیاع سے بچاتا ہے</span>۔<br />وقت کے ساتھ Blackcoin کا پروٹوکول PoS 2.0 سے موجودہ <span>PoS 3.1 (PoSV3)</span> تک ترقی کر چکا ہے۔</p>` /*Urdu - Right-to-left*/,
+			nl: `<p>Proof-of-Work was een fantastische innovatie die de ruggengraat vormde van het originele Bitcoin-protocol. Het idee is dat door het oplossen van een rekenintensief wiskundig probleem de inspanning om het protocol te beveiligen bewezen kan worden.</p><p>Echter, <span>wordt Proof-of-Work uiteindelijk een buitengewoon duur systeem</span>.</p><p><span>Proof of Stake lost dit probleem op een zeer elegante manier op</span>. In plaats van computerkracht te gebruiken als schaars middel, gebruikt het de schaarste van de munt zelf. Een gebruiker kan ervoor kiezen zijn munten te "staken" om het volgende blok te genereren.</p><p>BlackCoin was het eerste coin met een PoW-aanmaakmechanisme gevolgd door een volledige overgang naar Proof-of-Stake.<br /><span>Proof-of-Stake is milieuvriendelijk en efficiënt, en vermijdt het enorme energieverbruik van PoW-netwerken</span>.<br />In de loop der tijd heeft het protocol van Blackcoin zich ontwikkeld van PoS 2.0 naar het huidige <span>PoS 3.1 (PoSV3)</span>.</p>` /*Dutch*/,
+			it: `<p>Proof-of-Work fu una fantastica innovazione che formò la spina dorsale del protocollo Bitcoin originale. L'idea è che risolvendo un problema matematico computazionalmente intenso, si può dimostrare lo sforzo per proteggere il protocollo.</p><p>Tuttavia, <span>Proof-of-Work alla fine diventa un sistema straordinariamente costoso</span>.</p><p><span>Proof of Stake risolve questo problema in modo molto elegante</span>. Invece di utilizzare la potenza di calcolo come risorsa scarsa, utilizza la scarsità della moneta stessa. Un utente può scegliere di "stakare" le proprie monete per generare il blocco successivo.</p><p>BlackCoin è stata la prima moneta a utilizzare un ciclo di creazione PoW seguito dalla transizione completa a Proof-of-Stake.<br /><span>Proof-of-Stake è ecologico ed efficiente, evitando il vasto spreco energetico delle reti PoW</span>.<br />Nel tempo il protocollo di Blackcoin si è evoluto da PoS 2.0 all'attuale <span>PoS 3.1 (PoSV3)</span>.</p>` /*Italian*/,
+			hr: `<p>Proof-of-Work bila je fantastična inovacija koja je činila okosnicu originalnog Bitcoin protokola. Ideja je da rješavanjem računalno zahtjevnog matematičkog problema možete dokazati trud uložen u osiguranje protokola.</p><p>Međutim, <span>Proof-of-Work na kraju postaje izuzetno skup sustav</span>.</p><p><span>Proof of Stake rješava ovaj problem na vrlo elegantan način</span>. Umjesto računalne snage koristi oskudnost samog novčića. Korisnik može odabrati "staking" svojih novčića za generiranje sljedećeg bloka.</p><p>BlackCoin je bio prvi coin koji je koristio ciklus stvaranja PoW, a zatim prešao na puni Proof-of-Stake.<br /><span>Proof-of-Stake je ekološki i učinkovit, izbjegava ogromno rasipanje energije PoW mreža</span>.<br />Tijekom vremena Blackcoinov protokol razvio se od PoS 2.0 do trenutnog <span>PoS 3.1 (PoSV3)</span>.</p>` /*Croatian*/
 		},
 
 		THE_ANNUAL_INFLATION_OF_BLACKCOIN: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
+			zh: `黑币的年通货膨胀率` /*Chinese*/,
+			es: `LA INFLACIÓN ANUAL DE BLACKCOIN` /*Spanish*/,
 			en: 'THE ANNUAL INFLATION OF BLACKCOIN' /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
+			hi: `ब्लैककॉइन की वार्षिक मुद्रास्फीति` /*Hindi*/,
+			ar: `التضخم السنوي لبلاك كوين` /*Arabic - Right-to-left*/,
+			pt: `A INFLAÇÃO ANUAL DO BLACKCOIN` /*Portuguese*/,
+			bn: `ব্ল্যাককয়েনের বার্ষিক মুদ্রাস্ফীতি` /*Bengal*/,
+			ru: `ГОДОВАЯ ИНФЛЯЦИЯ BLACKCOIN` /*Russian*/,
 			ja: `Blackcoinの年間インフレ率。` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
+			jv: `INFLASI TAHUNAN BLACKCOIN` /*Javanese*/,
+			de: `DIE JÄHRLICHE INFLATION VON BLACKCOIN` /*German*/,
+			ko: `BLACKCOIN의 연간 인플레이션` /*Korean*/,
+			fr: `L'INFLATION ANNUELLE DE BLACKCOIN` /*French*/,
+			te: `BLACKCOIN యొక్క వార్షిక ద్రవ్యోల్బణం` /*Telugu*/,
+			mr: `BLACKCOIN चा वार्षिक चलनवाढ` /*Marathi*/,
+			tr: `BLACKCOIN'İN YILLIK ENFLASYONU` /*Turkish*/,
+			ta: `BLACKCOIN இன் வருடாந்திர பணவீக்கம்` /*Tamil*/,
+			vi: `LẠM PHÁT HÀNG NĂM CỦA BLACKCOIN` /*Vietnamese*/,
+			ur: `بلیک کوائن کی سالانہ افراط زر` /*Urdu - Right-to-left*/,
+			nl: `DE JAARLIJKSE INFLATIE VAN BLACKCOIN` /*Dutch*/,
+			it: `L'INFLAZIONE ANNUALE DI BLACKCOIN` /*Italian*/,
+			hr: `GODIŠNJA INFLACIJA BLACKCOINA` /*Croatian*/
 		},
 		THE_ANNUAL_INFLATION_OF_BLACKCOIN_ANSWER1: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
+			zh: `<p>由于<span>静态区块奖励</span>，每年新增BLK数量固定，通货膨胀率因此逐年小幅下降。</p><p>目标出块时间为64秒，每年约产生492,750个区块（31,536,000 ÷ 64）。每区块1.5 BLK，即<span>每年约新增739,125 BLK</span>。目前739,125约占总供应量60,238,885 BLK的<span>1.23%</span>——随着供应量增长而区块奖励固定，该比例每年略有下降。</p><p>这约1.23%仅分配给主动质押的持有者。<span>个人质押年化收益平均4%至8%</span>，取决于当时主动质押的总供应量比例。</p><p>若只有20%的代币在质押，质押者年化收益约为1.23% ÷ 0.20 = <span>约6%</span>，因为另外80%未质押的持有者分文未得。全网质押比例越低，个人收益率越高。</p>` /*Chinese*/,
+			es: `<p>Es una cantidad fija de BLK debido a la <span>recompensa de bloque estática</span>, con una inflación ligeramente decreciente año tras año.</p><p>El tiempo objetivo de bloque es de 64 segundos, produciendo aproximadamente 492.750 bloques por año (31.536.000 ÷ 64). Con 1,5 BLK por bloque eso equivale a <span>~739.125 nuevos BLK por año</span>. Actualmente 739.125 representa aproximadamente el <span>1,23% del suministro total de 60.238.885 BLK</span> — la recompensa es fija pero el suministro crece, por lo que este porcentaje baja levemente cada año.</p><p>Este ~1,23% se distribuye solo entre quienes hacen staking activamente. <span>Los rendimientos individuales de staking promedian el 4%–8% anuales</span>, dependiendo de qué fracción del suministro esté en staking.</p><p>Si solo el 20% de los coins está en staking, los stakers ganan aproximadamente 1,23% ÷ 0,20 = <span>~6% al año</span>, ya que el 80% que no hace staking no recibe nada. Cuantos menos coins stakeen, mayor es el rendimiento individual.</p>` /*Spanish*/,
 			en: `
 			<p>
-				It is a fixed amount of BLK due to <span>static block reward</span>, and a slightly less
-				inflation rate year on year because of that.
+				It is a fixed amount of BLK due to <span>static block reward</span>, and a slightly
+				lower inflation rate year on year because of that.
 			</p>
 			<p>
-				The block time target is 67 seconds, so working that out per year (60/67 x 60) x 24 x
-				365 is 470686 block rewards (1.5BLK) in a year which is <span
-					>706,030 new BLK per year roughly.</span
-				> As of right now, 706,030 is 1.172% of the total supply of 60,238,885 BLK.
+				The block time target is 64 seconds, giving approximately 492,750 blocks per year
+				(31,536,000 seconds ÷ 64). At 1.5 BLK per block that is
+				<span>~739,125 new BLK per year</span>.
+				As of right now, 739,125 is roughly <span>1.23% of the total supply of 60,238,885 BLK</span>
+				— and because the block reward is fixed while supply grows, this percentage falls slightly
+				each year.
 			</p>
 			<p>
-				This 1.172% is distributed to only fraction of the shareholders, the ones who stake.
-				<span
-					>The reward rate is way above 1%, average to 4-8% annual depending on time and amount
-					of BLK staked.</span
-				>
+				This ~1.23% is distributed only to holders who actively stake.
+				<span>Individual staking yields average 4–8% annually</span>, depending on what fraction
+				of the total supply is staking at any given time.
 			</p>
 			<p>
-				That means if only 20% of coins were being actively staked, you could actually get
-				around 5%/year for continually staking, since 80% of people (avg) weren't staking and
-				get nothing.
+				If only 20% of coins are actively staked, stakers earn roughly 1.23% ÷ 0.20 =
+				<span>~6% per year</span>, since the 80% not staking receive nothing.
+				The fewer coins staking network-wide, the higher the individual yield.
 			</p>` /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
+			hi: `<p>यह <span>स्थिर ब्लॉक पुरस्कार</span> के कारण BLK की एक निश्चित मात्रा है, जिससे मुद्रास्फीति दर हर साल थोड़ी कम होती जाती है।</p><p>ब्लॉक समय लक्ष्य 64 सेकंड है, जिससे प्रति वर्ष लगभग 492,750 ब्लॉक बनते हैं (31,536,000 ÷ 64)। 1.5 BLK प्रति ब्लॉक पर <span>प्रति वर्ष ~739,125 नए BLK</span> बनते हैं। वर्तमान में 739,125 कुल आपूर्ति 60,238,885 BLK का लगभग <span>1.23%</span> है — ब्लॉक पुरस्कार स्थिर रहता है जबकि आपूर्ति बढ़ती है, इसलिए यह प्रतिशत हर साल थोड़ा कम होता है।</p><p>यह ~1.23% केवल सक्रिय रूप से स्टेकिंग करने वाले धारकों में वितरित होता है। <span>व्यक्तिगत स्टेकिंग प्रतिफल औसतन 4%–8% वार्षिक</span> होता है, जो स्टेकिंग में सक्रिय BLK के अनुपात पर निर्भर करता है।</p><p>यदि केवल 20% कॉइन स्टेक हो रहे हैं, तो स्टेकर्स लगभग 1.23% ÷ 0.20 = <span>~6% प्रति वर्ष</span> कमाते हैं, क्योंकि स्टेकिंग न करने वाले 80% को कुछ नहीं मिलता।</p>` /*Hindi*/,
+			ar: `<p>إنه مقدار ثابت من BLK بسبب <span>مكافأة الكتلة الثابتة</span>، مما يجعل معدل التضخم ينخفض قليلاً سنة بعد أخرى.</p><p>الهدف الزمني للكتلة هو 64 ثانية، مما يعطي حوالي 492,750 كتلة في السنة (31,536,000 ÷ 64). بمعدل 1.5 BLK للكتلة، ينتج <span>~739,125 BLK جديد في السنة</span>. حالياً يمثل 739,125 حوالي <span>1.23% من إجمالي المعروض البالغ 60,238,885 BLK</span> — وبما أن المكافأة ثابتة بينما المعروض يزداد، تنخفض هذه النسبة قليلاً كل عام.</p><p>يُوزَّع هذا الـ~1.23% فقط على المحصّصين النشطين. <span>تبلغ عوائد التحصيص الفردية في المتوسط 4%–8% سنوياً</span>.</p><p>إذا كان 20% فقط من العملات في التحصيص، فإن المحصّصين يكسبون تقريباً 1.23% ÷ 0.20 = <span>~6% سنوياً</span>، لأن الـ80% غير المحصّص لا يحصل على شيء.</p>` /*Arabic - Right-to-left*/,
+			pt: `<p>É uma quantidade fixa de BLK devido à <span>recompensa de bloco estática</span>, com uma taxa de inflação levemente menor a cada ano.</p><p>O tempo alvo de bloco é de 64 segundos, gerando aproximadamente 492.750 blocos por ano (31.536.000 ÷ 64). Com 1,5 BLK por bloco, isso corresponde a <span>~739.125 novos BLK por ano</span>. Atualmente 739.125 representa aproximadamente <span>1,23% do suprimento total de 60.238.885 BLK</span> — como a recompensa é fixa e o suprimento cresce, esse percentual cai levemente a cada ano.</p><p>Esse ~1,23% é distribuído apenas aos detentores que fazem staking ativamente. <span>Os rendimentos individuais de staking variam em média entre 4% e 8% ao ano</span>.</p><p>Se apenas 20% dos coins estiverem em staking, os stakers ganham aproximadamente 1,23% ÷ 0,20 = <span>~6% ao ano</span>, já que os 80% que não fazem staking não recebem nada.</p>` /*Portuguese*/,
+			bn: `<p>এটি <span>স্থির ব্লক পুরস্কারের</span> কারণে BLK-এর একটি নির্দিষ্ট পরিমাণ, এবং সে কারণে মুদ্রাস্ফীতির হার প্রতি বছর সামান্য কমে।</p><p>ব্লক সময়ের লক্ষ্য ৬৪ সেকেন্ড, যা প্রতি বছর প্রায় ৪৯২,৭৫০টি ব্লক দেয় (৩১,৫৩৬,০০০ ÷ ৬৪)। প্রতি ব্লকে ১.৫ BLK হিসাবে <span>বছরে প্রায় ৭৩৯,১২৫ নতুন BLK</span> তৈরি হয়। বর্তমানে ৭৩৯,১২৫ মোট সরবরাহ ৬০,২৩৮,৮৮৫ BLK-এর প্রায় <span>১.২৩%</span>।</p><p>এই ~১.২৩% শুধুমাত্র সক্রিয় স্টেকারদের মধ্যে বিতরণ হয়। <span>ব্যক্তিগত স্টেকিং ফলন গড়ে বার্ষিক ৪%–৮%</span>।</p><p>যদি মাত্র ২০% কয়েন স্টেক করা হয়, স্টেকাররা প্রায় ১.২৩% ÷ ০.২০ = <span>~৬% বার্ষিক</span> পান, কারণ ৮০% স্টেক না করা কয়েন কিছুই পায় না।</p>` /*Bengal*/,
+			ru: `<p>Благодаря <span>фиксированному вознаграждению за блок</span> ежегодный прирост BLK постоянен, а темп инфляции год от года слегка снижается.</p><p>Целевое время блока — 64 секунды, что даёт около 492 750 блоков в год (31 536 000 ÷ 64). При 1,5 BLK за блок это <span>~739 125 новых BLK в год</span>. Сейчас 739 125 составляет примерно <span>1,23% от общего предложения в 60 238 885 BLK</span> — поскольку награда фиксирована, а предложение растёт, этот процент ежегодно немного уменьшается.</p><p>Этот ~1,23% распределяется только среди активно стейкующих. <span>Индивидуальная доходность стейкинга в среднем 4–8% годовых</span>.</p><p>Если в стейкинге лишь 20% монет, стейкеры зарабатывают примерно 1,23% ÷ 0,20 = <span>~6% в год</span>, поскольку 80% нестейкующих не получают ничего.</p>` /*Russian*/,
 			ja: `
 			<p>ブロックリワードが固定されているためにBLKの量が固定されており、そのために年々インフレ率が少しずつ低くなっています。</p>
 			<p>ブロックタイムの目標は67秒なので、1年で計算すると（60/67×60）×24×365で470686ブロックリワード（1.5BLK）となり、大体1年で706,030個のBLKが新たに手に入ることになります。現在のところ、706,030は総供給量60,238,885BLKの1.172%にあたります。</p>
 			<p>この1.172%は、出資した株主の一部にしか分配されません。報酬率は1％をはるかに超えており、時間と賭けたBLKの量に応じて平均で年4～8％になります。</p>
 			<p>つまり、20％のコインだけが積極的に賭けられていたとしたら、80％の人（平均）が賭けずに何も得られないので、継続的に賭けることで実際には年5％程度を得ることができるのです。</p>
 			` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
+			jv: `<p>Iki jumlah BLK sing tetep amarga <span>hadiah blok sing statis</span>, lan tingkat inflasi sethithik murun saben taun.</p><p>Target wektu blok yaiku 64 detik, ngasilake kira-kira 492.750 blok saben taun (31.536.000 ÷ 64). Karo 1,5 BLK saben blok, iku <span>~739.125 BLK anyar saben taun</span>. Saiki 739.125 kira-kira <span>1,23% saka total suplai 60.238.885 BLK</span>.</p><p>~1,23% iki mung didistribusikake marang sing aktif staking. <span>Hasil staking individu rata-rata 4%–8% saben taun</span>.</p><p>Yen mung 20% koin sing distaking, staker entuk kira-kira 1,23% ÷ 0,20 = <span>~6% saben taun</span>, amarga 80% sing ora staking ora entuk apa-apa.</p>` /*Javanese*/,
+			de: `<p>Es handelt sich um eine feste BLK-Menge aufgrund der <span>statischen Blockbelohnung</span>, weshalb die Inflationsrate jährlich leicht sinkt.</p><p>Das Blockzeit-Ziel beträgt 64 Sekunden, was etwa 492.750 Blöcke pro Jahr ergibt (31.536.000 ÷ 64). Bei 1,5 BLK pro Block entspricht das <span>~739.125 neuen BLK pro Jahr</span>. Derzeit macht 739.125 etwa <span>1,23% des Gesamtangebots von 60.238.885 BLK</span> aus — da die Belohnung fest, das Angebot aber wächst, sinkt dieser Prozentsatz leicht.</p><p>Dieses ~1,23% wird nur an aktiv stakende Inhaber verteilt. <span>Individuelle Staking-Erträge liegen im Durchschnitt bei 4–8% jährlich</span>.</p><p>Wenn nur 20% der Coins aktiv gestakt werden, verdienen Staker rund 1,23% ÷ 0,20 = <span>~6% pro Jahr</span>, da die 80% nicht Stakenden nichts erhalten.</p>` /*German*/,
+			ko: `<p>이것은 <span>고정 블록 보상</span>으로 인한 고정된 BLK 양이며, 인플레이션율이 매년 약간씩 낮아집니다.</p><p>블록 타임 목표는 64초로, 연간 약 492,750개의 블록이 생성됩니다(31,536,000 ÷ 64). 블록당 1.5 BLK로 <span>연간 ~739,125개의 새로운 BLK</span>가 생성됩니다. 현재 739,125는 총 공급량 60,238,885 BLK의 약 <span>1.23%</span>입니다.</p><p>이 ~1.23%는 적극적으로 스테이킹하는 보유자에게만 분배됩니다. <span>개인 스테이킹 수익률은 연평균 4%–8%</span>입니다.</p><p>만약 20%만 스테이킹 중이라면, 스테이커는 약 1.23% ÷ 0.20 = <span>~6%/년</span>을 얻고, 나머지 80%는 아무것도 받지 못합니다.</p>` /*Korean*/,
+			fr: `<p>C'est une quantité fixe de BLK en raison de la <span>récompense de bloc statique</span>, ce qui entraîne un taux d'inflation légèrement décroissant d'année en année.</p><p>Le temps de bloc cible est de 64 secondes, produisant environ 492 750 blocs par an (31 536 000 ÷ 64). À 1,5 BLK par bloc, cela représente <span>~739 125 nouveaux BLK par an</span>. Actuellement, 739 125 représente environ <span>1,23% de l'offre totale de 60 238 885 BLK</span> — la récompense étant fixe tandis que l'offre croît, ce pourcentage baisse légèrement chaque année.</p><p>Ce ~1,23% est distribué uniquement aux détenteurs qui stakent activement. <span>Les rendements individuels de staking varient en moyenne entre 4% et 8% par an</span>.</p><p>Si seulement 20% des coins stakent, les stakers gagnent environ 1,23% ÷ 0,20 = <span>~6% par an</span>, car les 80% qui ne stakent pas ne reçoivent rien.</p>` /*French*/,
+			te: `<p><span>స్థిర బ్లాక్ రివార్డ్</span> కారణంగా ఇది నిర్ణీత BLK మొత్తం, మరియు ప్రతి సంవత్సరం ద్రవ్యోల్బణ రేటు కొంచెం తగ్గుతుంది.</p><p>బ్లాక్ సమయ లక్ష్యం 64 సెకన్లు, ప్రతి సంవత్సరం సుమారు 492,750 బ్లాక్‌లు ఇస్తుంది (31,536,000 ÷ 64). ప్రతి బ్లాక్‌కు 1.5 BLK చొప్పున <span>సంవత్సరానికి ~739,125 కొత్త BLK</span>. ప్రస్తుతం 739,125 అనేది మొత్తం సరఫరా 60,238,885 BLK లో సుమారు <span>1.23%</span>.</p><p>ఈ ~1.23% కేవలం చురుగ్గా స్టేక్ చేసే వారికి మాత్రమే పంపిణీ అవుతుంది. <span>వ్యక్తిగత స్టేకింగ్ దిగుబడి సగటున సంవత్సరానికి 4%–8%</span>.</p><p>కేవలం 20% కాయిన్‌లు స్టేక్ అవుతుంటే, స్టేకర్లు సుమారు 1.23% ÷ 0.20 = <span>~6% వార్షిక</span> సంపాదిస్తారు.</p>` /*Telugu*/,
+			mr: `<p><span>स्थिर ब्लॉक पुरस्कारामुळे</span> BLK ची एक निश्चित रक्कम मिळते आणि त्यामुळे वार्षिक चलनवाढ दर किंचित कमी होत जातो.</p><p>ब्लॉक वेळ लक्ष्य 64 सेकंद आहे, वर्षाला सुमारे 492,750 ब्लॉक्स तयार होतात (31,536,000 ÷ 64). 1.5 BLK प्रति ब्लॉक म्हणजे <span>वर्षाला ~739,125 नवीन BLK</span>. सध्या 739,125 एकूण पुरवठा 60,238,885 BLK च्या सुमारे <span>1.23%</span> आहे.</p><p>हे ~1.23% फक्त सक्रियपणे स्टेकिंग करणाऱ्यांना वितरित होते. <span>वैयक्तिक स्टेकिंग उत्पन्न सरासरी 4%–8% वार्षिक</span> असते.</p><p>जर फक्त 20% कॉइन स्टेक केल्या जात असतील, तर स्टेकर्सना सुमारे 1.23% ÷ 0.20 = <span>~6% वार्षिक</span> मिळतात.</p>` /*Marathi*/,
+			tr: `<p>Bu, <span>sabit blok ödülü</span> nedeniyle sabit bir BLK miktarıdır ve bu nedenle yıllık enflasyon oranı her geçen yıl biraz düşer.</p><p>Hedef blok süresi 64 saniyedir; yılda yaklaşık 492.750 blok üretir (31.536.000 ÷ 64). Blok başına 1,5 BLK ile bu <span>yılda ~739.125 yeni BLK</span> anlamına gelir. Şu anda 739.125, toplam arzın 60.238.885 BLK'nın yaklaşık <span>%1,23'üne</span> karşılık gelir.</p><p>Bu ~%1,23 yalnızca aktif olarak staking yapan tutucular arasında dağıtılır. <span>Bireysel staking getirileri ortalama yıllık %4–8 arasındadır</span>.</p><p>Eğer yalnızca %20'si staking yapıyorsa, staker'lar yaklaşık 1,23% ÷ 0,20 = <span>yılda ~%6</span> kazanır; çünkü staking yapmayan %80 hiçbir şey almaz.</p>` /*Turkish*/,
+			ta: `<p><span>நிலையான தொகுதி வெகுமதி</span> காரணமாக ஒரு நிலையான BLK அளவு உள்ளது, எனவே ஆண்டுதோறும் பணவீக்க விகிதம் சற்று குறைகிறது.</p><p>தொகுதி நேர இலக்கு 64 விநாடிகள், ஆண்டுக்கு சுமார் 492,750 தொகுதிகளை தருகிறது (31,536,000 ÷ 64). தொகுதிக்கு 1.5 BLK என்ற கணக்கில் <span>ஆண்டுக்கு ~739,125 புதிய BLK</span>. தற்போது 739,125 என்பது மொத்த வழங்கல் 60,238,885 BLK-ன் சுமார் <span>1.23%</span>.</p><p>இந்த ~1.23% தீவிரமாக ஸ்டேக்கிங் செய்பவர்களுக்கு மட்டுமே வழங்கப்படுகிறது. <span>தனிப்பட்ட ஸ்டேக்கிங் வருவாய் சராசரியாக ஆண்டுக்கு 4%–8%</span>.</p><p>20% மட்டுமே ஸ்டேக்கிங் செய்தால், ஸ்டேகர்கள் சுமார் 1.23% ÷ 0.20 = <span>~6% ஆண்டுக்கு</span> சம்பாதிக்கிறார்கள்.</p>` /*Tamil*/,
+			vi: `<p>Đây là lượng BLK cố định do <span>phần thưởng khối tĩnh</span>, khiến tỷ lệ lạm phát giảm nhẹ mỗi năm.</p><p>Thời gian khối mục tiêu là 64 giây, tạo ra khoảng 492.750 khối mỗi năm (31.536.000 ÷ 64). Với 1,5 BLK mỗi khối, đó là <span>~739.125 BLK mới mỗi năm</span>. Hiện tại, 739.125 chiếm khoảng <span>1,23% tổng cung 60.238.885 BLK</span>.</p><p>~1,23% này chỉ được phân phối cho những người staking tích cực. <span>Lợi suất staking cá nhân trung bình 4%–8% hàng năm</span>.</p><p>Nếu chỉ 20% coin đang staking, staker kiếm được khoảng 1,23% ÷ 0,20 = <span>~6%/năm</span>, vì 80% không staking không nhận được gì.</p>` /*Vietnamese*/,
+			ur: `<p>یہ <span>مستقل بلاک ریوارڈ</span> کی وجہ سے BLK کی ایک مقررہ مقدار ہے، اور اس وجہ سے مہنگائی کی شرح ہر سال تھوڑی کم ہوتی ہے۔</p><p>بلاک ٹائم ہدف 64 سیکنڈ ہے، جس سے سالانہ تقریباً 492,750 بلاکس بنتے ہیں (31,536,000 ÷ 64)۔ فی بلاک 1.5 BLK کے حساب سے <span>سالانہ ~739,125 نئے BLK</span> بنتے ہیں۔ ابھی 739,125 کل سپلائی 60,238,885 BLK کا تقریباً <span>1.23%</span> ہے۔</p><p>یہ ~1.23% صرف فعال اسٹیکرز میں تقسیم ہوتا ہے۔ <span>انفرادی اسٹیکنگ ریٹرن اوسطاً سالانہ 4%–8%</span> ہے۔</p><p>اگر صرف 20% سکے اسٹیک ہو رہے ہوں، تو اسٹیکرز تقریباً 1.23% ÷ 0.20 = <span>~6% سالانہ</span> کماتے ہیں۔</p>` /*Urdu - Right-to-left*/,
+			nl: `<p>Het is een vaste hoeveelheid BLK vanwege de <span>statische blokbeloning</span>, waardoor het inflatietarief jaar na jaar iets daalt.</p><p>Het doelbloktime is 64 seconden, wat ongeveer 492.750 blokken per jaar geeft (31.536.000 ÷ 64). Met 1,5 BLK per blok is dat <span>~739.125 nieuwe BLK per jaar</span>. Momenteel is 739.125 ongeveer <span>1,23% van de totale voorraad van 60.238.885 BLK</span>.</p><p>Dit ~1,23% wordt alleen verdeeld onder actief stakende houders. <span>Individuele staking-rendementen gemiddeld 4–8% per jaar</span>.</p><p>Als slechts 20% actief stakt, verdienen stakers rond 1,23% ÷ 0,20 = <span>~6% per jaar</span>, omdat de 80% die niet stakt niets ontvangt.</p>` /*Dutch*/,
+			it: `<p>È una quantità fissa di BLK grazie alla <span>ricompensa per blocco statica</span>, con un tasso di inflazione leggermente decrescente anno dopo anno.</p><p>Il tempo di blocco target è di 64 secondi, producendo circa 492.750 blocchi all'anno (31.536.000 ÷ 64). Con 1,5 BLK per blocco, ciò equivale a <span>~739.125 nuovi BLK all'anno</span>. Attualmente 739.125 rappresenta circa <span>l'1,23% dell'offerta totale di 60.238.885 BLK</span>.</p><p>Questo ~1,23% è distribuito solo ai detentori che fanno staking attivamente. <span>I rendimenti individuali di staking variano in media tra il 4% e l'8% annuo</span>.</p><p>Se solo il 20% dei coin è in staking, gli staker guadagnano circa 1,23% ÷ 0,20 = <span>~6% all'anno</span>, poiché l'80% che non fa staking non riceve nulla.</p>` /*Italian*/,
+			hr: `<p>To je fiksni iznos BLK zbog <span>statične nagrade za blok</span>, zbog čega stopa inflacije svake godine blago pada.</p><p>Ciljno vrijeme bloka je 64 sekunde, što daje oko 492.750 blokova godišnje (31.536.000 ÷ 64). S 1,5 BLK po bloku to je <span>~739.125 novih BLK godišnje</span>. Trenutno 739.125 predstavlja otprilike <span>1,23% ukupne ponude od 60.238.885 BLK</span>.</p><p>Ovaj ~1,23% distribuira se samo aktivnim stakerima. <span>Individualni prinos stakinga iznosi prosječno 4–8% godišnje</span>.</p><p>Ako samo 20% novčića aktivno stakea, stakeri zarađuju otprilike 1,23% ÷ 0,20 = <span>~6% godišnje</span>, jer 80% koji ne stakea ne prima ništa.</p>` /*Croatian*/
 		},
 
 		WHERE_CAN_I_CHECK_THE_NETWORK_WEIGHT: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
+			zh: `在哪里可以查看网络权重？` /*Chinese*/,
+			es: `¿DÓNDE PUEDO VERIFICAR EL PESO DE LA RED?` /*Spanish*/,
 			en: 'WHERE CAN I CHECK THE NETWORK WEIGHT?' /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
+			hi: `मैं नेटवर्क वज़न कहाँ देख सकता हूँ?` /*Hindi*/,
+			ar: `أين يمكنني التحقق من وزن الشبكة؟` /*Arabic - Right-to-left*/,
+			pt: `ONDE POSSO VERIFICAR O PESO DA REDE?` /*Portuguese*/,
+			bn: `আমি কোথায় নেটওয়ার্ক ওজন পরীক্ষা করতে পারি?` /*Bengal*/,
+			ru: `ГДЕ МОЖНО ПРОВЕРИТЬ ВЕС СЕТИ?` /*Russian*/,
 			ja: `ネットワークウェイトの確認方法は？` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
+			jv: `NGENDI BISA MRIKSA BOBOT JARINGAN?` /*Javanese*/,
+			de: `WO KANN ICH DAS NETZWERKGEWICHT ÜBERPRÜFEN?` /*German*/,
+			ko: `네트워크 가중치는 어디서 확인하나요?` /*Korean*/,
+			fr: `OÙ PUIS-JE VÉRIFIER LE POIDS DU RÉSEAU?` /*French*/,
+			te: `నెట్‌వర్క్ బరువును ఎక్కడ తనిఖీ చేయవచ్చు?` /*Telugu*/,
+			mr: `मी नेटवर्क वजन कुठे तपासू शकतो?` /*Marathi*/,
+			tr: `AĞ AĞIRLIĞINI NEREDE KONTROl EDEBİLİRİM?` /*Turkish*/,
+			ta: `நெட்வொர்க் எடையை எங்கே சரிபார்க்கலாம்?` /*Tamil*/,
+			vi: `TÔI CÓ THỂ KIỂM TRA TRỌNG LƯỢNG MẠNG Ở ĐÂU?` /*Vietnamese*/,
+			ur: `میں نیٹ ورک وزن کہاں چیک کر سکتا ہوں؟` /*Urdu - Right-to-left*/,
+			nl: `WAAR KAN IK HET NETWERKGEWICHT CONTROLEREN?` /*Dutch*/,
+			it: `DOVE POSSO CONTROLLARE IL PESO DELLA RETE?` /*Italian*/,
+			hr: `GDJE MOGU PROVJERITI TEŽINU MREŽE?` /*Croatian*/
 		},
 		WHERE_CAN_I_CHECK_THE_NETWORK_WEIGHT_ANSWER1: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
+			zh: `<p>您可以在<span>钱包右下角</span>查看网络权重。<br />或通过在调试控制台运行getstakinginfo命令来查看。网络权重由最近72个区块计算得出。</p>` /*Chinese*/,
+			es: `<p>Puede verificar el peso de la red en la <span>parte inferior derecha de su cartera</span>.<br />O ejecutando el comando getstakinginfo desde la consola de depuración. El peso de la red se calcula de los últimos 72 bloques.</p>` /*Spanish*/,
 			en: `
 			<p>
 				You can check the network weight on the <span>bottom right of your wallet</span>.<br /> or
 				by running the getstakinginfo command from the debug console. Network weight is computed
 				from the last 72 blocks.
 			</p>` /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
+			hi: `<p>आप अपने <span>वॉलेट के नीचे दाईं ओर</span> नेटवर्क वज़न देख सकते हैं।<br />या डीबग कंसोल से getstakinginfo कमांड चलाकर। नेटवर्क वज़न पिछले 72 ब्लॉक से गणना की जाती है।</p>` /*Hindi*/,
+			ar: `<p>يمكنك التحقق من وزن الشبكة في <span>أسفل يمين محفظتك</span>.<br />أو بتشغيل أمر getstakinginfo من وحدة التحكم. يُحسب وزن الشبكة من آخر 72 كتلة.</p>` /*Arabic - Right-to-left*/,
+			pt: `<p>Você pode verificar o peso da rede no <span>canto inferior direito da sua carteira</span>.<br />Ou executando o comando getstakinginfo no console de depuração. O peso da rede é calculado a partir dos últimos 72 blocos.</p>` /*Portuguese*/,
+			bn: `<p>আপনি আপনার <span>ওয়ালেটের নিচে ডানদিকে</span> নেটওয়ার্ক ওজন চেক করতে পারবেন।<br />অথবা ডিবাগ কনসোল থেকে getstakinginfo কমান্ড চালিয়ে। নেটওয়ার্ক ওজন শেষ 72টি ব্লক থেকে গণনা করা হয়।</p>` /*Bengal*/,
+			ru: `<p>Вы можете проверить вес сети в <span>правом нижнем углу кошелька</span>.<br />Или выполнив команду getstakinginfo в консоли отладки. Вес сети рассчитывается на основе последних 72 блоков.</p>` /*Russian*/,
 			ja: `
 				<p>ウォレットの右下部でネットワークウェイトを確認することができます。</p>
 				<p>または、デバッグコンソールからgetstakinginfoコマンドを実行することで確認できます。ネットワークウェイトは直近の72ブロックから計算出来ます。</p>
 			` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
+			jv: `<p>Sampeyan bisa mriksa bobot jaringan ing <span>pojok kanan ngisor dompet sampeyan</span>.<br />Utawa kanthi mbukak perintah getstakinginfo saka konsol debug. Bobot jaringan diwilang saka 72 blok pungkasan.</p>` /*Javanese*/,
+			de: `<p>Das Netzwerkgewicht finden Sie <span>unten rechts in Ihrer Wallet</span>.<br />Oder durch den Befehl getstakinginfo in der Debug-Konsole. Das Netzwerkgewicht wird aus den letzten 72 Blöcken berechnet.</p>` /*German*/,
+			ko: `<p>네트워크 가중치는 <span>지갑 오른쪽 하단</span>에서 확인할 수 있습니다.<br />또는 디버그 콘솔에서 getstakinginfo 명령을 실행하세요. 네트워크 가중치는 최근 72개 블록으로 계산됩니다.</p>` /*Korean*/,
+			fr: `<p>Vous pouvez vérifier le poids du réseau en <span>bas à droite de votre portefeuille</span>.<br />Ou en exécutant la commande getstakinginfo depuis la console de débogage. Le poids du réseau est calculé à partir des 72 derniers blocs.</p>` /*French*/,
+			te: `<p>మీరు మీ <span>వాలెట్ కుడి దిగువ భాగంలో</span> నెట్‌వర్క్ బరువును తనిఖీ చేయవచ్చు.<br />లేదా డీబగ్ కన్సోల్ నుండి getstakinginfo కమాండ్ అమలు చేయడం ద్వారా. నెట్‌వర్క్ బరువు చివరి 72 బ్లాక్‌ల నుండి లెక్కించబడుతుంది.</p>` /*Telugu*/,
+			mr: `<p>तुम्ही तुमच्या <span>वॉलेटच्या उजव्या तळाशी</span> नेटवर्क वजन तपासू शकता.<br />किंवा डीबग कन्सोलवरून getstakinginfo कमांड चालवून. नेटवर्क वजन शेवटच्या 72 ब्लॉकमधून मोजले जाते.</p>` /*Marathi*/,
+			tr: `<p>Ağ ağırlığını cüzdanınızın <span>sağ alt köşesinde</span> görebilirsiniz.<br />Veya hata ayıklama konsolundan getstakinginfo komutunu çalıştırarak. Ağ ağırlığı son 72 bloktan hesaplanır.</p>` /*Turkish*/,
+			ta: `<p>நெட்வொர்க் எடையை உங்கள் பணப்பையின் <span>கீழ் வலது பகுதியில்</span> சரிபார்க்கலாம்.<br />அல்லது டீபக் கன்சோலில் இருந்து getstakinginfo கட்டளையை இயக்குவதன் மூலம். நெட்வொர்க் எடை கடந்த 72 தொகுதிகளில் இருந்து கணக்கிடப்படுகிறது.</p>` /*Tamil*/,
+			vi: `<p>Bạn có thể kiểm tra trọng lượng mạng ở <span>góc dưới bên phải của ví</span>.<br />Hoặc bằng cách chạy lệnh getstakinginfo từ bảng điều khiển gỡ lỗi. Trọng lượng mạng được tính từ 72 khối cuối cùng.</p>` /*Vietnamese*/,
+			ur: `<p>آپ اپنے <span>والٹ کے نیچے دائیں طرف</span> نیٹ ورک وزن چیک کر سکتے ہیں۔<br />یا ڈیبگ کنسول سے getstakinginfo کمانڈ چلا کر۔ نیٹ ورک وزن آخری 72 بلاکس سے حساب کیا جاتا ہے۔</p>` /*Urdu - Right-to-left*/,
+			nl: `<p>U kunt het netwerkgewicht rechtsonder in uw <span>wallet</span> controleren.<br />Of door de opdracht getstakinginfo uit te voeren vanuit de debugconsole. Het netwerkgewicht wordt berekend op basis van de laatste 72 blokken.</p>` /*Dutch*/,
+			it: `<p>È possibile controllare il peso della rete in <span>basso a destra nel portafoglio</span>.<br />Oppure eseguendo il comando getstakinginfo dalla console di debug. Il peso della rete viene calcolato dagli ultimi 72 blocchi.</p>` /*Italian*/,
+			hr: `<p>Težinu mreže možete provjeriti u <span>donjem desnom kutu novčanika</span>.<br />Ili pokretanjem naredbe getstakinginfo iz konzole za ispravljanje pogrešaka. Težina mreže izračunava se iz posljednjih 72 bloka.</p>` /*Croatian*/
 		},
 		WHERE_CAN_I_BUY_BLACKCOIN: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
+			zh: `在哪里可以购买黑币？` /*Chinese*/,
+			es: `¿DÓNDE PUEDO COMPRAR BLACKCOIN?` /*Spanish*/,
 			en: 'WHERE CAN I BUY BLACKCOIN?' /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
+			hi: `मैं ब्लैककॉइन कहाँ खरीद सकता हूँ?` /*Hindi*/,
+			ar: `أين يمكنني شراء بلاك كوين؟` /*Arabic - Right-to-left*/,
+			pt: `ONDE POSSO COMPRAR BLACKCOIN?` /*Portuguese*/,
+			bn: `আমি কোথায় ব্ল্যাককয়েন কিনতে পারি?` /*Bengal*/,
+			ru: `ГДЕ МОЖНО КУПИТЬ BLACKCOIN?` /*Russian*/,
 			ja: `BLACKCOINは何処で買えるのですか？` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
+			jv: `NGENDI BISA TUKU BLACKCOIN?` /*Javanese*/,
+			de: `WO KANN ICH BLACKCOIN KAUFEN?` /*German*/,
+			ko: `BLACKCOIN은 어디서 살 수 있나요?` /*Korean*/,
+			fr: `OÙ PUIS-JE ACHETER DES BLACKCOIN?` /*French*/,
+			te: `BLACKCOIN ఎక్కడ కొనవచ్చు?` /*Telugu*/,
+			mr: `मी BLACKCOIN कुठे खरेदी करू शकतो?` /*Marathi*/,
+			tr: `BLACKCOIN NEREDEN SAT IN ALABİLİRİM?` /*Turkish*/,
+			ta: `BLACKCOIN எங்கே வாங்கலாம்?` /*Tamil*/,
+			vi: `TÔI CÓ THỂ MUA BLACKCOIN Ở ĐÂU?` /*Vietnamese*/,
+			ur: `میں بلیک کوائن کہاں خرید سکتا ہوں؟` /*Urdu - Right-to-left*/,
+			nl: `WAAR KAN IK BLACKCOIN KOPEN?` /*Dutch*/,
+			it: `DOVE POSSO COMPRARE BLACKCOIN?` /*Italian*/,
+			hr: `GDJE MOGU KUPITI BLACKCOIN?` /*Croatian*/
 		},
 		WHERE_CAN_I_BUY_BLACKCOIN_ANSWER1: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
+			zh: `<p>您可以在不同的<span>在线交易所</span>购买黑币。<br /></p><p>您可以在<a href="https://coinmarketcap.com/currencies/blackcoin/#markets" target="_blank" rel="noopener noreferrer">Coinmarketcap.com/Markets</a>找到交易量最大的交易所。</p>` /*Chinese*/,
+			es: `<p>Puedes comprar BlackCoins en diferentes <span>exchanges online</span>.<br /></p><p>Puedes encontrar los exchanges con mayor volumen en <a href="https://coinmarketcap.com/currencies/blackcoin/#markets" target="_blank" rel="noopener noreferrer">Coinmarketcap.com/Markets</a>.</p>` /*Spanish*/,
 			en: `
 				<p>
 					You can purchase BlackCoins on different <span>online exchanges</span>.<br />
@@ -591,14 +581,14 @@ export default {
 					You could find exchanges with the greatest volume at
 					<a
 						href="https://coinmarketcap.com/currencies/blackcoin/#markets"
-						target="_blank norefer">Coinmarketcap.com/Markets</a
+						target="_blank" rel="noopener noreferrer">Coinmarketcap.com/Markets</a
 					>
 				</p>` /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
+			hi: `<p>आप विभिन्न <span>ऑनलाइन एक्सचेंज</span> पर BlackCoin खरीद सकते हैं।<br /></p><p>सबसे अधिक वॉल्यूम वाले एक्सचेंज <a href="https://coinmarketcap.com/currencies/blackcoin/#markets" target="_blank" rel="noopener noreferrer">Coinmarketcap.com/Markets</a> पर मिलेंगे।</p>` /*Hindi*/,
+			ar: `<p>يمكنك شراء BlackCoins في <span>بورصات مختلفة عبر الإنترنت</span>.<br /></p><p>يمكنك إيجاد البورصات ذات الحجم الأكبر في <a href="https://coinmarketcap.com/currencies/blackcoin/#markets" target="_blank" rel="noopener noreferrer">Coinmarketcap.com/Markets</a>.</p>` /*Arabic - Right-to-left*/,
+			pt: `<p>Você pode comprar BlackCoins em diferentes <span>exchanges online</span>.<br /></p><p>Pode encontrar as exchanges com maior volume em <a href="https://coinmarketcap.com/currencies/blackcoin/#markets" target="_blank" rel="noopener noreferrer">Coinmarketcap.com/Markets</a>.</p>` /*Portuguese*/,
+			bn: `<p>আপনি বিভিন্ন <span>অনলাইন এক্সচেঞ্জে</span> BlackCoin কিনতে পারবেন।<br /></p><p>সর্বাধিক ভলিউম সহ এক্সচেঞ্জগুলি <a href="https://coinmarketcap.com/currencies/blackcoin/#markets" target="_blank" rel="noopener noreferrer">Coinmarketcap.com/Markets</a>-এ পাবেন।</p>` /*Bengal*/,
+			ru: `<p>Вы можете купить BlackCoin на различных <span>онлайн-биржах</span>.<br /></p><p>Биржи с наибольшим объёмом торгов можно найти на <a href="https://coinmarketcap.com/currencies/blackcoin/#markets" target="_blank" rel="noopener noreferrer">Coinmarketcap.com/Markets</a>.</p>` /*Russian*/,
 			ja: `
 				<p>BlackCoinsは、さまざまなオンライン取引所で購入できます。</p>
 				<p>最新の最も取引量の多い取引所の情報はCoinmarketcap.com</p>
@@ -606,48 +596,48 @@ export default {
 				<p>コイン検索(BLACKCOINまたはBLK)-中段左上の(市場)を</p>
 				<p>クリックすると、上段から最新の取引額大きい取引所から</p>
 				<p>取引額低い順に、取引所の名前が出ます。</p>` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
+			jv: `<p>Sampeyan bisa tuku BlackCoins ing <span>bursa online</span> sing beda-beda.<br /></p><p>Sampeyan bisa nemokake bursa karo volume paling gedhe ing <a href="https://coinmarketcap.com/currencies/blackcoin/#markets" target="_blank" rel="noopener noreferrer">Coinmarketcap.com/Markets</a>.</p>` /*Javanese*/,
+			de: `<p>Sie können BlackCoins an verschiedenen <span>Online-Börsen</span> kaufen.<br /></p><p>Die Börsen mit dem größten Handelsvolumen finden Sie auf <a href="https://coinmarketcap.com/currencies/blackcoin/#markets" target="_blank" rel="noopener noreferrer">Coinmarketcap.com/Markets</a>.</p>` /*German*/,
+			ko: `<p>BlackCoin을 여러 <span>온라인 거래소</span>에서 구매할 수 있습니다.<br /></p><p>거래량이 가장 큰 거래소는 <a href="https://coinmarketcap.com/currencies/blackcoin/#markets" target="_blank" rel="noopener noreferrer">Coinmarketcap.com/Markets</a>에서 확인하세요.</p>` /*Korean*/,
+			fr: `<p>Vous pouvez acheter des BlackCoins sur différents <span>exchanges en ligne</span>.<br /></p><p>Les exchanges avec le plus grand volume se trouvent sur <a href="https://coinmarketcap.com/currencies/blackcoin/#markets" target="_blank" rel="noopener noreferrer">Coinmarketcap.com/Markets</a>.</p>` /*French*/,
+			te: `<p>మీరు వివిధ <span>ఆన్‌లైన్ ఎక్స్ఛేంజ్‌లలో</span> BlackCoin కొనుగోలు చేయవచ్చు.<br /></p><p>అత్యధిక వాల్యూమ్ గల ఎక్స్ఛేంజ్‌లను <a href="https://coinmarketcap.com/currencies/blackcoin/#markets" target="_blank" rel="noopener noreferrer">Coinmarketcap.com/Markets</a>లో చూడవచ్చు.</p>` /*Telugu*/,
+			mr: `<p>तुम्ही वेगवेगळ्या <span>ऑनलाईन एक्सचेंजवर</span> BlackCoin खरेदी करू शकता.<br /></p><p>सर्वाधिक व्हॉल्यूम असलेले एक्सचेंज <a href="https://coinmarketcap.com/currencies/blackcoin/#markets" target="_blank" rel="noopener noreferrer">Coinmarketcap.com/Markets</a>वर आढळतात.</p>` /*Marathi*/,
+			tr: `<p>BlackCoin'leri farklı <span>çevrimiçi borsalarda</span> satın alabilirsiniz.<br /></p><p>En yüksek hacimli borsaları <a href="https://coinmarketcap.com/currencies/blackcoin/#markets" target="_blank" rel="noopener noreferrer">Coinmarketcap.com/Markets</a> adresinde bulabilirsiniz.</p>` /*Turkish*/,
+			ta: `<p>BlackCoin-ஐ பல்வேறு <span>ஆன்லைன் மாற்றகங்களில்</span> வாங்கலாம்.<br /></p><p>அதிக அளவிலான பரிமாற்றகங்களை <a href="https://coinmarketcap.com/currencies/blackcoin/#markets" target="_blank" rel="noopener noreferrer">Coinmarketcap.com/Markets</a>-ல் காணலாம்.</p>` /*Tamil*/,
+			vi: `<p>Bạn có thể mua BlackCoin trên các <span>sàn giao dịch trực tuyến</span> khác nhau.<br /></p><p>Các sàn có khối lượng lớn nhất tại <a href="https://coinmarketcap.com/currencies/blackcoin/#markets" target="_blank" rel="noopener noreferrer">Coinmarketcap.com/Markets</a>.</p>` /*Vietnamese*/,
+			ur: `<p>آپ مختلف <span>آن لائن ایکسچینج</span> پر BlackCoin خرید سکتے ہیں۔<br /></p><p>سب سے زیادہ والیوم والے ایکسچینج <a href="https://coinmarketcap.com/currencies/blackcoin/#markets" target="_blank" rel="noopener noreferrer">Coinmarketcap.com/Markets</a> پر ملیں گے۔</p>` /*Urdu - Right-to-left*/,
+			nl: `<p>U kunt BlackCoins kopen op verschillende <span>online exchanges</span>.<br /></p><p>De exchanges met het grootste volume vindt u op <a href="https://coinmarketcap.com/currencies/blackcoin/#markets" target="_blank" rel="noopener noreferrer">Coinmarketcap.com/Markets</a>.</p>` /*Dutch*/,
+			it: `<p>È possibile acquistare BlackCoin su diversi <span>exchange online</span>.<br /></p><p>Gli exchange con il maggior volume si trovano su <a href="https://coinmarketcap.com/currencies/blackcoin/#markets" target="_blank" rel="noopener noreferrer">Coinmarketcap.com/Markets</a>.</p>` /*Italian*/,
+			hr: `<p>BlackCoin možete kupiti na raznim <span>online burzama</span>.<br /></p><p>Burze s najvećim volumenom možete pronaći na <a href="https://coinmarketcap.com/currencies/blackcoin/#markets" target="_blank" rel="noopener noreferrer">Coinmarketcap.com/Markets</a>.</p>` /*Croatian*/
 		},
 
 		STAKING: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
+			zh: `质押` /*Chinese*/,
+			es: `STAKING` /*Spanish*/,
 			en: 'STAKING' /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
+			hi: `स्टेकिंग` /*Hindi*/,
+			ar: `التحصيص` /*Arabic - Right-to-left*/,
+			pt: `STAKING` /*Portuguese*/,
+			bn: `স্টেকিং` /*Bengal*/,
+			ru: `СТЕЙКИНГ` /*Russian*/,
 			ja: `ステイキング` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
+			jv: `STAKING` /*Javanese*/,
+			de: `STAKING` /*German*/,
+			ko: `스테이킹` /*Korean*/,
+			fr: `STAKING` /*French*/,
+			te: `స్టేకింగ్` /*Telugu*/,
+			mr: `स्टेकिंग` /*Marathi*/,
+			tr: `STAKING` /*Turkish*/,
+			ta: `ஸ்டேக்கிங்` /*Tamil*/,
+			vi: `STAKING` /*Vietnamese*/,
+			ur: `اسٹیکنگ` /*Urdu - Right-to-left*/,
+			nl: `STAKING` /*Dutch*/,
+			it: `STAKING` /*Italian*/,
+			hr: `STAKING` /*Croatian*/
 		},
 		STAKING_ANSWER1: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
+			zh: `<p>黑币是纯粹的PoS（权益证明）代币，无法再以常规方式挖矿。但是，您仍然可以通过<span>质押</span>来"挖矿"。这也有助于<span>保护网络</span>，支持所有黑币用户的交易。<span>质押将为您每年赚取所持币量的1%到8%（取决于网络权重）</span>，解锁钱包后即可开始。</p><p>开始质押后，一定数量的代币将进入您的质押余额，这些代币开始质押。<span>您拥有的代币越多，通过质押赚取的代币也越多。</span></p>` /*Chinese*/,
+			es: `<p>Blackcoin es una moneda pura PoS que ya no puede minarse de forma convencional. Sin embargo, aún puedes "minar" mediante <span>Staking</span>. Esto sirve también para <span>asegurar la red</span>. <span>El staking te dará de 1% a 8% de tus monedas por año (varía según el peso de la red)</span>, comenzará al desbloquear tu cartera.</p><p>Al empezar, cierta cantidad de monedas pasará a tu saldo de staking. <span>Cuantas más monedas tengas, más ganarás.</span></p>` /*Spanish*/,
 			en: `
 				<p>
 					Blackcoin is a pure PoS (Proof-of-Stake) coin and can no longer be mined in the usual
@@ -666,55 +656,55 @@ export default {
 					those coins will begin to stake.
 					<span>The more coins you have, the more coins you will earn by Staking.</span>
 				</p>` /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
+			hi: `<p>Blackcoin एक शुद्ध PoS (Proof-of-Stake) कॉइन है जिसे सामान्य तरीके से माइन नहीं किया जा सकता। हालांकि, आप <span>स्टेकिंग</span> के माध्यम से "माइनिंग" कर सकते हैं। यह <span>नेटवर्क को सुरक्षित</span> करने में भी मदद करता है। <span>स्टेकिंग आपको एक वर्ष में आपके कुल कॉइन का 1% से 8% (नेटवर्क वज़न पर निर्भर) अर्जित करेगी</span>, और यह वॉलेट अनलॉक करते ही शुरू होगी।</p><p>स्टेक शुरू होते ही कुछ कॉइन आपके स्टेक बैलेंस में चले जाएंगे। <span>जितने अधिक कॉइन, उतनी अधिक कमाई।</span></p>` /*Hindi*/,
+			ar: `<p>بلاك كوين هي عملة PoS خالصة ولا يمكن تعدينها بالطريقة المعتادة. غير أنه يمكنك "التعدين" عبر ما يسمى <span>التحصيص</span>. يساهم هذا أيضاً في <span>تأمين الشبكة</span>. <span>سيمنحك التحصيص من 1% إلى 8% من إجمالي عملاتك سنوياً (حسب وزن الشبكة)</span>، ويبدأ فور فتح قفل المحفظة.</p><p>بمجرد بدء التحصيص، ستنتقل كمية من العملات إلى رصيد التحصيص. <span>كلما زادت عملاتك، زادت أرباحك.</span></p>` /*Arabic - Right-to-left*/,
+			pt: `<p>Blackcoin é uma moeda PoS pura e não pode mais ser minerada da forma convencional. No entanto, você ainda pode "minerar" através do que chamamos de <span>Staking</span>. Isso também serve para <span>proteger a rede</span>. <span>O staking renderá de 1% a 8% do total de moedas que você tiver na carteira por ano (depende do peso da rede)</span>, começando assim que você desbloquear a carteira.</p><p>Ao começar o staking, uma certa quantidade de moedas entrará no seu saldo de staking. <span>Quanto mais moedas você tiver, mais ganhará.</span></p>` /*Portuguese*/,
+			bn: `<p>Blackcoin একটি বিশুদ্ধ PoS (Proof-of-Stake) কয়েন যা সাধারণ উপায়ে মাইন করা যায় না। তবে <span>স্টেকিং</span>-এর মাধ্যমে "মাইনিং" করা যায়। এটি <span>নেটওয়ার্ক সুরক্ষিত</span> রাখতেও সাহায্য করে। <span>স্টেকিং আপনাকে বার্ষিক মোট কয়েনের ১% থেকে ৮% (নেটওয়ার্ক ওজনের উপর নির্ভরশীল) অর্জন করাবে</span>, ওয়ালেট আনলক করার সাথে সাথেই শুরু হবে।</p><p>স্টেকিং শুরু হলে কিছু কয়েন স্টেক ব্যালেন্সে চলে যাবে। <span>যত বেশি কয়েন, তত বেশি উপার্জন।</span></p>` /*Bengal*/,
+			ru: `<p>Blackcoin — это чистая PoS-монета, которую больше нельзя майнить традиционным способом. Однако вы всё ещё можете "майнить" через <span>стейкинг</span>. Это также служит для <span>защиты сети</span>. <span>Стейкинг будет приносить вам от 1% до 8% от суммы монет в кошельке в год (зависит от веса сети)</span>, начиная сразу после разблокировки кошелька.</p><p>Как только вы начнёте стейкать, часть монет перейдёт в стейкинг-баланс. <span>Чем больше монет у вас есть, тем больше вы заработаете.</span></p>` /*Russian*/,
 			ja: `
 				<p>ブラックコインは純粋なPoS（Proof-of-Stake）コインであり、通常の方法ではマイニングできなくなりました。しかし、ステーキングと呼ばれる方法で採掘することは可能です。ステーキングは、ネットワークの安全性を確保し、ブラックコインユーザーの様々な取引を支援する役割も果たします。Stakingを行うと、1年間でウォレットに保有しているコインの総量の1%から8%(ネットワークの重さによって異なる)を獲得することができ、ウォレットのロックを解除するとすぐに開始されます。</p>
 				<p>ステイクを開始すると、一定量のコインがステイク残高に入り（ウォレットの「概要」タブで確認できます）、そのコインがステイクを開始します。コインが多ければ多いほど、ステイクによって獲得できるコインも多くなります。</p>` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
+			jv: `<p>Blackcoin iku koin PoS murni lan ora bisa ditambang kanthi cara biasa. Nanging, sampeyan isih bisa "nambang" liwat <span>Staking</span>. Iki uga kanggo <span>ngamanake jaringan</span>. <span>Staking bakal menehi sampeyan 1% nganti 8% (gumantung bobot jaringan) saka total koin saben taun</span>, diwiwiti sakwise dompet dibukak.</p><p>Sawise staking diwiwiti, koin tartamtu bakal ana ing saldo staking. <span>Luwih akeh koin, luwih akeh panghasilan.</span></p>` /*Javanese*/,
+			de: `<p>Blackcoin ist eine reine PoS-Münze und kann nicht mehr auf herkömmliche Weise gemined werden. Sie können jedoch über <span>Staking</span> "schürfen". Dies dient auch zur <span>Sicherung des Netzwerks</span>. <span>Durch Staking erhalten Sie 1% bis 8% Ihrer Münzen pro Jahr (abhängig vom Netzwerkgewicht)</span>, sobald Sie Ihre Wallet entsperren.</p><p>Sobald Sie mit dem Staking beginnen, wird ein Teil Ihrer Münzen in Ihren Staking-Saldo verschoben und beginnt zu staken. <span>Je mehr Münzen Sie haben, desto mehr verdienen Sie.</span></p>` /*German*/,
+			ko: `<p>블랙코인은 순수 PoS 코인으로 더 이상 일반적인 방법으로 채굴할 수 없습니다. 하지만 <span>스테이킹</span>이라는 방법으로 "채굴"할 수 있습니다. 이는 <span>네트워크 보안</span>에도 기여합니다. <span>스테이킹은 지갑에 보유한 코인의 연간 1%~8% (네트워크 가중치에 따라 다름)</span>를 벌어줍니다. 지갑 잠금 해제 즉시 시작됩니다.</p><p>스테이킹이 시작되면 일부 코인이 스테이킹 잔액으로 이동합니다. <span>보유 코인이 많을수록 더 많이 벌 수 있습니다.</span></p>` /*Korean*/,
+			fr: `<p>Blackcoin est une monnaie PoS pure qui ne peut plus être minée de façon classique. Cependant, vous pouvez toujours "miner" grâce au <span>Staking</span>. Cela sert également à <span>sécuriser le réseau</span>. <span>Le staking vous rapportera entre 1% et 8% de vos monnaies par an (selon le poids du réseau)</span>, dès que vous déverrouillez votre portefeuille.</p><p>Une fois le staking démarré, certaines monnaies seront placées dans votre solde de staking. <span>Plus vous avez de monnaies, plus vous en gagnerez.</span></p>` /*French*/,
+			te: `<p>Blackcoin అనేది స్వచ్ఛమైన PoS (Proof-of-Stake) కాయిన్, సాధారణ పద్ధతిలో మైన్ చేయలేరు. అయితే, <span>స్టేకింగ్</span> ద్వారా "మైనింగ్" చేయవచ్చు. ఇది <span>నెట్‌వర్క్‌ను సురక్షితంగా</span> ఉంచడానికి కూడా సహాయపడుతుంది. <span>స్టేకింగ్ మీకు సంవత్సరానికి మొత్తం కాయిన్‌లలో 1% నుండి 8% వరకు (నెట్‌వర్క్ బరువుపై ఆధారపడి) సంపాదించి పెడుతుంది</span>, వాలెట్ అన్‌లాక్ చేసిన వెంటనే మొదలవుతుంది.</p><p>స్టేకింగ్ మొదలైన తర్వాత కొన్ని కాయిన్‌లు స్టేక్ బ్యాలెన్స్‌లోకి వెళ్తాయి. <span>ఎక్కువ కాయిన్‌లు ఉంటే ఎక్కువ సంపాదన.</span></p>` /*Telugu*/,
+			mr: `<p>Blackcoin हे शुद्ध PoS (Proof-of-Stake) नाणे आहे जे सामान्य पद्धतीने माइन केले जाऊ शकत नाही. तथापि, <span>स्टेकिंग</span>द्वारे "माइनिंग" करू शकता. हे <span>नेटवर्क सुरक्षित</span> करण्यासाठी देखील मदत करते. <span>स्टेकिंग वर्षाला एकूण नाण्यांच्या 1% ते 8% (नेटवर्क वजनावर अवलंबून) मिळवून देईल</span>, वॉलेट अनलॉक करताच सुरू होईल.</p><p>स्टेकिंग सुरू झाल्यावर काही नाणी स्टेक बॅलन्समध्ये जातात. <span>जास्त नाणी, जास्त कमाई.</span></p>` /*Marathi*/,
+			tr: `<p>Blackcoin saf bir PoS (Proof-of-Stake) madeni paradır ve artık normal yolla madenciliği yapılamaz. Ancak <span>Staking</span> yoluyla "madencilik" yapabilirsiniz. Bu aynı zamanda <span>ağı güvence altına almaya</span> da hizmet eder. <span>Staking, cüzdanınızda tuttuğunuz toplam paranın yılda %1 ile %8'ini (ağ ağırlığına bağlı) kazandıracaktır</span>, cüzdanın kilidi açılınca başlayacaktır.</p><p>Staking başladığında belirli miktarda para staking bakiyesine aktarılır. <span>Ne kadar çok paranız olursa, o kadar çok kazanırsınız.</span></p>` /*Turkish*/,
+			ta: `<p>Blackcoin ஒரு தூய PoS (Proof-of-Stake) நாணயம், வழக்கமான முறையில் மைன் செய்ய முடியாது. இருப்பினும், <span>ஸ்டேக்கிங்</span> மூலம் "மைனிங்" செய்யலாம். இது <span>நெட்வொர்க்கை பாதுகாக்கவும்</span> உதவுகிறது. <span>ஸ்டேக்கிங் ஆண்டுக்கு 1% முதல் 8% வரை (நெட்வொர்க் எடையைப் பொறுத்து) சம்பாதிக்கும்</span>, பணப்பையை திறந்தவுடன் தொடங்கும்.</p><p>ஸ்டேக்கிங் தொடங்கியதும் சில நாணயங்கள் ஸ்டேக் இருப்பில் சேரும். <span>அதிக நாணயங்கள், அதிக வருவாய்.</span></p>` /*Tamil*/,
+			vi: `<p>Blackcoin là đồng tiền PoS (Proof-of-Stake) thuần túy, không thể đào theo cách thông thường. Tuy nhiên, bạn vẫn có thể "đào" qua <span>Staking</span>. Điều này cũng giúp <span>bảo mật mạng lưới</span>. <span>Staking giúp bạn kiếm được 1% đến 8% (tùy trọng lượng mạng) tổng số coin trong ví mỗi năm</span>, bắt đầu ngay khi mở khóa ví.</p><p>Sau khi staking bắt đầu, một lượng coin sẽ vào số dư staking. <span>Càng nhiều coin, càng kiếm được nhiều.</span></p>` /*Vietnamese*/,
+			ur: `<p>Blackcoin ایک خالص PoS (Proof-of-Stake) سکہ ہے جسے عام طریقے سے مائن نہیں کیا جا سکتا۔ تاہم، <span>اسٹیکنگ</span> کے ذریعے "مائننگ" کر سکتے ہیں۔ یہ <span>نیٹ ورک کو محفوظ</span> کرنے میں بھی مدد دیتا ہے۔ <span>اسٹیکنگ سالانہ کل سکوں کا 1% سے 8% (نیٹ ورک وزن پر منحصر) کماکر دے گی</span>، والٹ کھولتے ہی شروع ہو جائے گی۔</p><p>اسٹیکنگ شروع ہونے پر کچھ سکے اسٹیک بیلنس میں منتقل ہو جاتے ہیں۔ <span>جتنے زیادہ سکے، اتنی زیادہ کمائی۔</span></p>` /*Urdu - Right-to-left*/,
+			nl: `<p>Blackcoin is een zuivere PoS-munt die niet meer op de traditionele manier gemined kan worden. U kunt echter nog steeds "minen" via wat we <span>Staking</span> noemen. Dit dient ook om <span>het netwerk te beveiligen</span>. <span>Staking levert u jaarlijks 1% tot 8% op van uw munten (afhankelijk van het netwerkgewicht)</span>, zodra u uw wallet ontgrendelt.</p><p>Zodra u begint met staken, worden sommige munten in uw stakingsaldo geplaatst. <span>Hoe meer munten u heeft, hoe meer u verdient.</span></p>` /*Dutch*/,
+			it: `<p>Blackcoin è una pura moneta PoS e non può più essere minata nel modo tradizionale. Tuttavia, è possibile "minare" tramite lo <span>Staking</span>. Questo serve anche a <span>proteggere la rete</span>. <span>Lo staking ti farà guadagnare dall'1% all'8% delle monedas detenute per anno (varia in base al peso della rete)</span>, inizierà non appena sblocchi il portafoglio.</p><p>Una volta iniziato lo staking, alcune monete si sposteranno nel saldo di staking. <span>Più monete hai, più guadagni.</span></p>` /*Italian*/,
+			hr: `<p>Blackcoin je čisti PoS (Proof-of-Stake) novčić koji se više ne može rudariti na uobičajeni način. Međutim, možete "rudariti" putem <span>Stakinga</span>. To također služi za <span>osiguranje mreže</span>. <span>Staking će vam donijeti od 1% do 8% (ovisno o težini mreže) vaših ukupnih novčića godišnje</span>, počet će čim otključate novčanik.</p><p>Nakon što počnete stakati, određena količina novčića bit će u staking saldu. <span>Što više novčića, više ćete zaraditi.</span></p>` /*Croatian*/
 		},
 		WHAT_KIND_OF_COMPUTING_POWER_IS_REQUIRED_FOR_STAKING: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
+			zh: `质押需要什么样的计算能力？` /*Chinese*/,
+			es: `¿QUÉ POTENCIA DE CÓMPUTO SE NECESITA PARA EL STAKING?` /*Spanish*/,
 			en: 'WHAT KIND OF COMPUTING POWER IS REQUIRED FOR STAKING?' /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
+			hi: `स्टेकिंग के लिए किस प्रकार की कंप्यूटिंग शक्ति की आवश्यकता है?` /*Hindi*/,
+			ar: `ما نوع قوة الحوسبة المطلوبة للتحصيص؟` /*Arabic - Right-to-left*/,
+			pt: `QUE PODER DE COMPUTAÇÃO É NECESSÁRIO PARA STAKING?` /*Portuguese*/,
+			bn: `স্টেকিংয়ের জন্য কি ধরনের কম্পিউটিং শক্তি প্রয়োজন?` /*Bengal*/,
+			ru: `КАКАЯ ВЫЧИСЛИТЕЛЬНАЯ МОЩНОСТЬ НУЖНА ДЛЯ СТЕЙКИНГА?` /*Russian*/,
 			ja: `ステイキングに必要な計算能力は？` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
+			jv: `APA DAYA KOMPUTASI SING DIBUTUHAKE KANGGO STAKING?` /*Javanese*/,
+			de: `WELCHE RECHENLEISTUNG WIRD FÜR STAKING BENÖTIGT?` /*German*/,
+			ko: `스테이킹에 필요한 컴퓨팅 성능은?` /*Korean*/,
+			fr: `QUEL PUISSANCE DE CALCUL EST REQUISE POUR LE STAKING?` /*French*/,
+			te: `స్టేకింగ్‌కు ఎంత కంప్యూటింగ్ శక్తి అవసరం?` /*Telugu*/,
+			mr: `स्टेकिंगसाठी कोणत्या प्रकारची कंप्युटिंग शक्ती आवश्यक आहे?` /*Marathi*/,
+			tr: `STAKING İÇİN NE TÜR BİR BİLİŞİM GÜCÜ GEREKLİDİR?` /*Turkish*/,
+			ta: `ஸ்டேக்கிங்கிற்கு என்ன கணினி சக்தி தேவை?` /*Tamil*/,
+			vi: `CẦN LOẠI SỨC MẠNH TÍNH TOÁN NÀO CHO STAKING?` /*Vietnamese*/,
+			ur: `اسٹیکنگ کے لیے کس قسم کی کمپیوٹنگ پاور درکار ہے؟` /*Urdu - Right-to-left*/,
+			nl: `WELKE REKENKRACHT IS NODIG VOOR STAKING?` /*Dutch*/,
+			it: `CHE TIPO DI POTENZA DI CALCOLO È NECESSARIA PER LO STAKING?` /*Italian*/,
+			hr: `KAKVA JE RAČUNALNA SNAGA POTREBNA ZA STAKING?` /*Croatian*/
 		},
 		WHAT_KIND_OF_COMPUTING_POWER_IS_REQUIRED_FOR_STAKING_ANSWER: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
+			zh: `<p>质押不需要大量计算，因此<span>硬件要求极低</span>。<br />您很难找到一台今天不能质押的电脑。</p>` /*Chinese*/,
+			es: `<p>El staking no requiere mucho trabajo, por lo que los <span>requisitos son increíblemente bajos</span>.<br />Sería difícil encontrar hoy un ordenador que NO pueda hacer staking.</p>` /*Spanish*/,
 			en: `
 				<p>
 					Staking doesn't need to do a lot of work, so the <span
@@ -722,105 +712,105 @@ export default {
 					>.<br />
 					You would have a hard time to find a computer today that is NOT able to stake.
 				</p>` /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
+			hi: `<p>स्टेकिंग को बहुत कम काम की आवश्यकता होती है, इसलिए <span>आवश्यकताएं अविश्वसनीय रूप से कम</span> हैं।<br />आज ऐसा कंप्यूटर ढूंढना मुश्किल होगा जो स्टेक नहीं कर सकता।</p>` /*Hindi*/,
+			ar: `<p>لا يحتاج التحصيص إلى كثير من العمل، لذا فإن <span>المتطلبات صغيرة بشكل لا يصدق</span>.<br />يصعب إيجاد جهاز كمبيوتر اليوم غير قادر على التحصيص.</p>` /*Arabic - Right-to-left*/,
+			pt: `<p>O staking não precisa de muito trabalho, então os <span>requisitos são incrivelmente baixos</span>.<br />Seria difícil encontrar hoje um computador que NÃO possa fazer staking.</p>` /*Portuguese*/,
+			bn: `<p>স্টেকিংয়ের জন্য বেশি কাজ করতে হয় না, তাই <span>প্রয়োজনীয়তা অবিশ্বাস্যভাবে কম</span>।<br />আজকাল এমন কম্পিউটার খুঁজে পাওয়া কঠিন যেটি স্টেক করতে পারে না।</p>` /*Bengal*/,
+			ru: `<p>Стейкинг требует минимальных вычислений, поэтому <span>требования невероятно малы</span>.<br />Сегодня сложно найти компьютер, который НЕ способен стейкать.</p>` /*Russian*/,
 			ja: `<p>ステイキングは多くの作業を必要としませんので、必要条件は驚くほど小さいのです。その為、現在のコンピュータで、ステーキングができないものを探すのは難しいでしょう。</p>` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
+			jv: `<p>Staking ora mbutuhake akeh kerja, mula <span>syarate cilik banget</span>.<br />Susah nemokake komputer saiki sing ORA bisa staking.</p>` /*Javanese*/,
+			de: `<p>Staking erfordert kaum Rechenleistung, daher sind die <span>Anforderungen unglaublich gering</span>.<br />Es wäre schwer, heute einen Computer zu finden, der NICHT staken kann.</p>` /*German*/,
+			ko: `<p>스테이킹은 많은 작업이 필요하지 않아 <span>요구 사항이 매우 낮습니다</span>.<br />오늘날 스테이킹할 수 없는 컴퓨터를 찾기가 어렵습니다.</p>` /*Korean*/,
+			fr: `<p>Le staking ne demande pas beaucoup de travail, donc les <span>exigences sont incroyablement faibles</span>.<br />Il serait difficile de trouver aujourd'hui un ordinateur incapable de staker.</p>` /*French*/,
+			te: `<p>స్టేకింగ్‌కు ఎక్కువ పని చేయక్కర్లేదు, కాబట్టి <span>అవసరాలు అద్భుతంగా తక్కువగా ఉంటాయి</span>.<br />ఈరోజు స్టేక్ చేయలేని కంప్యూటర్ కనుగొనడం కష్టం.</p>` /*Telugu*/,
+			mr: `<p>स्टेकिंगला जास्त काम करण्याची गरज नाही, त्यामुळे <span>आवश्यकता अविश्वसनीयपणे कमी आहेत</span>.<br />आज असा संगणक शोधणे कठीण होईल जो स्टेक करू शकत नाही.</p>` /*Marathi*/,
+			tr: `<p>Staking çok fazla iş gerektirmiyor, bu yüzden <span>gereksinimler inanılmaz derecede küçük</span>.<br />Bugün staking yapamayan bir bilgisayar bulmak güçtür.</p>` /*Turkish*/,
+			ta: `<p>ஸ்டேக்கிங் அதிக வேலை செய்ய வேண்டியதில்லை, எனவே <span>தேவைகள் மிகவும் சிறியவை</span>.<br />இன்று ஸ்டேக்கிங் செய்ய முடியாத கணினியைக் கண்டுபிடிப்பது கடினம்.</p>` /*Tamil*/,
+			vi: `<p>Staking không cần làm nhiều việc, vì vậy <span>yêu cầu cực kỳ nhỏ</span>.<br />Ngày nay khó tìm được máy tính nào KHÔNG thể staking.</p>` /*Vietnamese*/,
+			ur: `<p>اسٹیکنگ کو زیادہ کام کی ضرورت نہیں، اس لیے <span>ضروریات ناقابل یقین حد تک کم ہیں</span>۔<br />آج کل ایسا کمپیوٹر ڈھونڈنا مشکل ہے جو اسٹیک نہ کر سکے۔</p>` /*Urdu - Right-to-left*/,
+			nl: `<p>Staking vereist weinig rekenkracht, dus de <span>vereisten zijn ongelooflijk laag</span>.<br />Het zou moeilijk zijn om vandaag een computer te vinden die NIET kan staken.</p>` /*Dutch*/,
+			it: `<p>Lo staking non richiede molto lavoro, quindi i <span>requisiti sono incredibilmente bassi</span>.<br />Sarebbe difficile trovare oggi un computer che NON possa fare staking.</p>` /*Italian*/,
+			hr: `<p>Staking ne zahtijeva puno rada, stoga su <span>zahtjevi nevjerojatno mali</span>.<br />Danas bi bilo teško pronaći računalo koje NE može stakati.</p>` /*Croatian*/
 		},
 		HOW_BIG_ARE_BLOCK_REWARDS: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
+			zh: `区块奖励有多大？` /*Chinese*/,
+			es: `¿QUÉ TAN GRANDES SON LAS RECOMPENSAS DE BLOQUE?` /*Spanish*/,
 			en: 'HOW BIG ARE BLOCK REWARDS?' /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
+			hi: `ब्लॉक पुरस्कार कितने बड़े हैं?` /*Hindi*/,
+			ar: `ما حجم مكافآت الكتلة؟` /*Arabic - Right-to-left*/,
+			pt: `QUAL É O TAMANHO DAS RECOMPENSAS POR BLOCO?` /*Portuguese*/,
+			bn: `ব্লক পুরস্কার কত বড়?` /*Bengal*/,
+			ru: `КАКОВ РАЗМЕР БЛОЧНОГО ВОЗНАГРАЖДЕНИЯ?` /*Russian*/,
 			ja: `ブロック報酬の大きさは？` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
+			jv: `SEPIRO GEDHENE HADIAH BLOK?` /*Javanese*/,
+			de: `WIE GROSS SIND DIE BLOCKBELOHNUNGEN?` /*German*/,
+			ko: `블록 보상은 얼마나 큰가요?` /*Korean*/,
+			fr: `QUELLE EST LA TAILLE DES RÉCOMPENSES DE BLOC?` /*French*/,
+			te: `బ్లాక్ రివార్డ్‌లు ఎంత పెద్దవి?` /*Telugu*/,
+			mr: `ब्लॉक पुरस्कार किती मोठे आहेत?` /*Marathi*/,
+			tr: `BLOK ÖDÜLLERİ NE KADAR BÜYÜK?` /*Turkish*/,
+			ta: `தொகுதி வெகுமதிகள் எவ்வளவு பெரியவை?` /*Tamil*/,
+			vi: `PHẦN THƯỞNG KHỐI LỚN ĐẾN MỨC NÀO?` /*Vietnamese*/,
+			ur: `بلاک ریوارڈز کتنے بڑے ہیں؟` /*Urdu - Right-to-left*/,
+			nl: `HOE GROOT ZIJN DE BLOKBELONINGEN?` /*Dutch*/,
+			it: `QUANTO SONO GRANDI LE RICOMPENSE PER BLOCCO?` /*Italian*/,
+			hr: `KOLIKO SU VELIKE NAGRADE ZA BLOK?` /*Croatian*/
 		},
 		HOW_BIG_ARE_BLOCK_REWARDS_ANSWER: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
+			zh: `<p>您获得<span>1.5 BLK奖励 + 该区块中的任何交易手续费</span>。</p>` /*Chinese*/,
+			es: `<p>Obtienes <span>1.5 BLK de recompensa + las tarifas de transacción del bloque</span>.</p>` /*Spanish*/,
 			en: `
 				<p>
 					You get <span>1.5 BLK reward + any tx fees in that block</span>.
 				</p>` /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
+			hi: `<p>आपको <span>1.5 BLK पुरस्कार + उस ब्लॉक में कोई भी tx शुल्क</span> मिलता है।</p>` /*Hindi*/,
+			ar: `<p>تحصل على <span>1.5 BLK مكافأة + أي رسوم معاملات في ذلك الكتلة</span>.</p>` /*Arabic - Right-to-left*/,
+			pt: `<p>Você recebe <span>1.5 BLK de recompensa + quaisquer taxas de transação no bloco</span>.</p>` /*Portuguese*/,
+			bn: `<p>আপনি <span>1.5 BLK পুরস্কার + সেই ব্লকে যেকোনো tx ফি</span> পাবেন।</p>` /*Bengal*/,
+			ru: `<p>Вы получаете <span>1.5 BLK + все комиссии транзакций в блоке</span>.</p>` /*Russian*/,
 			ja: `
 				<p>1.5BLK分の報酬とそのブロック内のTx料金を得ることができます。</p>` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
+			jv: `<p>Sampeyan oleh <span>hadiah 1.5 BLK + biaya tx ing blok iku</span>.</p>` /*Javanese*/,
+			de: `<p>Sie erhalten <span>1,5 BLK Belohnung + alle Transaktionsgebühren des Blocks</span>.</p>` /*German*/,
+			ko: `<p><span>1.5 BLK 보상 + 해당 블록의 모든 tx 수수료</span>를 받습니다.</p>` /*Korean*/,
+			fr: `<p>Vous obtenez <span>1,5 BLK de récompense + les frais de transaction du bloc</span>.</p>` /*French*/,
+			te: `<p>మీకు <span>1.5 BLK రివార్డ్ + ఆ బ్లాక్‌లోని ఏదైనా tx ఫీజులు</span> లభిస్తాయి.</p>` /*Telugu*/,
+			mr: `<p>तुम्हाला <span>1.5 BLK बक्षीस + त्या ब्लॉकमधील कोणत्याही tx शुल्क</span> मिळतात.</p>` /*Marathi*/,
+			tr: `<p><span>1,5 BLK ödülü + o bloktaki herhangi bir işlem ücreti</span> alırsınız.</p>` /*Turkish*/,
+			ta: `<p><span>1.5 BLK வெகுமதி + அந்த தொகுதியில் உள்ள எந்த tx கட்டணங்களும்</span> கிடைக்கும்.</p>` /*Tamil*/,
+			vi: `<p>Bạn nhận được <span>phần thưởng 1.5 BLK + bất kỳ phí tx nào trong khối đó</span>.</p>` /*Vietnamese*/,
+			ur: `<p>آپ کو <span>1.5 BLK انعام + اس بلاک میں کوئی بھی tx فیس</span> ملتی ہے۔</p>` /*Urdu - Right-to-left*/,
+			nl: `<p>U ontvangt <span>1,5 BLK beloning + eventuele transactiekosten in dat blok</span>.</p>` /*Dutch*/,
+			it: `<p>Si ottengono <span>1,5 BLK di ricompensa + eventuali commissioni di transazione nel blocco</span>.</p>` /*Italian*/,
+			hr: `<p>Dobivate <span>1,5 BLK nagradu + sve tx naknade u tom bloku</span>.</p>` /*Croatian*/
 		},
 		HOW_OFTEN_WILL_I_RECEIVE_A_BLOCK_REWARD: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
+			zh: `我多久会收到一次区块奖励？` /*Chinese*/,
+			es: `¿CON QUÉ FRECUENCIA RECIBIRÉ UNA RECOMPENSA DE BLOQUE?` /*Spanish*/,
 			en: 'HOW OFTEN WILL I RECEIVE A BLOCK REWARD?' /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
+			hi: `मुझे कितनी बार ब्लॉक पुरस्कार मिलेगा?` /*Hindi*/,
+			ar: `كم مرة سأتلقى مكافأة كتلة؟` /*Arabic - Right-to-left*/,
+			pt: `COM QUE FREQUÊNCIA RECEBEREI UMA RECOMPENSA POR BLOCO?` /*Portuguese*/,
+			bn: `আমি কত ঘন ঘন একটি ব্লক পুরস্কার পাব?` /*Bengal*/,
+			ru: `КАК ЧАСТО Я БУДУ ПОЛУЧАТЬ БЛОЧНОЕ ВОЗНАГРАЖДЕНИЕ?` /*Russian*/,
 			ja: `どのくらいの頻度でブロックリワードを受け取ることができますか？` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
+			jv: `SEPIRA ASERING INGSUN NAMPA HADIAH BLOK?` /*Javanese*/,
+			de: `WIE OFT WERDE ICH EINE BLOCKBELOHNUNG ERHALTEN?` /*German*/,
+			ko: `블록 보상을 얼마나 자주 받나요?` /*Korean*/,
+			fr: `À QUELLE FRÉQUENCE VAIS-JE RECEVOIR UNE RÉCOMPENSE DE BLOC?` /*French*/,
+			te: `నాకు ఎంత తరచుగా బ్లాక్ రివార్డ్ వస్తుంది?` /*Telugu*/,
+			mr: `मला किती वेळा ब्लॉक पुरस्कार मिळेल?` /*Marathi*/,
+			tr: `NE SIKLIKLA BİR BLOK ÖDÜLÜ ALACAĞIM?` /*Turkish*/,
+			ta: `எவ்வளவு அடிக்கடி நான் தொகுதி வெகுமதி பெறுவேன்?` /*Tamil*/,
+			vi: `TÔI SẼ NHẬN ĐƯỢC PHẦN THƯỞNG KHỐI BAO LÂU MỘT LẦN?` /*Vietnamese*/,
+			ur: `مجھے بلاک ریوارڈ کتنی بار ملے گا؟` /*Urdu - Right-to-left*/,
+			nl: `HOE VAAK ZAL IK EEN BLOKBELONING ONTVANGEN?` /*Dutch*/,
+			it: `CON QUALE FREQUENZA RICEVERÒ UNA RICOMPENSA PER BLOCCO?` /*Italian*/,
+			hr: `KOLIKO ČESTO ĆU PRIMATI NAGRADU ZA BLOK?` /*Croatian*/
 		},
 		HOW_OFTEN_WILL_I_RECEIVE_A_BLOCK_REWARD_ANSWER1: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
+			zh: `<p>持有10000 BLK，每天约可出块一次（1.5 BLK）。</p><p>无法精确预测出块频率。但<span>质押的代币越多，找到奖励的概率越大</span>。每天质押24小时的人比每天只质押1小时的人获得的奖励约多24倍。质押是一种彩票游戏，只是估算。</p>` /*Chinese*/,
+			es: `<p>Con 10000 BLK puedes esperar stakear aproximadamente una vez al día (1.5 BLK).</p><p>No es posible predecir exactamente cuántos stakes recibirás. Sin embargo, <span>cuantas más monedas tengas, más bloques y más recompensas recibirás</span>. Alguien que stakea 24 horas al día obtendrá más recompensas que quien solo stakea una hora al día. El staking es una especie de lotería.</p>` /*Spanish*/,
 			en: `
 				<p>With 10000 BLK you can expect to stake around once a day (1.5BLK).</p>
 				<p>
@@ -834,91 +824,91 @@ export default {
 					Staking is a kind of lottery. Some days you'll get more than usual, some days less. It's
 					just an estimate.
 				</p>` /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
+			hi: `<p>10000 BLK के साथ आप प्रतिदिन लगभग एक बार स्टेक (1.5 BLK) की उम्मीद कर सकते हैं।</p><p>आपको कितने स्टेक मिलेंगे यह बिल्कुल अनुमान नहीं लगाया जा सकता। हालांकि, <span>जितने अधिक कॉइन, उतने अधिक ब्लॉक और इनाम मिलने की संभावना</span>। जो दिन में 24 घंटे स्टेक करता है वह 1 घंटे वाले से लगभग 24 गुना अधिक पाएगा।</p><p>स्टेकिंग एक तरह की लॉटरी है। यह केवल अनुमान है।</p>` /*Hindi*/,
+			ar: `<p>مع 10,000 BLK يمكنك توقع التحصيص مرة واحدة يومياً تقريباً (1.5 BLK).</p><p>لا يمكن التنبؤ بالضبط بعدد عمليات التحصيص. غير أنه <span>كلما زادت عملاتك، زادت فرص الحصول على مكافأة</span>. من يحصّص 24 ساعة يومياً سيحصل على نحو 24 ضعف ما يحصل عليه من يحصّص ساعة يومياً. التحصيص نوع من اليانصيب.</p>` /*Arabic - Right-to-left*/,
+			pt: `<p>Com 10000 BLK, você pode esperar fazer staking cerca de uma vez por dia (1,5 BLK).</p><p>Não é possível prever exatamente quantos stakes você receberá. No entanto, <span>quanto mais moedas você tiver, mais blocos e recompensas receberá</span>. Alguém que faz staking 24h por dia receberá ~24x mais do que quem faz staking por apenas 1 hora por dia. O staking é uma espécie de loteria.</p>` /*Portuguese*/,
+			bn: `<p>10000 BLK নিয়ে প্রতিদিন প্রায় একবার স্টেক (1.5 BLK) আশা করতে পারেন।</p><p>আপনি ঠিক কতবার স্টেক পাবেন তা অনুমান করা সম্ভব নয়। তবে, <span>যত বেশি কয়েন, তত বেশি ব্লক এবং পুরস্কার পাওয়ার সম্ভাবনা</span>। দিনে ২৪ ঘণ্টা স্টেক করলে ১ ঘণ্টার তুলনায় প্রায় ২৪ গুণ বেশি পাওয়া যায়।</p><p>স্টেকিং এক ধরনের লটারি। এটি শুধু একটি আনুমানিক হিসাব।</p>` /*Bengal*/,
+			ru: `<p>При 10 000 BLK можно ожидать примерно один блок в день (1,5 BLK).</p><p>Точно предсказать количество блоков невозможно. Однако <span>чем больше монет, тем больше блоков и вознаграждений</span>. Тот, кто стейкает 24 часа в сутки, получит примерно в 24 раза больше, чем тот, кто стейкает 1 час в день. Стейкинг — это своеобразная лотерея.</p>` /*Russian*/,
 			ja: `
 				<p>10000BLKであれば、1日1回（1.5BLK）程度の出目が期待できます。</p>
 				<p>賭け金が何回になるかは正確には予測できません。しかし、より多くのコインを賭けていれば、より多くのブロックを得ることができ、より多くの報酬を見つけることができます。1年365日、1日24時間賭けている人は、1日1時間、同じ量のコインを賭けている人よりも多く（～24倍）の報酬を得ることができます。</p>
 				<p>ステーキングは一種の宝くじです。いつもより多くもらえる日もあれば、</p>
 				<p>少ない日もあるでしょう。あくまでも目安ですが。</p>` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
+			jv: `<p>Karo 10000 BLK, sampeyan bisa ngarepake staking kira-kira sepisan saben dina (1.5 BLK).</p><p>Ora bisa diprediksi persis pira stake sing bakal sampeyan entuk. Nanging, <span>luwih akeh koin, luwih akeh blok lan hadiah</span>. Sing staking 24 jam saben dina bakal oleh ~24x luwih akeh tinimbang 1 jam saben dina.</p><p>Staking kaya lotere. Mung estimasi.</p>` /*Javanese*/,
+			de: `<p>Mit 10000 BLK können Sie etwa einmal täglich staken (1,5 BLK).</p><p>Es lässt sich nicht genau vorhersagen, wie viele Stakes Sie erhalten werden. Aber <span>je mehr Münzen Sie haben, desto mehr Blöcke und Belohnungen</span>. Wer täglich 24 Stunden stakt, erhält etwa 24-mal mehr als jemand, der nur eine Stunde am Tag stakt. Staking ist eine Art Lotterie.</p>` /*German*/,
+			ko: `<p>10,000 BLK로 하루 약 1회 스테이킹 기대 (1.5 BLK).</p><p>정확히 몇 번 스테이킹할지는 예측할 수 없습니다. 하지만 <span>보유 코인이 많을수록 더 많은 블록과 보상을 받습니다</span>. 하루 24시간 스테이킹하는 사람은 1시간만 하는 사람보다 약 24배 더 많이 받습니다. 스테이킹은 일종의 복권입니다.</p>` /*Korean*/,
+			fr: `<p>Avec 10 000 BLK, vous pouvez espérer staker environ une fois par jour (1,5 BLK).</p><p>Il est impossible de prédire exactement combien de blocs vous obtiendrez. Cependant, <span>plus vous avez de monnaies, plus vous avez de chances de trouver une récompense</span>. Quelqu'un qui stake 24h/24 obtiendra environ 24x plus qu'une personne staking 1 heure par jour. Le staking est une sorte de loterie.</p>` /*French*/,
+			te: `<p>10000 BLK తో రోజుకు సుమారు ఒక్కసారి స్టేక్ (1.5 BLK) ఆశించవచ్చు.</p><p>మీకు ఎన్ని స్టేక్‌లు వస్తాయో ఖచ్చితంగా చెప్పడం అసాధ్యం. అయితే, <span>ఎక్కువ కాయిన్‌లు ఉంటే ఎక్కువ బ్లాక్‌లు మరియు రివార్డ్‌లు</span> వస్తాయి. రోజూ 24 గంటలు స్టేక్ చేస్తే 1 గంట కంటే దాదాపు 24 రెట్లు వస్తుంది.</p><p>స్టేకింగ్ ఒక రకమైన లాటరీ. ఇది అంచనా మాత్రమే.</p>` /*Telugu*/,
+			mr: `<p>10000 BLK सह दिवसातून एकदा सुमारे stake (1.5 BLK) अपेक्षित करू शकता.</p><p>किती stakes मिळतील हे अचूकपणे सांगता येत नाही. परंतु, <span>जास्त नाणी असल्यास जास्त ब्लॉक्स आणि पुरस्कार</span> मिळण्याची शक्यता. दिवसाचे 24 तास stake करणाऱ्याला 1 तास करणाऱ्यापेक्षा सुमारे 24 पट जास्त मिळेल.</p><p>Staking हे लॉटरी सारखे आहे. हे केवळ अंदाज आहे.</p>` /*Marathi*/,
+			tr: `<p>10.000 BLK ile günde yaklaşık bir kez stake (1,5 BLK) yapmanızı bekleyebilirsiniz.</p><p>Kaç stake alacağınızı tam olarak tahmin etmek mümkün değildir. Ancak <span>ne kadar çok para, daha fazla blok ve ödül bulma olasılığı</span>. Günde 24 saat stake yapan biri, 1 saat yapandan yaklaşık 24 kat daha fazla kazanır.</p><p>Staking bir tür piyango gibidir. Bu sadece bir tahmindir.</p>` /*Turkish*/,
+			ta: `<p>10000 BLK உடன் தினமும் ஒரு முறை ஸ்டேக் (1.5 BLK) எதிர்பார்க்கலாம்.</p><p>நீங்கள் எத்தனை ஸ்டேக் பெறுவீர்கள் என்று சரியாக கணிக்க முடியாது. ஆனால், <span>அதிக நாணயங்கள் இருந்தால் அதிக தொகுதிகளும் வெகுமதிகளும்</span> கிடைக்கும். தினமும் 24 மணி நேரம் ஸ்டேக் செய்பவர் 1 மணி நேரம் செய்பவரை விட ~24 மடங்கு அதிகம் பெறுவார்.</p><p>ஸ்டேக்கிங் ஒரு வகையான லாட்டரி. இது மதிப்பீடு மட்டுமே.</p>` /*Tamil*/,
+			vi: `<p>Với 10.000 BLK, bạn có thể kỳ vọng stake khoảng một lần mỗi ngày (1,5 BLK).</p><p>Không thể dự đoán chính xác bạn sẽ nhận được bao nhiêu lần stake. Tuy nhiên, <span>bạn có nhiều coin hơn, sẽ nhận được nhiều khối và phần thưởng hơn</span>. Staking 24 giờ/ngày sẽ nhận được ~24 lần so với 1 giờ/ngày.</p><p>Staking giống như xổ số. Đây chỉ là ước tính.</p>` /*Vietnamese*/,
+			ur: `<p>10000 BLK کے ساتھ روزانہ تقریباً ایک بار اسٹیک (1.5 BLK) کی توقع کر سکتے ہیں۔</p><p>آپ کو بالکل کتنے اسٹیک ملیں گے یہ مشکل ہے۔ تاہم، <span>جتنے زیادہ سکے، اتنے زیادہ بلاکس اور انعام ملنے کا امکان</span>۔ دن میں 24 گھنٹے اسٹیک کرنے والا 1 گھنٹے والے سے تقریباً 24 گنا زیادہ پاتا ہے۔</p><p>اسٹیکنگ ایک قسم کی لاٹری ہے۔ یہ صرف اندازہ ہے۔</p>` /*Urdu - Right-to-left*/,
+			nl: `<p>Met 10000 BLK kunt u verwachten elke dag ongeveer één keer te staken (1,5 BLK).</p><p>Het is onmogelijk precies te voorspellen hoeveel stakes u ontvangt. Maar <span>hoe meer munten u heeft, hoe meer blokken en beloningen</span>. Iemand die 24 uur per dag stakt, ontvangt ~24x meer dan iemand die slechts 1 uur per dag stakt. Staking is een soort loterij.</p>` /*Dutch*/,
+			it: `<p>Con 10000 BLK ci si può aspettare circa uno stake al giorno (1,5 BLK).</p><p>Non è possibile prevedere esattamente quanti stake si riceveranno. Tuttavia, <span>più monete si hanno, più blocchi e ricompense si ricevono</span>. Chi fa staking 24h al giorno otterrà circa 24 volte di più rispetto a chi ne fa solo 1 ora. Lo staking è una sorta di lotteria.</p>` /*Italian*/,
+			hr: `<p>S 10.000 BLK možete očekivati staking otprilike jednom dnevno (1,5 BLK).</p><p>Ne može se točno predvidjeti koliko ćete stakes dobiti. Međutim, <span>što više novčića, veća je vjerojatnost više blokova i nagrada</span>. Netko tko stakea 24 sata dnevno dobit će ~24x više od staking sat vremena dnevno.</p><p>Staking je poput lutrije. To je samo procjena.</p>` /*Croatian*/
 		},
 		WHAT_ARE_THE_OFFICIAL_BLACKCOIN_WEBSITES: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
+			zh: `黑币的官方网站是哪些？` /*Chinese*/,
+			es: `¿CUÁLES SON LOS SITIOS WEB OFICIALES DE BLACKCOIN?` /*Spanish*/,
 			en: 'WHAT ARE THE OFFICIAL BLACKCOIN WEBSITES?' /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
+			hi: `ब्लैककॉइन की आधिकारिक वेबसाइटें कौन सी हैं?` /*Hindi*/,
+			ar: `ما هي المواقع الرسمية لبلاك كوين؟` /*Arabic - Right-to-left*/,
+			pt: `QUAIS SÃO OS SITES OFICIAIS DO BLACKCOIN?` /*Portuguese*/,
+			bn: `ব্ল্যাককয়েনের অফিসিয়াল ওয়েবসাইট কোনটি?` /*Bengal*/,
+			ru: `КАКИЕ ОФИЦИАЛЬНЫЕ САЙТЫ BLACKCOIN?` /*Russian*/,
 			ja: `ブラックコインの公式サイトはどこですか？` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
+			jv: `APA SITUS RESMI BLACKCOIN?` /*Javanese*/,
+			de: `WAS SIND DIE OFFIZIELLEN BLACKCOIN-WEBSITES?` /*German*/,
+			ko: `BLACKCOIN의 공식 웹사이트는 무엇인가요?` /*Korean*/,
+			fr: `QUELS SONT LES SITES OFFICIELS DE BLACKCOIN?` /*French*/,
+			te: `BLACKCOIN యొక్క అధికారిక వెబ్‌సైట్‌లు ఏవి?` /*Telugu*/,
+			mr: `BLACKCOIN च्या अधिकृत वेबसाइट कोणत्या आहेत?` /*Marathi*/,
+			tr: `BLACKCOIN'İN RESMİ WEBSİTELERİ NELERDİR?` /*Turkish*/,
+			ta: `BLACKCOIN இன் அதிகாரப்பூர்வ இணையதளங்கள் என்ன?` /*Tamil*/,
+			vi: `NHỮNG WEBSITE CHÍNH THỨC CỦA BLACKCOIN LÀ GÌ?` /*Vietnamese*/,
+			ur: `بلیک کوائن کی سرکاری ویب سائٹس کون سی ہیں؟` /*Urdu - Right-to-left*/,
+			nl: `WAT ZIJN DE OFFICIËLE BLACKCOIN-WEBSITES?` /*Dutch*/,
+			it: `QUALI SONO I SITI UFFICIALI DI BLACKCOIN?` /*Italian*/,
+			hr: `KOJI SU SLUŽBENI BLACKCOIN WEBOVI?` /*Croatian*/
 		},
 		WHAT_ARE_THE_OFFICIAL_BLACKCOIN_WEBSITES_ANSWER1: {
-			zh: `` /*Chinese*/,
-			es: `` /*Spanish*/,
+			zh: `<p><a href="https://blackcoin.org/" target="_blank" rel="noopener noreferrer">https://blackcoin.org</a> — <a href="https://blackcoinmore.org/" target="_blank" rel="noopener noreferrer">https://blackcoinmore.org</a> — <a href="https://blackcoin.nl/" target="_blank" rel="noopener noreferrer">https://blackcoin.nl</a> 是<span>唯一的官方黑币网站</span>。blackcoin.io域名用于Blacksight、PayBLK和Iris。</p><p>切勿从任何其他黑币外观网站下载或注册！</p>` /*Chinese*/,
+			es: `<p><a href="https://blackcoin.org/" target="_blank" rel="noopener noreferrer">https://blackcoin.org</a> — <a href="https://blackcoinmore.org/" target="_blank" rel="noopener noreferrer">https://blackcoinmore.org</a> — <a href="https://blackcoin.nl/" target="_blank" rel="noopener noreferrer">https://blackcoin.nl</a> son <span>los únicos sitios oficiales de Blackcoin</span>. El dominio blackcoin.io se usa para Blacksight, PayBLK e Iris.</p><p>¡NO DESCARGUES NI TE REGISTRES EN OTRO SITIO QUE PAREZCA BLACKCOIN!</p>` /*Spanish*/,
 			en: `
 				<p>
-					<a href="https://blackcoin.org/" target="_blank norefer">https://blackcoin.org</a> -
-					<a href="https://blackcoinmore.org/" target="_blank norefer"
+					<a href="https://blackcoin.org/" target="_blank" rel="noopener noreferrer">https://blackcoin.org</a> -
+					<a href="https://blackcoinmore.org/" target="_blank" rel="noopener noreferrer"
 						>https://blackcoinmore.org</a
 					>
-					- <a href="https://blackcoin.nl/" target="_blank norefer">https://blackcoin.nl</a> are
+					- <a href="https://blackcoin.nl/" target="_blank" rel="noopener noreferrer">https://blackcoin.nl</a> are
 					<span>the only official Blackcoin websites</span>.<br />. Note: The domain blackcoin.io
 					is used for Blacksight, PayBLK and Iris.
 				</p>
 				<p>DO NOT DOWNLOAD FROM OR SIGN UP TO ANY OTHER BLACKCOIN LOOK WEBSITE!</p>` /*English*/,
-			hi: `` /*Hindi*/,
-			ar: `` /*Arabic - Right-to-left*/,
-			pt: `` /*Portuguese*/,
-			bn: `` /*Bengal*/,
-			ru: `` /*Russian*/,
+			hi: `<p><a href="https://blackcoin.org/" target="_blank" rel="noopener noreferrer">https://blackcoin.org</a> — <a href="https://blackcoinmore.org/" target="_blank" rel="noopener noreferrer">https://blackcoinmore.org</a> — <a href="https://blackcoin.nl/" target="_blank" rel="noopener noreferrer">https://blackcoin.nl</a> <span>केवल आधिकारिक Blackcoin वेबसाइटें</span> हैं। blackcoin.io डोमेन Blacksight, PayBLK और Iris के लिए उपयोग होता है।</p><p>किसी अन्य Blackcoin जैसी दिखने वाली वेबसाइट से डाउनलोड न करें और न ही पंजीकरण करें!</p>` /*Hindi*/,
+			ar: `<p><a href="https://blackcoin.org/" target="_blank" rel="noopener noreferrer">https://blackcoin.org</a> — <a href="https://blackcoinmore.org/" target="_blank" rel="noopener noreferrer">https://blackcoinmore.org</a> — <a href="https://blackcoin.nl/" target="_blank" rel="noopener noreferrer">https://blackcoin.nl</a> هي <span>المواقع الرسمية الوحيدة لبلاك كوين</span>. النطاق blackcoin.io مخصص لـ Blacksight وPayBLK وIris.</p><p>لا تحمّل ولا تسجّل في أي موقع آخر يشبه بلاك كوين!</p>` /*Arabic - Right-to-left*/,
+			pt: `<p><a href="https://blackcoin.org/" target="_blank" rel="noopener noreferrer">https://blackcoin.org</a> — <a href="https://blackcoinmore.org/" target="_blank" rel="noopener noreferrer">https://blackcoinmore.org</a> — <a href="https://blackcoin.nl/" target="_blank" rel="noopener noreferrer">https://blackcoin.nl</a> são <span>os únicos sites oficiais do Blackcoin</span>. O domínio blackcoin.io é para Blacksight, PayBLK e Iris.</p><p>NÃO BAIXE NEM SE REGISTRE EM NENHUM OUTRO SITE PARECIDO COM BLACKCOIN!</p>` /*Portuguese*/,
+			bn: `<p><a href="https://blackcoin.org/" target="_blank" rel="noopener noreferrer">https://blackcoin.org</a> — <a href="https://blackcoinmore.org/" target="_blank" rel="noopener noreferrer">https://blackcoinmore.org</a> — <a href="https://blackcoin.nl/" target="_blank" rel="noopener noreferrer">https://blackcoin.nl</a> হল <span>একমাত্র সরকারি Blackcoin ওয়েবসাইট</span>। blackcoin.io ডোমেন Blacksight, PayBLK এবং Iris-এর জন্য ব্যবহৃত।</p><p>অন্য কোনো Blackcoin-সদৃশ সাইট থেকে ডাউনলোড বা নিবন্ধন করবেন না!</p>` /*Bengal*/,
+			ru: `<p><a href="https://blackcoin.org/" target="_blank" rel="noopener noreferrer">https://blackcoin.org</a> — <a href="https://blackcoinmore.org/" target="_blank" rel="noopener noreferrer">https://blackcoinmore.org</a> — <a href="https://blackcoin.nl/" target="_blank" rel="noopener noreferrer">https://blackcoin.nl</a> — это <span>единственные официальные сайты Blackcoin</span>. Домен blackcoin.io используется для Blacksight, PayBLK и Iris.</p><p>НЕ ЗАГРУЖАЙТЕ И НЕ РЕГИСТРИРУЙТЕСЬ НА ДРУГИХ САЙТАХ, ПОХОЖИХ НА BLACKCOIN!</p>` /*Russian*/,
 			ja: `
 			<p>https://blackcoin.org - https://blackcoinmore.org - https://blackcoin.nl は、唯一のブラックコイン公式サイトです。</p>
 			<p>コインマーケットキャップのBlack Coinページの上方左側の(ウエブサイト)の項目からもBlack Coin公式サイトを開けます。</p>
 			<p>注意)現在、blackcoin.ioというドメインは、Blacksight、PayBLK、Iris</p>
 			<p>に使用されています。他には、Blackcoin 非公式なウェブサイトからダウンロードしたり、登録したりしないでください。</p>` /*Japanese*/,
-			jv: `` /*Javanese*/,
-			de: `` /*German*/,
-			ko: `` /*Korean*/,
-			fr: `` /*French*/,
-			te: `` /*Telugu*/,
-			mr: `` /*Marathi*/,
-			tr: `` /*Turkish*/,
-			ta: `` /*Tamil*/,
-			vi: `` /*Vietnamese*/,
-			ur: `` /*Urdu - Right-to-left*/,
-			nl: `` /*Dutch*/,
-			it: `` /*Italian*/,
-			hr: `` /*Croatian*/
+			jv: `<p><a href="https://blackcoin.org/" target="_blank" rel="noopener noreferrer">https://blackcoin.org</a> — <a href="https://blackcoinmore.org/" target="_blank" rel="noopener noreferrer">https://blackcoinmore.org</a> — <a href="https://blackcoin.nl/" target="_blank" rel="noopener noreferrer">https://blackcoin.nl</a> iku <span>situs web resmi Blackcoin sing siji-sijine</span>. Domain blackcoin.io digunakake kanggo Blacksight, PayBLK lan Iris.</p><p>ORA NDOWNLOAD UTAWA NDAFTAR ING SITUS LIYA SING MIRIP BLACKCOIN!</p>` /*Javanese*/,
+			de: `<p><a href="https://blackcoin.org/" target="_blank" rel="noopener noreferrer">https://blackcoin.org</a> — <a href="https://blackcoinmore.org/" target="_blank" rel="noopener noreferrer">https://blackcoinmore.org</a> — <a href="https://blackcoin.nl/" target="_blank" rel="noopener noreferrer">https://blackcoin.nl</a> sind die <span>einzigen offiziellen Blackcoin-Websites</span>. Die Domain blackcoin.io wird für Blacksight, PayBLK und Iris verwendet.</p><p>LADEN SIE NICHT HERUNTER UND REGISTRIEREN SIE SICH NICHT AUF ANDEREN BLACKCOIN-ÄHNLICHEN WEBSITES!</p>` /*German*/,
+			ko: `<p><a href="https://blackcoin.org/" target="_blank" rel="noopener noreferrer">https://blackcoin.org</a> — <a href="https://blackcoinmore.org/" target="_blank" rel="noopener noreferrer">https://blackcoinmore.org</a> — <a href="https://blackcoin.nl/" target="_blank" rel="noopener noreferrer">https://blackcoin.nl</a>이 <span>유일한 공식 Blackcoin 웹사이트</span>입니다. blackcoin.io는 Blacksight, PayBLK, Iris에 사용됩니다.</p><p>다른 Blackcoin 유사 사이트에서 다운로드하거나 가입하지 마세요!</p>` /*Korean*/,
+			fr: `<p><a href="https://blackcoin.org/" target="_blank" rel="noopener noreferrer">https://blackcoin.org</a> — <a href="https://blackcoinmore.org/" target="_blank" rel="noopener noreferrer">https://blackcoinmore.org</a> — <a href="https://blackcoin.nl/" target="_blank" rel="noopener noreferrer">https://blackcoin.nl</a> sont <span>les seuls sites officiels de Blackcoin</span>. Le domaine blackcoin.io est pour Blacksight, PayBLK et Iris.</p><p>NE TÉLÉCHARGEZ PAS ET NE VOUS INSCRIVEZ PAS SUR D'AUTRES SITES RESSEMBLANT À BLACKCOIN !</p>` /*French*/,
+			te: `<p><a href="https://blackcoin.org/" target="_blank" rel="noopener noreferrer">https://blackcoin.org</a> — <a href="https://blackcoinmore.org/" target="_blank" rel="noopener noreferrer">https://blackcoinmore.org</a> — <a href="https://blackcoin.nl/" target="_blank" rel="noopener noreferrer">https://blackcoin.nl</a> మాత్రమే <span>అధికారిక Blackcoin వెబ్‌సైట్‌లు</span>. blackcoin.io డొమైన్ Blacksight, PayBLK మరియు Iris కోసం ఉపయోగించబడుతుంది.</p><p>మరే ఇతర Blackcoin వలే కనిపించే సైట్ నుండి డౌన్‌లోడ్ చేయవద్దు లేదా నమోదు చేయవద్దు!</p>` /*Telugu*/,
+			mr: `<p><a href="https://blackcoin.org/" target="_blank" rel="noopener noreferrer">https://blackcoin.org</a> — <a href="https://blackcoinmore.org/" target="_blank" rel="noopener noreferrer">https://blackcoinmore.org</a> — <a href="https://blackcoin.nl/" target="_blank" rel="noopener noreferrer">https://blackcoin.nl</a> हेच <span>एकमेव अधिकृत Blackcoin वेबसाइट</span> आहेत. blackcoin.io डोमेन Blacksight, PayBLK आणि Iris साठी वापरले जाते.</p><p>इतर कोणत्याही Blackcoin सारख्या दिसणाऱ्या साइटवरून डाउनलोड करू नका किंवा नोंदणी करू नका!</p>` /*Marathi*/,
+			tr: `<p><a href="https://blackcoin.org/" target="_blank" rel="noopener noreferrer">https://blackcoin.org</a> — <a href="https://blackcoinmore.org/" target="_blank" rel="noopener noreferrer">https://blackcoinmore.org</a> — <a href="https://blackcoin.nl/" target="_blank" rel="noopener noreferrer">https://blackcoin.nl</a> <span>tek resmi Blackcoin web siteleridir</span>. blackcoin.io alan adı Blacksight, PayBLK ve Iris için kullanılmaktadır.</p><p>DİĞER BLACKCOIN BENZERİ SİTELERDEN İNDİRMEYİN VEYA KAYIT OLMAYIN!</p>` /*Turkish*/,
+			ta: `<p><a href="https://blackcoin.org/" target="_blank" rel="noopener noreferrer">https://blackcoin.org</a> — <a href="https://blackcoinmore.org/" target="_blank" rel="noopener noreferrer">https://blackcoinmore.org</a> — <a href="https://blackcoin.nl/" target="_blank" rel="noopener noreferrer">https://blackcoin.nl</a> மட்டுமே <span>அதிகாரப்பூர்வ Blackcoin வலைத்தளங்கள்</span>. blackcoin.io டொமைன் Blacksight, PayBLK மற்றும் Iris-க்காக பயன்படுகிறது.</p><p>வேறு எந்த Blackcoin போல் தெரியும் தளத்திலிருந்தும் பதிவிறக்கம் அல்லது பதிவு செய்யாதீர்கள்!</p>` /*Tamil*/,
+			vi: `<p><a href="https://blackcoin.org/" target="_blank" rel="noopener noreferrer">https://blackcoin.org</a> — <a href="https://blackcoinmore.org/" target="_blank" rel="noopener noreferrer">https://blackcoinmore.org</a> — <a href="https://blackcoin.nl/" target="_blank" rel="noopener noreferrer">https://blackcoin.nl</a> là <span>các trang web chính thức duy nhất của Blackcoin</span>. Tên miền blackcoin.io dùng cho Blacksight, PayBLK và Iris.</p><p>ĐỪNG TẢI VỀ HOẶC ĐĂNG KÝ TRÊN BẤT KỲ TRANG GIỐNG BLACKCOIN NÀO KHÁC!</p>` /*Vietnamese*/,
+			ur: `<p><a href="https://blackcoin.org/" target="_blank" rel="noopener noreferrer">https://blackcoin.org</a> — <a href="https://blackcoinmore.org/" target="_blank" rel="noopener noreferrer">https://blackcoinmore.org</a> — <a href="https://blackcoin.nl/" target="_blank" rel="noopener noreferrer">https://blackcoin.nl</a> ہی <span>واحد سرکاری Blackcoin ویب سائٹس</span> ہیں۔ blackcoin.io ڈومین Blacksight، PayBLK اور Iris کے لیے ہے۔</p><p>کسی دوسری Blackcoin جیسی سائٹ سے ڈاؤن لوڈ یا رجسٹر نہ کریں!</p>` /*Urdu - Right-to-left*/,
+			nl: `<p><a href="https://blackcoin.org/" target="_blank" rel="noopener noreferrer">https://blackcoin.org</a> — <a href="https://blackcoinmore.org/" target="_blank" rel="noopener noreferrer">https://blackcoinmore.org</a> — <a href="https://blackcoin.nl/" target="_blank" rel="noopener noreferrer">https://blackcoin.nl</a> zijn de <span>enige officiële Blackcoin-websites</span>. Het domein blackcoin.io is voor Blacksight, PayBLK en Iris.</p><p>DOWNLOAD NIETS EN REGISTREER U NIET OP ANDERE SITES DIE OP BLACKCOIN LIJKEN!</p>` /*Dutch*/,
+			it: `<p><a href="https://blackcoin.org/" target="_blank" rel="noopener noreferrer">https://blackcoin.org</a> — <a href="https://blackcoinmore.org/" target="_blank" rel="noopener noreferrer">https://blackcoinmore.org</a> — <a href="https://blackcoin.nl/" target="_blank" rel="noopener noreferrer">https://blackcoin.nl</a> sono <span>gli unici siti ufficiali di Blackcoin</span>. Il dominio blackcoin.io è per Blacksight, PayBLK e Iris.</p><p>NON SCARICARE NÉ REGISTRARSI SU ALTRI SITI SIMILI A BLACKCOIN!</p>` /*Italian*/,
+			hr: `<p><a href="https://blackcoin.org/" target="_blank" rel="noopener noreferrer">https://blackcoin.org</a> — <a href="https://blackcoinmore.org/" target="_blank" rel="noopener noreferrer">https://blackcoinmore.org</a> — <a href="https://blackcoin.nl/" target="_blank" rel="noopener noreferrer">https://blackcoin.nl</a> su <span>jedine službene Blackcoin web stranice</span>. Domena blackcoin.io koristi se za Blacksight, PayBLK i Iris.</p><p>NE PREUZIMAJTE NITI SE REGISTRIRAJTE NA BILO KOJOJ DRUGOJ STRANICI NALIK BLACKCOINU!</p>` /*Croatian*/
 		}
 	}
 };
