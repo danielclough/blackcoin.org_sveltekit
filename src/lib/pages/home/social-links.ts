@@ -1,13 +1,13 @@
 export default [
 	{
-		url: 'https://twitter.com/BlackcoinOrg',
+		url: 'https://x.com/BlackcoinOrg',
 		img: '/images/social/twitter-org.svg',
-		alt: 'BlackcoinOrg Twitter'
+		alt: 'BlackcoinOrg on X'
 	},
 	{
-		url: 'https://twitter.com/BlackcoinNL',
+		url: 'https://x.com/BlackcoinNL',
 		img: '/images/social/twitter-nl.svg',
-		alt: 'BlackcoinNL Twitter'
+		alt: 'BlackcoinNL on X'
 	},
 	{
 		url: 'https://t.me/blackcoin',
@@ -38,11 +38,6 @@ export default [
 		url: 'https://webchat.freenode.net/?channels=%23blackcoin',
 		img: '/images/social/irc.svg',
 		alt: 'IRC'
-	},
-	{
-		url: 'https://gitter.im/BlackCoin_Hub',
-		img: '/images/social/gitter.svg',
-		alt: 'Gitter'
 	},
 	{
 		url: 'https://facebook.com/BlackcoinOrg',
