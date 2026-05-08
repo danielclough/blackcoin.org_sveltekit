@@ -1,4 +1,5 @@
 <script>
+	import { onMount } from 'svelte';
 	import copyHTML from './copyHTML';
 	import QrCodeGen from './qr-code-gen.svelte';
 
@@ -9,55 +10,75 @@
 		let a = address;
 		address = ['BLK', a];
 	}
-	$: copied = false;
+	let copied = false;
+
+	let mounted = false;
+	onMount(() => {
+		mounted = true;
+	});
 </script>
 
 <div class="rel">
 	{address[0]}:
 	<span class="golden">
-		{width < 1080 ? address[1].substring(0, 8) + '...' : address[1]}
-		<p class="copied" style="display: {!!copied ? 'flex' : 'none'};">Copied!</p>
+		{mounted && width < 1080 ? address[1].substring(0, 8) + '...' : address[1]}
+		<p class="copied" style="display: {copied ? 'flex' : 'none'};">Copied!</p>
 	</span>
 	<br />
-	<img
+	<button
+		class="icon-btn"
+		aria-label="Copy address"
 		on:click={() => {
 			copied = !copied;
 			setTimeout(() => (copied = !copied), 1000);
 			copyHTML(address[1]);
 		}}
-		width="512"
-		height="512"
-		src="/images/common/copy.svg"
-		alt="Click to Copy"
-	/>
+		on:keydown={(e) =>
+			e.key === 'Enter' &&
+			((copied = !copied), setTimeout(() => (copied = !copied), 1000), copyHTML(address[1]))}
+	>
+		<img width="512" height="512" src="/images/common/copy.svg" alt="" />
+	</button>
 	{#if qr !== address[1]}
-		<img
-			width="110"
-			height="110"
-			src="/images/common/qr.svg"
-			alt="Click for QR"
+		<button
+			class="icon-btn"
+			aria-label="Show QR code"
 			on:click={() => {
 				qr = address[1];
 			}}
-		/>
+			on:keydown={(e) => e.key === 'Enter' && (qr = address[1])}
+		>
+			<img width="110" height="110" src="/images/common/qr.svg" alt="" />
+		</button>
 	{:else}
-	<div
-		on:click={() => {
-			qr = "";
-		}}
-	>
-		<QrCodeGen value={qr} size={width > 1080 ? width * 0.1 : width * 0.5} />
-	</div>
+		<div
+			role="button"
+			tabindex="0"
+			on:click={() => {
+				qr = '';
+			}}
+			on:keydown={(e) => e.key === 'Enter' && (qr = '')}
+		>
+			<QrCodeGen value={qr} size={width > 1080 ? width * 0.1 : width * 0.5} />
+		</div>
 	{/if}
 </div>
 
 <style>
 	.golden {
-		font-size: x-large;
+		font-size: 1.1rem;
+		word-break: break-all;
 	}
 	.rel {
 		width: fit-content;
 		position: relative;
+	}
+	.icon-btn {
+		background: transparent;
+		border: none;
+		padding: 0;
+		cursor: pointer;
+		display: inline-flex;
 	}
 	img {
 		width: 2rem;
@@ -68,9 +89,9 @@
 		position: absolute;
 		right: 50%;
 		top: 25%;
-		background-color: rgba(0, 0, 0, 0.6);
+		background-color: color-mix(in oklch, var(--ink-0) 60%, transparent);
 		padding: 0.5rem;
-		box-shadow: 1px 1px 1rem black;
+		box-shadow: 1px 1px 1rem var(--ink-0);
 		z-index: 100;
 	}
 	@media (min-width: 700px) {
