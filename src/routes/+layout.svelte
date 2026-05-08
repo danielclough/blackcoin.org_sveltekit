@@ -1,19 +1,14 @@
 <script>
+	import { onMount } from 'svelte';
 	import Navbar from '$lib/components/header/nav.svelte';
 	import Footer from '$lib/components/footer/footer.svelte';
+	import { theme } from '$lib/stores/theme';
 	import '$lib/styles.css';
 
 	export let data;
 	$: lang = data.lang || 'en';
 
-	import { onMount } from 'svelte';
-	onMount(()=>{
-		if (lang === 'en') {
-			lang = window.navigator.languages.filter((x)=>x.length === 2)[0] || 'en';
-		}
-		console.log(lang)
-	})
-
+	onMount(() => theme.init());
 </script>
 
 <Navbar {lang} />
