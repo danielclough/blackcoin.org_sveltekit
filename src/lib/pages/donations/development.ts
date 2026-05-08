@@ -27,7 +27,7 @@ export default [
 				]
 			},
 			{
-				title: 'Daniel Clough (Community Lead)',
+				title: 'Daniel Clough (Technical Lead)',
 				address: 'B6sKk2SpDX8s7jrmfeMCTEjM26AnKe7Ukg',
 				links: [
 					{

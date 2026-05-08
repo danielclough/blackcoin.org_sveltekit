@@ -43,22 +43,22 @@ export default [
 				]
 			},
 			{
-				title: 'BlackcoinNL Twitter',
+				title: 'BlackcoinNL X',
 				address: 'BTUfUZRRRBwMqJfLaivNcCPCZDZFWgSLqU',
 				links: [
 					{
-						url: 'https://twitter.com/BlackcoinNL',
-						link_content: 'Twitter'
+						url: 'https://x.com/BlackcoinNL',
+						link_content: 'X (@BlackcoinNL)'
 					}
 				]
 			},
 			{
-				title: 'BlackcoinOrg Twitter',
+				title: 'BlackcoinOrg X',
 				address: 'BH3mZaDVqLiZFPTMozcGuu5CfKKoHxSN1b',
 				links: [
 					{
-						url: 'https://twitter.com/BlackcoinOrg',
-						link_content: 'Twitter'
+						url: 'https://x.com/BlackcoinOrg',
+						link_content: 'X (@BlackcoinOrg)'
 					}
 				]
 			}
