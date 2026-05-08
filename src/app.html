@@ -1,50 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
+		<script>
+			(function () {
+				try {
+					var t = localStorage.getItem('theme');
+					if (t) document.documentElement.setAttribute('data-theme', t);
+				} catch (e) {}
+			})();
+		</script>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="Website for Blackcoin.org" />
-
-		<meta property="og:title" content="BlackcoinOrg" />
-		<meta property="og:description" content="Pure Proof of Stake - Since 2014" />
-		<meta property="og:url" content="https://tmp.blackcoin.one" />
 		<meta
-			property="og:image"
-			content="https://tmp.blackcoin.one/images/meta/blackcoin-cover.png"
+			name="description"
+			content="Blackcoin (BLK) — decentralised digital currency built on Proof of Stake 3.1 (PoSV3). Running since 2014."
 		/>
-		<meta property="og:site_name" content="BlackcoinOrg" />
+
+		<meta property="og:title" content="Blackcoin – Pure Proof of Stake Since 2014" />
+		<meta
+			property="og:description"
+			content="Blackcoin (BLK) is a decentralised digital currency built on Proof of Stake 3.1 (PoSV3). Running since 2014."
+		/>
+		<meta property="og:url" content="https://blackcoin.org" />
+		<meta property="og:image" content="https://blackcoin.org/images/meta/blackcoin-cover.webp" />
+		<meta property="og:site_name" content="Blackcoin" />
 		<meta property="og:locale" content="en_US" />
-		<meta property="og:type" content="article" />
+		<meta property="og:type" content="website" />
 
 		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:title" content="BlackcoinOrg" />
-		<meta name="twitter:description" content="Pure Proof of Stake - Since 2014" />
-		<meta name="twitter:site" content="@BlackcoinOrg" />
+		<meta name="twitter:title" content="Blackcoin – Pure Proof of Stake Since 2014" />
 		<meta
-			name="twitter:image"
-			content="https://tmp.blackcoin.one/images/meta/blackcoin-cover.png"
+			name="twitter:description"
+			content="Blackcoin (BLK) — Proof of Stake 3.1 (PoSV3). Running since 2014."
 		/>
+		<meta name="twitter:site" content="@BlackcoinOrg" />
+		<meta name="twitter:image" content="https://blackcoin.org/images/meta/blackcoin-cover.webp" />
 		<meta name="twitter:creator" content="@BlackcoinOrg" />
 
 		<link rel="icon" type="image/png" sizes="100x100" href="/favicon.png" />
-		<title>Blackcoin.org</title>
+		<title>Blackcoin – Pure Proof of Stake Since 2014</title>
 
-		%sveltekit.head%
-		<!-- Gitter -->
-		<style type="text/css">
-			.gitter-open-chat-button {
-				background-color: #262626;
-			}
-		</style>
+%sveltekit.head%
 	</head>
-	<body data-sveltekit-prefetch>
+	<body data-sveltekit-preload-data="hover">
 		<div>%sveltekit.body%</div>
-		<!-- Gitter -->
-		<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
-		<script>
-			((window.gitter = {}).chat = {}).options = {
-				room: 'BlackCoin_Hub/Support'
-			};
-		</script>
 	</body>
 </html>
