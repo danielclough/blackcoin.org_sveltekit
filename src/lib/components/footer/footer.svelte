@@ -1,45 +1,45 @@
 <script>
 	import footerI18n from './footer.i18n';
-	import FooterSocial from './footer-social.svelte';
 	export let lang;
 	const date = new Date();
 </script>
 
 <footer>
-	<p>
-		<a href="#home">{footerI18n.to_the_top[lang] || footerI18n.to_the_top['en']} ^ </a>
-		<FooterSocial />
-	</p>
-	<div class="copyright">
-		<small
-			>&copy; 2014-{date.getFullYear()}
-			<span id="copyright" />
-			Blackcoin.org
-		</small>
-		<small>
-			- {footerI18n.all_rights_reserved[lang] || footerI18n.all_rights_reserved['en']}
-		</small>
-	</div>
+	<a href="#home" class="top-link">
+		{footerI18n.to_the_top[lang] || footerI18n.to_the_top['en']} ↑
+	</a>
+	<small>
+		&copy; 2014-{date.getFullYear()} Blackcoin.org — {footerI18n.all_rights_reserved[lang] ||
+			footerI18n.all_rights_reserved['en']}
+	</small>
 </footer>
 
 <style>
 	footer {
 		display: flex;
 		flex-direction: column;
-		width: 90%;
-		margin: 0 auto;
+		align-items: center;
+		gap: 0.25rem;
+		padding: 0.75rem 1rem;
+		background: var(--ink-0);
 	}
-	a {
-		float: right;
-		color: goldenrod;
-		margin: .75rem;
+
+	.top-link {
+		font-size: 0.65rem;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		color: var(--footer-link);
+		transition: color var(--t-fast);
 	}
-	.copyright {
-		text-align: center;
+
+	.top-link:hover {
+		color: var(--gold);
 	}
-	/* @media (min-aspect-ratio: 17/10) {}
-	@media (min-width: 1080px) {}
-	@media (min-aspect-ratio: 17/10) and (min-width: 1080px) {}
-	@media (min-width: 2560px) {}
-	@media (max-aspect-ratio: 5/1) and (min-width: 2560px) {} */
+
+	small {
+		font-size: 0.6rem;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		color: var(--footer-small);
+	}
 </style>

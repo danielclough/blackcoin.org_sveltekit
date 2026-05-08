@@ -24,7 +24,7 @@ export default {
 		hr: 'Sva prava pridržana.' /*Croatian*/
 	},
 	to_the_top: {
-		zh: '' /*Chinese*/,
+		zh: '回到顶部' /*Chinese*/,
 		es: 'A la cima' /*Spanish*/,
 		en: 'To the top' /*English*/,
 		hi: 'सबसे ऊपर' /*Hindi*/,
@@ -45,6 +45,6 @@ export default {
 		ur: 'چوٹی پر' /*Urdu - Right-to-left*/,
 		nl: 'Naar de top' /*Dutch*/,
 		it: 'In alto' /*Italian*/,
-		hr: '' /*Croatian*/
+		hr: 'Na vrh' /*Croatian*/
 	}
 };
