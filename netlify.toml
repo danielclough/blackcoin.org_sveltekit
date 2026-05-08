@@ -2,32 +2,42 @@
   command = "npm run build"
   publish = "build"
 
-                                                                                                                                                 
-# HTML — revalidate on every request but never no-store, so bfcache works                                                                              
-[[headers]]                                                                                                                                            
-  for = "/*.html"                                                                                                                                      
-  [headers.values]                                                                                                                                     
-    Cache-Control = "no-cache"                                                                                                                         
-                                                                                                                                                       
-# SvelteKit hashed assets are content-addressed — safe to cache forever                                                                                
-[[headers]]                                                                                                                                            
-  for = "/_app/immutable/*"                                                                                                                            
-  [headers.values]                                                                                                                                     
-    Cache-Control = "public, max-age=31536000, immutable"                                                                                              
-                                                                                                                                                       
-# Fonts and images are stable; one week is plenty                                                                                                      
-[[headers]]                                                                                                                                            
-  for = "/fonts/*"                                                                                                                                     
-  [headers.values]                                                                                                                                     
-    Cache-Control = "public, max-age=604800"                                                                                                           
-                                                                                                                                                       
-[[headers]]                                                                                                                                            
-  for = "/images/*"                                                                                                                                    
-  [headers.values]                                                                                                                                     
-    Cache-Control = "public, max-age=604800"                                                                                                           
-                                                                                                                                                       
-# qrcode.min.js has no hash in its name — keep it short                                                                                                
-[[headers]]                                                                                                                                            
-  for = "/js/*"                                                                                                                                        
-  [headers.values]                                                                                                                                     
-    Cache-Control = "public, max-age=3600"    
+[build.environment]
+  NODE_VERSION = "20"
+
+# Security headers on everything
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options        = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy        = "strict-origin-when-cross-origin"
+    Permissions-Policy     = "camera=(), microphone=(), geolocation=()"
+
+# Prerendered HTML only — SSR responses are unaffected by this
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+# Content-addressed — safe to cache forever
+[[headers]]
+  for = "/_app/immutable/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+# Unhashed JS — short TTL; consider hashing the filename instead
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, stale-while-revalidate=86400"
