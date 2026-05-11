@@ -168,12 +168,22 @@
 	.subtitle {
 		margin: 0;
 		letter-spacing: 10px;
-		font-size: 1.3rem;
+		font-size: 0.75rem;
+	}
+
+	.scroller {
+		display: none;
 	}
 
 	@media (min-width: 700px) {
 		img {
 			padding-top: 5%;
+		}
+		.subtitle {
+			font-size: 1.3rem;
+		}
+		.scroller {
+			display: inline-block;
 		}
 	}
 	@media (min-width: 1440px) {
