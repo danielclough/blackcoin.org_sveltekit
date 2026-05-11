@@ -10,15 +10,14 @@
 	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
 
-	export let data;
-	let lang = data.lang || 'en';
+	let { data } = $props();
+	let lang = $derived(data.lang || 'en');
+	let width = $state(0);
 
 	onMount(() => {
 		const detected = window.navigator.languages.find((x) => x.length === 2);
 		if (detected && detected !== 'en') goto(`/${detected}`);
 	});
-
-	let width;
 </script>
 
 <svelte:window bind:innerWidth={width} />
@@ -38,5 +37,5 @@
 <Exchange {lang} />
 <Downloads {lang} />
 <SocialMedia {lang} />
-<Donations {lang} bind:width />
+<Donations {lang} {width} />
 <SocialLinks />

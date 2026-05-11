@@ -1,8 +1,9 @@
 <script>
 	import Projects from '$lib/pages/donations/projects.svelte';
-	export let data;
-	$: lang = data.lang || 'en';
-	let width;
+
+	let { data } = $props();
+	let lang = $derived(data.lang || 'en');
+	let width = $state(0);
 </script>
 
 <svelte:window bind:innerWidth={width} />

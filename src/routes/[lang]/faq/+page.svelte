@@ -1,7 +1,8 @@
 <script>
 	import Faq from '$lib/pages/faq/faq.svelte';
-	export let data;
-	$: lang = data.lang || 'en';
+
+	let { data } = $props();
+	let lang = $derived(data.lang || 'en');
 </script>
 
 <svelte:head>

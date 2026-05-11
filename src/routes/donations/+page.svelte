@@ -1,7 +1,8 @@
 <script>
 	import Projects from '$lib/pages/donations/projects.svelte';
+
 	let lang = 'en';
-	let width;
+	let width = $state(0);
 </script>
 
 <svelte:window bind:innerWidth={width} />

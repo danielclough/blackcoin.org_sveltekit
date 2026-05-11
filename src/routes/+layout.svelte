@@ -5,14 +5,14 @@
 	import { theme } from '$lib/stores/theme';
 	import '$lib/styles.css';
 
-	export let data;
-	$: lang = data.lang || 'en';
+	let { data, children } = $props();
+	let lang = $derived(data.lang || 'en');
 
 	onMount(() => theme.init());
 </script>
 
 <Navbar {lang} />
 <div class="slot-container">
-	<slot />
+	{@render children?.()}
 </div>
 <Footer {lang} />

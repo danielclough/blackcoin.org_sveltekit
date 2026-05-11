@@ -7,10 +7,9 @@
 	import Donations from '$lib/pages/home/donations.svelte';
 	import SocialLinks from '$lib/pages/home/social-links.svelte';
 
-	export let data;
-	$: lang = data.lang;
-
-	let width;
+	let { data } = $props();
+	let lang = $derived(data.lang);
+	let width = $state(0);
 </script>
 
 <svelte:window bind:innerWidth={width} />
@@ -30,5 +29,5 @@
 <Exchange {lang} />
 <Downloads {lang} />
 <SocialMedia {lang} />
-<Donations {lang} bind:width />
+<Donations {lang} {width} />
 <SocialLinks />
