@@ -142,12 +142,16 @@
 			if (performance.now() - lastInteraction > 500) {
 				if (!wasIdle) {
 					// Find the angle on the figure-8 path closest to the current g position
-					let bestAngle = driftAngle, bestDist = Infinity;
+					let bestAngle = driftAngle,
+						bestDist = Infinity;
 					for (let a = 0; a < Math.PI * 2; a += Math.PI / 100) {
 						const dx = s / 2 + Math.cos(a * 0.7) * s * 0.3 - g.x;
 						const dy = u / 2 + Math.sin(a) * u * 0.25 - g.y;
 						const d = dx * dx + dy * dy;
-						if (d < bestDist) { bestDist = d; bestAngle = a; }
+						if (d < bestDist) {
+							bestDist = d;
+							bestAngle = a;
+						}
 					}
 					driftAngle = bestAngle;
 					wasIdle = true;

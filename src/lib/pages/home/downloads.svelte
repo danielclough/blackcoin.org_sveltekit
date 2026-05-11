@@ -4,7 +4,8 @@
 	import i18n from '$lib/i18n';
 	import downloadsI18n from './downloads.i18n';
 	import downloadGroups from './download-groups';
-	export let lang;
+
+	let { lang } = $props();
 </script>
 
 <section id="services">
@@ -129,7 +130,6 @@
 			inset 0 1px 0 var(--card-shadow-in),
 			0 2px 12px var(--card-shadow-out);
 
-		/* Scroll-driven entrance — fires as card enters viewport */
 		animation: cardReveal both linear;
 		animation-timeline: view();
 		animation-range: entry 0% cover 35%;

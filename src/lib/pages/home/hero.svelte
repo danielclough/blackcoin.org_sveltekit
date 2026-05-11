@@ -4,7 +4,7 @@
 	import BreakingNews from './news.svelte';
 	import HeroAnimation from './hero-animation.svelte';
 
-	export let lang;
+	let { lang } = $props();
 </script>
 
 <div id="large-header">
@@ -27,15 +27,6 @@
 				<h1 class="title">
 					{i18n(heroI18n, 'blackcoin', lang)}
 				</h1>
-				<!-- <a href="#community" class="join-community">
-					<img
-					id="cta"
-					height="176"
-					width="550"
-					src="/images/hero/banner.svg"
-					alt="Join the Blackcoin Community!"
-					/>
-				</a> -->
 				<hr />
 				<h2 class="subtitle">{i18n(heroI18n, 'since2014', lang)}</h2>
 			</div>

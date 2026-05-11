@@ -4,7 +4,7 @@
 	import i18n from '$lib/i18n';
 	import aboutItems from './about-items';
 
-	export let lang;
+	let { lang } = $props();
 </script>
 
 <section class="section">

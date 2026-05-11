@@ -3,7 +3,8 @@
 	import exchangeI18n from './exchange.i18n';
 	import exchangeList from './exchange-list';
 	import i18n from '$lib/i18n';
-	export let lang;
+
+	let { lang } = $props();
 </script>
 
 <div class="parallax-section">
