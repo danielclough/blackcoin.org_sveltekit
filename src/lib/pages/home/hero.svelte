@@ -29,12 +29,13 @@
 		<div class="content-wrapper">
 			<div class="content">
 				<picture>
-					<source srcset="/images/hero/blackcoin-logo.webp" type="image/webp" />
+					<source srcset="/images/hero/blackcoin-logo.webp" type="image/webp" fetchpriority="high" />
 					<img
 						src="/images/hero/blackcoin-logo.png"
 						alt="Blackcoin coin logo"
 						width="150"
 						height="150"
+						fetchpriority="high"
 					/>
 				</picture>
 
