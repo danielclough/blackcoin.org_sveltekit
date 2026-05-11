@@ -148,7 +148,9 @@
 		color: var(--news-content);
 		font-size: 1.1rem;
 		line-height: 1;
-		padding: 0 0.5rem;
+		padding: 0 0.75rem;
+		min-width: 44px;
+		min-height: 44px;
 		cursor: pointer;
 		transition:
 			color 0.15s,
@@ -173,6 +175,7 @@
 		overflow: hidden;
 		text-decoration: none;
 		color: inherit;
+		min-height: 44px;
 	}
 
 	.date {
