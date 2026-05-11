@@ -5,13 +5,13 @@
 	import LangSelect from './lang-select.svelte';
 	import MenuItems from './menu-items.svelte';
 
+	let { lang } = $props();
+	let y = $state(0);
+	let open = $state(false);
+
 	const openClose = () => {
 		if (y === 0) y = 1;
 	};
-
-	export let lang;
-	export let y = 0;
-	let open = false;
 </script>
 
 <svelte:window bind:scrollY={y} />
@@ -92,7 +92,7 @@
 	}
 
 	#nav-logo img {
-		width: 4rem;
+		width: 2.5rem;
 		height: auto;
 	}
 

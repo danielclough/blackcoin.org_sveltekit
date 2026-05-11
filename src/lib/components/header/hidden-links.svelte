@@ -1,5 +1,5 @@
 <script>
-	export let locales;
+	let { locales } = $props();
 </script>
 
 {#each locales as locale (locale.code)}

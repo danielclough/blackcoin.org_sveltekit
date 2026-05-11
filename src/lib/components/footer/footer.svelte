@@ -1,6 +1,7 @@
 <script>
 	import footerI18n from './footer.i18n';
-	export let lang;
+
+	let { lang } = $props();
 	const date = new Date();
 </script>
 

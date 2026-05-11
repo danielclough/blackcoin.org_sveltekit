@@ -1,6 +1,10 @@
 <script lang="ts">
-	export let open = false;
-	export let onclick: (() => void) | undefined = undefined;
+	interface Props {
+		open?: boolean;
+		onclick?: () => void;
+	}
+
+	let { open = $bindable(false), onclick = undefined }: Props = $props();
 
 	function handleClick() {
 		open = !open;
@@ -11,7 +15,7 @@
 <button
 	class="hamburger"
 	class:is-active={open}
-	on:click={handleClick}
+	onclick={handleClick}
 	aria-label={open ? 'Close menu' : 'Open menu'}
 	aria-expanded={open}
 >

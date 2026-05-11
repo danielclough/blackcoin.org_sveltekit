@@ -3,9 +3,9 @@
 	import locales from './locales';
 	import SELECT_LANGUAGE from './lang-select.i18n';
 	import HiddenLinks from './hidden-links.svelte';
-	export let lang;
-	export let y;
-	let menuOpen = false;
+
+	let { lang, y = $bindable(0) } = $props();
+	let menuOpen = $state(false);
 
 	const openClose = () => {
 		menuOpen = !menuOpen;
@@ -14,14 +14,14 @@
 </script>
 
 <div id="lang-select">
-	<button id="menuOpener" on:click={() => openClose()}
+	<button id="menuOpener" onclick={() => openClose()}
 		>{SELECT_LANGUAGE[lang] || SELECT_LANGUAGE['en']}</button
 	>
 	<ul id="menu-locale" style="display: {menuOpen ? 'flex' : 'none'};">
 		{#each locales as locale (locale.code)}
 			<li>
 				<a
-					on:click={() => (menuOpen = false)}
+					onclick={() => (menuOpen = false)}
 					href="/{locale.code}"
 					rel="/{locale.code} {lang}"
 					hreflang={locale.code}>{locale.label}</a
