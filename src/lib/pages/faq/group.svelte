@@ -1,25 +1,17 @@
 <script>
 	import i18n from '$lib/i18n';
 
-	export let lang;
-	export let As;
-	export let i;
-	export let d;
-	export let j;
-	let open = false;
+	let { lang, As, i, d, j } = $props();
+	let open = $state(false);
 </script>
 
 <div class="panel">
 	<div>
-		<h4
-			class="title golden"
-			role="button"
-			tabindex="0"
-			on:click={() => (open = !open)}
-			on:keydown={(e) => e.key === 'Enter' && (open = !open)}
-		>
-			<span class="chevron">{open ? '▾' : '▸'}</span>
-			<p>{i18n(d.obj, d.key, lang)}</p>
+		<h4 class="title golden">
+			<button class="title-btn" onclick={() => (open = !open)}>
+				<span class="chevron">{open ? '▾' : '▸'}</span>
+				<p>{i18n(d.obj, d.key, lang)}</p>
+			</button>
 		</h4>
 		{#if open}
 			<div class="body">
@@ -40,20 +32,29 @@
 	.title {
 		margin: 0;
 		padding-bottom: 0;
-		cursor: pointer;
+	}
+	.title-btn {
 		display: flex;
 		align-items: baseline;
 		gap: 0.5rem;
+		width: 100%;
+		background: none;
+		border: none;
+		padding: 0;
+		cursor: pointer;
+		font: inherit;
+		color: inherit;
+		text-align: left;
 		user-select: none;
 	}
-	.title:hover {
+	.title-btn:hover {
 		color: var(--link-hover);
 	}
 	.chevron {
 		font-size: 0.8em;
 		flex-shrink: 0;
 	}
-	.title p {
+	.title-btn p {
 		margin: 0;
 	}
 	.body {

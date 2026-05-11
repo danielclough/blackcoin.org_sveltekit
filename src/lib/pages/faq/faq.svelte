@@ -1,16 +1,17 @@
-<script>
+<script lang="ts">
 	import i18n from '$lib/i18n';
 	import layout from './faq-layout.i18n';
 	import generalI18n from './general.i18n';
 	import walletI18n from './wallet.i18n';
 	import otherI18n from './other.i18n';
 	import Group from './group.svelte';
-	export let lang;
+
+	let { lang } = $props();
 
 	const doThese = [generalI18n, walletI18n, otherI18n];
-	const titles = [];
-	const Qs = Array.from({ length: doThese.length }, () => []);
-	const As = Array.from({ length: doThese.length }, () => []);
+	const titles: { TITLE: unknown; SUBTITLE: unknown }[] = [];
+	const Qs: { obj: unknown; key: string }[][] = Array.from({ length: doThese.length }, () => []);
+	const As: { obj: unknown; key: string }[][] = Array.from({ length: doThese.length }, () => []);
 	let itterator = 0;
 	for (let [i, x] of doThese.entries()) {
 		const { TITLE, SUBTITLE, qa } = x;
