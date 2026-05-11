@@ -1,16 +1,11 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import i18n from '$lib/i18n';
 	import donationsI18n from './donations.i18n';
-	import type AddrQrComponent from '$lib/components/common/addr-qr.svelte';
-	export let lang;
-	export let width;
+	import AddrQr from '$lib/components/common/addr-qr.svelte';
 	import donationQuickAddresses from './donation-quick-addresses';
-	let qr = '';
-	let AddrQr: typeof AddrQrComponent | null = null;
-	onMount(async () => {
-		AddrQr = (await import('$lib/components/common/addr-qr.svelte')).default;
-	});
+
+	let { lang, width } = $props();
+	let qr = $state('');
 </script>
 
 <div class="parallax-section">
@@ -33,9 +28,7 @@
 				<div class="addr-list">
 					{#each donationQuickAddresses as address (address)}
 						<div class="addr">
-							{#if AddrQr}
-								<svelte:component this={AddrQr} {address} {width} {qr} />
-							{/if}
+							<AddrQr {address} {width} bind:qr />
 						</div>
 					{/each}
 				</div>

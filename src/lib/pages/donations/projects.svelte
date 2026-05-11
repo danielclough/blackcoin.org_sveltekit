@@ -1,5 +1,5 @@
 <script>
-	import AddrQr from '../../components/common/addr-qr.svelte';
+	import AddrQr from '$lib/components/common/addr-qr.svelte';
 	import donationsI18n from './donations.i18n';
 	import ongoing from './ongoing';
 	import community from './community';
@@ -7,10 +7,10 @@
 	import development from './development';
 
 	const projects = [...development, ...outreach, ...ongoing, ...community];
-	export let lang = 'en';
-	export let width;
-	let qr = '';
-	$: intro = donationsI18n.support_donate[lang] || donationsI18n.support_donate['en'];
+
+	let { lang = 'en', width } = $props();
+	let qr = $state('');
+	let intro = $derived(donationsI18n.support_donate[lang] || donationsI18n.support_donate['en']);
 </script>
 
 <h1>Donations</h1>
@@ -33,7 +33,7 @@
 							{/if}
 						</ul>
 						<div class="addr">
-							<AddrQr address={item.address} {width} {qr} />
+							<AddrQr address={item.address} {width} bind:qr />
 						</div>
 					</div>
 				</div>
