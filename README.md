@@ -1,55 +1,55 @@
 ## Contributing
 
-Please to `pnpm format` before sending PR.
+Please run `npm run format` before sending PR.
 
 Note that directories are written with the root of the project as `/`. You will need to consider that to mean `/path/to/project/` (copy paste won't work).
 
-### Orgnization
+### Organization
 
-Most contributers will be concerned with [/src/lib/pages](https://github.com/danielclough/blackcoin.org_sveltekit/tree/main/src/lib/pages) and may need to serve files from [/static](https://github.com/danielclough/blackcoin.org_sveltekit/tree/main/static).
+Most contributors will be concerned with [/src/lib/pages](/src/lib/pages) and may need to serve files from [/static](/static).
 
-Elements not tied to a page can be found at [/src/lib/components](https://github.com/danielclough/blackcoin.org_sveltekit/tree/main/src/lib/components).
+Elements not tied to a page can be found at [/src/lib/components](/src/lib/components).
 
 Internationalization (.i18n.ts) files for layout are stored along side other data and template files. Some .ts have i18n data as well.
 
 #### Update Exchange Listings
 
-In [/src/lib/pages/home/exchange-list.ts](https://github.com/danielclough/blackcoin.org_sveltekit/blob/main/src/lib/pages/home/exchange-list.ts)
+In [/src/lib/pages/home/exchange-list.ts](/src/lib/pages/home/exchange-list.ts)
 
 ```
 	{
-		name: 'Bittrex',
-		url: 'https://bittrex.com/Market/Index?MarketName=BTC-BLK',
-		image: '/images/exchanges/bittrex.png'
+		name: 'XeggeX',
+		url: 'https://xeggex.com/asset/BLK',
+		image: '/images/exchanges/xeggex.png'
 	},
 ```
 
 You can see from the data pattern what info is required. You can easily find that info at the exchange website.
 
 For example:
-![Add Exchange Img](https://github.com/danielclough/blackcoin.org_sveltekit/raw/main/static/images/README/add-exchange.png)
+![Add Exchange Img](/raw/main/static/images/README/add-exchange.png)
 
-Most likely you will download a **.png logo**. You will need to put it in [/static/images/exchanges](https://github.com/danielclough/blackcoin.org_sveltekit/tree/main/static/images/exchanges). .png logos are standard because they offer transparency and are supported in all browsers.
+Most likely you will download a **.png logo**. You will need to put it in [/static/images/exchanges](/static/images/exchanges). WebP versions are generated automatically at build time.
 
 ---
 
 #### Update News Content
 
-In [/src/lib/pages/home/news.ts](https://github.com/danielclough/blackcoin.org_sveltekit/blob/main/src/lib/pages/home/news.ts)
+In [/src/lib/pages/home/news.ts](/src/lib/pages/home/news.ts)
 
 ```
     ...
 	{
 		url: 'https://blackcoinmore.org',
-		date: 'Nov 24, 2022',
+		date: 'December 18, 2024',
 		news: {
-			en: 'Blackcoin More v13.2.0 released. Introducing stake reward donations to the dev fund.'
+			en: 'Blackcoin More v26.2.0 release became available.'
 		}
 	},
     ...
 ```
 
-And, update layout i18n data at [/src/lib/pages/home/news.i18n.ts](https://github.com/danielclough/blackcoin.org_sveltekit/tree/main/src/lib/pages/home/news.i18n.ts)
+And, update layout i18n data at [/src/lib/pages/home/news.i18n.ts](/src/lib/pages/home/news.i18n.ts)
 
 ```
 export default {
@@ -96,20 +96,23 @@ Here they are, listed in order with most widely spoken first.
 	...
 ```
 
-I18N data can be passed to the [/src/lib/i18n.ts](https://github.com/danielclough/blackcoin.org_sveltekit/blob/main/src/lib/i18n.ts) function in three configurations.
+I18N data can be passed to the [/src/lib/i18n.ts](/src/lib/i18n.ts) function in three configurations.
 `src[key][lang]`, `src[lang][key]`, and `src[lang]`.
-This allows for translation data to be passed convinently and structured according to what makes sense for any given component.
+This allows for translation data to be passed conveniently and structured according to what makes sense for any given component.
 
 ## Developing
 
-Currently using imagemagick as dependency for making webp images using `bash /sh/make-webp.sh`.
-(_Need to update script to js._)
-
 ```bash
-pnpm run dev
+# lint
+npm run lint
 
-# or start the server and open the app in a new browser tab
-pnpm run dev -- --open
+# format
+npm run format
+
+# dev server
+npm run dev
+# or
+npm run dev -- --open
 ```
 
 ## Building
@@ -117,7 +120,7 @@ pnpm run dev -- --open
 To create a production version:
 
 ```bash
-pnpm run build
+npm run build
 ```
 
-You can preview the production build with `pnpm run preview`.
+You can preview the production build with `npm run preview`.
