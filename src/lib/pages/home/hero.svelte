@@ -5,6 +5,7 @@
 	import BreakingNews from './news.svelte';
 
 	let { lang } = $props();
+	/** @type {import('svelte').Component | null} */
 	let HeroAnimation = $state(null);
 
 	onMount(() => {

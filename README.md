@@ -103,12 +103,6 @@ This allows for translation data to be passed conveniently and structured accord
 ## Developing
 
 ```bash
-# lint
-npm run lint
-
-# format
-npm run format
-
 # dev server
 npm run dev
 # or
@@ -124,3 +118,18 @@ npm run build
 ```
 
 You can preview the production build with `npm run preview`.
+
+## Commiting
+
+Before you PR run `format`, `lint`, and `check`.
+
+```
+# format
+npm run forma
+
+# lint
+npm run lint
+
+# check
+npm run checkt
+```

@@ -14,3 +14,23 @@ declare namespace svelteHTML {
 		};
 	}
 }
+
+
+declare class QRCode {
+	constructor(
+		element: string | HTMLElement,
+		options: {
+			text?: string;
+			width?: number;
+			height?: number;
+			colorDark?: string;
+			colorLight?: string;
+			correctLevel?: number;
+		}
+	): void;
+	static CorrectLevel: { L: number; M: number; Q: number; H: number };
+}
+
+interface Window {
+	QRCode?: typeof QRCode;
+}

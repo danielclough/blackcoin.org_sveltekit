@@ -26,6 +26,7 @@
 	}
 
 	// Stagger icon reveal — adapted from blur-fade / words-stagger concept
+	/** @type {HTMLUListElement | null} */
 	let listEl = $state(null);
 	let inView = $state(false);
 	onMount(() => {
@@ -49,7 +50,9 @@
 	const MORPH_TIME = 1.3;
 	const COOLDOWN_TIME = 0.9;
 
+	/** @type {HTMLSpanElement | null} */
 	let morphEl1 = $state(null);
+	/** @type {HTMLSpanElement | null} */
 	let morphEl2 = $state(null);
 	let morphIdx = 0;
 	let morphProgress = 0;

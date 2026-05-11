@@ -202,9 +202,6 @@
 		word-break: break-word;
 	}
 
-	.content :global(strong) {
-	}
-
 	@media (min-width: 700px) {
 		.newsBox {
 			display: flex;
