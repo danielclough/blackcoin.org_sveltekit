@@ -1,6 +1,6 @@
 <script>
 	import AddrQr from '$lib/components/common/addr-qr.svelte';
-	import donationsI18n from './donations.i18n';
+	import ecosystemI18n from './ecosystem.i18n';
 	import ongoing from './ongoing';
 	import community from './community';
 	import outreach from './outreach';
@@ -10,10 +10,10 @@
 
 	let { lang = 'en', width } = $props();
 	let qr = $state('');
-	let intro = $derived(donationsI18n.support_donate[lang] || donationsI18n.support_donate['en']);
+	let intro = $derived(ecosystemI18n.support_donate[lang] || ecosystemI18n.support_donate['en']);
 </script>
 
-<h1>Donations</h1>
+<h1>Ecosystem</h1>
 <p class="intro">{intro}</p>
 <div class="grid">
 	{#each projects as group (group.name)}

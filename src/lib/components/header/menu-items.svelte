@@ -54,8 +54,8 @@
 		</a>
 	</li>
 	<li>
-		<a onclick={() => (open = !open)} href="/{i18n(navI18n, 'locale', lang)}/donations">
-			{i18n(navI18n, 'donations', lang)}
+		<a onclick={() => (open = !open)} href="/{i18n(navI18n, 'locale', lang)}/ecosystem">
+			{i18n(navI18n, 'ecosystem', lang)}
 		</a>
 	</li>
 	<li id="faq">

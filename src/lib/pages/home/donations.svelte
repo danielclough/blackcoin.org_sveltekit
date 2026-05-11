@@ -20,7 +20,7 @@
 				</h3>
 				<p>
 					{i18n(donationsI18n, 'donate_to', lang)}
-					<a href="/donations">{i18n(donationsI18n, 'person_project', lang)}</a>.
+					<a href="/ecosystem">{i18n(donationsI18n, 'person_project', lang)}</a>.
 				</p>
 				<p>
 					{i18n(donationsI18n, 'simply_send', lang)}
