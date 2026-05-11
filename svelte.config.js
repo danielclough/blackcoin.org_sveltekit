@@ -9,7 +9,7 @@ const config = {
 		adapter: adapter({ precompress: true }),
 		csp: {
 			directives: {
-				'script-src-elem': ['self', 'unsafe-inline']
+				'script-src-elem': ['self']
 			}
 		},
 		prerender: {
