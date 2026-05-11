@@ -42,6 +42,10 @@
 	};
 </script>
 
+<svelte:head>
+	<script src="https://widgets.coingecko.com/gecko-coin-ticker-widget.js"></script>
+</svelte:head>
+
 <ul id="main-menu">
 	<li>
 		<a onclick={() => (open = !open)} href="/{i18n(navI18n, 'locale', lang)}/#about">
@@ -76,6 +80,15 @@
 		</button>
 		<ul id="links" class:open={links}>
 			<button class="x" onclick={() => (links = false)}>X</button>
+			<li class="ticker">
+				<gecko-coin-ticker-widget
+					locale="en"
+					dark-mode="true"
+					transparent-background="true"
+					coin-id="blackcoin"
+					initial-currency="usd"
+				></gecko-coin-ticker-widget>
+			</li>
 			{#each linkArr as l (l.url)}
 				<li>
 					<a target="_blank" rel="noopener noreferrer" href={l.url} onclick={() => (open = !open)}>
@@ -135,6 +148,13 @@
 
 	#links.open {
 		display: flex;
+	}
+
+	.ticker {
+		display: flex;
+		justify-content: center;
+		padding: 0.5rem;
+		width: 100%;
 	}
 
 	.links-trigger {
