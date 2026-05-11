@@ -5,20 +5,36 @@
 	import news from './news';
 	import i18n from '$lib/i18n';
 
-	export let lang;
+	let { lang } = $props();
 
-	let i = 0;
-	$: bn = news[i % news.length];
+	let i = $state(0);
+	let direction = $state(1);
+	let bn = $derived(news[i % news.length]);
 
-	let containerEl: HTMLDivElement | null = null;
+	let containerEl: HTMLDivElement | null = $state(null);
 	let interval: ReturnType<typeof setInterval> | null = null;
 	let observer: IntersectionObserver | null = null;
 
 	function startInterval() {
 		if (interval !== null) return;
 		interval = setInterval(() => {
-			i++;
+			direction = 1;
+			i = ((i % news.length) + 1) % news.length;
 		}, 5000);
+	}
+
+	function prev() {
+		direction = -1;
+		i = ((i % news.length) - 1 + news.length) % news.length;
+		stopInterval();
+		startInterval();
+	}
+
+	function next() {
+		direction = 1;
+		i = ((i % news.length) + 1) % news.length;
+		stopInterval();
+		startInterval();
 	}
 
 	function stopInterval() {
@@ -54,13 +70,18 @@
 	<div class="title">
 		<h2>{i18n(newsI18n, 'latest_news', lang)}</h2>
 	</div>
-	<div class="newsBox">
-		{#key bn}
-			<a href={bn.url} class="news-link" in:fly={{ x: 16, duration: 280 }}>
-				<span class="date">{bn.date}</span>
-				<span class="content">{i18n(bn, 'news', lang)}</span>
-			</a>
-		{/key}
+	<div class="news-row">
+		<button class="nav-btn" onclick={prev} aria-label="Previous news">&#8249;</button>
+		<div class="newsBox">
+			{#key bn}
+				<a href={bn.url} class="news-link" in:fly={{ x: direction * 16, duration: 280 }}>
+					<span class="date">{bn.date}</span>
+					<!-- eslint-disable-next-line svelte/no-at-html-tags -->
+					<p class="content">{@html i18n(bn, 'news', lang)}</p>
+				</a>
+			{/key}
+		</div>
+		<button class="nav-btn" onclick={next} aria-label="Next news">&#8250;</button>
 	</div>
 	<br />
 </div>
@@ -72,7 +93,6 @@
 		padding: 0;
 	}
 
-	/* Live indicator dot */
 	.title {
 		display: flex;
 		align-items: center;
@@ -107,7 +127,6 @@
 		font-size: clamp(0.7rem, 1.2vw, 1rem);
 		letter-spacing: 3px;
 		text-transform: uppercase;
-		font-weight: 300;
 		line-height: 1.3;
 	}
 
@@ -117,22 +136,45 @@
 		margin: 0 auto;
 	}
 
-	.newsBox {
-		overflow: hidden;
-		background: var(--news-bg);
-		border: solid 1px var(--news-border);
+	.news-row {
+		display: flex;
+		align-items: stretch;
 	}
 
-	/* Mobile: float layout — content flows beside then below the date */
+	.nav-btn {
+		flex-shrink: 0;
+		background: var(--news-bg);
+		border: solid 1px var(--news-border);
+		color: var(--news-content);
+		font-size: 1.1rem;
+		line-height: 1;
+		padding: 0 0.5rem;
+		cursor: pointer;
+		transition:
+			color 0.15s,
+			background 0.15s;
+	}
+
+	.nav-btn:hover {
+		color: var(--news-accent);
+		background: var(--news-border);
+	}
+
+	.newsBox {
+		flex: 1;
+		overflow: hidden;
+		background: var(--news-bg);
+		border-top: solid 1px var(--news-border);
+		border-bottom: solid 1px var(--news-border);
+	}
+
 	.news-link {
 		display: block;
-		overflow: hidden; /* clearfix */
+		overflow: hidden;
 		text-decoration: none;
 		color: inherit;
 	}
 
-	/* Date and content share identical font-size, line-height, and vertical
-	   padding so their first lines sit on the same baseline */
 	.date {
 		float: left;
 		margin: 0;
@@ -141,27 +183,25 @@
 		background: var(--news-accent);
 		color: #fff;
 		font-size: 0.8rem;
-		font-weight: 500;
 		line-height: 1.4;
 		letter-spacing: 0.5px;
 		white-space: nowrap;
 	}
 
-	/* No left padding — float handles the indent for line 1;
-	   wrapped lines naturally run full-width once the float clears */
 	.content {
 		display: block;
 		margin: 0;
 		padding: 0.5rem 0.6rem;
 		color: var(--news-content);
 		font-size: 0.8rem;
-		font-weight: 300;
 		line-height: 1.4;
 		white-space: normal;
 		word-break: break-word;
 	}
 
-	/* Desktop: flex row, date stretches full height, single-line ellipsis */
+	.content :global(strong) {
+	}
+
 	@media (min-width: 700px) {
 		.newsBox {
 			display: flex;
@@ -183,9 +223,7 @@
 		}
 		.content {
 			flex: 1;
-			display: flex;
-			align-items: center;
-			padding: 0 1rem;
+			padding: 0.4rem 1rem;
 			font-size: clamp(0.75rem, 1.2vw, 0.95rem);
 			white-space: normal;
 			line-height: normal;
