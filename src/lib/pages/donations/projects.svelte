@@ -25,7 +25,7 @@
 					<div class="content">
 						<ul>
 							{#if item.links.length > 0}
-								{#each item.links as link (link.url)}
+								{#each item.links as link (link.link_content)}
 									<li>
 										<a href={link.url} class="link-btn">{link.link_content}</a>
 									</li>

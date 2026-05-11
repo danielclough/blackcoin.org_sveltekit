@@ -39,7 +39,7 @@ export default [
 						link_content: 'BlackcoinNL'
 					},
 					{
-						url: 'https://blackcoin.nl',
+						url: 'https://blackcoin.one',
 						link_content: 'Discord and Bots'
 					}
 				]
