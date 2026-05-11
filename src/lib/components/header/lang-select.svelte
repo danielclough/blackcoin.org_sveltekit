@@ -17,7 +17,7 @@
 	<button id="menuOpener" onclick={() => openClose()}
 		>{SELECT_LANGUAGE[lang] || SELECT_LANGUAGE['en']}</button
 	>
-	<ul id="menu-locale" style="display: {menuOpen ? 'flex' : 'none'};">
+	<ul id="menu-locale" class:open={menuOpen}>
 		{#each locales as locale (locale.code)}
 			<li>
 				<a
@@ -59,6 +59,7 @@
 	}
 
 	#menu-locale {
+		display: none;
 		width: 100vw;
 		height: fit-content;
 		max-height: 80vh;
@@ -71,11 +72,12 @@
 		justify-content: center;
 		align-content: space-around;
 		background-color: var(--page-bg);
-	}
-
-	#menu-locale {
 		list-style: none;
 		padding: 0;
+	}
+
+	#menu-locale.open {
+		display: flex;
 	}
 
 	#menu-locale li {
@@ -118,16 +120,47 @@
 	}
 
 	@media (min-width: 1080px) {
+		#lang-select {
+			position: relative;
+		}
+
 		#menu-locale {
-			background-color: var(--page-bg);
+			display: flex;
+			width: max-content;
+			min-width: 10rem;
+			top: calc(100% + 0.5rem);
+			flex-direction: column;
+			flex-wrap: nowrap;
+			justify-content: flex-start;
+			align-content: flex-start;
+			background-color: var(--surface);
+			border: 1px solid var(--glass-border);
+			border-radius: 6px;
+			box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+			padding: 0.25rem;
+			opacity: 0;
+			pointer-events: none;
+			transform: scale(0.95) translateY(-4px);
+			transform-origin: top right;
+			transition:
+				opacity var(--t-fast) var(--ease-out),
+				transform var(--t-fast) var(--ease-out);
+		}
+
+		#menu-locale.open {
+			opacity: 1;
+			pointer-events: auto;
+			transform: scale(1) translateY(0);
 		}
 
 		#menu-locale li {
-			width: 15vw;
+			width: 100%;
 		}
 
 		#menu-locale li a {
 			font-size: 1rem;
+			text-align: left;
+			border-radius: 4px;
 		}
 
 		#menuOpener {

@@ -74,8 +74,8 @@
 		>
 			{i18n(navI18n, 'links', lang)}
 		</button>
-		<ul id="links" style="display:{links ? 'flex' : 'none'};">
-			<button class="x">X</button>
+		<ul id="links" class:open={links}>
+			<button class="x" onclick={() => (links = false)}>X</button>
 			{#each linkArr as l (l.url)}
 				<li>
 					<a target="_blank" rel="noopener noreferrer" href={l.url} onclick={() => (open = !open)}>
@@ -119,9 +119,22 @@
 	}
 
 	#links {
+		display: none;
 		position: absolute;
-		top: 5rem;
+		top: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		flex-wrap: wrap;
 		justify-content: space-around;
+		align-content: flex-start;
+		background-color: var(--page-bg);
+		padding: 3rem 0 1rem;
+		z-index: 1;
+	}
+
+	#links.open {
+		display: flex;
 	}
 
 	.links-trigger {
@@ -185,10 +198,56 @@
 		}
 
 		#linksBtn {
-			padding-bottom: 1.2rem !important;
-			margin: 1rem 0 0 0;
+			position: relative;
+			padding: 0 0.5rem !important;
+			margin: 0;
 			align-self: center;
+			background-image: none;
+			border-radius: 0;
 		}
+
+		#links {
+			display: flex;
+			top: calc(100% + 0.5rem);
+			right: 0;
+			left: auto;
+			width: max-content;
+			min-width: 12rem;
+			flex-direction: column;
+			justify-content: flex-start;
+			flex-wrap: nowrap;
+			background-color: var(--surface);
+			border: 1px solid var(--glass-border);
+			border-radius: 6px;
+			box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+			padding: 0.25rem;
+			opacity: 0;
+			pointer-events: none;
+			transform: scale(0.95) translateY(-4px);
+			transform-origin: top right;
+			transition:
+				opacity var(--t-fast) var(--ease-out),
+				transform var(--t-fast) var(--ease-out);
+		}
+
+		#links.open {
+			opacity: 1;
+			pointer-events: auto;
+			transform: scale(1) translateY(0);
+		}
+
+		#links li {
+			width: 100%;
+			padding: 0;
+		}
+
+		#links li a {
+			display: block;
+			padding: 0.5rem 0.75rem;
+			border-radius: 4px;
+			text-align: left;
+		}
+
 		.x {
 			display: none;
 		}
