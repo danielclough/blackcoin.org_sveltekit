@@ -9,7 +9,11 @@ const config = {
 		adapter: adapter({ precompress: true }),
 		csp: {
 			directives: {
-				'script-src-elem': ['self']
+				'script-src-elem': [
+					'self',
+					'https://widgets.coingecko.com',
+					'sha256-esZRzsFyTen/O5P2L7hWUdF4JqZn+/qPwDXg6kfxpIE='
+				]
 			}
 		},
 		prerender: {

@@ -12,9 +12,21 @@
 	const openClose = () => {
 		if (y === 0) y = 1;
 	};
+
+	$effect(() => {
+		document.body.style.overflow = open ? 'hidden' : '';
+		return () => {
+			document.body.style.overflow = '';
+		};
+	});
 </script>
 
 <svelte:window bind:scrollY={y} />
+
+{#if open}
+	<div class="backdrop" onclick={() => (open = false)} aria-hidden="true"></div>
+{/if}
+
 <nav id="navbar">
 	<div
 		class="bar"
@@ -50,6 +62,22 @@
 	a {
 		color: var(--nav-link);
 		text-shadow: 1px 1px 1px var(--nav-shadow);
+	}
+
+	.backdrop {
+		display: block;
+		position: fixed;
+		inset: 0;
+		z-index: 99;
+		backdrop-filter: blur(4px);
+		-webkit-backdrop-filter: blur(4px);
+		background: rgba(0, 0, 0, 0.3);
+	}
+
+	@media (min-width: 1080px) {
+		.backdrop {
+			display: none;
+		}
 	}
 
 	#burger {

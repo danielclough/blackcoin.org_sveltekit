@@ -210,6 +210,9 @@ section {
 }
 hr {
 	color: var(--hr-color);
+	height: 1.5rem;
+	width: 100%;
+	border: transparent;
 }
 header span {
 	font-size: xx-large;

@@ -1,22 +1,30 @@
 <script>
+	import { onMount } from 'svelte';
 	import i18n from '$lib/i18n';
 	import navI18n from './nav.i18n';
+	import exchangeList from '$lib/pages/home/exchange-list';
 
 	let { lang, open = $bindable(false), y = $bindable(0) } = $props();
 	let links = $state(false);
+	let ticker = $state(false);
+
+	onMount(() => {
+		if (!document.querySelector('script[src*="gecko-coin-ticker-widget"]')) {
+			const s = document.createElement('script');
+			s.src = 'https://widgets.coingecko.com/gecko-coin-ticker-widget.js';
+			document.head.appendChild(s);
+		}
+	});
+
+	const marketArr = [
+		{ name: 'CoinMarketCap', url: 'https://coinmarketcap.com/currencies/blackcoin/#charts' },
+		{ name: 'CoinGecko', url: 'https://www.coingecko.com/en/coins/blackcoin' }
+	];
 
 	let linkArr = $derived([
 		{
 			url: 'https://chainz.cryptoid.info/blk/',
 			title: `CryptoID ${i18n(navI18n, 'explorer', lang)}`
-		},
-		{
-			url: `https://www.coingecko.com/${i18n(navI18n, 'locale', lang)}/coins/blackcoin`,
-			title: 'Coingecko'
-		},
-		{
-			url: 'https://coinmarketcap.com/currencies/blackcoin/#charts',
-			title: 'CoinMarketCap'
 		},
 		{
 			url: 'https://blackcoin.nl',
@@ -41,10 +49,6 @@
 		if (y === 0) y = 1;
 	};
 </script>
-
-<svelte:head>
-	<script src="https://widgets.coingecko.com/gecko-coin-ticker-widget.js"></script>
-</svelte:head>
 
 <ul id="main-menu">
 	<li>
@@ -79,16 +83,7 @@
 			{i18n(navI18n, 'links', lang)}
 		</button>
 		<ul id="links" class:open={links}>
-			<button class="x" onclick={() => (links = false)}>X</button>
-			<li class="ticker">
-				<gecko-coin-ticker-widget
-					locale="en"
-					dark-mode="true"
-					transparent-background="true"
-					coin-id="blackcoin"
-					initial-currency="usd"
-				></gecko-coin-ticker-widget>
-			</li>
+			<button class="x" onclick={() => (links = false)} aria-label="Close menu"></button>
 			{#each linkArr as l (l.url)}
 				<li>
 					<a target="_blank" rel="noopener noreferrer" href={l.url} onclick={() => (open = !open)}>
@@ -97,6 +92,55 @@
 				</li>
 			{/each}
 		</ul>
+	</li>
+
+	<li id="tickerBtn">
+		<button
+			class="links-trigger"
+			onclick={() => (ticker = !ticker)}
+			onkeydown={(e) => e.key === 'Enter' && (ticker = !ticker)}
+		>
+			{i18n(navI18n, 'markets', lang)}
+		</button>
+		<div id="ticker-panel" class:open={ticker}>
+			<button class="x" onclick={() => (ticker = false)}>X</button>
+			<ul id="market-links">
+				{#each marketArr as m (m.url)}
+					<li>
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							href={m.url}
+							onclick={() => (ticker = false)}
+						>
+							{m.name}
+						</a>
+					</li>
+				{/each}
+			</ul>
+			<gecko-coin-ticker-widget
+				locale="en"
+				dark-mode="true"
+				transparent-background="true"
+				coin-id="blackcoin"
+				initial-currency="usd"
+			></gecko-coin-ticker-widget>
+			<hr />
+			<ul id="market-links">
+				{#each exchangeList as e (e.url)}
+					<li>
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							href={e.url}
+							onclick={() => (ticker = false)}
+						>
+							{e.name}
+						</a>
+					</li>
+				{/each}
+			</ul>
+		</div>
 	</li>
 </ul>
 
@@ -125,7 +169,6 @@
 	}
 
 	#linksBtn {
-		background-image: linear-gradient(rgba(255, 0, 0, 0.4), transparent);
 		padding: 0.5rem !important;
 		margin: 0 auto;
 		border-radius: 5%;
@@ -133,28 +176,60 @@
 
 	#links {
 		display: none;
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		width: 100%;
-		flex-wrap: wrap;
-		justify-content: space-around;
-		align-content: flex-start;
+		position: fixed;
+		inset: 0;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 		background-color: var(--page-bg);
 		padding: 3rem 0 1rem;
-		z-index: 1;
+		z-index: 101;
+		font-size: 1rem;
+		line-height: 1.5rem;
 	}
 
 	#links.open {
 		display: flex;
 	}
 
-	.ticker {
-		display: flex;
+	#tickerBtn {
+		padding: 0.5rem !important;
+		margin: 0 auto;
+		border-radius: 5%;
+	}
+
+	#ticker-panel {
+		display: none;
+		position: fixed;
+		inset: 0;
+		flex-direction: column;
+		align-items: center;
 		justify-content: center;
-		padding: 0.5rem;
+		background-color: var(--page-bg);
+		padding: 3rem 0 1rem;
+		z-index: 101;
+	}
+
+	#ticker-panel.open {
+		display: flex;
+	}
+
+	#market-links {
+		display: flex;
+		flex-direction: column;
 		width: 100%;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+
+	#market-links li a {
+		display: block;
+		padding: 0.5rem 0.75rem;
+		border-radius: 4px;
+		text-align: center;
 	}
 
 	.links-trigger {
@@ -169,15 +244,38 @@
 	}
 
 	.x {
-		background-color: transparent;
-		width: fit-content;
-		color: var(--text-hi);
+		background: transparent;
+		border: 0;
 		position: absolute;
 		right: 1rem;
-		top: 0;
-		border-color: var(--gold);
-		font-size: 1.5rem;
-		padding: 0 0.75rem;
+		top: 1rem;
+		padding: 15px;
+		cursor: pointer;
+		display: inline-flex;
+		align-items: center;
+	}
+
+	.x::before,
+	.x::after {
+		content: '';
+		display: block;
+		width: 30px;
+		height: 4px;
+		background-color: var(--nav-hamburger, white);
+		border-radius: 4px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-left: -15px;
+		margin-top: -2px;
+	}
+
+	.x::before {
+		transform: rotate(45deg);
+	}
+
+	.x::after {
+		transform: rotate(-45deg);
 	}
 
 	@media (min-width: 300px) {
@@ -254,6 +352,43 @@
 			opacity: 1;
 			pointer-events: auto;
 			transform: scale(1) translateY(0);
+		}
+
+		#tickerBtn {
+			position: relative;
+			padding: 0 0.5rem !important;
+			margin: 0;
+			align-self: center;
+			background-image: none;
+			border-radius: 0;
+		}
+
+		#ticker-panel {
+			position: absolute;
+			top: calc(100% + 0.5rem);
+			right: 0;
+			background-color: var(--surface);
+			border: 1px solid var(--glass-border);
+			border-radius: 6px;
+			box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+			padding: 0.5rem;
+			opacity: 0;
+			pointer-events: none;
+			transform: scale(0.95) translateY(-4px);
+			transform-origin: top right;
+			transition:
+				opacity var(--t-fast) var(--ease-out),
+				transform var(--t-fast) var(--ease-out);
+		}
+
+		#ticker-panel.open {
+			opacity: 1;
+			pointer-events: auto;
+			transform: scale(1) translateY(0);
+		}
+
+		#market-links li a {
+			text-align: left;
 		}
 
 		#links li {
