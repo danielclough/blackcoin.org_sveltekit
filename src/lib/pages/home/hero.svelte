@@ -1,14 +1,28 @@
 <script>
+	import { onMount } from 'svelte';
 	import i18n from '$lib/i18n';
 	import heroI18n from './hero.i18n';
 	import BreakingNews from './news.svelte';
-	import HeroAnimation from './hero-animation.svelte';
 
 	let { lang } = $props();
+	let HeroAnimation = $state(null);
+
+	onMount(() => {
+		const load = async () => {
+			HeroAnimation = (await import('./hero-animation.svelte')).default;
+		};
+		if ('requestIdleCallback' in window) {
+			requestIdleCallback(load);
+		} else {
+			setTimeout(load, 200);
+		}
+	});
 </script>
 
 <div id="large-header">
-	<HeroAnimation />
+	{#if HeroAnimation}
+		<HeroAnimation />
+	{/if}
 </div>
 <div class="hero">
 	<div class="bg-overlay">

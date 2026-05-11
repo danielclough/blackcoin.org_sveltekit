@@ -1,5 +1,4 @@
 <script>
-	import { onMount } from 'svelte';
 	import i18n from '$lib/i18n';
 	import navI18n from './nav.i18n';
 	import exchangeList from '$lib/pages/home/exchange-list';
@@ -8,8 +7,8 @@
 	let links = $state(false);
 	let ticker = $state(false);
 
-	onMount(() => {
-		if (!document.querySelector('script[src*="gecko-coin-ticker-widget"]')) {
+	$effect(() => {
+		if (ticker && !document.querySelector('script[src*="gecko-coin-ticker-widget"]')) {
 			const s = document.createElement('script');
 			s.src = 'https://widgets.coingecko.com/gecko-coin-ticker-widget.js';
 			document.head.appendChild(s);
