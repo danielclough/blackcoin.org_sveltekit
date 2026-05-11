@@ -1,23 +1,29 @@
-<script>
+<script lang="ts">
+	import type { Icon } from './about-items';
 	import i18n from '$lib/i18n';
 	import aboutI18n from './about.i18n';
-	export let lang;
-	export let h3;
-	export let svg;
-	export let a;
-	export let p;
-	export let url;
-	export let side;
-	export let desktop;
-	export let down = false;
+
+	interface Props {
+		lang: string;
+		h3: string;
+		a: string;
+		p: string;
+		url: string;
+		side: string;
+		desktop: boolean;
+		icon: Icon;
+	}
+
+	let { lang, h3, a, p, url, side, desktop, icon }: Props = $props();
+	let down = $state(false);
 </script>
 
 <div
 	class="container-container"
 	role="button"
 	tabindex={desktop ? -1 : 0}
-	on:click={() => (desktop || !!down ? (down = false) : (down = true))}
-	on:keydown={(e) => !desktop && e.key === 'Enter' && (down = !down)}
+	onclick={() => (desktop || !!down ? (down = false) : (down = true))}
+	onkeydown={(e) => !desktop && e.key === 'Enter' && (down = !down)}
 >
 	<div
 		class="container"
@@ -31,8 +37,14 @@
 			</h3>
 		</div>
 		<div class="ft-icon">
-			<!-- eslint-disable-next-line svelte/no-at-html-tags -->
-			{@html svg}
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 {icon.w} {icon.h}"
+				fill="currentColor"
+				aria-hidden="true"
+				focusable="false"
+				class="icon"><path d={icon.path} /></svg
+			>
 		</div>
 	</div>
 	<hr
@@ -60,6 +72,10 @@
 		justify-self: center;
 		align-self: center;
 		padding: 0 1rem;
+	}
+	.icon {
+		width: 1.5rem;
+		height: 1.5rem;
 	}
 	.container-container {
 		display: flex;
