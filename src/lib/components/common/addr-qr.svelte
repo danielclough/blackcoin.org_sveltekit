@@ -3,16 +3,12 @@
 	import copyHTML from './copyHTML';
 	import QrCodeGen from './qr-code-gen.svelte';
 
-	export let address;
-	export let width;
-	export let qr;
-	if (typeof address === 'string') {
-		let a = address;
-		address = ['BLK', a];
-	}
-	let copied = false;
+	let { address: rawAddress, width, qr = $bindable('') } = $props();
 
-	let mounted = false;
+	let address = $derived(typeof rawAddress === 'string' ? ['BLK', rawAddress] : rawAddress);
+	let copied = $state(false);
+	let mounted = $state(false);
+
 	onMount(() => {
 		mounted = true;
 	});
@@ -28,12 +24,12 @@
 	<button
 		class="icon-btn"
 		aria-label="Copy address"
-		on:click={() => {
+		onclick={() => {
 			copied = !copied;
 			setTimeout(() => (copied = !copied), 1000);
 			copyHTML(address[1]);
 		}}
-		on:keydown={(e) =>
+		onkeydown={(e) =>
 			e.key === 'Enter' &&
 			((copied = !copied), setTimeout(() => (copied = !copied), 1000), copyHTML(address[1]))}
 	>
@@ -43,10 +39,10 @@
 		<button
 			class="icon-btn"
 			aria-label="Show QR code"
-			on:click={() => {
+			onclick={() => {
 				qr = address[1];
 			}}
-			on:keydown={(e) => e.key === 'Enter' && (qr = address[1])}
+			onkeydown={(e) => e.key === 'Enter' && (qr = address[1])}
 		>
 			<img width="110" height="110" src="/images/common/qr.svg" alt="" />
 		</button>
@@ -54,10 +50,10 @@
 		<div
 			role="button"
 			tabindex="0"
-			on:click={() => {
+			onclick={() => {
 				qr = '';
 			}}
-			on:keydown={(e) => e.key === 'Enter' && (qr = '')}
+			onkeydown={(e) => e.key === 'Enter' && (qr = '')}
 		>
 			<QrCodeGen value={qr} size={width > 1080 ? width * 0.1 : width * 0.5} />
 		</div>
