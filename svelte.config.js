@@ -12,7 +12,8 @@ const config = {
 				'script-src-elem': [
 					'self',
 					'https://widgets.coingecko.com',
-					'sha256-esZRzsFyTen/O5P2L7hWUdF4JqZn+/qPwDXg6kfxpIE='
+					'sha256-esZRzsFyTen/O5P2L7hWUdF4JqZn+/qPwDXg6kfxpIE=',
+					'sha256-L28lVkJa/bb8VtH7HuLeNQxNMQkE4sEIyD9a448xE1Q='
 				]
 			}
 		},
