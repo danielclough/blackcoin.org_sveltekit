@@ -7,6 +7,9 @@ const config = {
 
 	kit: {
 		adapter: adapter({ precompress: true }),
+		paths: {
+			base: process.env.BASE_PATH ?? ''
+		},
 		csp: {
 			directives: {
 				'script-src-elem': [
