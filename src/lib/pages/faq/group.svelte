@@ -1,5 +1,6 @@
 <script>
 	import i18n from '$lib/i18n';
+	import { sanitize } from '$lib/sanitize';
 
 	let { lang, As, i, d, j } = $props();
 	let open = $state(false);
@@ -16,7 +17,7 @@
 		{#if open}
 			<div class="body">
 				<!-- eslint-disable-next-line svelte/no-at-html-tags -->
-				{@html i18n(As[i][j].obj, As[i][j].key, lang)}
+				{@html sanitize(i18n(As[i][j].obj, As[i][j].key, lang))}
 			</div>
 		{/if}
 	</div>

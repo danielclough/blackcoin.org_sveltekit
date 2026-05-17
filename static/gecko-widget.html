@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="Content-Security-Policy"
+			content="default-src 'none'; script-src 'sha256-khoQYVFjbaOhGrJ/hCS3SKIReLfeljcLqaCYGX4nVik=' 'sha256-esZRzsFyTen/O5P2L7hWUdF4JqZn+/qPwDXg6kfxpIE=' 'sha256-ZswfTY7H35rbv8WC7NXBoiC7WNu86vSzCDChNWwZZDM=' https://widgets.coingecko.com; connect-src https://*.coingecko.com; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src https://coin-images.coingecko.com;"
+		/>
+		<script>
+			(function () {
+				var m = {},
+					s = {
+						getItem: function (k) {
+							return Object.prototype.hasOwnProperty.call(m, k) ? m[k] : null;
+						},
+						setItem: function (k, v) {
+							m[k] = '' + v;
+						},
+						removeItem: function (k) {
+							delete m[k];
+						},
+						clear: function () {
+							m = {};
+						},
+						key: function (i) {
+							return Object.keys(m)[i] || null;
+						},
+						get length() {
+							return Object.keys(m).length;
+						}
+					};
+				try {
+					sessionStorage.getItem('');
+				} catch (e) {
+					try {
+						Object.defineProperty(window, 'sessionStorage', {
+							get: function () {
+								return s;
+							},
+							configurable: true
+						});
+					} catch (e2) {}
+				}
+			})();
+		</script>
+		<style>
+			body {
+				margin: 0;
+				background: transparent;
+			}
+		</style>
+	</head>
+	<body>
+		<gecko-coin-ticker-widget
+			locale="en"
+			dark-mode="true"
+			transparent-background="true"
+			coin-id="blackcoin"
+			initial-currency="usd"
+		></gecko-coin-ticker-widget>
+		<script src="https://widgets.coingecko.com/gecko-coin-ticker-widget.js"></script>
+	</body>
+</html>

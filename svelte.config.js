@@ -12,12 +12,9 @@ const config = {
 		},
 		csp: {
 			directives: {
-				'script-src-elem': [
-					'self',
-					'https://widgets.coingecko.com',
-					'sha256-esZRzsFyTen/O5P2L7hWUdF4JqZn+/qPwDXg6kfxpIE=',
-					'sha256-L28lVkJa/bb8VtH7HuLeNQxNMQkE4sEIyD9a448xE1Q='
-				]
+				'script-src-elem': ['self', 'sha256-L28lVkJa/bb8VtH7HuLeNQxNMQkE4sEIyD9a448xE1Q='],
+				'object-src': ["'none'"],
+				'base-uri': ["'self'"]
 			}
 		},
 		prerender: {

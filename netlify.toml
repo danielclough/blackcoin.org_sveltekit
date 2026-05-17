@@ -14,6 +14,13 @@
     Referrer-Policy        = "strict-origin-when-cross-origin"
     Permissions-Policy     = "camera=(), microphone=(), geolocation=()"
 
+# Allow gecko-widget.html to be framed by the same origin
+[[headers]]
+  for = "/gecko-widget.html"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    Cache-Control   = "no-cache"
+
 # Prerendered HTML only — SSR responses are unaffected by this
 [[headers]]
   for = "/*.html"

@@ -7,14 +7,6 @@
 	let links = $state(false);
 	let ticker = $state(false);
 
-	$effect(() => {
-		if (ticker && !document.querySelector('script[src*="gecko-coin-ticker-widget"]')) {
-			const s = document.createElement('script');
-			s.src = 'https://widgets.coingecko.com/gecko-coin-ticker-widget.js';
-			document.head.appendChild(s);
-		}
-	});
-
 	const marketArr = [
 		{ name: 'CoinMarketCap', url: 'https://coinmarketcap.com/currencies/blackcoin/#charts' },
 		{ name: 'CoinGecko', url: 'https://www.coingecko.com/en/coins/blackcoin' }
@@ -117,13 +109,12 @@
 					</li>
 				{/each}
 			</ul>
-			<gecko-coin-ticker-widget
-				locale="en"
-				dark-mode="true"
-				transparent-background="true"
-				coin-id="blackcoin"
-				initial-currency="usd"
-			></gecko-coin-ticker-widget>
+			<iframe
+				src="/gecko-widget.html"
+				sandbox="allow-scripts"
+				title="Blackcoin price ticker"
+				style="border: none; width: 100%; height: 80px; background: transparent;"
+			></iframe>
 			<hr />
 			<ul id="market-links">
 				{#each exchangeList as e (e.url)}

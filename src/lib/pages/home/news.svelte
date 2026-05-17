@@ -4,6 +4,7 @@
 	import newsI18n from './news.i18n';
 	import news from './news';
 	import i18n from '$lib/i18n';
+	import { sanitize } from '$lib/sanitize';
 
 	let { lang } = $props();
 
@@ -77,7 +78,7 @@
 				<a href={bn.url} class="news-link" in:fly={{ x: direction * 16, duration: 280 }}>
 					<span class="date">{bn.date}</span>
 					<!-- eslint-disable-next-line svelte/no-at-html-tags -->
-					<p class="content">{@html i18n(bn, 'news', lang)}</p>
+					<p class="content">{@html sanitize(i18n(bn, 'news', lang))}</p>
 				</a>
 			{/key}
 		</div>

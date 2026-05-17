@@ -2,6 +2,7 @@
 	import type { Icon } from './about-items';
 	import i18n from '$lib/i18n';
 	import aboutI18n from './about.i18n';
+	import { sanitize } from '$lib/sanitize';
 
 	interface Props {
 		lang: string;
@@ -57,7 +58,7 @@
 	{#if down === true || desktop}
 		<p>
 			<!-- eslint-disable-next-line svelte/no-at-html-tags -->
-			{@html i18n(aboutI18n, p, lang)}
+			{@html sanitize(i18n(aboutI18n, p, lang))}
 			<br />
 			<a href={url}>{i18n(aboutI18n, a, lang)}</a>
 		</p>
