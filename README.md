@@ -1,6 +1,12 @@
 ## Contributing
 
-Please run `npm run format` before sending PR.
+Please run before sending PR:
+
+```
+npm run format
+npm run lint
+npm run check
+```
 
 Note that directories are written with the root of the project as `/`. You will need to consider that to mean `/path/to/project/` (copy paste won't work).
 

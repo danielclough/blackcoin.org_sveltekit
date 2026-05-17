@@ -15,7 +15,6 @@ declare namespace svelteHTML {
 	}
 }
 
-
 declare class QRCode {
 	constructor(
 		element: string | HTMLElement,
