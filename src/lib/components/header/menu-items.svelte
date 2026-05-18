@@ -319,9 +319,11 @@
 
 		#links {
 			display: flex;
+			position: absolute;
 			top: calc(100% + 0.5rem);
 			right: 0;
 			left: auto;
+			bottom: auto;
 			width: max-content;
 			min-width: 12rem;
 			flex-direction: column;
