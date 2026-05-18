@@ -10,11 +10,6 @@ export default [
 		image: '/images/exchanges/komodo-wallet-light.svg'
 	},
 	{
-		name: 'XeggeX',
-		url: 'https://xeggex.com/asset/BLK',
-		image: '/images/exchanges/xeggex.png'
-	},
-	{
 		name: 'FreiXlite',
 		url: 'https://freixlite.com/market/BLK/LTC',
 		image: '/images/exchanges/freixlite.png'
