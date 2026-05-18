@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta
 			http-equiv="Content-Security-Policy"
-			content="default-src 'none'; script-src 'sha256-khoQYVFjbaOhGrJ/hCS3SKIReLfeljcLqaCYGX4nVik=' 'sha256-esZRzsFyTen/O5P2L7hWUdF4JqZn+/qPwDXg6kfxpIE=' 'sha256-ZswfTY7H35rbv8WC7NXBoiC7WNu86vSzCDChNWwZZDM=' https://widgets.coingecko.com; connect-src https://*.coingecko.com; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src https://coin-images.coingecko.com;"
+			content="default-src 'none'; script-src https://widgets.coingecko.com https://static.cloudflareinsights.com 'unsafe-inline'; connect-src https://*.coingecko.com https://cloudflareinsights.com; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src https://*.coingecko.com data:;"
 		/>
 		<script>
 			(function () {
@@ -44,9 +44,17 @@
 			})();
 		</script>
 		<style>
-			body {
+			html, body {
 				margin: 0;
+				padding: 0;
+				height: 280px;
+				overflow: hidden;
 				background: transparent;
+			}
+			gecko-coin-ticker-widget {
+				display: block;
+				height: 280px;
+				overflow: hidden;
 			}
 		</style>
 	</head>

@@ -109,12 +109,14 @@
 					</li>
 				{/each}
 			</ul>
-			<iframe
-				src="/gecko-widget.html"
-				sandbox="allow-scripts"
-				title="Blackcoin price ticker"
-				style="border: none; width: 100%; height: 80px; background: transparent;"
-			></iframe>
+			{#if ticker}
+				<iframe
+					src="/gecko-widget.html"
+					sandbox="allow-scripts"
+					title="Blackcoin price ticker"
+					style="border: none; width: 100%; height: 280px; background: transparent;"
+				></iframe>
+			{/if}
 			<hr />
 			<ul id="market-links">
 				{#each exchangeList as e (e.url)}
@@ -189,6 +191,7 @@
 	}
 
 	#ticker-panel {
+		height: fit-content;
 		display: none;
 		position: fixed;
 		inset: 0;
@@ -357,6 +360,7 @@
 			position: absolute;
 			top: calc(100% + 0.5rem);
 			right: 0;
+			min-width: 350px;
 			background-color: var(--surface);
 			border: 1px solid var(--glass-border);
 			border-radius: 6px;
